@@ -8,7 +8,7 @@ tags:
   - filtering gallery
   - month year
   - collection
-thumbnail: images/20230723PowerAppAdvancedFiltering/00AdvancedFiltering.png
+thumbnail: /blog/images/20230723PowerAppAdvancedFiltering/00AdvancedFiltering.png
 preview: /blog/images/20230723PowerAppAdvancedFiltering/00AdvancedFiltering.png
 ---
 
