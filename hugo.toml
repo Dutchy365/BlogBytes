@@ -1,7 +1,7 @@
 baseurl = "https://dutchy365.github.io/blog"
 metaDataFormat = "yaml"
 title = "Burgers & Bytes"
-theme = "blist"
+theme = "bytes"
 #publishDir="docs"
 
   
