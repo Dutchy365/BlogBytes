@@ -1,4 +1,4 @@
-baseurl = "https://dutchy365.github.io/blog"
+baseurl = "https://dutchy365.github.io/BlogBytes"
 metaDataFormat = "yaml"
 title = "Burgers & Bytes"
 theme = "bytes"

@@ -8,7 +8,7 @@ tags:
   - Approval
   - markdown
 #thumbnail: https://picsum.photos/id/1073/400/250
-thumbnail: /blog/images/20230721ApprovalMDTableRows/00ApprovalMDTableRows.png
+thumbnail: /BlogBytes/images/20230721ApprovalMDTableRows/00ApprovalMDTableRows.png
 preview: /thumbnails/20230707-PowerAppAdvancedFiltering.png
 ---
 
