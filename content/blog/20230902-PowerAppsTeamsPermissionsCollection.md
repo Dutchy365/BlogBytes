@@ -1,5 +1,5 @@
 ---
-author: Elianne Burgers
+author: 
 title: "Power Apps: Flexible security setup based on Power Platform Teams"
 date: 2023-09-02
 description: Guide how to set view and edit permissions based on Team user is member of

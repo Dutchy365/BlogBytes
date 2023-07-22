@@ -196,24 +196,30 @@
     "ids": [
       "TableOfContents",
       "a",
+      "apply-to-each-newsitem",
       "collection-with-dynamic-month-year-values",
       "comboboxes-as-filters",
       "end-result",
       "end-result-of-the-screen",
       "gallery-and-form",
       "gallery-filtering",
+      "http-request-to-sharepoint",
+      "initialize-variables",
       "magic-in-the-patch-formula",
       "needed-http-requests",
       "power-app",
       "power-automate-actions",
       "scenario",
+      "set-up-the-report",
       "situation",
       "step-by-step",
       "store-data",
+      "store-values-in-sharepoint-list",
       "teams-in-dataverse",
       "the-challenge",
       "tips--tricks",
-      "tips-and-tricks"
+      "tips-and-tricks",
+      "trigger"
     ]
   }
 }

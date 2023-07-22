@@ -1,5 +1,5 @@
 ---
-author: Elianne Burgers
+author: 
 title: How to create a markdown table with flexible amount of rows in an Approval
 date: 2023-07-21
 description: Flexible amount of rows in a markdown table in the Approval action

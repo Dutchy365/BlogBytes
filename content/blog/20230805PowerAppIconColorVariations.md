@@ -1,5 +1,5 @@
 ---
-author: "Elianne"
+author: ""
 title: "Power Apps Canvas: one icon with eleven color variations"
 date: 2023-08-05
 description: "Flexible set of color variations for one icon"
