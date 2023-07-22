@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hubsites on Burgers &amp; Bytes</title>
+    <link>https://dutchy365.github.io/blog/tags/hubsites/</link>
+    <description>Recent content in hubsites on Burgers &amp; Bytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dutchy365.github.io/blog/tags/hubsites/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to get all SharePoint sites of a hub site in Power Automate</title>
+      <link>https://dutchy365.github.io/blog/blog/20230722-sharepointgetallhubsites/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dutchy365.github.io/blog/blog/20230722-sharepointgetallhubsites/</guid>
+      <description>The Challenge There is a lot of information available on how to retrieve all sites related to a SharePoint hub using Powershell. Another option is to use Microsoft Graph and search for all sites. https://graph.microsoft.com/v1.0/sites?search=*
+The challenge was to get all the sites of a hub in Power Automate without using premium actions like the HTTP request. This blog describes how to achieve this!
+Needed HTTP requests Initialized a variable to store the URL of the hubsite.</description>
+    </item>
+    
+  </channel>
+</rss>

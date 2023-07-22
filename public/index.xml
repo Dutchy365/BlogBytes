@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Burgers &amp; Bytes</title>
+    <link>https://dutchy365.github.io/blog/</link>
+    <description>Recent content on Burgers &amp; Bytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dutchy365.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to get all SharePoint sites of a hub site in Power Automate</title>
+      <link>https://dutchy365.github.io/blog/blog/20230722-sharepointgetallhubsites/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dutchy365.github.io/blog/blog/20230722-sharepointgetallhubsites/</guid>
+      <description>The Challenge There is a lot of information available on how to retrieve all sites related to a SharePoint hub using Powershell. Another option is to use Microsoft Graph and search for all sites. https://graph.microsoft.com/v1.0/sites?search=*
+The challenge was to get all the sites of a hub in Power Automate without using premium actions like the HTTP request. This blog describes how to achieve this!
+Needed HTTP requests Initialized a variable to store the URL of the hubsite.</description>
+    </item>
+    
+    <item>
+      <title>Power Apps: Advanced filtering on a period of time with only Month and Year value</title>
+      <link>https://dutchy365.github.io/blog/blog/20230723-powerappadvancedfiltering/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dutchy365.github.io/blog/blog/20230723-powerappadvancedfiltering/</guid>
+      <description>Scenario Todays scenario is regarding filter options based on Month and Year values in Power Apps. In a Dataverse table named ‘Products’ the information of a Name, Month and Year are stored. The challenging part is the Month column only contains the text value of the short form of the month.
+The data in the table looks like:
+Now it needs to be possible to filter the gallery based on a Month Year range filter.</description>
+    </item>
+    
+    <item>
+      <title>How to create a markdown table with flexible amount of rows in an Approval</title>
+      <link>https://dutchy365.github.io/blog/blog/20230721-approvalmdtablerows/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dutchy365.github.io/blog/blog/20230721-approvalmdtablerows/</guid>
+      <description>The Approval functionality is really powerful! A lot of situation requires a response like an approval. The approval action in Power Automate does have some parameters which you can enter data in. Next to required details like the ‘Approval type’, ‘Title’ and ‘Assigned to’, you can enter Details. For Details you can use markdown to design the setup.
+The challenge In this blog the challenge that’s got resolved is that the approval request contains a table which as multiple rows, but the amount of rows are flexible and different every flow run.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://dutchy365.github.io/blog/page/about/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dutchy365.github.io/blog/page/about/</guid>
+      <description>My name is Elianne and I am a Power Platform Consultant at Blis Digitalin Barendrecht, The Netherlands. Since 2016 I held several Microsoft certifications that currently include: MCT, MCSE for SharePoint, MCSA for Office 365 and Power Platform Solution Architect Expert.
+I love to gain more knowledge and expertise by going to different user groups and conferences myself, but I also like to share knowledge in different ways: by writing blogs, giving presentations, guest lectures at local university of applied science and app-in-a-day workshops.</description>
+    </item>
+    
+  </channel>
+</rss>

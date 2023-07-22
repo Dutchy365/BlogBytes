@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on Burgers &amp; Bytes</title>
+    <link>https://dutchy365.github.io/blog/tags/markdown/</link>
+    <description>Recent content in markdown on Burgers &amp; Bytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 21 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dutchy365.github.io/blog/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to create a markdown table with flexible amount of rows in an Approval</title>
+      <link>https://dutchy365.github.io/blog/blog/20230721-approvalmdtablerows/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dutchy365.github.io/blog/blog/20230721-approvalmdtablerows/</guid>
+      <description>The Approval functionality is really powerful! A lot of situation requires a response like an approval. The approval action in Power Automate does have some parameters which you can enter data in. Next to required details like the ‘Approval type’, ‘Title’ and ‘Assigned to’, you can enter Details. For Details you can use markdown to design the setup.
+The challenge In this blog the challenge that’s got resolved is that the approval request contains a table which as multiple rows, but the amount of rows are flexible and different every flow run.</description>
+    </item>
+    
+  </channel>
+</rss>
