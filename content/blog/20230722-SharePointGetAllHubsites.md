@@ -16,7 +16,7 @@ There is a lot of information available on how to retrieve all sites related to 
 Another option is to use Microsoft Graph and search for all sites.
 https://graph.microsoft.com/v1.0/sites?search=*
 
-![Graph](/blog/images/20230722SharePointGetAllHubsites/1-Graph.png)
+![Graph](/BlogBytes/images/20230722SharePointGetAllHubsites/1-Graph.png)
 
 The challenge was to get all the sites of a hub in Power Automate without using premium actions like the HTTP request.
 This blog describes how to achieve this!
@@ -27,18 +27,18 @@ Initialized a variable to store the URL of the hubsite. Next step is to get the 
 /_api/site?$select=IsHubSite,HubSiteId
 ``` 
 
-![HTTP Request get Hubsite ID](/blog/images/20230722SharePointGetAllHubsites/2-HTTPGetHubsiteID.png)
+![HTTP Request get Hubsite ID](/BlogBytes/images/20230722SharePointGetAllHubsites/2-HTTPGetHubsiteID.png)
 
 Use Parse JSON and initialize HubsiteID variable
 
-![Parse JSON](/blog/images/20230722SharePointGetAllHubsites/3-ParseJsonHubsiteID.png)
+![Parse JSON](/BlogBytes/images/20230722SharePointGetAllHubsites/3-ParseJsonHubsiteID.png)
 
 To get all sites related to the hub, you need to use this call: 
 ```
 _api/v2.1/sites?$filter=sharepointIds/hubSiteId eq '@{variables('HubSiteID')}'
 ```
 
-![HTTP Request get all Hubsites](/blog/images/20230722SharePointGetAllHubsites/4-HTTPGetAllHubsites.png)
+![HTTP Request get all Hubsites](/BlogBytes/images/20230722SharePointGetAllHubsites/4-HTTPGetAllHubsites.png)
 
 
 So now you are able to iterate through all sites related to a SharePoint Hub Site using Power Automate.

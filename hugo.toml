@@ -9,7 +9,7 @@ theme = "bytes"
      introTitle = "Microsoft 365 and Power Platform inspiration"
     introSubtitle = "Welcome! Here you can expect blogs and articles focusing on the Power Platform and Microsoft 365"
       introPhoto = "logo.png"
-      logo = "/blog/logo.png"
+      logo = "/BlogBytes/logo.png"
 
  # Enable the darkmode toggle in header
   darkModeToggle = false
