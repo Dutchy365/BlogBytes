@@ -7,7 +7,7 @@ tags:
   - Power Automate
   - SharePoint
   - hubsites
-thumbnail: /blog/images/20230722SharePointGetAllHubsites/00SharePointHubsites.png
+thumbnail: images/20230722SharePointGetAllHubsites/00SharePointHubsites.png
 preview: /thumbnails/20230707SharePointGetAllHubsites.png
 ---
 
