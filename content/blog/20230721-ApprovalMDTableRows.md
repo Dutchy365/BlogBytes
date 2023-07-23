@@ -7,7 +7,7 @@ tags:
   - Power Automate
   - Approval
   - markdown
-thumbnail: /BlogBytes/images/20230721ApprovalMDTableRows/00ApprovalMDTableRows.png
+thumbnail: /images/20230721ApprovalMDTableRows/00ApprovalMDTableRows.png
 preview: null
 ---
 
@@ -24,7 +24,7 @@ In this case I want a table which has 3 columns: Name, Amount and Description. S
 To be sure that every QuoteLine is on a new row in the table, add: ```decodeUriComponent('%0A')``` as expression to the end of the string.  
 
 ## Power Automate actions
-![Append to string](/BlogBytes/images/20230721ApprovalMDTableRows/1-AppendtoString.png)
+![Append to string](/images/20230721ApprovalMDTableRows/1-AppendtoString.png)
 
 The first two lines of a table set the column headers and the alignment of elements in the table. In the details of the approval the header of the table needs to be setup in markdown: 
 ```
@@ -34,12 +34,12 @@ The first two lines of a table set the column headers and the alignment of eleme
 
 The approval action will looks like: 
 
-![Append to string](/BlogBytes/images/20230721ApprovalMDTableRows/2-Approval.png)
+![Append to string](/images/20230721ApprovalMDTableRows/2-Approval.png)
 
 
 The end result of what an end user will see, looks as follows: 
 
-![Append outcome](/BlogBytes/images/20230721ApprovalMDTableRows/3-ApprovalOutcome.png)
+![Append outcome](/images/20230721ApprovalMDTableRows/3-ApprovalOutcome.png)
 
 ## Tips & Tricks
 * Official documentation regarding the markdown for approvals can be found here: https://learn.microsoft.com/en-us/power-automate/approvals-markdown-support
