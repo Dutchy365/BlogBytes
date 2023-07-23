@@ -15,6 +15,9 @@
   <meta name="author" content="{{ .Params.Author}}" />
   {{ end -}}
   
+  {{ template "_internal/google_analytics.html" . }}
+  {{ template "_internal/google_analytics_async.html" . }}
+
   {{ hugo.Generator }}
 
   {{- $styles := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") -}}
