@@ -1,4 +1,4 @@
 ---
-author: Elianne Burgers
+author: Elianne
 title: Blog
 ---
