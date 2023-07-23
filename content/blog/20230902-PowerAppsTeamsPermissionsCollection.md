@@ -8,8 +8,8 @@ tags:
   - permissions
   - Dataverse
   - Teammember
-thumbnail: /BlogBytes/images/20230902PowerAppsTeamsPermissionsCollection/00TeamsPermissions.png
-preview: /BlogBytes/images/20230902PowerAppsTeamsPermissionsCollection/00TeamsPermissions.png
+thumbnail: /images/20230902PowerAppsTeamsPermissionsCollection/00TeamsPermissions.png
+preview: /images/20230902PowerAppsTeamsPermissionsCollection/00TeamsPermissions.png
 keywords:
   - Power Apps
 ---
@@ -27,21 +27,21 @@ The setup requires maximum flexibility, because resources and products can chang
 In this scenario the user is product manager for the Apple products, but needs to be able to see the information of the other products.
 
 
-![EndResult Gallery Display Mode](/BlogBytes/images/20230902PowerAppsTeamsPermissionsCollection/1-EndresultGalleryDisplayMode.gif)
+![EndResult Gallery Display Mode](/images/20230902PowerAppsTeamsPermissionsCollection/1-EndresultGalleryDisplayMode.gif)
 
 
 ## Teams in Dataverse
 
 In the Power Platform admin center create the Teams for which you want to differentiate permissions: 
 
-![Team](/BlogBytes/images/20230902PowerAppsTeamsPermissionsCollection/2-Team.png)
+![Team](/images/20230902PowerAppsTeamsPermissionsCollection/2-Team.png)
 
 
 ## Power App
 In the Power App add the Users table as Data.
 
 
-![Data Users table](/BlogBytes/images/20230902PowerAppsTeamsPermissionsCollection/3-UsersTable.png)
+![Data Users table](/images/20230902PowerAppsTeamsPermissionsCollection/3-UsersTable.png)
 
 
 The following PowerFX formulas are need to decide the Teams of which the logged in user is member of. The ‘Team teammembership association’ stores that information. The collection colUserTeams now has a lot of metadata available of those Teams, but the name of the Team isn’t part of it. 
@@ -50,7 +50,7 @@ So next step is needed to loop through all the Teams and get the Team name and s
 
 Following action is to create a collection of the details names of the Product the product manager needs permissions. 
 
-![Permissions Collection](/BlogBytes/images/20230902PowerAppsTeamsPermissionsCollection/4-PermissionCollection.png)
+![Permissions Collection](/images/20230902PowerAppsTeamsPermissionsCollection/4-PermissionCollection.png)
 
 ````
 //Get current user info
@@ -102,13 +102,13 @@ If("ProductManagerBanana" in colTeamNames.Name,
 The end result is a collection in which the products are mentioned:
 
 
-![Content Permission Collection](/BlogBytes/images/20230902PowerAppsTeamsPermissionsCollection/5-ContentPermissionCollection.png)
+![Content Permission Collection](/images/20230902PowerAppsTeamsPermissionsCollection/5-ContentPermissionCollection.png)
 
 ## Gallery and Form
 In the gallery the available products are visible and selectable. The Form contains two fields, that based on the selected products needs to be editable or not. 
 The OnSelect of the Gallery:
 
-![Set DisplayMode](/BlogBytes/images/20230902PowerAppsTeamsPermissionsCollection/6-SetDisplaymode.png)
+![Set DisplayMode](/images/20230902PowerAppsTeamsPermissionsCollection/6-SetDisplaymode.png)
 
 ````
 Set(varProductSelected, ThisItem);
@@ -124,6 +124,6 @@ The formula checks if the selected product is available in the collection, if so
 
 And off course the DisplayMode of the Product related fields are set to ‘DisplayModeProductManager’.
 
-![DisplayMode](/BlogBytes/images/20230902PowerAppsTeamsPermissionsCollection/7-Displaymode.png)
+![DisplayMode](/images/20230902PowerAppsTeamsPermissionsCollection/7-Displaymode.png)
 
 This setup up makes it possible to be flexible in the way users can view all data, but only edit data they are responsible for. To really setup the security accordingly, please reconsider also the use of row-level security.

@@ -4,8 +4,8 @@ title: "Part 1: Enhancing User Engagement Measurement on SharePoint Intranets wi
 date: 2023-10-21
 description: "SharePoint Intranet user engagement: get likes and comments of news items"
 tags: ["Power Automate", "user engagement", "SharePoint", "PowerBI"]
-thumbnail: /BlogBytes/images/20231021UserEngagement/Part1/00Part1.png
-preview: /BlogBytes/images/20231021UserEngagement/Part1/00Part1.png
+thumbnail: /images/20231021UserEngagement/Part1/00Part1.png
+preview: /images/20231021UserEngagement/Part1/00Part1.png
 ---
 
 Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.
@@ -20,18 +20,18 @@ In the first part of this blog serie, we will explore how to use the Power Platf
 ### Trigger
 Create a flow which is triggered by once per 6 months, so half yearly calculations can be made.
 
-![Flow trigger](/BlogBytes/images/20231021UserEngagement/Part1/1-recurrence.png)
+![Flow trigger](/images/20231021UserEngagement/Part1/1-recurrence.png)
 
 ### Initialize variables
 Initialize variables URL, varYear, varHalfYear and set the half year value dynamically. 
 
-![Half year](/BlogBytes/images/20231021UserEngagement/Part1/2-halfyear.png)
+![Half year](/images/20231021UserEngagement/Part1/2-halfyear.png)
 
 The date of the past half year can be detracted by using this expression:
 ```
 subtractFromTime(formatDateTime(convertFromUtc(utcNow(),'W. Europe Standard Time'),'yyyy-MM-ddTHH:mm'),182, 'Day','yyyy-MM-ddThh:MM')
 ```
-![Past half year](/BlogBytes/images/20231021UserEngagement/Part1/3-pasthalfyear.png)
+![Past half year](/images/20231021UserEngagement/Part1/3-pasthalfyear.png)
 
 
 Initialize all those variables as integer:
@@ -42,23 +42,23 @@ Initialize all those variables as integer:
 * NewsArticleWithComments
 * NewsArticleWithLike
 
-![Initialize variables](/BlogBytes/images/20231021UserEngagement/Part1/4-variables.png)
+![Initialize variables](/images/20231021UserEngagement/Part1/4-variables.png)
 
 ### HTTP request to SharePoint
 Send an HTTP to SharePoint using this URI to get alle newsitems that were created in the last 6 months and the ‘id’ is selected.
 ```
 _api/web/lists/SitePages/items?$filter=ContentType eq 'Site Page' and PromotedState eq '2' and (Created ge datetime'@{variables('PastHalfYear')}') and (Created le datetime'@{formatDateTime(utcNow(),'yyyy-MM-ddThh:MM')}')&$select=id
 ```
-![HTTP get newsitems](/BlogBytes/images/20231021UserEngagement/Part1/5-HTTPGetNews.png)
+![HTTP get newsitems](/images/20231021UserEngagement/Part1/5-HTTPGetNews.png)
 
 Count the total amount of items retrieved in the last step. And add a Parse JSON and use the body of the HTTP request.
 
-![Amount of newsitems](/BlogBytes/images/20231021UserEngagement/Part1/6-amount.png)
+![Amount of newsitems](/images/20231021UserEngagement/Part1/6-amount.png)
 
 ### Apply to each newsitem
 The output will be used in the apply to each, so the statistics of each newsitem can be calculated correctly.
 
-![Apply to each newsitem](/BlogBytes/images/20231021UserEngagement/Part1/7-applytoeach.png)
+![Apply to each newsitem](/images/20231021UserEngagement/Part1/7-applytoeach.png)
 
 ```
 { "parameters": { "ViewXml": "<View><ViewFields><FieldRef Name=\"_LikeCount\" /><FieldRef Name=\"_CommentCount\" /></ViewFields><Query><Where><Eq><FieldRef Name=\"ID\"/><Value Type=\"Number\">@{items('Apply_to_each')?['ID']}</Value></Eq></Where></Query><RowLimit /></View>" } }
@@ -67,24 +67,24 @@ The output will be used in the apply to each, so the statistics of each newsitem
 In the body the ID of the newsitem is used to get the _LikeCount and _CommentCount. Those values aren’t available by default.
 The output of the HTTP request is used in the Parse JSON and using a compose the first result is detracted. Theoretically there can be more results, although we know it’s only one result, because of the unique ID. 
 
-![Compose](/BlogBytes/images/20231021UserEngagement/Part1/8-compose.png)
+![Compose](/images/20231021UserEngagement/Part1/8-compose.png)
 
 For every newsitem the correct variables will be set. When a newsitem didn’t get a like, the variable ‘NewsArticleNoLike’ will be incremented by 1. When a newsitem has likes, the variable ‘NewsArticleWithLike’ will be incremented by 1 and the total likes (variable NewsArticlesTotalLikes) will be incremented with the amount of likes.
 
-![Likes](/BlogBytes/images/20231021UserEngagement/Part1/9-conditionlikes.png)
+![Likes](/images/20231021UserEngagement/Part1/9-conditionlikes.png)
 
 
-![Comments](/BlogBytes/images/20231021UserEngagement/Part1/10-conditioncomments.png)
+![Comments](/images/20231021UserEngagement/Part1/10-conditioncomments.png)
 
 
 ### Store values in SharePoint list
 The results needs to be stored into a SharePoint list:
 
-![SharePoint list create item](/BlogBytes/images/20231021UserEngagement/Part1/11-createitemSP.png)
+![SharePoint list create item](/images/20231021UserEngagement/Part1/11-createitemSP.png)
 
 The result of the SharePoint list:
 
-![SharePoint list](/BlogBytes/images/20231021UserEngagement/Part1/12-sharepointlist.png)
+![SharePoint list](/images/20231021UserEngagement/Part1/12-sharepointlist.png)
 
 
 So now you have insight into the half year statistics of your newsitems from your SharePoint Intranet. 

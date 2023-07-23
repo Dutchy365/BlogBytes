@@ -4,8 +4,8 @@ title: "Part 3: Enhancing User Engagement Measurement on SharePoint Intranets wi
 date: 2023-10-21
 description: "User engagement of SharePoint Intranet made visualized in Power BI"
 tags: ["Power Automate", "user engagement", "page frehsness", "SharePoint", "PowerBI"]
-thumbnail: /BlogBytes/images/20231021UserEngagement/Part3/00Part3.png
-preview: /BlogBytes/images/20231021UserEngagement/Part3/00Part3.png
+thumbnail: /images/20231021UserEngagement/Part3/00Part3.png
+preview: /images/20231021UserEngagement/Part3/00Part3.png
 ---
 
 
@@ -23,21 +23,21 @@ The data in the SharePoint lists can now be used to create statistics in Power B
 
 Get the data into PowerBI and set the data type to the columns which contains numbers to ‘Whole number’. Unfortunately PowerBI don’t detect this automatically, although you set those columns as numbers in SharePoint.
 
-![Whole number](/BlogBytes/images/20231021UserEngagement/Part3/1-wholenumber.png)
+![Whole number](/images/20231021UserEngagement/Part3/1-wholenumber.png)
 
 
 Select the clustered column chart as visualization and set X-axis and Y-axis values.
 
-![Chart settings](/BlogBytes/images/20231021UserEngagement/Part3/2-chart.png)
+![Chart settings](/images/20231021UserEngagement/Part3/2-chart.png)
 
 The end result is a graphic in which you can see the user engagement based on likes and comments.
 
-![Chart result](/BlogBytes/images/20231021UserEngagement/Part3/3-chartresult.png)
+![Chart result](/images/20231021UserEngagement/Part3/3-chartresult.png)
 
 
 Create some more graphics for some more details to get toe total Like and total Comment count and add the page freshness data.
 
-![Power BI Report](/BlogBytes/images/20231021UserEngagement/Part3/4-report.png)
+![Power BI Report](/images/20231021UserEngagement/Part3/4-report.png)
 
 
 The dashboard is ready and engagement metrics are set in a clear and concise manner, allowing intranet administrators to quickly assess the intranet's effectiveness and identify areas for improvement.

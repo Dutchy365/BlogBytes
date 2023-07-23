@@ -4,13 +4,13 @@ title: "A solid foundation of the Power Platform"
 date: 2023-09-21
 description: "From outdated Excel-based process to a mature Power Platform"
 tags: ["Power Platform", "Governance", "Center of Excellence"]
-thumbnail: /BlogBytes/images/20230921SolidFoundationPowerPlatform/00SolidFoundation.png
+thumbnail: /images/20230921SolidFoundationPowerPlatform/00SolidFoundation.png
 
 ---
 
 In today's rapidly evolving digital landscape, organizations often find themselves relying on outdated Excel-based processes, which pose significant risks. However, with the emergence of the Power Platform, a revolutionary low-code development platform, there is a transformative solution at hand. This blog explores the potential of the Power Platform in streamlining operations, mitigating risks, and empowering employees to become citizen developers.
 
-![Dilbert](/BlogBytes/images/20230921SolidFoundationPowerPlatform/1-Dilbert.png)
+![Dilbert](/images/20230921SolidFoundationPowerPlatform/1-Dilbert.png)
 Source https://dilbert.com/strip/2007-08-08 
 
 ## Excel as business critical 

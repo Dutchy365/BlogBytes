@@ -8,7 +8,7 @@ tags:
   - column formatting
   - SharePoint list
   - lookup column
-thumbnail: /BlogBytes/images/20231117SharePointColumnFormSpecialChar/00SPColumnFormSpecialChar.png
+thumbnail: /images/20231117SharePointColumnFormSpecialChar/00SPColumnFormSpecialChar.png
 
 ---
 
@@ -21,15 +21,15 @@ In this blog the explanation using a lookup column and the challenging part rega
 The SharePoint list has a lookup column to a document library, so a link between the list item and associated document can be made. At first glance, this looked fine:
 
 
-![First glance](/BlogBytes/images/20231117SharePointColumnFormSpecialChar/1-firstglance.png)
+![First glance](/images/20231117SharePointColumnFormSpecialChar/1-firstglance.png)
 
 However when you clicked on the file link, the file didn’t open, but navigated to the display form of the library item instead. 
 
-![Display Form](/BlogBytes/images/20231117SharePointColumnFormSpecialChar/2-displayform.png)
+![Display Form](/images/20231117SharePointColumnFormSpecialChar/2-displayform.png)
 
 Next step is to format the column so the document itself will be opened.
 
-![Column formatting](/BlogBytes/images/20231117SharePointColumnFormSpecialChar/3-columnformatting.png)
+![Column formatting](/images/20231117SharePointColumnFormSpecialChar/3-columnformatting.png)
 
 See below the JSON used (don't forget to replace <<sitename>>  and <<name of library>> with values applicable to your scenario)
 
@@ -62,12 +62,12 @@ See below the JSON used (don't forget to replace <<sitename>>  and <<name of lib
 ## Special characters percentage sign % and # hashtag
 This way to go works fine, as long as the lookup value does not contain special characters like percentage sign or a hashtag.
 
-![Special character](/BlogBytes/images/20231117SharePointColumnFormSpecialChar/4-specialcharacter.png)
+![Special character](/images/20231117SharePointColumnFormSpecialChar/4-specialcharacter.png)
 
 If you then want to open the document, an error message appears: 'Bad Request - Invalid URL' or 'The resource cannot be found'.
 
 
-![Error](/BlogBytes/images/20231117SharePointColumnFormSpecialChar/5-error.png)
+![Error](/images/20231117SharePointColumnFormSpecialChar/5-error.png)
 
 To solve this, the special characters have to be replaced, in the case of the percent sign it is %25 and for the hashtag it is %23. The column formatting now looks like this:
 

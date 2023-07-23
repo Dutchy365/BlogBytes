@@ -4,8 +4,8 @@ title: "Part 2: Enhancing User Engagement Measurement on SharePoint Intranets wi
 date: 2023-10-21
 description: "SharePoint Intranet user engagement: page freshness"
 tags: ["Power Automate", "user engagement", "page frehsness", "SharePoint", "PowerBI"]
-thumbnail: /BlogBytes/images/20231021UserEngagement/Part2/00Part2.png
-preview: /BlogBytes/images/20231021UserEngagement/Part2/00Part2.png
+thumbnail: /images/20231021UserEngagement/Part2/00Part2.png
+preview: /images/20231021UserEngagement/Part2/00Part2.png
 ---
 
 Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.
@@ -23,7 +23,7 @@ Most of the SharePoint intranets nowadays consists of a hubsite and we need to i
 
 Set the recurrence of the Flow the same as in part 1 and set the value of the half year you’re working on.
 
-![Get all sites](/BlogBytes/images/20231021UserEngagement/Part2/1-Getallsites.png)
+![Get all sites](/images/20231021UserEngagement/Part2/1-Getallsites.png)
 
 Use the output of the JSON in an apply to each to loop through all the pages of all the related sites and count the amount of pages.
 The URI:
@@ -32,20 +32,20 @@ _api/web/lists/SitePages/items?$filter=ContentType eq 'Site Page' and PromotedSt
 ```
 
 
-![Apply to each](/BlogBytes/images/20231021UserEngagement/Part2/2-applytoeach.png)
+![Apply to each](/images/20231021UserEngagement/Part2/2-applytoeach.png)
 
 
 In the next steps you need to filter the pages on the modified date, to get the amount of pages that are modified in the past half year.
 
-![Apply to each](/BlogBytes/images/20231021UserEngagement/Part2/3-filterarray.png)
+![Apply to each](/images/20231021UserEngagement/Part2/3-filterarray.png)
 
 And for all the sites the amount of pages and modified amount of pages can be stored into a SharePoint list.
 
-![Create item SharePoint list](/BlogBytes/images/20231021UserEngagement/Part2/4-createitemsharepoint.png)
+![Create item SharePoint list](/images/20231021UserEngagement/Part2/4-createitemsharepoint.png)
 
 
 The SharePoint list:
 
-![SharePoint list](/BlogBytes/images/20231021UserEngagement/Part2/5-SharePointlist.png)
+![SharePoint list](/images/20231021UserEngagement/Part2/5-SharePointlist.png)
 
 Now you have insight in the page freshness of your SharePoint intranet. In the third and last part of this blogserie you can read how to visualize this data in PowerBI.

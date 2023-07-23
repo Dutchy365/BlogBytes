@@ -4,8 +4,8 @@ title: "Power Apps Canvas: one icon with eleven color variations"
 date: 2023-08-05
 description: "Flexible set of color variations for one icon"
 tags: ["Power Automate", "Approval", "markdown"]
-thumbnail: /BlogBytes/images/20230805PowerAppIconColorVariations/00IconColorVariations.png
-preview: /BlogBytes/images/20230805PowerAppIconColorVariations/00IconColorVariations.png
+thumbnail: /images/20230805PowerAppIconColorVariations/00IconColorVariations.png
+preview: /images/20230805PowerAppIconColorVariations/00IconColorVariations.png
 
 ---
 
@@ -15,7 +15,7 @@ In the Netherlands, the energy label of houses is indicated by a letter and a co
 This label is usually indicated by a pentagonal arrow, containing the letter and corresponding color. An example:
 
 
-![Example](/BlogBytes/images/20230805PowerAppIconColorVariations/1-Example.png)
+![Example](/images/20230805PowerAppIconColorVariations/1-Example.png)
 
 Source: https://www.homekeur.nl/energielabel-woning-uitleg/ 
 
@@ -23,7 +23,7 @@ Source: https://www.homekeur.nl/energielabel-woning-uitleg/
 In a Canvas Power App, the letter could be selected in the dropdown and icon and its corresponding label should be displayed based on the selected value.
 The end result:
 
-![Example](/BlogBytes/images/20230805PowerAppIconColorVariations/2-EndResult.gif)
+![Example](/images/20230805PowerAppIconColorVariations/2-EndResult.gif)
 
 ## Step by step
 By default, there is no icon available in Power Apps that contains the appearance of this pentagon arrow, this means that a SVG will be used as an image. Because there is currently a variation of 11 different letters and this has evolved greatly in recent years, it is needed to set this as flexible as possible. An normal if statement is not an option because of the quantity. 
@@ -31,11 +31,11 @@ By default, there is no icon available in Power Apps that contains the appearanc
 To start with, a table is created in the OnStart app in which the colors of the energy labels are defined:
 
 
-![Onstart formula collection](/BlogBytes/images/20230805PowerAppIconColorVariations/3-Onstart.png)
+![Onstart formula collection](/images/20230805PowerAppIconColorVariations/3-Onstart.png)
 
 A SVG has been created with the desired layout for an energy label; it is placed in the image.
 
-![SVG](/BlogBytes/images/20230805PowerAppIconColorVariations/4-SVG.png)
+![SVG](/images/20230805PowerAppIconColorVariations/4-SVG.png)
 
 In the formula of the SVG, a variable is used for the color. This variable is determined by a With function, which uses the text from the label to extract the color from the EnergieLabelColor table.
 

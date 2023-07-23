@@ -8,8 +8,8 @@ tags:
   - filtering gallery
   - month year
   - collection
-thumbnail: /BlogBytes/images/20230723PowerAppAdvancedFiltering/00AdvancedFiltering.png
-preview: /BlogBytes/images/20230723PowerAppAdvancedFiltering/00AdvancedFiltering.png
+thumbnail: /images/20230723PowerAppAdvancedFiltering/00AdvancedFiltering.png
+preview: /images/20230723PowerAppAdvancedFiltering/00AdvancedFiltering.png
 ---
 
 ## Scenario
@@ -18,7 +18,7 @@ Todays scenario is regarding filter options based on Month and Year values in Po
 The data in the table looks like:
 
 
-![table](/BlogBytes/images/20230723PowerAppAdvancedFiltering/1-table.png)
+![table](/images/20230723PowerAppAdvancedFiltering/1-table.png)
 
 
 Now it needs to be possible to filter the gallery based on a Month Year range filter. There where some challenges to overcome of which the solutions are shared in this blog.
@@ -31,7 +31,7 @@ Solved challenges:
 ## End result
 The end result looks like this: 
 
-![End Result](/BlogBytes/images/20230723PowerAppAdvancedFiltering/2-FilterMonthYearValueGIF.gif)
+![End Result](/images/20230723PowerAppAdvancedFiltering/2-FilterMonthYearValueGIF.gif)
 
 ## Step by step
 There are some steps to take in order to get the end result you want to have. 
@@ -39,11 +39,11 @@ There are some steps to take in order to get the end result you want to have.
 ### Store data
 It starts with storing the data in the Products table. The Form to enter data contains only three fields and a save button:
 
-![Example Form](/BlogBytes/images/20230723PowerAppAdvancedFiltering/3-ExampleForm.png)
+![Example Form](/images/20230723PowerAppAdvancedFiltering/3-ExampleForm.png)
 
 The Month Value is a choice column for which the values can be selected by using a ComboBox:
 
-![Month Combobox](/BlogBytes/images/20230723PowerAppAdvancedFiltering/4-MonthCombobox.png)
+![Month Combobox](/images/20230723PowerAppAdvancedFiltering/4-MonthCombobox.png)
 
 Year is a column of type Number.
 
@@ -86,11 +86,11 @@ Patch(
 An example of input and what’s saved in the table. When an user enters the following in to the form and clicks on save:
 
 
-![Example Form input](/BlogBytes/images/20230723PowerAppAdvancedFiltering/5-ExampleFormInput.png)
+![Example Form input](/images/20230723PowerAppAdvancedFiltering/5-ExampleFormInput.png)
 
 In the Dataverse table the column MonthYearValue is populated:
 
-![Dataverse table populated](/BlogBytes/images/20230723PowerAppAdvancedFiltering/6-DataverseTable.png)
+![Dataverse table populated](/images/20230723PowerAppAdvancedFiltering/6-DataverseTable.png)
 
 Now all items in the table have a MonthYearValue which can be used to filter on. Next step is to set up the filters.
 
@@ -122,12 +122,12 @@ ForAll(
 The content of the collection:
 
 
-![Content of Collection](/BlogBytes/images/20230723PowerAppAdvancedFiltering/7-CollectionContent.png)
+![Content of Collection](/images/20230723PowerAppAdvancedFiltering/7-CollectionContent.png)
 
 ### Comboboxes as filters
 Create two ComboBoxes and set Items to the name of the collection, in this example ‘ColMonthYearFilter’. One ComboBox to use for the Month From and one for Month To. 
 
-![Filter Comboboxes](/BlogBytes/images/20230723PowerAppAdvancedFiltering/8-FilterComboboxes.png)
+![Filter Comboboxes](/images/20230723PowerAppAdvancedFiltering/8-FilterComboboxes.png)
 
 
 ### Gallery filtering
