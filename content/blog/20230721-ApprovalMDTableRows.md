@@ -1,5 +1,5 @@
 ---
-author: 
+author: null
 title: How to create a markdown table with flexible amount of rows in an Approval
 date: 2023-07-21
 description: Flexible amount of rows in a markdown table in the Approval action
@@ -7,9 +7,8 @@ tags:
   - Power Automate
   - Approval
   - markdown
-#thumbnail: https://picsum.photos/id/1073/400/250
 thumbnail: /BlogBytes/images/20230721ApprovalMDTableRows/00ApprovalMDTableRows.png
-preview: /thumbnails/20230707-PowerAppAdvancedFiltering.png
+preview: null
 ---
 
 

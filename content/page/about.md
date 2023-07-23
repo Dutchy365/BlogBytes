@@ -17,8 +17,6 @@ I have a Master of Science where I graduated cum laude in the field of Business 
 
 This blog has mainly two purposes: my own documentation so I won't forget how some particular problems were solved and off course giving a small piece back to the community. 
 
-If you want to get in contact with me, please use [LinkedIn](https://nl.linkedin.com/in/elianne-b-48946864).
-
 
 
 {{< credly a23b71a6-07f6-4583-b63a-7d16c35f7b8d >}}
