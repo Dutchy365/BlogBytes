@@ -5,7 +5,7 @@ date: 2023-07-07
 description:
 keywords: ["about-us", "contact"]
 type: about
-thumbnail: /BlogBytes/images/aboutme.png
+thumbnail: /images/aboutme.png
 hideMeta: true
 ---
 
