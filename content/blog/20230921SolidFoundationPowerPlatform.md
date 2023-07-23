@@ -1,11 +1,14 @@
 ---
 author: ""
-title: "A solid foundation of the Power Platform"
+title: A solid foundation of the Power Platform
 date: 2023-09-21
-description: "From outdated Excel-based process to a mature Power Platform"
-tags: ["Power Platform", "Governance", "Center of Excellence"]
+description: From outdated Excel-based process to a mature Power Platform
+tags:
+  - Power Platform
+  - Governance
+  - Center of Excellence
 thumbnail: /images/20230921SolidFoundationPowerPlatform/00SolidFoundation.png
-
+preview: /00SolidFoundation.png
 ---
 
 In today's rapidly evolving digital landscape, organizations often find themselves relying on outdated Excel-based processes, which pose significant risks. However, with the emergence of the Power Platform, a revolutionary low-code development platform, there is a transformative solution at hand. This blog explores the potential of the Power Platform in streamlining operations, mitigating risks, and empowering employees to become citizen developers.

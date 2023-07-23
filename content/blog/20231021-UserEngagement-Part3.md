@@ -2,18 +2,23 @@
 author: ""
 title: "Part 3: Enhancing User Engagement Measurement on SharePoint Intranets with Power Platform"
 date: 2023-10-21
-description: "User engagement of SharePoint Intranet made visualized in Power BI"
-tags: ["Power Automate", "user engagement", "page frehsness", "SharePoint", "PowerBI"]
+description: User engagement of SharePoint Intranet made visualized in Power BI
+tags:
+  - Power Automate
+  - user engagement
+  - page frehsness
+  - SharePoint
+  - PowerBI
 thumbnail: /images/20231021UserEngagement/Part3/00Part3.png
-preview: /images/20231021UserEngagement/Part3/00Part3.png
+preview: /00Part3.png
 ---
 
 
 Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.
 
-[In the first part of this blog serie](/BlogBytes/blog/20231021-userengagement-part1), you could read how to use the Power Platform to measure user engagement even more deeply using KPI's regarding user engagement. 
+[In the first part of this blog serie](/blog/20231021-userengagement-part1), you could read how to use the Power Platform to measure user engagement even more deeply using KPI's regarding user engagement. 
 
-In [part 2](/BlogBytes/blog/20231021-userengagement-part2) the KPI regarding page freshness was covered. 
+In [part 2](/blog/20231021-userengagement-part2) the KPI regarding page freshness was covered. 
 
 In this third and last part we will cover how to visualize the collected data in Power BI to gain insights into user behavior and engagement patterns. We will walk through the creation of a dashboard that displays the engagement metrics in a clear and concise manner, allowing intranet administrators to quickly assess the intranet's effectiveness and identify areas for improvement.
 

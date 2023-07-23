@@ -8,7 +8,7 @@ tags:
   - Approval
   - markdown
 thumbnail: /images/20230721ApprovalMDTableRows/00ApprovalMDTableRows.png
-preview: null
+preview: /00ApprovalMDTableRows.png
 ---
 
 

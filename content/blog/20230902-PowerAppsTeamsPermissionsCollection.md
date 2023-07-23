@@ -1,5 +1,5 @@
 ---
-author: 
+author: null
 title: "Power Apps: Flexible security setup based on Power Platform Teams"
 date: 2023-09-02
 description: Guide how to set view and edit permissions based on Team user is member of
@@ -9,9 +9,10 @@ tags:
   - Dataverse
   - Teammember
 thumbnail: /images/20230902PowerAppsTeamsPermissionsCollection/00TeamsPermissions.png
-preview: /images/20230902PowerAppsTeamsPermissionsCollection/00TeamsPermissions.png
+preview: /00TeamsPermissions.png
 keywords:
   - Power Apps
+  - permissions
 ---
 
 

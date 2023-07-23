@@ -2,11 +2,13 @@
 author: ""
 title: "Power Apps Canvas: one icon with eleven color variations"
 date: 2023-08-05
-description: "Flexible set of color variations for one icon"
-tags: ["Power Automate", "Approval", "markdown"]
+description: Flexible set of color variations for one icon
+tags:
+  - Power Automate
+  - Approval
+  - markdown
 thumbnail: /images/20230805PowerAppIconColorVariations/00IconColorVariations.png
-preview: /images/20230805PowerAppIconColorVariations/00IconColorVariations.png
-
+preview: /00IconColorVariations.png
 ---
 
 ## Situation

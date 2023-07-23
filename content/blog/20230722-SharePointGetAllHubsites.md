@@ -1,5 +1,5 @@
 ---
-author: 
+author: null
 title: How to get all SharePoint sites of a hub site in Power Automate
 date: 2023-07-22
 description: Use Power Automate to get all SharePoint Hubsites
@@ -8,7 +8,7 @@ tags:
   - SharePoint
   - hubsites
 thumbnail: /images/20230722SharePointGetAllHubsites/00SharePointHubsites.png
-preview: /thumbnails/20230707SharePointGetAllHubsites.png
+preview: /00SharePointHubsites.png
 ---
 
 ## The Challenge

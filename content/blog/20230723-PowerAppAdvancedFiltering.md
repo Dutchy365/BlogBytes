@@ -1,5 +1,5 @@
 ---
-author: 
+author: null
 title: "Power Apps: Advanced filtering on a period of time with only Month and Year value"
 date: 2023-07-22
 description: Guide to create from to filters based on Month/ Year values only
@@ -9,7 +9,7 @@ tags:
   - month year
   - collection
 thumbnail: /images/20230723PowerAppAdvancedFiltering/00AdvancedFiltering.png
-preview: /images/20230723PowerAppAdvancedFiltering/00AdvancedFiltering.png
+preview: /00AdvancedFiltering.png
 ---
 
 ## Scenario
