@@ -1,5 +1,5 @@
 ---
-author: Elianne Burgers
+author: 
 title: "Using SharePoint column formatting together with the lookup column and special characters (% and #)"
 date: 2023-11-17
 description: Guide how to overcome special characters in SharePoint lookup column

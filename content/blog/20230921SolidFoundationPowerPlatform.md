@@ -1,5 +1,5 @@
 ---
-author: "Elianne Burgers"
+author: ""
 title: "A solid foundation of the Power Platform"
 date: 2023-09-21
 description: "From outdated Excel-based process to a mature Power Platform"
