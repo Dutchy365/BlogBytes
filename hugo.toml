@@ -15,7 +15,7 @@ theme = "bytes"
   darkModeToggle = false
   
 #in Head.html internal templates toegevoegd
-googleAnalytics = "G-XYLT8P1MTF"
+googleAnalyticsID = "G-XYLT8P1MTF"
 
   # Enable search in header
   enableSearch = true
