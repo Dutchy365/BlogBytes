@@ -97,6 +97,9 @@ googleAnalyticsID = "G-XYLT8P1MTF"
   [[params.homepage.social.icons]]
     website = "linkedin"
     url = "https://nl.linkedin.com/in/elianne-b-48946864"
+[[params.homepage.social.icons]]
+    website = "rss"
+    url = "https://www.burgersandbytes.nl/index.xml"
 
 [menu]
 [[menu.main]]
