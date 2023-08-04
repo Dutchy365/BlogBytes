@@ -2,7 +2,7 @@
 author: null
 title: European Collaboration Summit 2023; My top 3 and some more...
 date: 2023-05-25
-description: Use Power Automate to get all SharePoint Hubsites
+description: Sharing my personal top 3 of the latest European Collaboration Summit
 tags:
   - Power Platform
   - Conference
