@@ -3,6 +3,7 @@
     "tags": [
       "a",
       "article",
+      "blockquote",
       "body",
       "button",
       "circle",
@@ -192,6 +193,7 @@
     "ids": [
       "TableOfContents",
       "a",
+      "closing",
       "collection-with-dynamic-month-year-values",
       "comboboxes-as-filters",
       "end-result",
