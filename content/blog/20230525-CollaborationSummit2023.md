@@ -7,7 +7,7 @@ tags:
   - Power Platform
   - Conference
   - communityrocks
-thumbnail: /images/20230525/00CollaborationSummit2023.png
+thumbnail: /images/20230525CollaborationSummit2023/00CollaborationSummit2023.png
 preview: /00CollaborationSummit2023.png
 ---
 
