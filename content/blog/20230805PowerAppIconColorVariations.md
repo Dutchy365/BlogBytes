@@ -12,7 +12,7 @@ preview: /00IconColorVariations.png
 ---
 
 ## Situation
-In the Netherlands, the energy label of houses is indicated by a letter and a corresponding color. Today, we are already at 11 different labels, ranging from A++++ to G (https://woonbewust.nl/energielabel-woningen ).
+In the Netherlands, the energy label of houses is indicated by a letter and a corresponding color. Today, we have 11 different labels, ranging from A++++ to G (https://woonbewust.nl/energielabel-woningen).
 
 This label is usually indicated by a pentagonal arrow, containing the letter and corresponding color. An example:
 
