@@ -42,7 +42,7 @@ In the formula of the SVG, a variable is used for the color. This variable is de
 ```
 With(
     {
-        ColorEnergieLabel: LookUp(EnergielabelColor, Letter = LabelEnergieLabel.Text, Color)
+        ColorEnergieLabel: LookUp(EnergielabelColor, Letter = lblEnergyLetter.Text, Color)
     },
     "data:image/svg+xml;utf8, " & EncodeUrl(
         "
