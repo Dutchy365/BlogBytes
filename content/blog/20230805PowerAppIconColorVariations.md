@@ -16,7 +16,6 @@ In the Netherlands, the energy label of houses is indicated by a letter and a co
 
 This label is usually indicated by a pentagonal arrow, containing the letter and corresponding color. An example:
 
-
 ![Example](/images/20230805PowerAppIconColorVariations/1-Example.png)
 
 Source: https://www.homekeur.nl/energielabel-woning-uitleg/ 
@@ -31,7 +30,6 @@ The end result:
 By default, there is no icon available in Power Apps that contains the appearance of this pentagon arrow, this means that a SVG will be used as an image. Because there is currently a variation of 11 different letters and this has evolved greatly in recent years, it is needed to set this as flexible as possible. An normal if statement is not an option because of the quantity. 
 
 To start with, a table is created in the OnStart app in which the colors of the energy labels are defined:
-
 
 ![Onstart formula collection](/images/20230805PowerAppIconColorVariations/3-Onstart.png)
 
