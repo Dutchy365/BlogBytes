@@ -14,6 +14,7 @@ keywords:
   - Power Automate
   - custom connector
   - Microsoft Forms
+
 ---
 
 
@@ -96,7 +97,7 @@ The details of the actions created to perform required tasks in this scenario.
 |General|Verb |Request |Description|
 |--|--|-------|-------|
 |GetQuestions |GET |<div style="width:220px; word-wrap:break-word;">`https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/questions` </div>   |Get an overview of the questions that are available on a Form 
-|PostQuestions   |POST   | <div style="width:220px; word-wrap:break-word;">`https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/questions` <br/> <br/> body: `{"questionInfo":"","type":"Question.Choice","title":"","id":"","order":,"isQuiz":false,"required":false}` </div> | Post a Question <br/><br/>Different question types require different body. <br/> [For more details read the information on this page.](../page/msformapi) |
+|PostQuestions   |POST   | <div style="width:220px; word-wrap:break-word;">`https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/questions` <br/> <br/> body: `{"questionInfo":"","type":"Question.Choice","title":"","id":"","order":,"isQuiz":false,"required":false}` </div> | Post a Question <br/><br/>Different question types require different body. <br/> [For more details read the information on this page.](/../page/msformapi) |
 |DeleteQuestion  |DELETE   |<div style="width:220px; word-wrap:break-word;"> `https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/questions('{QuestionID}')` </div>  | Delete a question using the questionid  |
 |DeleteResponses |DELETE|<div style="width:220px; word-wrap:break-word;"> `https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/responses` </div>|Delete responses from a Form|
 |<div style="width:115px; word-wrap:break-word;">GetAggregateSurveyData</div>|GET|<div style="width:220px; word-wrap:break-word;">`https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/GetAggregateSurveyData`</div>| Get response details of a Form| 

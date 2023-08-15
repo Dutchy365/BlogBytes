@@ -68,7 +68,7 @@
     {{ .Content }}
   </article>
 
-  {{ if not (.Params.hideDisqus) false }}
+  {{ if not (.Params.hideMeta) false }}
   {{- partial "comments.html" . -}}
 {{ end }}
 
