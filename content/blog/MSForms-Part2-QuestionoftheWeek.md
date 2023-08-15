@@ -114,7 +114,7 @@ Last step is to store the question id in the SharePoint list:
 
 
 The Flow is ready to run every day to verify if a new question of the week needs to be posted on the intranet. 
-Not only the new question is added, but the results of the previous questions are stored into the SharePoint list.
+Not only the new question is added, also the results of the previous questions are stored into the SharePoint list.
 
 ## Something to consider
 The use of a custom connector makes it really easy to use to actions into multiple Flows, without technical knowledge needed.

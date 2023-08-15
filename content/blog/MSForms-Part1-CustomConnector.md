@@ -23,8 +23,8 @@ Unfortunately, Microsoft doesn't provide a standard API for Microsoft Forms that
 
 These blog series contains three parts:
 1.	Create a custom connector using the undocumented Microsoft Forms API
-2.	[Keep your ‘Question of the week’ based on Microsoft Forms up-to-date](./MSForms-Part2-QuestionoftheWeek.md)
-3.	[Make use of the responses: display the survey data of the Forms](./MSForms-Part3-Dashboard.md)
+2.	[Keep your ‘Question of the week’ based on Microsoft Forms up-to-date](/blog/msforms-part2-questionoftheweek/)
+3.	[Make use of the responses: display the survey data of the Forms](/blog/msforms-part3-Dashboard/)
 
 This is part one in which tricks and tricks will be shared to create a custom connector for Microsoft Forms.
 
