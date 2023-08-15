@@ -15,7 +15,7 @@ keywords:
   - custom connector
   - Microsoft Forms
 images:
-- 00FormsCustomConnector.png
+- cover00FormsCustomConnector.png
 ---
 
 
