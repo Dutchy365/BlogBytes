@@ -14,6 +14,8 @@ keywords:
   - Power Automate
   - custom connector
   - Microsoft Forms
+images:
+- 00FormsCustomConnector.png
 
 ---
 
