@@ -68,8 +68,10 @@
     {{ .Content }}
   </article>
 
- 
+  {{ if not (.Params.hideDisqus) false }}
   {{- partial "comments.html" . -}}
+{{ end }}
+
 
   {{- partial "social.html" . -}}
 {{ end }}
