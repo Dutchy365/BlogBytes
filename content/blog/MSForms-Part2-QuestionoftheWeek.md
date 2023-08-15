@@ -17,6 +17,8 @@ keywords:
   - Microsoft Forms
   - SharePoint intranet
   - Poll
+images:
+- /00FormsQuestion.png
 ---
 
 
