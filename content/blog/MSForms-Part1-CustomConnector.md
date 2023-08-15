@@ -24,7 +24,7 @@ Unfortunately, Microsoft doesn't provide a standard API for Microsoft Forms that
 These blog series contains three parts:
 1.	Create a custom connector using the undocumented Microsoft Forms API
 2.	[Keep your ‘Question of the week’ based on Microsoft Forms up-to-date](/blog/msforms-part2-questionoftheweek/)
-3.	[Make use of the responses: display the survey data of the Forms](/blog/msforms-part3-Dashboard/)
+3.	[Make use of the responses: display the survey data of the Forms](/blog/msforms-part3-dashboard/)
 
 This is part one in which tricks and tricks will be shared to create a custom connector for Microsoft Forms.
 
@@ -96,7 +96,7 @@ The details of the actions created to perform required tasks in this scenario.
 |General|Verb |Request |Description|
 |--|--|-------|-------|
 |GetQuestions |GET |<div style="width:220px; word-wrap:break-word;">`https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/questions` </div>   |Get an overview of the questions that are available on a Form 
-|PostQuestions   |POST   | <div style="width:220px; word-wrap:break-word;">`https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/questions` <br/> <br/> body: `{"questionInfo":"","type":"Question.Choice","title":"","id":"","order":,"isQuiz":false,"required":false}` </div> | Post a Question <br/><br/>Different question types require different body. <br/> [For more details read the information on this page.](../page/MSFormAPI.md) |
+|PostQuestions   |POST   | <div style="width:220px; word-wrap:break-word;">`https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/questions` <br/> <br/> body: `{"questionInfo":"","type":"Question.Choice","title":"","id":"","order":,"isQuiz":false,"required":false}` </div> | Post a Question <br/><br/>Different question types require different body. <br/> [For more details read the information on this page.](../page/msformapi) |
 |DeleteQuestion  |DELETE   |<div style="width:220px; word-wrap:break-word;"> `https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/questions('{QuestionID}')` </div>  | Delete a question using the questionid  |
 |DeleteResponses |DELETE|<div style="width:220px; word-wrap:break-word;"> `https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/responses` </div>|Delete responses from a Form|
 |<div style="width:115px; word-wrap:break-word;">GetAggregateSurveyData</div>|GET|<div style="width:220px; word-wrap:break-word;">`https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/GetAggregateSurveyData`</div>| Get response details of a Form| 

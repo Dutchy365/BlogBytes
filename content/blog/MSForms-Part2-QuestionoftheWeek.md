@@ -34,7 +34,7 @@ The kind of question can vary from question around topics like how employee spen
 Often a communication department has prepared a stock of questions after a brainstorming session, so they don’t have to think about it every week. How nice would it be if these were also automatically updated every week on the intranet!
 Currently, Power Automate only has an action available that receives responses from a Microsoft Forms, no ability to create questions on a Form.
 
-[In the first part of this blog series](./MSForms-Part1-CustomConnector.md) a custom connector using the undocumented Microsoft Forms API is created.
+[In the first part of this blog series](/blog/msforms-part1-customconnector/) a custom connector using the undocumented Microsoft Forms API is created.
 
 
 The High Level Design of the steps described in this blog:
@@ -126,7 +126,7 @@ Hereby one example for posting a new question:
 ![HTTP Request to SharePoint](/images/MSForms/Part1-CustomConnector/13-PostHTTPSharePoint.png)
 
 
-[In the last part of this blog series](./MSForms-Part3-Dashboard.md) you can read how to visualize the data from the SharePoint list into a Power BI dashboard.
+[In the last part of this blog series](/blog/msforms-part3-dashboard/) you can read how to visualize the data from the SharePoint list into a Power BI dashboard.
 
 
 

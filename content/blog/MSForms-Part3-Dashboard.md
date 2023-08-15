@@ -23,8 +23,8 @@ keywords:
 ---
 
 This blog is part of the blog series for Microsoft Forms automation to create automatic update of you question of the week on your SharePoint intranet.
-The first blog explains [how to create a custom connector using the undocumented Microsoft Forms API](./MSForms-Part1-CustomConnector.md). 
-The second blog describes how to [keep your ‘Question of the week’ based on Microsoft Forms up-to-date](./MSForms-Part2-QuestionoftheWeek.md).
+The first blog explains [how to create a custom connector using the undocumented Microsoft Forms API](/blog/msforms-part1-customconnector/). 
+The second blog describes how to [keep your ‘Question of the week’ based on Microsoft Forms up-to-date](/blog/msforms-part2-questionoftheweek/).
 
 
 The result of the first two parts of this blog series is a nice looking SharePoint list which contains all data from the Question of the week.
