@@ -52,25 +52,30 @@ The payload of the different question types all have the same parameters:
 |Net Promoter Score |Question.NPS|
 
 
-### Parameter title
+**Parameter title**
+
 The title is quite an easy parameter, it just needs to contain the text for the actual question. 
 
-### Parameter id
+**Parameter id**
+
 The parameter id is a random number starting with `r`.
 In Power Automate you can use this expression to populate id:
 `concat('r',string(rand(10000,999999)))`
 
-### Parameter order
+**Parameter order**
+
 This contains the order of the questions. 
 
+**Parameter isQuiz**
 
-### Parameter isQuiz
 This parameter is available for each question on a Form, while it's based on the Form you created.
 
-### Parameter required
+**Parameter required**
+
 This parameter determines if the question is required to answer or not. Just set true or false value.
 
-### Parameter questionInfo
+**Parameter questionInfo**
+
 This parameter is the most important and most challenging for all the question types. 
 In this parameter the content value for the question needs to be set.
 
@@ -157,7 +162,7 @@ In this parameter the content value for the question needs to be set.
 ```
 
 
-## Extra API calls need for Ranking and Likert
+## Extra API calls needed for Ranking and Likert
 
 The first four question types are easy to had with one API call to the Form.
 The Ranking, Likert, Upload File and Net Promoter Score are more challenging; not only to POST the question, but choices as well.
