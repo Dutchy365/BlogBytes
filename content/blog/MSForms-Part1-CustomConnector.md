@@ -126,4 +126,4 @@ Hereby one example for posting a new question:
 
 ![HTTP Request to SharePoint](/images/MSForms/Part1-CustomConnector/13-PostHTTPSharePoint.png)
 
-[In the second part of this blog series](./MSForms-Part2-QuestionoftheWeek.md) you'll read how to use the custom connector.
+[In the second part of this blog series](/blog/msforms-part2-questionoftheweek/) you'll read how to use the custom connector.
