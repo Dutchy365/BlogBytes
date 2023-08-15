@@ -1,5 +1,5 @@
 {{ if .Site.Params.comments.system }}
-<div class="px-2 mb-2">
+<div class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
   {{ if eq .Site.Params.comments.system "disqus" }}
   {{ partial "disqus.html" . }}
 

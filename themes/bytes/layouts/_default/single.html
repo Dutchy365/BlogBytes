@@ -68,10 +68,10 @@
     {{ .Content }}
   </article>
 
-  {{ if not (.Params.hideMeta) false }}
-  {{- partial "comments.html" . -}}
-{{ end }}
+  {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
+      {{- partial "comments.html" . -}}
+  {{ end }}
 
 
-  {{- partial "social.html" . -}}
+{{- partial "social.html" . -}}
 {{ end }}
