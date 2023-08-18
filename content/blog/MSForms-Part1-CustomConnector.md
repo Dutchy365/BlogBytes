@@ -28,7 +28,7 @@ These blog series contains three parts:
 2.	[Keep your ‘Question of the week’ based on Microsoft Forms up-to-date](/blog/msforms-part2-questionoftheweek/)
 3.	[Make use of the responses: display the survey data of the Forms](/blog/msforms-part3-dashboard/)
 
-This is part one in which tricks and tricks will be shared to create a custom connector for Microsoft Forms.
+This is part one in which tips and tricks will be shared to create a custom connector for Microsoft Forms.
 
 
 ## Microsoft Forms API
