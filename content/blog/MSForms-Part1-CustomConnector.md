@@ -91,7 +91,7 @@ Resource URL: `api://forms.office.com/c9a559d2-7aab-4f13-a6ed-e7e9c52aec87`
 
 
 ### Definition
-In the Definition part all the actions need to be declared.
+In the Definition part all the actions need to be defined.
 The details of the actions created to perform required tasks in this scenario. 
 
 
@@ -120,7 +120,7 @@ Ending the Custom Connector with a couple of Operations:
 
 ## Something to consider
 The use of a custom connector makes it really easy to use to actions into multiple Flows, without technical knowledge needed.
-The disadvantages is the fact that you need a premium license to perform those actions.
+The disadvantage is the fact that you need a premium license to perform those actions.
 In this scenario the API calls can be done using 'Send an HTTP request to SharePoint' as well.
 
 Hereby one example for posting a new question:
