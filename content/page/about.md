@@ -9,9 +9,9 @@ thumbnail: /images/aboutme.png
 hideMeta: true
 ---
 
-My name is Elianne and I am a Power Platform Consultant at [Blis Digital](https://blisdigital.com) in Barendrecht, The Netherlands. Since 2016 I obtained several Microsoft certifications, among other: MCT, MCSE for SharePoint, MCSA for Office 365 and Power Platform Solution Architect Expert.
+My name is Elianne and I am a Power Platform Consultant at [Blis Digital](https://blisdigital.com) in Barendrecht, The Netherlands. Since 2016 I obtained several Microsoft certifications, among others: MCT, MCSE for SharePoint, MCSA for Office 365 and Power Platform Solution Architect Expert.
 
-I love to gain more knowledge and expertise by going to different user groups and conferences myself, but I also like to share knowledge in different ways: by writing blogs, giving presentations, guest lectures at university of applied science and app-in-a-day workshops.
+I love to gain more knowledge and expertise by going to different user groups and conferences myself, but I also like to share knowledge in different ways: by writing blogs, giving presentations, guest lectures at an university of applied science and app-in-a-day workshops.
 
 I have a Master of Science where I graduated cum laude in the field of Business Process Management and IT. In my off-time I like spending time with family and friends, doing some board games or different kind of sport activities. 
 
