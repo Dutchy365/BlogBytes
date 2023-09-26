@@ -1,7 +1,7 @@
 ---
 author: ""
 title: "Validating Naming Conventions in Power Apps"
-date: 2023-09-25
+date: 2023-09-26
 description: A Powershell script to validate naming conventions of controls in Power Apps canvas
 tags:
   - Power Apps
