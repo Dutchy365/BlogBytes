@@ -17,7 +17,7 @@ keywords:
 - ChatGPT
 - Naming conventions
 images:
-- 00NamingConventions.png
+- cover00NamingConventions.png
 --- 
 
 
