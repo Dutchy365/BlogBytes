@@ -10,6 +10,8 @@ tags:
   - Naming conventions
 thumbnail: /images/20230926PowerAppsNamingConventionsValidation/00NamingConventions.png
 preview: /00NamingConventions.png
+images:
+- 00NamingConventions.png
 --- 
 
 
