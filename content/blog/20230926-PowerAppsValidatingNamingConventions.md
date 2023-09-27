@@ -1,15 +1,21 @@
 ---
-author: ""
+author: null
 title: "Validating Naming Conventions in Power Apps"
-date: 2023-09-26
+date: 2023-09-26T00:00:01Z
 description: A Powershell script to validate naming conventions of controls in Power Apps canvas
 tags:
   - Power Apps
   - Powershell
   - ChatGPT
   - Naming conventions
+  - Governance
 thumbnail: /images/20230926PowerAppsNamingConventionsValidation/00NamingConventions.png
 preview: /00NamingConventions.png
+keywords:
+- Power Apps
+- Governance
+- ChatGPT
+- Naming conventions
 images:
 - 00NamingConventions.png
 --- 
