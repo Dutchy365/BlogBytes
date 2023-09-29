@@ -4,7 +4,7 @@ title: Spotlight
 description: Overtime I present at different events, hereby an overview of my past and future agenda
 keywords: ["spotlight", "events", "present", "#communityrocks", "Sharing knowledge"]
 type: spotlight
-thumbnail: /images/aboutme.png
+thumbnail: 
 hideMeta: true
 ---
 
