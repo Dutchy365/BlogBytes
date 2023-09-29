@@ -1,10 +1,11 @@
 ---
-author: 
+author: Elianne
 title: Spotlight
+date: 2023-07-07
 description: Overtime I present at different events, hereby an overview of my past and future agenda
 keywords: ["spotlight", "events", "present", "#communityrocks", "Sharing knowledge"]
-type: spotlight
-thumbnail: 
+type: about
+thumbnail: /images/aboutme.png
 hideMeta: true
 ---
 
