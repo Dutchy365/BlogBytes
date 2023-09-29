@@ -17,7 +17,7 @@ I have a Master of Science where I graduated cum laude in the field of Business 
 
 This blog has mainly two purposes: my own documentation so I won't forget how some particular problems were solved and off course to give something back to the community. 
 
-[Here you can find a list of my recent and upcoming events.](/about/spotlight.md)
+[Here you can find a list of my recent and upcoming events.](/page/spotlight.md)
 
 
 

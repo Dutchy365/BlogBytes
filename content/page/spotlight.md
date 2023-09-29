@@ -9,7 +9,6 @@ thumbnail: /images/aboutme.png
 hideMeta: true
 ---
 
-## In the spotlight
 
 Below a list of my recent and upcoming events:
 
