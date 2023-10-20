@@ -14,7 +14,7 @@ Below a list of my recent and upcoming events:
 * **2023-10-21 <span style="color: #92400e;">- CollabDays Belgium - Enhancing User Engagement Measurement on SharePoint Intranets with Power Platform**</span></br>
 Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. I spoke about how to measure user engagement and page freshness using various tools available in the Power Platform, such as Power BI and Power Automate.
 
-* **2023-09-06  <span style="color: #92400e;">- PowerAddicts NL - Validation of Naming Conventions in Power Apps (together with Albert-Jan Schot)**</span></br>
+* **2023-09-26  <span style="color: #92400e;">- PowerAddicts NL - Validation of Naming Conventions in Power Apps (together with Albert-Jan Schot)**</span></br>
 We spoke about the importance of naming conventions and how to validate guidelines are applied into a Power App using a Powershell script to validate this.
 
 * **2023-09-13 <span style="color: #92400e;">- Avans University of Applied Science - Career orientation**</span></br>
