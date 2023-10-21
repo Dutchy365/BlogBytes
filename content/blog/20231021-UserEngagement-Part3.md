@@ -9,7 +9,7 @@ tags:
   - user interaction
   - page freshness
   - SharePoint
-  - PowerBI
+  - Power BI
 thumbnail: /images/20231021UserEngagement/Part3/00Part3.png
 preview: /00Part3.png
 images:

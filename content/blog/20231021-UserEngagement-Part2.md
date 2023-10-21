@@ -8,7 +8,7 @@ tags:
   - user engagement
   - page freshness
   - SharePoint
-  - PowerBI
+  - Power BI
 thumbnail: /images/20231021UserEngagement/Part2/00Part2.png
 preview: /00Part2.png
 images:

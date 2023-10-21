@@ -7,7 +7,7 @@ tags:
   - Power Automate
   - User engagement
   - SharePoint
-  - PowerBI
+  - Power BI
 thumbnail: /images/20231021UserEngagement/Part1/00Part1.png
 preview: /00Part1.png
 images:
