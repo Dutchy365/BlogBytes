@@ -9,7 +9,7 @@ tags:
   - SharePoint list
   - lookup column
 thumbnail: /images/20231120SharePointColumnFormSpecialChar/00SPColumnFormSpecialChar.png
-preview: /00SPColumnFormSpecialChar.png
+preview: /00SPColumnFormSpecialChar.jpg
 keywords:
   - column formatting
   - SharePoint
