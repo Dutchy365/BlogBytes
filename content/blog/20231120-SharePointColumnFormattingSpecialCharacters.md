@@ -15,6 +15,7 @@ keywords:
   - SharePoint
   - lookup column
 images: 
+- /00SPColumnFormSpecialChar.jpg
 - /00SPColumnFormSpecialChar.png
 ---
 
