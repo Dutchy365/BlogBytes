@@ -14,6 +14,8 @@ keywords:
   - column formatting
   - SharePoint
   - lookup column
+images: 
+- /00SPColumnFormSpecialChar.png
 ---
 
 
