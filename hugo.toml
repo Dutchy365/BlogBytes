@@ -11,6 +11,8 @@ theme = "bytes"
       introPhoto = "logo.png"
       logo = "/logo.png"
 
+enableEmoji = true
+
  # Enable the darkmode toggle in header
   darkModeToggle = false
   
