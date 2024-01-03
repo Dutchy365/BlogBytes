@@ -1,7 +1,7 @@
 ---
 author: ""
 title: "Custom progress bar in Power Pages"
-date: 2023-12-27
+date: 2024-01-03
 description: Powerful progress tracking; harnessing FetchXML, liquid and css for flexible progress bar in Power Pages
 tags:
   - Power Pages
