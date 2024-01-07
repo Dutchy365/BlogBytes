@@ -28,5 +28,5 @@ This blog has mainly two purposes: my own documentation so I won't forget how so
 {{< credly b852030c-8cfc-40bd-a4fa-8eec777aee3d >}}
 {{< credly 96300ed8-967e-49d4-a4bf-77959640a7f4 >}}
 {{< credly e90df78b-711a-47f1-882b-89c5bd7fa6cd >}}
-{{< credly f7847343-03d4-48d9-b433-a9bd19a19eb8 >}}
+
 </div>
