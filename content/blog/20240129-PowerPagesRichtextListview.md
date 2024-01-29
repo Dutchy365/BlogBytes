@@ -20,12 +20,13 @@ images:
 Working with a Rich Text column can be tricky. In a Model Driven App, handling Rich Text columns is easy. In a view the text is shown as plain text; simple and readable. In the Power Pages list view, it's not great. It ends up showing messy raw HTML instead of the neat content.
 
 
-#### The view of in Model Driven App:
+#### The view of the list in Model Driven App:
+The description column is a rich text column in which formatting is applied. In the list view of the Model Driven App it shows plain text. 
 ![View in MDA](/images/20240129PowerPagesRichTextListView/MDAview.png)
 
 
 #### The view of the list in Power Pages:
-
+The same information and same view by default in Power Pages displays the rich text column has raw HTML.
 ![View in Power Pages](/images/20240129PowerPagesRichTextListView/PowerPagesview.png)
 
 Certainly, there was the option to remove the column from the view, but that wasn't the appropriate solution in this case.
