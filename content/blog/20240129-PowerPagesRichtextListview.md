@@ -35,7 +35,7 @@ Certainly, there was the option to remove the column from the view, but that was
 Go the the Lists and select the list view in which you have a Rich Text Column and select the tab Options.
 ![Options tab](/images/20240129PowerPagesRichTextListView/ListOptions.png)
 
-In there you can add you on JavaScript. This code cleans and replaces the HTML content of the description column within each row of the targeted element when the "loaded" event occurs.
+In there you can add your own JavaScript. This code cleans and replaces the HTML content of the description column within each row of the targeted element when the "loaded" event occurs.
 
 In this case the internal name of the columns is 'cr4c5_description'. If you want to use this in you're own scenario, please be aware of replacing this to your own column name.
 
