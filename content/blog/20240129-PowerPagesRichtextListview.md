@@ -20,11 +20,11 @@ images:
 Working with a Rich Text column can be tricky. In a Model Driven App, handling Rich Text columns is easy. In a view the text is shown as plain text; simple and readable. In the Power Pages list view, it's not great. It ends up showing messy raw HTML instead of the neat content.
 
 
-### The view of in Model Driven App:
+#### The view of in Model Driven App:
 ![View in MDA](/images/20240129PowerPagesRichTextListView/MDAview.png)
 
 
-### The view of the list in Power Pages:
+#### The view of the list in Power Pages:
 
 ![View in Power Pages](/images/20240129PowerPagesRichTextListView/PowerPagesview.png)
 
@@ -51,6 +51,8 @@ $(document).ready(function (){
 	});
 });
 ```
+
+## End result
 
 Now, the view in Power Pages looks fantastic—even better than in the Model Driven App. The selected styling is visible immediately and even the hyperlink works.
 
