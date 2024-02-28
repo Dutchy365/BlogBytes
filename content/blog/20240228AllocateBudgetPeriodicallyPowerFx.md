@@ -102,5 +102,7 @@ The OnTimerEnd fills the collection with the amount that needs to be allocated a
 
 The repeat parameter specifies the number of repetitions. Therefore, the total number of calculations will be compared to the number actually performed.
 
-
+## Final step
 The final step involves configuring a gallery to showcase the contents of the collection, which will automatically refresh upon completion of a calculation.
+
+Setting up a system to distribute budget across different time frames can be helpful for managing finances effectively. By following the steps detailed in this blog, you can make this process possible in Power Apps Canvas. 
