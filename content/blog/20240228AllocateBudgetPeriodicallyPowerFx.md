@@ -21,7 +21,7 @@ In this blog a budget allocation formula is introduced to deal with amounts of d
 The budget allocation calculation discussed in this blog allows you to solve this mismatch and it also enables you to easily switch between different time contexts.
 
 ## End result
-The end result consists of a form in which the details can be entered and the calculation can be done for different timeunits.
+The final outcome comprises a form where users can input details and perform calculations for various time units.
 
 ![End result](/images/20240228AllocateBudgetPeriodicallyPowerFx/Endresult.webp)
 
@@ -36,7 +36,7 @@ The form contains of the following input fields:
 
 
 ## Calculation
-In PowerFx, utilizing a variable within a ForAll loop is not possible; however, the timer control can offer assistance in such cases.
+In PowerFx, utilizing a variable within a ForAll loop is not possible; therefor the button control couldn't handle the entire calculcation, however, the timer control can be helpful in such cases.
 
 ### Timer control configuration
 The Calculate element on the form looks like a button, but it's actually the timer control.
@@ -47,6 +47,9 @@ This control needs some configuration.
 Set Duration to 50.
 
 #### OnSelect
+![OnSelect](/images/20240228AllocateBudgetPeriodicallyPowerFx/OnSelect.png)
+
+
 ```
 //Determine TimeUnit based on combobox selection
 If(cmbPeriod.Selected.Value = "Daily",
@@ -71,6 +74,9 @@ Clear(colAllocatedBudget);
 The 'PeriodNumber' is determined using a DateDiff combined with Sum formula. Omitting this calculation will lead to an incomplete result in this scenario. For instance, if the start date is 04-04-2024 and the end date is 04-06-2024, only two rows of budget allocation will be generated, omitting 04-06-2024.
 
 #### OnTimerEnd
+
+![OnTimerEnd](/images/20240228AllocateBudgetPeriodicallyPowerFx/OnTimerEnd.png)
+
 ```
 Collect(
     colAllocatedBudget,
@@ -90,9 +96,11 @@ The OnTimerEnd fills the collection with the amount that needs to be allocated a
  
 
 #### Repeat
+![Repeat](/images/20240228AllocateBudgetPeriodicallyPowerFx/Repeat.png)
+
 `PeriodNumber > PeriodsCalculated`
 
 The repeat parameter specifies the number of repetitions. Therefore, the total number of calculations will be compared to the number actually performed.
 
 
-Last step is to setup a gallery to display the content of the collection. Automatically refreshed after a calculation is done. 
+The final step involves configuring a gallery to showcase the contents of the collection, which will automatically refresh upon completion of a calculation.
