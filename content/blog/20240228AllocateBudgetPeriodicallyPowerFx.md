@@ -20,6 +20,10 @@ In this blog a budget allocation formula is introduced to deal with amounts of d
 
 The budget allocation calculation discussed in this blog allows you to solve this mismatch and it also enables you to easily switch between different time contexts.
 
+## End result
+The end result consists of a form in which the details can be entered and the calculation can be done for different timeunits.
+
+![End result](/images/20240228AllocateBudgetPeriodicallyPowerFx/Endresult.webp)
 
 ## User input
 The form contains of the following input fields:
@@ -83,13 +87,12 @@ UpdateContext({varStartDate: DateAdd(varStartDate,1,varTimeUnit)});
 ```
 
 The OnTimerEnd fills the collection with the amount that needs to be allocated and the period in which the amount needs to be allocated. 
+ 
 
 #### Repeat
 `PeriodNumber > PeriodsCalculated`
 
 The repeat parameter specifies the number of repetitions. Therefore, the total number of calculations will be compared to the number actually performed.
 
-## End result
-The end result consists of a form in which the details can be entered and the calculation can be done for different timeunits.
 
-![End result](/images/20240228AllocateBudgetPeriodicallyPowerFx/Endresult.webp)
+Last step is to setup a gallery to display the content of the collection. Automatically refreshed after a calculation is done. 
