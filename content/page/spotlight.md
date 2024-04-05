@@ -10,6 +10,9 @@ hideMeta: true
 
 
 Below a list of my recent and upcoming events:
+* **2024-06-01 <span style="color: #92400e;">- CollabDays Netherlands - Building a dynamic data review system using Power Platform capabilities**</span></br>
+An inspiring session in which attendees will get solid understanding of how to make it possible to create a flexible data review system using only out-of-the-box functionalities within the Power Platform.
+
 * **2024-04-08 <span style="color: #92400e;">- Erasmus University - Share Your Knowledge Week 2024 - Automate your own work using the Power Platform**</span></br>
 During the workshop, participants will receive an introduction to the Power Platform and be inspired by the limitless possibilities it offers. Additionally, they will engage in a hands-on assignment, wherein they will create their own app and automate a process.
 
