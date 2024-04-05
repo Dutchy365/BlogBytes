@@ -209,6 +209,7 @@
     "ids": [
       "1-export-solution",
       "2-unpack-solution",
+      "3-galleries",
       "3-understand-structure-and-files",
       "4-read-the-files",
       "5-apply-naming-conventions-validation",
@@ -229,6 +230,7 @@
       "comboboxes-as-filters",
       "conclusion",
       "content-snippet",
+      "context",
       "convert-answer-options",
       "create-a-webresource-with-a-javascript-file",
       "create-an-app-registration-for-microsoft-forms",
@@ -240,6 +242,7 @@
       "data-type",
       "database-model",
       "datamodel",
+      "datasource",
       "date",
       "definition",
       "delegated-or-application-only-permissions",
@@ -261,6 +264,10 @@
       "flow-trigger-and-variables",
       "form-events",
       "formula-in-the-gallery-items-using-with",
+      "gallery-1---header---horizontal-gallery",
+      "gallery-1-header---horizontal-gallery",
+      "gallery-2---grouped-courses",
+      "gallery-3---nested-gallery",
       "gallery-filtering",
       "get-current-active-question-to-store-results",
       "get-information-of-question-that-needs-to-be-added",
@@ -293,6 +300,8 @@
       "responsive",
       "scenario",
       "security",
+      "set-up",
+      "set-up-1-datasource-and-3-galleries",
       "set-up-sharepoint-list",
       "set-up-the-report",
       "situation",
@@ -318,8 +327,10 @@
       "update-sharepoint-list-with-question-id",
       "upload-file",
       "user-input",
+      "variable",
       "visualize-data",
-      "why-naming-conventions"
+      "why-naming-conventions",
+      "wrap-up"
     ]
   }
 }
