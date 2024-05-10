@@ -12,8 +12,6 @@ My name is Elianne and I am a Power Platform Consultant at [Blis Digital](https:
 
 I love to gain more knowledge and expertise by going to different user groups and conferences myself, but I also like to share knowledge in different ways: by writing blogs, giving presentations, guest lectures at an university of applied science and app-in-a-day workshops.
 
-I have a Master of Science where I graduated cum laude in the field of Business Process Management and IT. In my off-time I like spending time with family and friends, doing some board games or different kind of sport activities. 
-
 This blog has mainly two purposes: my own documentation so I won't forget how some particular problems were solved and off course to give something back to the community. 
 
 [Here you can find a list of my recent and upcoming events.](/page/spotlight)
