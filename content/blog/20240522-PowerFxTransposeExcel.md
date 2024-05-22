@@ -1,7 +1,7 @@
 ---
 author: ""
 title: "Power Apps: Transpose Excel Data using Power Fx"
-date: 2024-05-21
+date: 2024-05-22
 description: How to transpose Excel Data into a Collection
 tags:
   - Power Automate
