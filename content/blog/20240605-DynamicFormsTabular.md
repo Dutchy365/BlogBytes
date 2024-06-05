@@ -1,7 +1,7 @@
 ---
 author: ""
 title: "Dynamics forms: tabular question type"
-date: 2024-06-04
+date: 2024-06-05
 description: How to create flexible tabular questions
 tags:
   - Power Apps
