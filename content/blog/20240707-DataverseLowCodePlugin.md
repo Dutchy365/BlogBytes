@@ -35,7 +35,7 @@ In the *sensor data*  table the sensor data is stored.
 In the *meetingpresence* table is updated by the plugin.
 
 The following process is made:
-![Process](/images/20240707DataversePlugin/process.png)
+![Process](/images/20240707DataversePlugin/Process.png)
 
 ## Challenge
 Meeting room reservations are updated in the table on a weekly basis, with the number of rows corresponding to the number of meetings at each location.
@@ -43,7 +43,7 @@ Meeting room reservations are updated in the table on a weekly basis, with the n
 Sensor data is also loaded into the sensor data table weekly, generating substantial records. Data is available every 15 minutes on workdays between 08:00 and 18:00. For instance, if a location has 40 sensor data rows per day, this translates to 200 rows per week and 800 rows per month.
 
 Example data for sensor data:
-![Example data](/images/20240707DataversePlugin/exampledatasensor.png)
+![Example data](/images/20240707DataversePlugin/ExampleDataSensor.png)
 
 
 ## Dataverse plugin
