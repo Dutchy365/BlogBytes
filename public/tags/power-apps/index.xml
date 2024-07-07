@@ -2,21 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Power Apps on Burgers &amp; Bytes</title>
-    <link>https://dutchy365.github.io/blog/tags/power-apps/</link>
+    <link>//aseURL:1313/tags/power-apps/</link>
     <description>Recent content in Power Apps on Burgers &amp; Bytes</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dutchy365.github.io/blog/tags/power-apps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/power-apps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Markdown syntax hyperlink to HTML link</title>
+      <link>//aseURL:1313/blog/20240619-markdownhyperlinktohtml/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20240619-markdownhyperlinktohtml/</guid>
+      <description>Scenario This blogs scenario is regarding a plain multi line text input in which no rich text was allowed. Requirement was just one exception to have the ability to have clickable hyperlinks.&#xA;In the Dataverse table no html is stored only plain text, so using a markdown syntax notation was the solution.&#xA;Markdown syntax for a hyperlink is square brackets followed by parentheses. The square brackets hold the text, the parentheses hold the link.</description>
+    </item>
+    <item>
+      <title>Dynamics forms: tabular question type</title>
+      <link>//aseURL:1313/blog/20240605-dynamicformstabular/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20240605-dynamicformstabular/</guid>
+      <description>Dynamics Forms Inspired by Matthey Devaney&#xD;, a fully dynamic form was created in Power Apps, incorporating various question types like toggles, text inputs, and comboboxes. Everything worked smoothly until the need for tabular questions came along.&#xA;For these tabular questions, the requirement was to allow flexible setup of the question and definition of table headers, enabling end users to enter their answers in the rows below. This challenge is now ready to be addressed 💪🏻.</description>
+    </item>
+    <item>
+      <title>Dynamic horizontal header part 2: flexible horizontal scrolling</title>
+      <link>//aseURL:1313/blog/20240405-horizontalheader-part2-scrolling/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:02 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20240405-horizontalheader-part2-scrolling/</guid>
+      <description>In Excel we are quite familiar with a the functionality to freeze a row and a column. In Power App Canvas this can be more challenging. In this blog serie of two blogs a solution for Power Apps will be explained.&#xA;The first blog the setup to create a header and nested galleries are explained&#xD;This (second) blog shows how to create a dynamic horizontal scrolling header. Set up See blog part 1&#xD;to have the setup in which the basic of the three galleries are created.</description>
+    </item>
+    <item>
+      <title>Dynamic horizontal header part 1: static header</title>
+      <link>//aseURL:1313/blog/20240405-horizontalheader-part1-static/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:01 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20240405-horizontalheader-part1-static/</guid>
+      <description>In Excel we are quite familiar with a the functionality to freeze a row and a column. In Power App Canvas this can be more challenging. In this blog serie of two blogs a solution for Power Apps will be explained.&#xA;This blog: the setup to create a header and nested galleries The second blog shows how to create a dynamic horizontal scrolling header.&#xD;Context The academic course catalog offers a timeline that illustrates the availability of courses across multiple years, with the main section displaying a horizontal representation of courses available per academic years.</description>
+    </item>
+    <item>
+      <title>Power Apps Canvas: filter data of related entity</title>
+      <link>//aseURL:1313/blog/20240306filterrelatedentity/</link>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20240306filterrelatedentity/</guid>
+      <description>Scenario In the following scenario there is reservation system of different type of housing. For all housings there is an apartment type registered, which are stored in a different table. In the overview of the reservation you want to be able to filter on apartment type and related capacity.&#xA;This blog describes how to filter a gallery based on values from related entities.&#xA;Database model To get a proper insight of the data structure, the database architecture looks like this:</description>
+    </item>
+    <item>
+      <title>Validating Naming Conventions in Power Apps</title>
+      <link>//aseURL:1313/blog/20230926-powerappsvalidatingnamingconventions/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:01 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20230926-powerappsvalidatingnamingconventions/</guid>
+      <description>Why naming conventions One of the main advices while creating Power Apps canvas apps is to use proper naming conventions for all the components you&amp;rsquo;re using. Not only to support readability for your own usage, also for supportability. Probably it&amp;rsquo;s not too difficult to convince someone of its importance, while in the hustle and bustle of everyday life, you don&amp;rsquo;t give it priority always.&#xA;Some advantages:&#xA;Consistency; so you can better focus on the solution Maintainability; everyone has the same language and can therefore navigate through a solution more easily Interchangeability; copying, changing and maintaining solutions can be done by multiple people ​ This blog gives and explains a Powershell script which you can use to validate naming convention in your Power App.</description>
+    </item>
     <item>
       <title>Power Apps: Advanced filtering on a period of time with only Month and Year value</title>
-      <link>https://dutchy365.github.io/blog/blog/20230723-powerappadvancedfiltering/</link>
+      <link>//aseURL:1313/blog/20230723-powerappadvancedfiltering/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dutchy365.github.io/blog/blog/20230723-powerappadvancedfiltering/</guid>
-      <description>Scenario Todays scenario is regarding filter options based on Month and Year values in Power Apps. In a Dataverse table named ‘Products’ the information of a Name, Month and Year are stored. The challenging part is the Month column only contains the text value of the short form of the month.
-The data in the table looks like:
-Now it needs to be possible to filter the gallery based on a Month Year range filter.</description>
+      <guid>//aseURL:1313/blog/20230723-powerappadvancedfiltering/</guid>
+      <description>Scenario Todays scenario is regarding filter options based on Month and Year values in Power Apps. In a Dataverse table named ‘Products’ the information of a Name, Month and Year are stored. The challenging part is the Month column only contains the text value of the short form of the month.&#xA;The data in the table looks like:&#xA;Now it needs to be possible to filter the gallery based on a Month Year range filter.</description>
     </item>
-    
   </channel>
 </rss>

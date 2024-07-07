@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>filtering gallery on Burgers &amp; Bytes</title>
-    <link>https://dutchy365.github.io/blog/tags/filtering-gallery/</link>
-    <description>Recent content in filtering gallery on Burgers &amp; Bytes</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Filtering Gallery on Burgers &amp; Bytes</title>
+    <link>//aseURL:1313/tags/filtering-gallery/</link>
+    <description>Recent content in Filtering Gallery on Burgers &amp; Bytes</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dutchy365.github.io/blog/tags/filtering-gallery/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/filtering-gallery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Power Apps: Advanced filtering on a period of time with only Month and Year value</title>
-      <link>https://dutchy365.github.io/blog/blog/20230723-powerappadvancedfiltering/</link>
+      <link>//aseURL:1313/blog/20230723-powerappadvancedfiltering/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dutchy365.github.io/blog/blog/20230723-powerappadvancedfiltering/</guid>
-      <description>Scenario Todays scenario is regarding filter options based on Month and Year values in Power Apps. In a Dataverse table named ‘Products’ the information of a Name, Month and Year are stored. The challenging part is the Month column only contains the text value of the short form of the month.
-The data in the table looks like:
-Now it needs to be possible to filter the gallery based on a Month Year range filter.</description>
+      <guid>//aseURL:1313/blog/20230723-powerappadvancedfiltering/</guid>
+      <description>Scenario Todays scenario is regarding filter options based on Month and Year values in Power Apps. In a Dataverse table named ‘Products’ the information of a Name, Month and Year are stored. The challenging part is the Month column only contains the text value of the short form of the month.&#xA;The data in the table looks like:&#xA;Now it needs to be possible to filter the gallery based on a Month Year range filter.</description>
     </item>
-    
   </channel>
 </rss>

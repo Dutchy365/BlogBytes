@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Filter on Burgers &amp; Bytes</title>
+    <link>//aseURL:1313/tags/filter/</link>
+    <description>Recent content in Filter on Burgers &amp; Bytes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/filter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Power Apps Canvas: filter data of related entity</title>
+      <link>//aseURL:1313/blog/20240306filterrelatedentity/</link>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20240306filterrelatedentity/</guid>
+      <description>Scenario In the following scenario there is reservation system of different type of housing. For all housings there is an apartment type registered, which are stored in a different table. In the overview of the reservation you want to be able to filter on apartment type and related capacity.&#xA;This blog describes how to filter a gallery based on values from related entities.&#xA;Database model To get a proper insight of the data structure, the database architecture looks like this:</description>
+    </item>
+  </channel>
+</rss>

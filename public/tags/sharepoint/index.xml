@@ -2,21 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SharePoint on Burgers &amp; Bytes</title>
-    <link>https://dutchy365.github.io/blog/tags/sharepoint/</link>
+    <link>//aseURL:1313/tags/sharepoint/</link>
     <description>Recent content in SharePoint on Burgers &amp; Bytes</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dutchy365.github.io/blog/tags/sharepoint/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/sharepoint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SharePoint column formatting: lookup column and special characters (% and #)</title>
+      <link>//aseURL:1313/blog/20231120-sharepointcolumnformattingspecialcharacters/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20231120-sharepointcolumnformattingspecialcharacters/</guid>
+      <description>The capabilities of SharePoint regarding column and view formatting can enhance the usability of both SharePoint libraries and list. In this blog the explanation using a lookup column and the challenging part regarding the use of special characters.&#xA;Scenario The SharePoint list has a lookup column to a document library, so a link between the list item and associated document can be made. At first glance, this looked fine:&#xA;However when you clicked on the file link, the file didn’t open, but navigated to the display form of the library item instead.</description>
+    </item>
+    <item>
+      <title>Part 3: Enhancing User Engagement Measurement on SharePoint Intranets: Visualize data</title>
+      <link>//aseURL:1313/blog/20231021-userengagement-part3/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:03 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20231021-userengagement-part3/</guid>
+      <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie&#xD;, you could read how to use the Power Platform to measure user engagement even more deeply using KPI regarding user engagement.</description>
+    </item>
+    <item>
+      <title>Part 2: Enhancing User Engagement Measurement on SharePoint Intranets: Page Freshness</title>
+      <link>//aseURL:1313/blog/20231021-userengagement-part2/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:02 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20231021-userengagement-part2/</guid>
+      <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie&#xD;, you could read how to use the Power Platform to measure user engagement even more deeply using KPI&amp;rsquo;s regarding user engagement.</description>
+    </item>
+    <item>
+      <title>Part 1: Enhancing User Engagement Measurement on SharePoint Intranets with Power Platform</title>
+      <link>//aseURL:1313/blog/20231021-userengagement-part1/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:01 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20231021-userengagement-part1/</guid>
+      <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie, we will explore how to use the Power Platform to measure user engagement even more deeply using KPI&amp;rsquo;s regarding user engagement.</description>
+    </item>
     <item>
       <title>How to get all SharePoint sites of a hub site in Power Automate</title>
-      <link>https://dutchy365.github.io/blog/blog/20230722-sharepointgetallhubsites/</link>
+      <link>//aseURL:1313/blog/20230722-sharepointgetallhubsites/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dutchy365.github.io/blog/blog/20230722-sharepointgetallhubsites/</guid>
-      <description>The Challenge There is a lot of information available on how to retrieve all sites related to a SharePoint hub using Powershell. Another option is to use Microsoft Graph and search for all sites. https://graph.microsoft.com/v1.0/sites?search=*
-The challenge was to get all the sites of a hub in Power Automate without using premium actions like the HTTP request. This blog describes how to achieve this!
-Needed HTTP requests Initialized a variable to store the URL of the hubsite.</description>
+      <guid>//aseURL:1313/blog/20230722-sharepointgetallhubsites/</guid>
+      <description>The Challenge There is a lot of information available on how to retrieve all sites related to a SharePoint hub using Powershell. Another option is to use Microsoft Graph and search for all sites. https://graph.microsoft.com/v1.0/sites?search=&#xD;*&#xA;The challenge was to get all the sites of a hub in Power Automate without using premium actions like the HTTP request. This blog describes how to achieve this!&#xA;Needed HTTP requests Initialized a variable to store the URL of the hubsite.</description>
     </item>
-    
   </channel>
 </rss>

@@ -2,91 +2,452 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Burgers &amp; Bytes</title>
-    <link>https://dutchy365.github.io/blog/tags/</link>
+    <link>//aseURL:1313/tags/</link>
     <description>Recent content in Tags on Burgers &amp; Bytes</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dutchy365.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>collection</title>
-      <link>https://dutchy365.github.io/blog/tags/collection/</link>
-      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dutchy365.github.io/blog/tags/collection/</guid>
+      <title>Dataverse</title>
+      <link>//aseURL:1313/tags/dataverse/</link>
+      <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/dataverse/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>filtering gallery</title>
-      <link>https://dutchy365.github.io/blog/tags/filtering-gallery/</link>
-      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dutchy365.github.io/blog/tags/filtering-gallery/</guid>
+      <title>Plugin</title>
+      <link>//aseURL:1313/tags/plugin/</link>
+      <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/plugin/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>hubsites</title>
-      <link>https://dutchy365.github.io/blog/tags/hubsites/</link>
-      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dutchy365.github.io/blog/tags/hubsites/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>month year</title>
-      <link>https://dutchy365.github.io/blog/tags/month-year/</link>
-      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dutchy365.github.io/blog/tags/month-year/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Power Apps</title>
-      <link>https://dutchy365.github.io/blog/tags/power-apps/</link>
-      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dutchy365.github.io/blog/tags/power-apps/</guid>
+      <link>//aseURL:1313/tags/power-apps/</link>
+      <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/power-apps/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Hyperlink</title>
+      <link>//aseURL:1313/tags/hyperlink/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/hyperlink/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>//aseURL:1313/tags/markdown/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dynamic Forms</title>
+      <link>//aseURL:1313/tags/dynamic-forms/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/dynamic-forms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ParseJSON</title>
+      <link>//aseURL:1313/tags/parsejson/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/parsejson/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Collection</title>
+      <link>//aseURL:1313/tags/collection/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/collection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JSON Format</title>
+      <link>//aseURL:1313/tags/json-format/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/json-format/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Power Automate</title>
-      <link>https://dutchy365.github.io/blog/tags/power-automate/</link>
-      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dutchy365.github.io/blog/tags/power-automate/</guid>
+      <link>//aseURL:1313/tags/power-automate/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/power-automate/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Power Fx</title>
+      <link>//aseURL:1313/tags/power-fx/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/power-fx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Substitute</title>
+      <link>//aseURL:1313/tags/substitute/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/substitute/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Time Zones</title>
+      <link>//aseURL:1313/tags/time-zones/</link>
+      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/time-zones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Freeze Row and Column</title>
+      <link>//aseURL:1313/tags/freeze-row-and-column/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:02 +0000</pubDate>
+      <guid>//aseURL:1313/tags/freeze-row-and-column/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nested Gallery</title>
+      <link>//aseURL:1313/tags/nested-gallery/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:02 +0000</pubDate>
+      <guid>//aseURL:1313/tags/nested-gallery/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Center of Excellence</title>
+      <link>//aseURL:1313/tags/center-of-excellence/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/center-of-excellence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Governance</title>
+      <link>//aseURL:1313/tags/governance/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/governance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power Platform</title>
+      <link>//aseURL:1313/tags/power-platform/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/power-platform/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Filter</title>
+      <link>//aseURL:1313/tags/filter/</link>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/filter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Related Entities</title>
+      <link>//aseURL:1313/tags/related-entities/</link>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/related-entities/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>With Function</title>
+      <link>//aseURL:1313/tags/with-function/</link>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/with-function/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Allocation</title>
+      <link>//aseURL:1313/tags/allocation/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/allocation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power Apps Canvas</title>
+      <link>//aseURL:1313/tags/power-apps-canvas/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/power-apps-canvas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PowerFx</title>
+      <link>//aseURL:1313/tags/powerfx/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/powerfx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Timer</title>
+      <link>//aseURL:1313/tags/timer/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/timer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Announcement</title>
+      <link>//aseURL:1313/tags/announcement/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/announcement/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chat Message</title>
+      <link>//aseURL:1313/tags/chat-message/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/chat-message/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teams Provisioning</title>
+      <link>//aseURL:1313/tags/teams-provisioning/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/teams-provisioning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>//aseURL:1313/tags/javascript/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JQuery</title>
+      <link>//aseURL:1313/tags/jquery/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/jquery/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power Pages</title>
+      <link>//aseURL:1313/tags/power-pages/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/power-pages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rich Text Editor</title>
+      <link>//aseURL:1313/tags/rich-text-editor/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/rich-text-editor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RTE</title>
+      <link>//aseURL:1313/tags/rte/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/rte/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sanitize HTML</title>
+      <link>//aseURL:1313/tags/sanitize-html/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/sanitize-html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FetchXMl</title>
+      <link>//aseURL:1313/tags/fetchxml/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/fetchxml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Liquid</title>
+      <link>//aseURL:1313/tags/liquid/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/liquid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Progress Bar</title>
+      <link>//aseURL:1313/tags/progress-bar/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/progress-bar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Email</title>
+      <link>//aseURL:1313/tags/email/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/email/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Model Driven App</title>
+      <link>//aseURL:1313/tags/model-driven-app/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/model-driven-app/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Queue ID</title>
+      <link>//aseURL:1313/tags/queue-id/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/queue-id/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Column Formatting</title>
+      <link>//aseURL:1313/tags/column-formatting/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/column-formatting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lookup Column</title>
+      <link>//aseURL:1313/tags/lookup-column/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/lookup-column/</guid>
+      <description></description>
+    </item>
     <item>
       <title>SharePoint</title>
-      <link>https://dutchy365.github.io/blog/tags/sharepoint/</link>
-      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dutchy365.github.io/blog/tags/sharepoint/</guid>
+      <link>//aseURL:1313/tags/sharepoint/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/sharepoint/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>SharePoint List</title>
+      <link>//aseURL:1313/tags/sharepoint-list/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/sharepoint-list/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Page Freshness</title>
+      <link>//aseURL:1313/tags/page-freshness/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:03 +0000</pubDate>
+      <guid>//aseURL:1313/tags/page-freshness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power BI</title>
+      <link>//aseURL:1313/tags/power-bi/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:03 +0000</pubDate>
+      <guid>//aseURL:1313/tags/power-bi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>User Engagement</title>
+      <link>//aseURL:1313/tags/user-engagement/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:03 +0000</pubDate>
+      <guid>//aseURL:1313/tags/user-engagement/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>User Interaction</title>
+      <link>//aseURL:1313/tags/user-interaction/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:03 +0000</pubDate>
+      <guid>//aseURL:1313/tags/user-interaction/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ChatGPT</title>
+      <link>//aseURL:1313/tags/chatgpt/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:01 +0000</pubDate>
+      <guid>//aseURL:1313/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Naming Conventions</title>
+      <link>//aseURL:1313/tags/naming-conventions/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:01 +0000</pubDate>
+      <guid>//aseURL:1313/tags/naming-conventions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Powershell</title>
+      <link>//aseURL:1313/tags/powershell/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:01 +0000</pubDate>
+      <guid>//aseURL:1313/tags/powershell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Custom Connector</title>
+      <link>//aseURL:1313/tags/custom-connector/</link>
+      <pubDate>Tue, 15 Aug 2023 00:00:03 +0000</pubDate>
+      <guid>//aseURL:1313/tags/custom-connector/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dashboard</title>
+      <link>//aseURL:1313/tags/dashboard/</link>
+      <pubDate>Tue, 15 Aug 2023 00:00:03 +0000</pubDate>
+      <guid>//aseURL:1313/tags/dashboard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microsoft Forms</title>
+      <link>//aseURL:1313/tags/microsoft-forms/</link>
+      <pubDate>Tue, 15 Aug 2023 00:00:03 +0000</pubDate>
+      <guid>//aseURL:1313/tags/microsoft-forms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Poll</title>
+      <link>//aseURL:1313/tags/poll/</link>
+      <pubDate>Tue, 15 Aug 2023 00:00:03 +0000</pubDate>
+      <guid>//aseURL:1313/tags/poll/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SharePoint Intranet</title>
+      <link>//aseURL:1313/tags/sharepoint-intranet/</link>
+      <pubDate>Tue, 15 Aug 2023 00:00:03 +0000</pubDate>
+      <guid>//aseURL:1313/tags/sharepoint-intranet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API</title>
+      <link>//aseURL:1313/tags/api/</link>
+      <pubDate>Tue, 15 Aug 2023 00:00:01 +0000</pubDate>
+      <guid>//aseURL:1313/tags/api/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Approval</title>
-      <link>https://dutchy365.github.io/blog/tags/approval/</link>
-      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dutchy365.github.io/blog/tags/approval/</guid>
+      <link>//aseURL:1313/tags/approval/</link>
+      <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/approval/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>markdown</title>
-      <link>https://dutchy365.github.io/blog/tags/markdown/</link>
-      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dutchy365.github.io/blog/tags/markdown/</guid>
+      <title>Filtering Gallery</title>
+      <link>//aseURL:1313/tags/filtering-gallery/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/filtering-gallery/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Hubsites</title>
+      <link>//aseURL:1313/tags/hubsites/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/hubsites/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Month Year</title>
+      <link>//aseURL:1313/tags/month-year/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/month-year/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Communityrocks</title>
+      <link>//aseURL:1313/tags/communityrocks/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/communityrocks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conference</title>
+      <link>//aseURL:1313/tags/conference/</link>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/conference/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

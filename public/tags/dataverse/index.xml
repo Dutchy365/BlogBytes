@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dataverse on Burgers &amp; Bytes</title>
+    <link>//aseURL:1313/tags/dataverse/</link>
+    <description>Recent content in Dataverse on Burgers &amp; Bytes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/dataverse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerFx: Overcome time zone conversion error in Dataverse Formula column</title>
+      <link>//aseURL:1313/blog/20240502-dataverseformuladate/</link>
+      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20240502-dataverseformuladate/</guid>
+      <description>Scenario In a Dataverse table you have a date column of which you want to extract the Year, Month, Day or Weekday using a Formula column. While doing this the following error appears: &amp;ldquo;cannot be performed on this input without a time zone conversion, which is not supported in formula columns.&amp;rdquo;&#xA;Solution Go to the created Date column and check the &amp;lsquo;Time zone adjustment&amp;rsquo;. It&amp;rsquo;s probably set to &amp;lsquo;User local&amp;rsquo;. Switch the Time zone adjustment (Advanced options) to &amp;lsquo;Time zone independent&amp;rsquo; or &amp;lsquo;Date only&amp;rsquo;.</description>
+    </item>
+    <item>
+      <title>Custom progress bar in Power Pages</title>
+      <link>//aseURL:1313/blog/20240103-progressbarpowerpages/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20240103-progressbarpowerpages/</guid>
+      <description>A progress bar visually communicates the completion status of a process. In a Model Driven App there is the Business Process Flow, in Power Pages there is no default component to visualize this. It is crucial for the progress bar to be flexibility and use the data stored in Dataverse and ensuring readiness for the addition of any extra status in the process without constraints.&#xA;Challenge accepted 💪!&#xA;Scenario In this scenario, an application Power Pages site is designed for individual contacts, where each contact can have only one associated application.</description>
+    </item>
+  </channel>
+</rss>

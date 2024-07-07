@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sanitize HTML on Burgers &amp; Bytes</title>
+    <link>//aseURL:1313/tags/sanitize-html/</link>
+    <description>Recent content in Sanitize HTML on Burgers &amp; Bytes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/sanitize-html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rich text columns and Power Pages list view: HTML sanitization</title>
+      <link>//aseURL:1313/blog/20240129-powerpagesrichtextlistview/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20240129-powerpagesrichtextlistview/</guid>
+      <description>Working with a Rich Text column can be tricky. In a Model Driven App, handling Rich Text columns is easy. In a view the text is shown as plain text; simple and readable. In the Power Pages list view, it&amp;rsquo;s not great. It ends up showing messy raw HTML instead of the neat content.&#xA;The view of the list in Model Driven App: The description column is a rich text column in which formatting is applied.</description>
+    </item>
+  </channel>
+</rss>

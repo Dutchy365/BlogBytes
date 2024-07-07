@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="http://www.burgersandbytes.nl" rel="canonical" />
+
+  <link rel="icon" href="favicon.png">
+
+  <title>
+  Microsoft Forms API - Burgers &amp; Bytes
+  </title>
+  <meta name="description" content="Different question types require different request body" />
+  <meta name="keywords" content="Power Automate,custom connector,Microsoft Forms" />
+  <meta name="generator" content="Hugo 0.128.2">
+  <link rel="stylesheet" href="/css/styles.css" />
+  
+  
+
+  <meta property="og:title" content="Microsoft Forms API" />
+<meta property="og:description" content="Different question types require different request body" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//aseURL:1313/page/msformapi/" /><meta property="article:section" content="page" />
+<meta property="article:published_time" content="2023-08-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-08-02T00:00:00+00:00" />
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Microsoft Forms API">
+  <meta name="twitter:description" content="Different question types require different request body">
+
+  
+  <meta itemprop="name" content="Microsoft Forms API">
+  <meta itemprop="description" content="Different question types require different request body">
+  <meta itemprop="datePublished" content="2023-08-02T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-08-02T00:00:00+00:00">
+  <meta itemprop="wordCount" content="416">
+  <meta itemprop="keywords" content="Power Automate,custom connector,Microsoft Forms">
+
+ 
+
+  
+
+  
+</head>
+<body class="dark:bg-gray-800 dark:text-white relative flex flex-col min-h-screen"><header class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto relative">
+  <a href="//aseURL:1313/" class="capitalize font-extrabold text-2xl">
+    
+    <img src="/logo.png" alt="Burgers &amp; Bytes" class="max-w-full" style="height:75px" />
+    
+  </a>
+  <button class="mobile-menu-button md:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <line x1="4" y1="8" x2="20" y2="8" />
+      <line x1="4" y1="16" x2="20" y2="16" />
+    </svg>
+  </button>
+  <ul class="mobile-menu absolute z-10 px-6 pb-6 md:p-0 top-full left-0 w-full md:w-auto md:relative hidden md:flex flex-col md:flex-row items-end md:items-center gap-4 lg:gap-6 bg-white dark:bg-gray-800">
+
+    
+    <li><a href="/">Home</a></li>
+    
+    <li><a href="/blog/">Blog</a></li>
+    
+    <li><a href="/page/about/">About</a></li>
+    
+
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="open-search inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="10" cy="10" r="7" />
+          <line x1="21" y1="21" x2="15" y2="15" />
+        </svg>
+      </span>
+    </li>
+    
+
+    
+  </ul>
+</header>
+<main class="flex-1">
+  
+  
+
+  
+  
+    <div class="relative max-w-xl mx-auto px-4">
+    <img src="/images/MSForms/Part1-CustomConnector/2-Payload.png" class="rounded-lg shadow-sm w-full object-contain" />
+    
+  </div>
+  
+
+  <article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+
+    <h1 class="text-2xl font-bold mb-2">Microsoft Forms API</h1>
+    
+
+    <details id="TableOfContents" class="px-4 mt-4 bg-gray-100 dark:bg-gray-700 rounded toc">
+    <summary class="flex items-center font-bold py-2 px-4 cursor-pointer justify-between select-none text-black dark:text-white">
+      <span>Table of contents</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <polyline points="6 9 12 15 18 9"></polyline>
+     </svg>
+    </summary>
+
+    <ul class="mt-2 pb-4">
+        
+
+        
+        <li>
+        <a href="#body-content">Body content</a>
+        
+
+        
+        <ul>
+            <li>
+        <a href="#parameter-type">Parameter type</a>
+        
+
+        
+        <ul>
+            <li>
+        <a href="#choice">Choice</a>
+        
+
+        
+        </li><li>
+        <a href="#text">Text</a>
+        
+
+        
+        </li><li>
+        <a href="#rating">Rating</a>
+        
+
+        
+        </li><li>
+        <a href="#date">Date</a>
+        
+
+        
+        </li><li>
+        <a href="#upload-file">Upload File</a>
+        
+
+        
+        </li><li>
+        <a href="#net-promoter-score">Net Promoter Score</a>
+        
+
+        
+        </li></ul>
+      </li></ul>
+      </li><li>
+        <a href="#extra-api-calls-needed-for-ranking-and-likert">Extra API calls needed for Ranking and Likert</a>
+        
+
+        
+        <ul>
+            <ul>
+            <li>
+        <a href="#ranking">Ranking</a>
+        
+
+        
+        </li></ul>
+          <li>
+        <a href="#likert">Likert</a>
+        </li></ul>
+    </li></ul>
+  </details>
+
+    <p>Every question type has is own setup of the body content.</p>
+<h2 id="body-content">Body content</h2>
+<p>The payload of the different question types all have the same parameters:</p>
+<ul>
+<li>questionInfo</li>
+<li>type</li>
+<li>title</li>
+<li>id</li>
+<li>order</li>
+<li>isQuiz</li>
+<li>required</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;questionInfo&#34;</span>: <span style="color:#f1fa8c">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;type&#34;</span>: <span style="color:#f1fa8c">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;title&#34;</span>: <span style="color:#f1fa8c">&#34;Question&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;id&#34;</span>: <span style="color:#f1fa8c">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;order&#34;</span>: <span style="color:#bd93f9">4000500</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;isQuiz&#34;</span>: <span style="color:#ff79c6">false</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;required&#34;</span>: <span style="color:#ff79c6">false</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="parameter-type">Parameter type</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Question</th>
+<th style="text-align:left">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Choice</td>
+<td style="text-align:left">Question.Choice</td>
+</tr>
+<tr>
+<td style="text-align:left">Text</td>
+<td style="text-align:left">Question.TextField</td>
+</tr>
+<tr>
+<td style="text-align:left">Rating</td>
+<td style="text-align:left">Question.Rating</td>
+</tr>
+<tr>
+<td style="text-align:left">Date</td>
+<td style="text-align:left">Question.DateTime</td>
+</tr>
+<tr>
+<td style="text-align:left">Ranking</td>
+<td style="text-align:left">Question.Ranking</td>
+</tr>
+<tr>
+<td style="text-align:left">Likert</td>
+<td style="text-align:left">Question.Matrix</td>
+</tr>
+<tr>
+<td style="text-align:left">Upload File</td>
+<td style="text-align:left">Question.FileUpload</td>
+</tr>
+<tr>
+<td style="text-align:left">Net Promoter Score</td>
+<td style="text-align:left">Question.NPS</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Parameter title</strong></p>
+<p>The title is quite an easy parameter, it just needs to contain the text for the actual question.</p>
+<p><strong>Parameter id</strong></p>
+<p>The parameter id is a random number starting with <code>r</code>.
+In Power Automate you can use this expression to populate id:
+<code>concat('r',string(rand(10000,999999)))</code></p>
+<p><strong>Parameter order</strong></p>
+<p>This contains the order of the questions.</p>
+<p><strong>Parameter isQuiz</strong></p>
+<p>This parameter is available for each question on a Form, while it&rsquo;s based on the Form you created.</p>
+<p><strong>Parameter required</strong></p>
+<p>This parameter determines if the question is required to answer or not. Just set true or false value.</p>
+<p><strong>Parameter questionInfo</strong></p>
+<p>This parameter is the most important and most challenging for all the question types.
+In this parameter the content value for the question needs to be set.</p>
+<h4 id="choice">Choice</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;questionInfo&#34;</span>: <span style="color:#f1fa8c">&#34;{\&#34;Choices\&#34;:[{\&#34;Description\&#34;:\&#34;Option 1\&#34;,\&#34;IsGenerated\&#34;:true},{\&#34;Description\&#34;:\&#34;Option 2\&#34;,\&#34;IsGenerated\&#34;:true}],\&#34;ChoiceType\&#34;:1,\&#34;AllowOtherAnswer\&#34;:false,\&#34;OptionDisplayStyle\&#34;:\&#34;ListAll\&#34;,\&#34;ChoiceRestrictionType\&#34;:\&#34;None\&#34;,\&#34;ShowRatingLabel\&#34;:false}&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;type&#34;</span>: <span style="color:#f1fa8c">&#34;Question.Choice&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;title&#34;</span>: <span style="color:#f1fa8c">&#34;Question&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;id&#34;</span>: <span style="color:#f1fa8c">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;order&#34;</span>: <span style="color:#bd93f9">4000500</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;isQuiz&#34;</span>: <span style="color:#ff79c6">false</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;required&#34;</span>: <span style="color:#ff79c6">false</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="text">Text</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;questionInfo&#34;</span>: <span style="color:#f1fa8c">&#34;{\&#34;Multiline\&#34;:false,\&#34;ShowRatingLabel\&#34;:false}&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;type&#34;</span>: <span style="color:#f1fa8c">&#34;Question.TextField&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;title&#34;</span>: <span style="color:#f1fa8c">&#34;Question&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;id&#34;</span>: <span style="color:#f1fa8c">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;order&#34;</span>: <span style="color:#bd93f9">5000500</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;isQuiz&#34;</span>: <span style="color:#ff79c6">false</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;required&#34;</span>: <span style="color:#ff79c6">false</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="rating">Rating</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;questionInfo&#34;</span>: <span style="color:#f1fa8c">&#34;{\&#34;Length\&#34;:5,\&#34;RatingShape\&#34;:\&#34;Star\&#34;,\&#34;LeftDescription\&#34;:\&#34;\&#34;,\&#34;RightDescription\&#34;:\&#34;\&#34;,\&#34;MinRating\&#34;:1,\&#34;ShuffleOptions\&#34;:false,\&#34;ShowRatingLabel\&#34;:false,\&#34;IsMathQuiz\&#34;:false}&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;type&#34;</span>: <span style="color:#f1fa8c">&#34;Question.Rating&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;title&#34;</span>: <span style="color:#f1fa8c">&#34;Question&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;id&#34;</span>: <span style="color:#f1fa8c">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;order&#34;</span>: <span style="color:#bd93f9">6000500</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;isQuiz&#34;</span>: <span style="color:#ff79c6">false</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;required&#34;</span>: <span style="color:#ff79c6">false</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="date">Date</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;questionInfo&#34;</span>: <span style="color:#f1fa8c">&#34;{\&#34;Date\&#34;:true,\&#34;Time\&#34;:false,\&#34;ShuffleOptions\&#34;:false,\&#34;ShowRatingLabel\&#34;:false,\&#34;IsMathQuiz\&#34;:false}&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;type&#34;</span>: <span style="color:#f1fa8c">&#34;Question.DateTime&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;title&#34;</span>: <span style="color:#f1fa8c">&#34;Question&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;id&#34;</span>: <span style="color:#f1fa8c">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;order&#34;</span>: <span style="color:#bd93f9">7000500</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;isQuiz&#34;</span>: <span style="color:#ff79c6">false</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;required&#34;</span>: <span style="color:#ff79c6">false</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="upload-file">Upload File</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;questionInfo&#34;</span>: <span style="color:#f1fa8c">&#34;{\&#34;HasSpecificFileType\&#34;:false,\&#34;FileTypes\&#34;:{\&#34;Word\&#34;:true,\&#34;Excel\&#34;:true,\&#34;PowerPoint\&#34;:true,\&#34;PDF\&#34;:true,\&#34;Image\&#34;:true,\&#34;Video\&#34;:true,\&#34;Audio\&#34;:true},\&#34;MaxFileCount\&#34;:1,\&#34;MaxFileSize\&#34;:10,\&#34;ShuffleOptions\&#34;:false,\&#34;ShowRatingLabel\&#34;:false,\&#34;IsMathQuiz\&#34;:false}&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;type&#34;</span>: <span style="color:#f1fa8c">&#34;Question.FileUpload&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;title&#34;</span>: <span style="color:#f1fa8c">&#34;Question&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;id&#34;</span>: <span style="color:#f1fa8c">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;order&#34;</span>: <span style="color:#bd93f9">16000500</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;isQuiz&#34;</span>: <span style="color:#ff79c6">false</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;required&#34;</span>: <span style="color:#ff79c6">false</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="net-promoter-score">Net Promoter Score</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;questionInfo&#34;</span>: <span style="color:#f1fa8c">&#34;{\&#34;LeftDescription\&#34;:\&#34;Not at all likely\&#34;,\&#34;RightDescription\&#34;:\&#34;Extremely likely\&#34;,\&#34;ShuffleOptions\&#34;:false,\&#34;ShowRatingLabel\&#34;:false,\&#34;IsMathQuiz\&#34;:false}&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;type&#34;</span>: <span style="color:#f1fa8c">&#34;Question.NPS&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;title&#34;</span>: <span style="color:#f1fa8c">&#34;How likely are you to recommend us to a friend or colleague?&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;id&#34;</span>: <span style="color:#f1fa8c">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;order&#34;</span>: <span style="color:#bd93f9">17000500</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;isQuiz&#34;</span>: <span style="color:#ff79c6">false</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;required&#34;</span>: <span style="color:#ff79c6">false</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="extra-api-calls-needed-for-ranking-and-likert">Extra API calls needed for Ranking and Likert</h2>
+<p>The first four question types are easy to had with one API call to the Form.
+The Ranking, Likert, Upload File and Net Promoter Score are more challenging; not only to POST the question, but choices as well.</p>
+<p><code>https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/questions('QuestiondID')/choices</code></p>
+<h4 id="ranking">Ranking</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;questionInfo&#34;</span>: <span style="color:#f1fa8c">&#34;{\&#34;ShuffleOptions\&#34;:false,\&#34;ShowRatingLabel\&#34;:false,\&#34;IsMathQuiz\&#34;:false}&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;type&#34;</span>: <span style="color:#f1fa8c">&#34;Question.Ranking&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;title&#34;</span>: <span style="color:#f1fa8c">&#34;Question&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;allowMultipleValues&#34;</span>: <span style="color:#ff79c6">true</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;id&#34;</span>: <span style="color:#f1fa8c">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;order&#34;</span>: <span style="color:#bd93f9">9000500</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;isQuiz&#34;</span>: <span style="color:#ff79c6">false</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;required&#34;</span>: <span style="color:#ff79c6">false</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Body to POST new answer option:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{<span style="color:#ff79c6">&#34;customProperties&#34;</span>:<span style="color:#f1fa8c">&#34;{\&#34;IsGenerated\&#34;:true}&#34;</span>,<span style="color:#ff79c6">&#34;displayText&#34;</span>:<span style="color:#f1fa8c">&#34;Option 2&#34;</span>,<span style="color:#ff79c6">&#34;key&#34;</span>:<span style="color:#f1fa8c">&#34;87bc49ca-21aa-42ce-89bc-07296e64476b&#34;</span>,<span style="color:#ff79c6">&#34;order&#34;</span>:<span style="color:#bd93f9">2</span>}
+</span></span></code></pre></div><h3 id="likert">Likert</h3>
+<p>Body to POST the question:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;type&#34;</span>: <span style="color:#f1fa8c">&#34;Question.MatrixChoice&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;title&#34;</span>: <span style="color:#f1fa8c">&#34;Statement 2&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;id&#34;</span>: <span style="color:#f1fa8c">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;order&#34;</span>: <span style="color:#bd93f9">15000500</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&#34;groupId&#34;</span>: <span style="color:#f1fa8c">&#34;r3a99df2e5d934b28adbe3ad6580be2fe&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Body to POST new answer option:</p>
+<pre tabindex="0"><code>{&#34;customProperties&#34;:&#34;{\&#34;IsGenerated\&#34;:true}&#34;,&#34;order&#34;:4,&#34;displayText&#34;:&#34;Option 4&#34;,&#34;description&#34;:null,&#34;key&#34;:&#34;0d6772a8-ae78-4515-a3af-4233d2c46d45&#34;}
+</code></pre>
+  </article>
+
+  
+<div style="background: #92400E;">
+  <div class="container px-4 py-12 mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    <div>
+      <div class="text-3xl font-bold mb-2">Empowering productivity - one blog at a time!</div>
+      <p class="opacity-60"></p>
+    </div>
+
+    <ul class="flex justify-center gap-x-3 flex-wrap gap-y-2">
+      
+
+      
+      <li>
+        <a href="https://twitter.com/elianne_tweets" target="_blank" rel="noopener" aria-label="Twitter"
+          class="p-1 inline-block rounded-full border border-transparent hover:border-black cursor-pointer transition-colors dark:hover:border-black">
+
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1668.56 1221.19" width="24" height="24"
+            stroke-width="1.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M283.94,167.31l386.39,516.64L281.5,1104h87.51l340.42-367.76L984.48,1104h297.8L874.15,558.3l361.92-390.99
+  h-87.51l-313.51,338.7l-253.31-338.7H283.94z M412.63,231.77h136.81l604.13,807.76h-136.81L412.63,231.77z" />
+
+          </svg>
+        </a>
+      </li>
+      
+
+      
+
+      
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li>
+        <a href="https://nl.linkedin.com/in/elianne-b-48946864" target="_blank" rel="noopener" aria-label="LinkedIn"
+          class="p-1 inline-block rounded-full border border-transparent hover:border-black cursor-pointer transition-colors dark:hover:border-black">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="4" y="4" width="16" height="16" rx="2" />
+            <line x1="8" y1="11" x2="8" y2="16" />
+            <line x1="8" y1="8" x2="8" y2="8.01" />
+            <line x1="12" y1="16" x2="12" y2="11" />
+            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+          </svg>
+        </a>
+      </li>
+      
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+      
+      <li>
+        <a href="https://www.burgersandbytes.nl/index.xml" target="_blank" rel="noopener" aria-label="rss"
+          class="p-1 inline-block rounded-full border border-transparent hover:border-black cursor-pointer transition-colors dark:hover:border-black">
+
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="-125 -100 712 712" width="24" height="24"
+          stroke-width="1.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M108.56,342.78a60.34,60.34,0,1,0,60.56,60.44A60.63,60.63,0,0,0,108.56,342.78Z"/>
+<path d="M48,186.67v86.55c52,0,101.94,15.39,138.67,52.11s52,86.56,52,138.67h86.66C325.33,312.44,199.67,186.67,48,186.67Z"/>
+<path d="M48,48v86.56c185.25,0,329.22,144.08,329.22,329.44H464C464,234.66,277.67,48,48,48Z"/>
+        </svg>
+
+        
+
+
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    </ul>
+  </div>
+</div>
+    </main><footer class="container p-6 mx-auto flex justify-between items-center">
+  <span class="text-sm font-light">
+    
+    Copyright © 2024 - Elianne Burgers · All rights reserved
+    
+  </span>
+  <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5"
+      stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M18 15l-6 -6l-6 6h12"  />
+    </svg>
+  </span>
+</footer>
+
+<div class="search-ui absolute top-0 left-0 w-full h-full bg-white dark:bg-gray-800 hidden">
+  <div class="container max-w-3xl mx-auto p-12">
+    <div class="relative">
+      <div class="my-4 text-center text-2xl font-bold">Search</div>
+
+      <span class="p-2 absolute right-0 top-0 cursor-pointer close-search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </span>
+    </div>
+
+    <input type="search" class="py-2 px-3 w-full dark:text-black border dark:border-transparent"
+      placeholder="Enter search query" />
+
+    <div class="search-results text-lg font-medium my-4 hidden">Results</div>
+    <ul class="search-list my-2">
+
+    </ul>
+
+    <div class="no-results text-center my-8 hidden">
+      <div class="text-xl font-semibold mb-2">No results found</div>
+      <p class="font-light text-sm">Try adjusting your search query</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="//aseURL:1313/js/scripts.min.js"></script>
+
+
+  
+
+
+
+
+
+
+
+<script>
+  const mobileMenuButton = document.querySelector('.mobile-menu-button')
+  const mobileMenu = document.querySelector('.mobile-menu')
+  function toggleMenu() {
+    mobileMenu.classList.toggle('hidden');
+    mobileMenu.classList.toggle('flex');
+  }
+  if(mobileMenu && mobileMenuButton){
+    mobileMenuButton.addEventListener('click', toggleMenu)
+  }
+</script>
+</body>
+</html>

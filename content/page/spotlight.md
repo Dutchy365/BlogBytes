@@ -13,6 +13,9 @@ Below a list of my recent and upcoming events:
 * **2024-12-05  <span style="color: #92400e;">- ESPC24 Stockholm - Validation of Naming Conventions in Power Apps (together with Albert-Jan Schot)**</span></br>
 A session regarding automation of naming convention validation for Canvas Power Apps with PowerShell & Power Platform CLI, enhancing collaboration & error prevention in Azure DevOps pipelines.
 
+* **2024-10-19 <span style="color: #92400e;">- CollabDays Belgium - Building a dynamic data review system using Power Platform capabilities**</span></br>
+An inspiring session in which attendees will get solid understanding of how to make it possible to create a flexible data review system using only out-of-the-box functionalities within the Power Platform.
+
 * **2024-06-06 <span style="color: #92400e;">- Seminar organized by Microsoft and Surf - Proving the value of the Power Platform in a Proof of Value, lessons learned from the past year**</span></br>
 Seminar is part of [Microsoft Innovation and Inspiration  Program.](https://pulse.microsoft.com/nl-nl/microsoft-innovation-inspiration-program/)
 An inspiring session in which lessons learned are shared about implementing Power Platform solutions at an educational institute.

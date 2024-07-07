@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SharePoint List on Burgers &amp; Bytes</title>
+    <link>//aseURL:1313/tags/sharepoint-list/</link>
+    <description>Recent content in SharePoint List on Burgers &amp; Bytes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/sharepoint-list/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SharePoint column formatting: lookup column and special characters (% and #)</title>
+      <link>//aseURL:1313/blog/20231120-sharepointcolumnformattingspecialcharacters/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20231120-sharepointcolumnformattingspecialcharacters/</guid>
+      <description>The capabilities of SharePoint regarding column and view formatting can enhance the usability of both SharePoint libraries and list. In this blog the explanation using a lookup column and the challenging part regarding the use of special characters.&#xA;Scenario The SharePoint list has a lookup column to a document library, so a link between the list item and associated document can be made. At first glance, this looked fine:&#xA;However when you clicked on the file link, the file didn’t open, but navigated to the display form of the library item instead.</description>
+    </item>
+  </channel>
+</rss>

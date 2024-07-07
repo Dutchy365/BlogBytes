@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plugin on Burgers &amp; Bytes</title>
+    <link>//aseURL:1313/tags/plugin/</link>
+    <description>Recent content in Plugin on Burgers &amp; Bytes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/plugin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automated Dataverse low-code plugin</title>
+      <link>//aseURL:1313/blog/20240707-dataverselowcodeplugin/</link>
+      <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20240707-dataverselowcodeplugin/</guid>
+      <description>Side note: while writing this blog Dataverse low-code plugins are still in preview.&#xA;Scenario This blog is based on a real-life business scenario in which there are multiple meeting rooms for which the CO2 value is gathered throughout the day. Those values tell something about the presence of people in the room. Combining these data with the meeting reservations of the room says something about the occupation of the room.</description>
+    </item>
+  </channel>
+</rss>

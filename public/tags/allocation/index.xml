@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Allocation on Burgers &amp; Bytes</title>
+    <link>//aseURL:1313/tags/allocation/</link>
+    <description>Recent content in Allocation on Burgers &amp; Bytes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/allocation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamically allocate budget to different timeunits using PowerFx</title>
+      <link>//aseURL:1313/blog/20240228allocatebudgetperiodicallypowerfx/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20240228allocatebudgetperiodicallypowerfx/</guid>
+      <description>In this blog a budget allocation formula is introduced to deal with amounts of data of different time periods. Budgets could be daily, monthly or quarterly while registering it once. This creates a mismatch while creating a report.&#xA;The budget allocation calculation discussed in this blog allows you to solve this mismatch and it also enables you to easily switch between different time contexts.&#xA;End result The final outcome comprises a form where users can input details and perform calculations for various time units.</description>
+    </item>
+  </channel>
+</rss>
