@@ -64,7 +64,7 @@ Collect(MeetingPresences, {
 The formula Collect(MeetingPresences, {...}) adds a new record to the MeetingPresences table. For each new meeting, it captures the Location, Start Date, and End Date. It also checks if there is any sensor data indicating presence (PresenceValue = 1) within the meeting's time range (RecordedTime between Startdate and Enddate) and at the specified Location. If such data is found, the Presence field is set to "Yes"; otherwise, it is set to "No".
 
 
-### Meeting presence
+**Meeting presence**
 In the meeting presence table the column Color is of type formula. Based on the presence value the color value is populated: `If(Presence="Yes", "#299D8F", "#B7353B")`  
 
 

@@ -183,14 +183,7 @@
         
 
         
-        <ul>
-            <li>
-        <a href="#meeting-presence">Meeting presence</a>
-        
-
-        
-        </li></ul>
-      </li><li>
+        </li><li>
         <a href="#power-app">Power App</a>
         
 
@@ -236,8 +229,8 @@ In this scenario it will be an automated one. As soon as a meeting is added into
     }
 )
 </code></pre><p>The formula Collect(MeetingPresences, {&hellip;}) adds a new record to the MeetingPresences table. For each new meeting, it captures the Location, Start Date, and End Date. It also checks if there is any sensor data indicating presence (PresenceValue = 1) within the meeting&rsquo;s time range (RecordedTime between Startdate and Enddate) and at the specified Location. If such data is found, the Presence field is set to &ldquo;Yes&rdquo;; otherwise, it is set to &ldquo;No&rdquo;.</p>
-<h3 id="meeting-presence">Meeting presence</h3>
-<p>In the meeting presence table the column Color is of type formula. Based on the presence value the color value is populated: <code>If(Presence=&quot;Yes&quot;, &quot;#299D8F&quot;, &quot;#B7353B&quot;)</code></p>
+<p><strong>Meeting presence</strong>
+In the meeting presence table the column Color is of type formula. Based on the presence value the color value is populated: <code>If(Presence=&quot;Yes&quot;, &quot;#299D8F&quot;, &quot;#B7353B&quot;)</code></p>
 <h2 id="power-app">Power App</h2>
 <p><img src="/images/20240707DataversePlugin/appelements.png" alt="App elements"></p>
 <p>In the app only the records of meeting presence table are needed.
