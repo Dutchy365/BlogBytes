@@ -7,7 +7,7 @@ tags:
   - Power Apps
   - Dataverse
   - Plugin
-thumbnail: /images/20240707Dataverseplugin/00Dataverseplugin.png
+thumbnail: /images/20240707DataversePlugin/00Dataverseplugin.png
 preview: /00Dataverseplugin.png
 images: 
 - /00Dataverseplugin.png
