@@ -2,7 +2,7 @@
 author: ""
 title: "Automated Dataverse low-code plugin"
 date: 2024-07-07
-description: How a dataverse low-code plugin supports 
+description: How using dataverse low-code plugin helped by offloading logic process resulted in a substantial performance improvement.
 tags:
   - Power Apps
   - Dataverse
