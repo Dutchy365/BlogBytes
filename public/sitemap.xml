@@ -2,11 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//aseURL:1313/tags/automated/</loc>
+    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/blog/20240712-automatelowcodeplugindataverse/</loc>
+    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//aseURL:1313/blog/</loc>
-    <lastmod>2024-07-19T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/</loc>
-    <lastmod>2024-07-19T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/dataverse/</loc>
+    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/plugin/</loc>
+    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/power-apps/</loc>
+    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/</loc>
+    <lastmod>2024-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/blog/20240707-dataverselowcodeplugin/</loc>
+    <lastmod>2024-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/blog/20240619-markdownhyperlinktohtml/</loc>
     <lastmod>2024-06-19T00:00:00+00:00</lastmod>
@@ -15,12 +36,6 @@
     <lastmod>2024-06-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/markdown/</loc>
-    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/power-apps/</loc>
-    <lastmod>2024-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/</loc>
     <lastmod>2024-06-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/dynamic-forms/</loc>
@@ -49,9 +64,6 @@
   </url><url>
     <loc>//aseURL:1313/tags/substitute/</loc>
     <lastmod>2024-05-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/dataverse/</loc>
-    <lastmod>2024-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/blog/20240502-dataverseformuladate/</loc>
     <lastmod>2024-05-02T00:00:00+00:00</lastmod>

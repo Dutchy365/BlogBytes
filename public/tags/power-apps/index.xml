@@ -6,8 +6,22 @@
     <description>Recent content in Power Apps on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/tags/power-apps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automated plugin: different triggers with different actions</title>
+      <link>//aseURL:1313/blog/20240712-automatelowcodeplugindataverse/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20240712-automatelowcodeplugindataverse/</guid>
+      <description>Side note: while writing this blog Dataverse low-code plugins are still in preview.&#xA;In the Dataverse Accelarator app you get the opportunity to create plug-ins. This blogs focus on the possibilities of automated plug-ins.&#xA;After selecting a table, you can choose different types of triggers: when a row is created, updated or deleted. To get information about existing records you can&amp;rsquo;t use ThisItem or ThisRecord and Set has a different behavior compared to Power Apps Canvas.</description>
+    </item>
+    <item>
+      <title>Automated Dataverse low-code plugin</title>
+      <link>//aseURL:1313/blog/20240707-dataverselowcodeplugin/</link>
+      <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20240707-dataverselowcodeplugin/</guid>
+      <description>Side note: while writing this blog Dataverse low-code plugins are still in preview.&#xA;Scenario This blog explores a real-world business scenario involving multiple meeting rooms where CO₂ levels are monitored throughout the day. These measurements indicate the presence of people in the rooms. By correlating this data with the meeting room reservations, we can infer the room occupancy.&#xA;End result The end result is a Power App in which a calender view is available in which you can see whether a meetingroom was occupied during the meeting or not.</description>
+    </item>
     <item>
       <title>From Markdown syntax hyperlink to HTML link</title>
       <link>//aseURL:1313/blog/20240619-markdownhyperlinktohtml/</link>

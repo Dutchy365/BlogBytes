@@ -1,6 +1,7 @@
 {
   "htmlElements": {
     "tags": [
+      "=",
       "a",
       "article",
       "blockquote",
@@ -302,7 +303,6 @@
       "magic-in-the-patch-formula",
       "match-column-values",
       "matchall-and-regular-expression",
-      "meeting-presence",
       "microsoft-forms-api",
       "multiple-links-as-input",
       "needed-http-requests",
@@ -313,6 +313,7 @@
       "output",
       "parameter-type",
       "patch",
+      "populate-column-in-newly-created-row",
       "power-app",
       "power-automate-actions",
       "powerfx",
@@ -360,8 +361,13 @@
       "transform-results-into-json",
       "transpose-data-using-json",
       "trigger",
+      "trigger-deleted",
+      "trigger-deleted---oldrecord",
+      "update-boolean-column",
       "update-sharepoint-list-with-question-id",
+      "update-text-column",
       "upload-file",
+      "use-data-to-populate-other-table",
       "user-input",
       "variable",
       "visualize-data",

@@ -13,7 +13,7 @@ images:
 - /00Dataverseplugin.png
 ---
 
-Side note: while writing this blog Dataverse low-code plugins are still in preview. 
+*Side note: while writing this blog Dataverse low-code plugins are still in preview.*
 
 ## Scenario
 This blog explores a real-world business scenario involving multiple meeting rooms where CO₂ levels are monitored throughout the day. These measurements indicate the presence of people in the rooms. By correlating this data with the meeting room reservations, we can infer the room occupancy.
