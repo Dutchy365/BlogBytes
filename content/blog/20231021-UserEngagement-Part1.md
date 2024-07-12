@@ -18,9 +18,9 @@ Measuring user engagement is crucial for any SharePoint-based intranet to ensure
 
 In the first part of this blog serie, we will explore how to use the Power Platform to measure user engagement even more deeply using KPI's regarding user engagement.
 
-[Part 2](/BlogBytes/blog/20231021-userengagement-part2) of this blog serie will cover the KPI regarding page freshness. 
+[Part 2](/blog/20231021-userengagement-part2) of this blog serie will cover the KPI regarding page freshness. 
 
-[Part 3](/BlogBytes/blog//20231021-userengagement-part3) will cover how to visualize the collected data in Power BI to gain insights into user behavior and engagement patterns. We will walk through the creation of a dashboard that displays the engagement metrics in a clear and concise manner, allowing intranet administrators to quickly assess the intranet's effectiveness and identify areas for improvement.
+[Part 3](/blog//20231021-userengagement-part3) will cover how to visualize the collected data in Power BI to gain insights into user behavior and engagement patterns. We will walk through the creation of a dashboard that displays the engagement metrics in a clear and concise manner, allowing intranet administrators to quickly assess the intranet's effectiveness and identify areas for improvement.
 
 ## Step by step
 ### Trigger
