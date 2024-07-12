@@ -1,7 +1,7 @@
 ---
 author: ""
 title: "Automated plugin: different triggers with different actions"
-date: 2024-07-08
+date: 2024-07-12
 description: Dataverse low-code plugin collect, set and patch using different triggers
 tags:
   - Power Apps
