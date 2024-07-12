@@ -49,7 +49,7 @@ Collect(MeetingPresences, {
 
 Using 'Patch' instead of 'Collect' will give an error while adding a new row in the table: "There was an error in saving this record. Not implemented: Patch single record is invalid for tables/records with no primary key."
 
-For more details, check the [full blog about populating a new row in a different table](/blog/20240707-DataverseLowCodePlugin)
+For more details, check the [full blog about populating a new row in a different table](/blog/20240707-dataverselowcodeplugin)
 
 ## Populate column in newly created row
 To update a value in the newly created row, you can use `Set`. 
