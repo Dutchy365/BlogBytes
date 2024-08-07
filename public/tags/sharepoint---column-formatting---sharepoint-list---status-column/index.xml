@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SharePoint - Column Formatting - SharePoint List - Status Column on Burgers &amp; Bytes</title>
+    <link>//aseURL:1313/tags/sharepoint---column-formatting---sharepoint-list---status-column/</link>
+    <description>Recent content in SharePoint - Column Formatting - SharePoint List - Status Column on Burgers &amp; Bytes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/sharepoint---column-formatting---sharepoint-list---status-column/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SharePoint column formatting: visualize status cards</title>
+      <link>//aseURL:1313/blog/20240807-sharepointcolumnformattingcards/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20240807-sharepointcolumnformattingcards/</guid>
+      <description>A visually appealing presentation helps in swiftly and clearly grasping information at a glance. Users can capture a lot of information in SharePoint, where you can stick to just capturing it, but by taking a moment to consider the possibilities of view, row and column formatting, users can realize significant benefits.&#xA;One common data element frequently recorded in a column is the &amp;ldquo;status&amp;rdquo;. By using the standard column formatting nowadays you can easily assign a different color to each status:</description>
+    </item>
+  </channel>
+</rss>
