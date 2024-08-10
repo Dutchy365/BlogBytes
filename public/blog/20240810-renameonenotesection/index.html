@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="http://www.burgersandbytes.nl" rel="canonical" />
+
+  <link rel="icon" href="favicon.png">
+
+  <title>
+  Rename OneNote Sections based using Powershell - Burgers &amp; Bytes
+  </title>
+  <meta name="description" content="Update OneNote section displayname based on a renamed Microsoft Teams Channel" /><meta name="generator" content="Hugo 0.128.2">
+  <link rel="stylesheet" href="/css/styles.css" />
+  
+  
+
+  <meta property="og:title" content="Rename OneNote Sections based using Powershell" />
+<meta property="og:description" content="Update OneNote section displayname based on a renamed Microsoft Teams Channel" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//aseURL:1313/blog/20240810-renameonenotesection/" /><meta property="og:image" content="//aseURL:1313/00RenameOneNoteSection.png" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2024-08-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-08-10T00:00:00+00:00" />
+
+
+  
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="//aseURL:1313/00RenameOneNoteSection.png">
+  <meta name="twitter:title" content="Rename OneNote Sections based using Powershell">
+  <meta name="twitter:description" content="Update OneNote section displayname based on a renamed Microsoft Teams Channel">
+
+  
+  <meta itemprop="name" content="Rename OneNote Sections based using Powershell">
+  <meta itemprop="description" content="Update OneNote section displayname based on a renamed Microsoft Teams Channel">
+  <meta itemprop="datePublished" content="2024-08-10T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-08-10T00:00:00+00:00">
+  <meta itemprop="wordCount" content="878">
+  <meta itemprop="image" content="//aseURL:1313/00RenameOneNoteSection.png">
+  <meta itemprop="keywords" content="Powershell,OneNote">
+
+ 
+
+  
+
+  
+</head>
+<body class="dark:bg-gray-800 dark:text-white relative flex flex-col min-h-screen"><header class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto relative">
+  <a href="//aseURL:1313/" class="capitalize font-extrabold text-2xl">
+    
+    <img src="/logo.png" alt="Burgers &amp; Bytes" class="max-w-full" style="height:75px" />
+    
+  </a>
+  <button class="mobile-menu-button md:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <line x1="4" y1="8" x2="20" y2="8" />
+      <line x1="4" y1="16" x2="20" y2="16" />
+    </svg>
+  </button>
+  <ul class="mobile-menu absolute z-10 px-6 pb-6 md:p-0 top-full left-0 w-full md:w-auto md:relative hidden md:flex flex-col md:flex-row items-end md:items-center gap-4 lg:gap-6 bg-white dark:bg-gray-800">
+
+    
+    <li><a href="/">Home</a></li>
+    
+    <li><a href="/blog/">Blog</a></li>
+    
+    <li><a href="/page/about/">About</a></li>
+    
+
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="open-search inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="10" cy="10" r="7" />
+          <line x1="21" y1="21" x2="15" y2="15" />
+        </svg>
+      </span>
+    </li>
+    
+
+    
+  </ul>
+</header>
+<main class="flex-1">
+  
+  
+
+  
+  
+    <div class="relative max-w-xl mx-auto px-4">
+    <img src="/images/20240810RenameOneNoteSection/00RenameOneNoteSection.png" class="rounded-lg shadow-sm w-full object-contain" />
+    
+    <div class="absolute top-4 right-8 rounded shadow bg-white text-gray-900 dark:bg-gray-900 dark:text-white px-2 py-0.5">
+      
+  
+    August 10, 2024
+  
+
+
+    </div>
+    
+  </div>
+  
+
+  <article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+
+    <h1 class="text-2xl font-bold mb-2">Rename OneNote Sections based using Powershell</h1>
+    
+    <h5 class="text-sm flex items-center flex-wrap">
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <rect x="4" y="5" width="16" height="16" rx="2" />
+        <line x1="16" y1="3" x2="16" y2="7" />
+        <line x1="8" y1="3" x2="8" y2="7" />
+        <line x1="4" y1="11" x2="20" y2="11" />
+        <rect x="8" y="15" width="2" height="2" />
+      </svg>
+      Aug 10, 2024 
+      
+        &nbsp;&bull;&nbsp;
+      
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="12" cy="12" r="9" />
+        <polyline points="12 7 12 12 15 15" />
+      </svg>
+      5&nbsp;
+      &nbsp;&bull;
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <line x1="3" y1="6" x2="3" y2="19" />
+        <line x1="12" y1="6" x2="12" y2="19" />
+        <line x1="21" y1="6" x2="21" y2="19" />
+      </svg>
+      878&nbsp;
+      
+        
+      
+    </h5>
+    
+
+    <details id="TableOfContents" class="px-4 mt-4 bg-gray-100 dark:bg-gray-700 rounded toc">
+    <summary class="flex items-center font-bold py-2 px-4 cursor-pointer justify-between select-none text-black dark:text-white">
+      <span>Table of contents</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <polyline points="6 9 12 15 18 9"></polyline>
+     </svg>
+    </summary>
+
+    <ul class="mt-2 pb-4">
+        
+
+        
+        <li>
+        <a href="#scenario">Scenario</a>
+        
+
+        
+        <ul>
+            <li>
+        <a href="#example">Example</a>
+        
+
+        
+        </li></ul>
+      </li><li>
+        <a href="#create-an-app-registration">Create an App Registration</a>
+        
+
+        
+        <ul>
+            <li>
+        <a href="#permissions-needed">Permissions needed</a>
+        
+
+        
+        </li></ul>
+      </li><li>
+        <a href="#powershell">Powershell</a>
+        
+
+        
+        </li><li>
+        <a href="#side-note">Side note</a>
+        </li></ul>
+  </details>
+
+    <h2 id="scenario">Scenario</h2>
+<p>When a new Team is created, a OneNote is automatically generated, and each new channel receives its own section in OneNote, named after the channel. However, if the channel name is changed, the corresponding OneNote section name does not update automatically.</p>
+<p>This blog explains how to use PowerShell to programmatically synchronize the channel name with the associated OneNote section name.</p>
+<h3 id="example">Example</h3>
+<p>The Team contains several channels:
+<img src="/images/20240810RenameOneNoteSection/1-before.png" alt="Team with channels">
+Every channel has its own Notes tab with an associated OneNote Section.
+<img src="/images/20240810RenameOneNoteSection/1-beforeonenote.png" alt="Related OneNote Sections"></p>
+<p>The Team with renamed channel names, those displaynames aren&rsquo;t automatically updated in the OneNote.
+<img src="/images/20240810RenameOneNoteSection/2-renamedchannels.png" alt="Renamed channel names"></p>
+<p>Let&rsquo;s create the Powershell script to be able to rename the OneNote sections.</p>
+<h2 id="create-an-app-registration">Create an App Registration</h2>
+<p>The Powershell script needs the Graph API. You can&rsquo;t use the Graph API using your personal user credentials, an App Registration must be created to be able to login.</p>
+<h3 id="permissions-needed">Permissions needed</h3>
+<p>The app registration needs some specific permissions:</p>
+<ul>
+<li>Notes.ReadWrite.All</li>
+<li>Channel.ReadBasic.All</li>
+<li>Group.Read.All</li>
+</ul>
+<p><img src="/images/20240810RenameOneNoteSection/3-apppermissions.png" alt="App Permissions"></p>
+<h2 id="powershell">Powershell</h2>
+<p>The script systematically iterates over groups and channels in Microsoft Teams, ensures that the corresponding OneNote sections are correctly named, and updates them if necessary.
+High level steps which the script performs:</p>
+<ol>
+<li>The script starts with authentication in order to get an <strong>access token</strong>.</li>
+<li>After that <strong>all groups</strong> are fetched and stored in the variable $groups.
+The script iterates over each group and gets the OneNote Notebook ID for the group.</li>
+<li>After that the script retrieves <strong>all channels</strong> associated with the current group.
+To be able to match the OneNote section associated to the channel, the details of the OneNote tab are retrieved.</li>
+<li>The sectionId is kind of hidden inside the <strong>contentURL</strong> of the OneNote tab and a regular expression is needed to get that id.</li>
+</ol>
+<p>Example of (decoded) contentUrl, this contains a lot of details regarding the OneNote and also contains the sectionId:</p>
+<pre tabindex="0"><code>https://www.microsoft365.com/launch/onenote/officeunihost/teams?auth=2&amp;flight=officeunihost&amp;notebookSource=DefaultNotes&amp;notebookSelfUrl=https://www.onenote.com/api/v1.0/myOrganization/siteCollections/36f07f85-6ada-4c7c-add3-de012ac6def8/sites/e7cf79ed-5b17-48ba-acde-6846aa55e1ca/notes/notebooks/1-0c16d522-bef6-4698-bb94-e2c4e9d25d8f&amp;oneNoteWebUrl=https://abc123.sharepoint.com/sites/CustomerXYZ/SiteAssets/Customer%20XYZ%20Notebook&amp;notebookName=Notes&amp;createdTeamType=Standard&amp;oneNoteClientUrl=https://abc123.sharepoint.com/sites/CustomerXYZ/SiteAssets/Customer%20XYZ%20Notebook/General.one&amp;subEntityId={&#34;objectUrl&#34;:&#34;https://abc123.sharepoint.com/sites/CustomerXYZ/SiteAssets/Customer%20XYZ%20Notebook&#34;,&#34;wd&#34;:&#34;target(General.one/)&#34;,&#34;fileType&#34;:&#34;one&#34;,&#34;fileId&#34;:&#34;0c16d522-bef6-4698-bb94-e2c4e9d25d8f&#34;,&#34;baseUrl&#34;:&#34;https://abc123.sharepoint.com/sites/CustomerXYZ&#34;}&amp;sectionId=1-1733edcf-dde5-4a10-9c54-2572a995115b&amp;notebookIsDefault=false&amp;isMigrated=1&amp;locale={locale}&amp;tid={tid}&amp;upn={userPrincipalName}&amp;groupId={groupId}&amp;theme={theme}&amp;entityId={entityId}&amp;sessionId={sessionId}&amp;ringId={ringId}&amp;teamSiteUrl={teamSiteUrl}&amp;channelType={channelType}&amp;appSessionId={appSessionId}&amp;hostClientType={hostClientType}
+</code></pre><ol start="5">
+<li>
+<p>This <strong>sectionId</strong> is needed to get the displayname of the OneNote section associated to the channelname. Those two displaynames can be compared. If they don&rsquo;t match, the script renames the OneNote section to match the channel name.</p>
+</li>
+<li>
+<p>Last step the OneNote section is actually updated to do so a <strong>PATCH request</strong> is send via the Graph API.</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#6272a4">### AUTHENTICATION ###</span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># Application (client) ID, tenant Name and secret</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$clientID</span> = <span style="color:#f1fa8c">&#34;&lt;replace by your own clientID&gt;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$clientSecret</span> = <span style="color:#f1fa8c">&#34;&lt;replace by your own clientSecret&gt;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$tenantName</span> = <span style="color:#f1fa8c">&#34;&lt;replace by your own tenantname&gt;.onmicrosoft.com&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$resource</span> = <span style="color:#f1fa8c">&#34;https://graph.microsoft.com/&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$ReqTokenBody</span> = @{
+</span></span><span style="display:flex;"><span>    Grant_Type    = <span style="color:#f1fa8c">&#34;client_credentials&#34;</span>
+</span></span><span style="display:flex;"><span>    Scope         = <span style="color:#f1fa8c">&#34;https://graph.microsoft.com/.default&#34;</span>
+</span></span><span style="display:flex;"><span>    client_Id     = <span style="color:#8be9fd;font-style:italic">$clientID</span>
+</span></span><span style="display:flex;"><span>    Client_Secret = <span style="color:#8be9fd;font-style:italic">$clientSecret</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$TokenResponse</span> = <span style="color:#8be9fd;font-style:italic">Invoke-RestMethod</span> -Uri <span style="color:#f1fa8c">&#34;https://login.microsoftonline.com/</span><span style="color:#8be9fd;font-style:italic">$TenantName</span><span style="color:#f1fa8c">/oauth2/v2.0/token&#34;</span> -Method POST -Body <span style="color:#8be9fd;font-style:italic">$ReqTokenBody</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$headers</span> = @{
+</span></span><span style="display:flex;"><span><span style="color:#f1fa8c">&#39;Content-Type&#39;</span>  = <span style="color:#f1fa8c">&#39;application/json&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f1fa8c">&#39;Authorization&#39;</span> = <span style="color:#f1fa8c">&#39;Bearer &#39;</span> + $(<span style="color:#8be9fd;font-style:italic">$TokenResponse</span>.access_token)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4">### GROUPS ###</span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4">## Get All Groups with a team</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$apiUrl</span> = <span style="color:#f1fa8c">&#39;https://graph.microsoft.com/v1.0/Groups/&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$Data</span> = <span style="color:#8be9fd;font-style:italic">Invoke-RestMethod</span> -Headers @{Authorization = <span style="color:#f1fa8c">&#34;Bearer </span>$(<span style="color:#8be9fd;font-style:italic">$Tokenresponse</span>.access_token)<span style="color:#f1fa8c">&#34;</span>} -Uri <span style="color:#8be9fd;font-style:italic">$apiUrl</span> -Method Get
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$groups</span> = (<span style="color:#8be9fd;font-style:italic">$Data</span> | <span style="color:#8be9fd;font-style:italic">select-object</span> Value).Value | <span style="color:#8be9fd;font-style:italic">Where-Object</span> { <span style="color:#8be9fd;font-style:italic">$_</span>.resourceProvisioningOptions <span style="color:#ff79c6">-eq</span> <span style="color:#f1fa8c">&#34;Team&#34;</span> }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># Loop through each group to get channels</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">foreach</span> (<span style="color:#8be9fd;font-style:italic">$group</span> <span style="color:#ff79c6">in</span> <span style="color:#8be9fd;font-style:italic">$groups</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">$groupId</span> = <span style="color:#8be9fd;font-style:italic">$group</span>.id
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">$groupName</span> = <span style="color:#8be9fd;font-style:italic">$group</span>.displayName
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">Write-Output</span> <span style="color:#f1fa8c">&#34;Processing Group: </span><span style="color:#8be9fd;font-style:italic">$groupName</span><span style="color:#f1fa8c"> (</span><span style="color:#8be9fd;font-style:italic">$groupId</span><span style="color:#f1fa8c">)&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># Get NotebookID of group</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">$noteBookUri</span> = <span style="color:#f1fa8c">&#34;https://graph.microsoft.com/v1.0/groups/</span><span style="color:#8be9fd;font-style:italic">$groupId</span><span style="color:#f1fa8c">/onenote/notebooks&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">$noteBookResponse</span> = <span style="color:#8be9fd;font-style:italic">Invoke-RestMethod</span> -Headers <span style="color:#8be9fd;font-style:italic">$headers</span> -Uri <span style="color:#8be9fd;font-style:italic">$noteBookUri</span> -Method Get
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">$notebookID</span> = <span style="color:#8be9fd;font-style:italic">$noteBookResponse</span>.value.id
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">Write-Output</span> <span style="color:#f1fa8c">&#34;OneNoteID: </span><span style="color:#8be9fd;font-style:italic">$notebookID</span><span style="color:#f1fa8c">&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># Get all channels for the current group</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">$channelsUri</span> = <span style="color:#f1fa8c">&#34;https://graph.microsoft.com/v1.0/teams/</span><span style="color:#8be9fd;font-style:italic">$groupId</span><span style="color:#f1fa8c">/channels&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">$channelsResponse</span> = <span style="color:#8be9fd;font-style:italic">Invoke-RestMethod</span> -Headers <span style="color:#8be9fd;font-style:italic">$headers</span> -Uri <span style="color:#8be9fd;font-style:italic">$channelsUri</span> -Method Get
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">$channels</span> = <span style="color:#8be9fd;font-style:italic">$channelsResponse</span>.value
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ff79c6">if</span> (<span style="color:#8be9fd;font-style:italic">$channels</span> <span style="color:#ff79c6">-ne</span> [string]::IsNullOrEmpty(<span style="color:#8be9fd;font-style:italic">$notebookID</span>)) {
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">Write-Output</span> <span style="color:#f1fa8c">&#34;Channels for Group: </span><span style="color:#8be9fd;font-style:italic">$groupName</span><span style="color:#f1fa8c">&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">$channels</span> | <span style="color:#8be9fd;font-style:italic">Format-Table</span> displayName, id -AutoSize
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">foreach</span> (<span style="color:#8be9fd;font-style:italic">$channel</span> <span style="color:#ff79c6">in</span> <span style="color:#8be9fd;font-style:italic">$channels</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">$ChannelId</span> = <span style="color:#8be9fd;font-style:italic">$channel</span>.id
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">Write-Output</span> <span style="color:#f1fa8c">&#34;Processing Channel: </span>$(<span style="color:#8be9fd;font-style:italic">$channel</span>.displayName)<span style="color:#f1fa8c"> (</span><span style="color:#8be9fd;font-style:italic">$ChannelId</span><span style="color:#f1fa8c">)&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#6272a4"># Get all tabs for the current channel</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">$tabsUri</span> = <span style="color:#f1fa8c">&#34;https://graph.microsoft.com/v1.0/teams/</span><span style="color:#8be9fd;font-style:italic">$groupId</span><span style="color:#f1fa8c">/channels/</span><span style="color:#8be9fd;font-style:italic">$ChannelId</span><span style="color:#f1fa8c">/tabs&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">$tabsResponse</span> = <span style="color:#8be9fd;font-style:italic">Invoke-RestMethod</span> -Headers <span style="color:#8be9fd;font-style:italic">$headers</span> -Uri <span style="color:#8be9fd;font-style:italic">$tabsUri</span> -Method Get
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#6272a4"># Find the OneNote tab</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">$oneNoteTab</span> = <span style="color:#8be9fd;font-style:italic">$tabsResponse</span>.value | <span style="color:#8be9fd;font-style:italic">Where-Object</span> { <span style="color:#8be9fd;font-style:italic">$_</span>.displayName <span style="color:#ff79c6">-eq</span> <span style="color:#f1fa8c">&#34;Notes&#34;</span> }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">if</span> (<span style="color:#8be9fd;font-style:italic">$oneNoteTab</span>) {
+</span></span><span style="display:flex;"><span>                <span style="color:#8be9fd;font-style:italic">Write-Output</span> <span style="color:#f1fa8c">&#34;Found OneNote Tab in Channel: </span>$(<span style="color:#8be9fd;font-style:italic">$channel</span>.displayName)<span style="color:#f1fa8c">&#34;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#8be9fd;font-style:italic">$oneNoteTab</span> | <span style="color:#8be9fd;font-style:italic">Format-Table</span> displayName, id, webUrl -AutoSize
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="color:#6272a4"># Extract the content URL</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#8be9fd;font-style:italic">$contentUrl</span> = <span style="color:#8be9fd;font-style:italic">$oneNoteTab</span>.configuration.contentUrl            
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="color:#6272a4"># Define the regex pattern to extract sectionId</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#8be9fd;font-style:italic">$pattern</span> = <span style="color:#f1fa8c">&#34;sectionId=([a-f0-9\-]+)&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="color:#6272a4"># Perform the match</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#ff79c6">if</span> (<span style="color:#8be9fd;font-style:italic">$contentUrl</span> <span style="color:#ff79c6">-match</span> <span style="color:#8be9fd;font-style:italic">$pattern</span>) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">$sectionId</span> = <span style="color:#8be9fd;font-style:italic">$matches</span>[<span style="color:#bd93f9">1</span>]                
+</span></span><span style="display:flex;"><span>                
+</span></span><span style="display:flex;"><span>                <span style="color:#6272a4"># Get details of OneNote section related to the channel</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#8be9fd;font-style:italic">$sectionUri</span>= <span style="color:#f1fa8c">&#34;https://graph.microsoft.com/v1.0/groups/</span><span style="color:#8be9fd;font-style:italic">$groupId</span><span style="color:#f1fa8c">/onenote/notebooks/</span><span style="color:#8be9fd;font-style:italic">$notebookID</span><span style="color:#f1fa8c">/sections&#34;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#8be9fd;font-style:italic">$oneNoteSection</span> = <span style="color:#8be9fd;font-style:italic">Invoke-RestMethod</span> -Headers <span style="color:#8be9fd;font-style:italic">$headers</span> -Uri <span style="color:#8be9fd;font-style:italic">$sectionUri</span> -Method Get
+</span></span><span style="display:flex;"><span>                <span style="color:#8be9fd;font-style:italic">$sectionInfo</span> = <span style="color:#8be9fd;font-style:italic">$oneNoteSection</span>.value | <span style="color:#8be9fd;font-style:italic">Where-Object</span> { <span style="color:#8be9fd;font-style:italic">$_</span>.id <span style="color:#ff79c6">-eq</span> <span style="color:#8be9fd;font-style:italic">$sectionId</span> }
+</span></span><span style="display:flex;"><span>                <span style="color:#8be9fd;font-style:italic">$sectionName</span> = <span style="color:#8be9fd;font-style:italic">$sectionInfo</span>.displayName                
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="color:#ff79c6">if</span> (<span style="color:#8be9fd;font-style:italic">$channel</span>.displayName <span style="color:#ff79c6">-eq</span> <span style="color:#8be9fd;font-style:italic">$sectionName</span>) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">Write-Output</span> <span style="color:#f1fa8c">&#34;Channel display name and OneNote Section name are the same.&#34;</span>
+</span></span><span style="display:flex;"><span>                } <span style="color:#ff79c6">else</span> {
+</span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">Write-Output</span> <span style="color:#f1fa8c">&#34;Channel display name &#39;</span>$(<span style="color:#8be9fd;font-style:italic">$channel</span>.displayName)<span style="color:#f1fa8c">&#39; and OneNote Section name &#39;</span>$(<span style="color:#8be9fd;font-style:italic">$sectionName</span>)<span style="color:#f1fa8c">&#39; are not equal.&#34;</span>              
+</span></span><span style="display:flex;"><span>                  
+</span></span><span style="display:flex;"><span>                    <span style="color:#6272a4"># Define the body for renaming the OneNote section</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">$body</span> = @{
+</span></span><span style="display:flex;"><span>                        displayName = <span style="color:#8be9fd;font-style:italic">$channel</span>.displayName
+</span></span><span style="display:flex;"><span>                    } | <span style="color:#8be9fd;font-style:italic">ConvertTo-Json</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">Write-Output</span> <span style="color:#f1fa8c">&#34;Rename OneNoteSection of </span>$(<span style="color:#8be9fd;font-style:italic">$notebookID</span>)<span style="color:#f1fa8c"> in: </span>$(<span style="color:#8be9fd;font-style:italic">$groupId</span>)<span style="color:#f1fa8c"> into </span>$(<span style="color:#8be9fd;font-style:italic">$channel</span>.displayName)<span style="color:#f1fa8c">&#34;</span>                   
+</span></span><span style="display:flex;"><span>             
+</span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">$renameNotebookUri</span> = <span style="color:#f1fa8c">&#34;https://graph.microsoft.com/v1.0/groups/</span><span style="color:#8be9fd;font-style:italic">$groupId</span><span style="color:#f1fa8c">/onenote/sections/</span><span style="color:#8be9fd;font-style:italic">$sectionId</span><span style="color:#f1fa8c">&#34;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">$renameNotebookResponse</span> = <span style="color:#8be9fd;font-style:italic">Invoke-RestMethod</span> -Method Patch -Uri <span style="color:#8be9fd;font-style:italic">$renameNotebookUri</span> -Headers <span style="color:#8be9fd;font-style:italic">$headers</span> -Body <span style="color:#8be9fd;font-style:italic">$body</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">Write-Output</span> <span style="color:#f1fa8c">&#34;OneNote section renamed successfully.&#34;</span>
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            } <span style="color:#ff79c6">else</span> {
+</span></span><span style="display:flex;"><span>                <span style="color:#8be9fd;font-style:italic">Write-Output</span> <span style="color:#f1fa8c">&#34;No OneNote Tab found in Channel: </span>$(<span style="color:#8be9fd;font-style:italic">$channel</span>.displayName)<span style="color:#f1fa8c">&#34;</span>
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    } <span style="color:#ff79c6">else</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">Write-Output</span> <span style="color:#f1fa8c">&#34;No channels found for Group: </span><span style="color:#8be9fd;font-style:italic">$groupName</span><span style="color:#f1fa8c">&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>After running the script the OneNote section displaynames for the renamed channels are updated!</p>
+<p><img src="/images/20240810RenameOneNoteSection/4-updatedsections.png" alt="Updated sections"></p>
+<h2 id="side-note">Side note</h2>
+<p>This blog focus on the Powershell itself to do the renaming itself, you can think of ways to embed the script in an Azure Function to periodically run the script to be sure the displaynames of OneNote sections are still corresponding the channel display names.</p>
+<p>This script uses plain client id/client secret, this isn&rsquo;t the best way to go. Implementing this in a real-world scenario requires paying attention to authentication; using Azure KeyVault or Managed identity.</p>
+
+  </article>
+
+  
+<div class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+  
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'burgersandbytes';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+  
+  
+</div>
+
+<div style="background: #92400E;">
+  <div class="container px-4 py-12 mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    <div>
+      <div class="text-3xl font-bold mb-2">Empowering productivity - one blog at a time!</div>
+      <p class="opacity-60"></p>
+    </div>
+
+    <ul class="flex justify-center gap-x-3 flex-wrap gap-y-2">
+      
+
+      
+      <li>
+        <a href="https://twitter.com/elianne_tweets" target="_blank" rel="noopener" aria-label="Twitter"
+          class="p-1 inline-block rounded-full border border-transparent hover:border-black cursor-pointer transition-colors dark:hover:border-black">
+
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1668.56 1221.19" width="24" height="24"
+            stroke-width="1.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M283.94,167.31l386.39,516.64L281.5,1104h87.51l340.42-367.76L984.48,1104h297.8L874.15,558.3l361.92-390.99
+  h-87.51l-313.51,338.7l-253.31-338.7H283.94z M412.63,231.77h136.81l604.13,807.76h-136.81L412.63,231.77z" />
+
+          </svg>
+        </a>
+      </li>
+      
+
+      
+
+      
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li>
+        <a href="https://nl.linkedin.com/in/elianne-b-48946864" target="_blank" rel="noopener" aria-label="LinkedIn"
+          class="p-1 inline-block rounded-full border border-transparent hover:border-black cursor-pointer transition-colors dark:hover:border-black">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="4" y="4" width="16" height="16" rx="2" />
+            <line x1="8" y1="11" x2="8" y2="16" />
+            <line x1="8" y1="8" x2="8" y2="8.01" />
+            <line x1="12" y1="16" x2="12" y2="11" />
+            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+          </svg>
+        </a>
+      </li>
+      
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+      
+      <li>
+        <a href="https://www.burgersandbytes.nl/index.xml" target="_blank" rel="noopener" aria-label="rss"
+          class="p-1 inline-block rounded-full border border-transparent hover:border-black cursor-pointer transition-colors dark:hover:border-black">
+
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="-125 -100 712 712" width="24" height="24"
+          stroke-width="1.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M108.56,342.78a60.34,60.34,0,1,0,60.56,60.44A60.63,60.63,0,0,0,108.56,342.78Z"/>
+<path d="M48,186.67v86.55c52,0,101.94,15.39,138.67,52.11s52,86.56,52,138.67h86.66C325.33,312.44,199.67,186.67,48,186.67Z"/>
+<path d="M48,48v86.56c185.25,0,329.22,144.08,329.22,329.44H464C464,234.66,277.67,48,48,48Z"/>
+        </svg>
+
+        
+
+
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    </ul>
+  </div>
+</div>
+    </main><footer class="container p-6 mx-auto flex justify-between items-center">
+  <span class="text-sm font-light">
+    
+    Copyright © 2024 - Elianne Burgers · All rights reserved
+    
+  </span>
+  <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5"
+      stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M18 15l-6 -6l-6 6h12"  />
+    </svg>
+  </span>
+</footer>
+
+<div class="search-ui absolute top-0 left-0 w-full h-full bg-white dark:bg-gray-800 hidden">
+  <div class="container max-w-3xl mx-auto p-12">
+    <div class="relative">
+      <div class="my-4 text-center text-2xl font-bold">Search</div>
+
+      <span class="p-2 absolute right-0 top-0 cursor-pointer close-search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </span>
+    </div>
+
+    <input type="search" class="py-2 px-3 w-full dark:text-black border dark:border-transparent"
+      placeholder="Enter search query" />
+
+    <div class="search-results text-lg font-medium my-4 hidden">Results</div>
+    <ul class="search-list my-2">
+
+    </ul>
+
+    <div class="no-results text-center my-8 hidden">
+      <div class="text-xl font-semibold mb-2">No results found</div>
+      <p class="font-light text-sm">Try adjusting your search query</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="//aseURL:1313/js/scripts.min.js"></script>
+
+
+  
+
+
+
+
+
+
+
+<script>
+  const mobileMenuButton = document.querySelector('.mobile-menu-button')
+  const mobileMenu = document.querySelector('.mobile-menu')
+  function toggleMenu() {
+    mobileMenu.classList.toggle('hidden');
+    mobileMenu.classList.toggle('flex');
+  }
+  if(mobileMenu && mobileMenuButton){
+    mobileMenuButton.addEventListener('click', toggleMenu)
+  }
+</script>
+</body>
+</html>

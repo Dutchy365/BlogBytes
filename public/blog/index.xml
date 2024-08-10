@@ -6,8 +6,15 @@
     <description>Recent content in Blog on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rename OneNote Sections based using Powershell</title>
+      <link>//aseURL:1313/blog/20240810-renameonenotesection/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20240810-renameonenotesection/</guid>
+      <description>Scenario When a new Team is created, a OneNote is automatically generated, and each new channel receives its own section in OneNote, named after the channel. However, if the channel name is changed, the corresponding OneNote section name does not update automatically.&#xA;This blog explains how to use PowerShell to programmatically synchronize the channel name with the associated OneNote section name.&#xA;Example The Team contains several channels: Every channel has its own Notes tab with an associated OneNote Section.</description>
+    </item>
     <item>
       <title>SharePoint column formatting: visualize status cards</title>
       <link>//aseURL:1313/blog/20240807-sharepointcolumnformattingcards/</link>
