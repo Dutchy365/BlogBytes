@@ -1,6 +1,6 @@
 ---
 author: ""
-title: "Rename OneNote Sections based using Powershell"
+title: "Rename OneNote Sections using Powershell"
 date: 2024-08-10
 description: Update OneNote section displayname based on a renamed Microsoft Teams Channel
 tags:
