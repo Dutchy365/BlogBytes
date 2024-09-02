@@ -1,13 +1,13 @@
 ---
 author: ""
 title: "Rename OneNote Sections using Power Automate"
-date: 2024-08-26
+date: 2024-09-02
 description: Update OneNote section displayname based on a renamed Microsoft Teams Channel
 tags:
 - Teams
 - OneNote
 - PowerAutomate
-thumbnail: /images/20240826RenamingOneNotePowerAutomate/00RenameOneNoteSectionPowerAutomate.png
+thumbnail: /images/20240902RenamingOneNotePowerAutomate/00RenameOneNoteSectionPowerAutomate.png
 preview: /00RenameOneNoteSectionPowerAutomate.png
 images: 
 - /00RenameOneNoteSectionPowerAutomate.png
@@ -57,7 +57,7 @@ Unfortunately the 'Send a Microsoft Graph HTTP request' for Teams isn't sufficie
 ### Initializing variables
 First couple of actions in the flow are initializing variables.
 
-![Variables](/images/20240826RenamingOneNotePowerAutomate/4-variables.png) 
+![Variables](/images/20240902RenamingOneNotePowerAutomate/4-variables.png) 
 
 ### OneNote ID of the Team
 For the group you need to get the OneNote Id.
@@ -67,7 +67,7 @@ URI:
 
 Method: GET
 
-![OneNote](/images/20240826RenamingOneNotePowerAutomate/5-onenoteid.png) 
+![OneNote](/images/20240902RenamingOneNotePowerAutomate/5-onenoteid.png) 
 
 ## Iterate through all channels
 After listing all channels of the Team, you need to iterate through all channels.
@@ -79,16 +79,16 @@ URI:
 
 Method: GET
 
-![Get tabs](/images/20240826RenamingOneNotePowerAutomate/6-gettabs.png) 
+![Get tabs](/images/20240902RenamingOneNotePowerAutomate/6-gettabs.png) 
 
 Filter the tabs on the tab with displayName 'Notes' to get the tab related to a OneNote.
 
-![Filter tab](/images/20240826RenamingOneNotePowerAutomate/7-filtertab.png) 
+![Filter tab](/images/20240902RenamingOneNotePowerAutomate/7-filtertab.png) 
 
 
 Set values for variables contenturl and sectionid:
 
-![Set variables](/images/20240826RenamingOneNotePowerAutomate/8-setcontenturl.png) 
+![Set variables](/images/20240902RenamingOneNotePowerAutomate/8-setcontenturl.png) 
 
 
 Set variable contenturl:
@@ -99,7 +99,7 @@ Set variable sectionId:
 
 
 Get the details of the OneNote section
-![OneNote section details](/images/20240826RenamingOneNotePowerAutomate/9-onenotesectiondetails.png) 
+![OneNote section details](/images/20240902RenamingOneNotePowerAutomate/9-onenotesectiondetails.png) 
 
 URI:
 `https://graph.microsoft.com/v1.0/groups/@{variables('groupID')}/onenote/notebooks/@{variables('notebookID')}/sections`
@@ -108,13 +108,13 @@ Method: GET
 
 Filter the section on sectionId, to be able to get the current displayname of the section.
 
-![Filter section](/images/20240826RenamingOneNotePowerAutomate/10-filtersection.png) 
+![Filter section](/images/20240902RenamingOneNotePowerAutomate/10-filtersection.png) 
 
 
 
 Set variables for sectionname and channelname:
 
-![Variables](/images/20240826RenamingOneNotePowerAutomate/10b-variables.png) 
+![Variables](/images/20240902RenamingOneNotePowerAutomate/10b-variables.png) 
 
 
 Set variable SectionName:
@@ -126,12 +126,12 @@ Set variable channelName:
 
 Add a condition in which you compare the SectionName and channelName.
 
-![Condition](/images/20240826RenamingOneNotePowerAutomate/11-condition.png) 
+![Condition](/images/20240902RenamingOneNotePowerAutomate/11-condition.png) 
 
 
 If those names aren't the same the renaming of the OneNote section needs to take place:
 
-![Renaming](/images/20240826RenamingOneNotePowerAutomate/12-renaming.png) 
+![Renaming](/images/20240902RenamingOneNotePowerAutomate/12-renaming.png) 
 
 URI: 
 `https://graph.microsoft.com/v1.0/groups/@{variables('groupID')}/onenote/sections/@{variables('sectionId')}`
