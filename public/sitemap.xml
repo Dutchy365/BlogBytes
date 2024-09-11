@@ -3,31 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//aseURL:1313/blog/</loc>
-    <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/</loc>
-    <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/personal-view/</loc>
+    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/blog/powerappgallerypersonalview/</loc>
+    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/power-apps/</loc>
+    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/</loc>
+    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/onenote/</loc>
-    <lastmod>2024-08-10T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/powerautomate/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/blog/20240902-renameonenotepowerautomate/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/teams/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/powershell/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/blog/20240810-renameonenotesection/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/</loc>
-    <lastmod>2024-08-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/powerautomate/</loc>
-    <lastmod>2024-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/blog/20240826-renameonenotepowerautomate/</loc>
-    <lastmod>2024-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/teams/</loc>
-    <lastmod>2024-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/sharepoint---column-formatting---sharepoint-list---status-column/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
@@ -45,9 +54,6 @@
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/plugin/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/power-apps/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/blog/20240707-dataverselowcodeplugin/</loc>
