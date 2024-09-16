@@ -16,6 +16,9 @@ A session regarding automation of naming convention validation for Canvas Power 
 * **2024-10-19 <span style="color: #92400e;">- CollabDays Belgium - Building a dynamic data review system using Power Platform capabilities**</span></br>
 An inspiring session in which attendees will get solid understanding of how to make it possible to create a flexible data review system using only out-of-the-box functionalities within the Power Platform.
 
+* **2024-10-10 <span style="color: #92400e;">- Content Strategy event: "Data and Information Management in the 21st Century" - Breakout session: Officials of the future**</span></br>
+How will officials work with information in the future? And what role do content platforms play in this? What will the digital workplace of the future look like?  In this session we will show what is already possible with AI today and explore the future together.
+
 * **2024-06-06 <span style="color: #92400e;">- Seminar organized by Microsoft and Surf - Proving the value of the Power Platform in a Proof of Value, lessons learned from the past year**</span></br>
 Seminar is part of [Microsoft Innovation and Inspiration  Program.](https://pulse.microsoft.com/nl-nl/microsoft-innovation-inspiration-program/)
 An inspiring session in which lessons learned are shared about implementing Power Platform solutions at an educational institute.
