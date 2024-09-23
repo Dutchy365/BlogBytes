@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//aseURL:1313/tags/artificial-intelligence/</loc>
+    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/blog/20240923-reflectiononai/</loc>
+    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//aseURL:1313/blog/</loc>
-    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/</loc>
-    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/podcast/</loc>
+    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/</loc>
+    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/personal-view/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/powerappgallerypersonalview/</loc>
+    <loc>//aseURL:1313/blog/20240910-powerappgallerypersonalview/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/power-apps/</loc>
-    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/onenote/</loc>

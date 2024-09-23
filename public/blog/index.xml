@@ -6,13 +6,20 @@
     <description>Recent content in Blog on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Between innovation and ethical dilemma</title>
+      <link>//aseURL:1313/blog/20240923-reflectiononai/</link>
+      <pubDate>Sat, 21 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20240923-reflectiononai/</guid>
+      <description>Until now, I have avoided writing about the topic of &amp;lsquo;AI&amp;rsquo;. This was a conscious choice, since I feel that everyone is already writing about this and you almost get &amp;lsquo;AI tired&amp;rsquo; by now. Nevertheless, in a short period of time I came across a number of things that inspired me to write down my thoughts on the subject. Think of it as a diary text, nice to read back years later (or in this AI era, after a few months) and then look: &amp;lsquo;wow, that was still old-fashioned, they should have known back then&amp;hellip;&amp;rsquo;.</description>
+    </item>
+    <item>
       <title>Personal view for a Power Apps gallery</title>
-      <link>//aseURL:1313/blog/powerappgallerypersonalview/</link>
+      <link>//aseURL:1313/blog/20240910-powerappgallerypersonalview/</link>
       <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/powerappgallerypersonalview/</guid>
+      <guid>//aseURL:1313/blog/20240910-powerappgallerypersonalview/</guid>
       <description>In SharePoint lists, we&amp;rsquo;re familiar to creating both shared views for all users and personal views tailored to individual preferences. As you develop Power Apps, you might frequently ask, &amp;ldquo;Can I create a custom view just for me?&amp;rdquo; Users often need different information displayed in their views. This blog explains how you can accomplish this in Power Apps!&#xA;End result The end result is a gallery including a header for which users can create their own view or use the default view.</description>
     </item>
     <item>
