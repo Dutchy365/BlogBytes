@@ -1,7 +1,7 @@
 ---
 author: ""
 title: "Between innovation and ethical dilemma"
-date: 2024-09-21
+date: 2024-09-23
 description: A personal reflection on AI 
 tags:
 - Artificial Intelligence
