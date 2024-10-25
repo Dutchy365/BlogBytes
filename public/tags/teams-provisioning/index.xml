@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teams Provisioning on Burgers &amp; Bytes</title>
-    <link>//aseURL:1313/tags/teams-provisioning/</link>
+    <link>http://localhost:1313/BlogBytes/tags/teams-provisioning/</link>
     <description>Recent content in Teams Provisioning on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:1313/tags/teams-provisioning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/BlogBytes/tags/teams-provisioning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Microsoft Graph and Power Automate to post an Announcement Message in Teams channel</title>
-      <link>//aseURL:1313/blog/20240212teamsannouncementmessage/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20240212teamsannouncementmessage/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20240212teamsannouncementmessage/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20240212teamsannouncementmessage/</guid>
       <description>Scenario This blog describes the Flow to create a Team and start with a message of type Announcement. The default &amp;lsquo;Post a message in a chat or channel&amp;rsquo; isn&amp;rsquo;t sufficient, because the message type can&amp;rsquo;t be selected, so it can&amp;rsquo;t be an Announcement.&#xA;The end result should be a clear message in a Teams channel: Flow actions to create Team In order to share the full story the Team needs to be created and Team ID and Channel ID needs to be stored in a variable.</description>
     </item>
   </channel>

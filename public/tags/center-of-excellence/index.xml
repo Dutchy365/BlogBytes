@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Center of Excellence on Burgers &amp; Bytes</title>
-    <link>//aseURL:1313/tags/center-of-excellence/</link>
+    <link>http://localhost:1313/BlogBytes/tags/center-of-excellence/</link>
     <description>Recent content in Center of Excellence on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 25 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:1313/tags/center-of-excellence/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/BlogBytes/tags/center-of-excellence/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A solid foundation of the Power Platform</title>
-      <link>//aseURL:1313/blog/20240325-solidfoundationpowerplatform/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20240325-solidfoundationpowerplatform/</link>
       <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20240325-solidfoundationpowerplatform/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20240325-solidfoundationpowerplatform/</guid>
       <description>In today&amp;rsquo;s rapidly evolving digital landscape, organizations often find themselves relying on outdated Excel-based processes, which pose significant risks. However, with the emergence of the Power Platform, a revolutionary low-code development platform, there is a transformative solution at hand. This blog explores the potential of the Power Platform in streamlining operations, mitigating risks, and empowering employees to become citizen developers.&#xA;Source https://dilbert.com/strip/2007-08-08&#xD;Excel as business critical When people ask what exactly you can do with Power Platform, we often make comparisons with what people used to make in Excel.</description>
     </item>
   </channel>

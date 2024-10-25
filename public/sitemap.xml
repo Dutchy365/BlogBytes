@@ -2,338 +2,344 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//aseURL:1313/tags/artificial-intelligence/</loc>
-    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/BlogBytes/blog/</loc>
+    <lastmod>2024-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240923-reflectiononai/</loc>
-    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/BlogBytes/</loc>
+    <lastmod>2024-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/</loc>
-    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/BlogBytes/tags/gallery/</loc>
+    <lastmod>2024-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/</loc>
-    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/BlogBytes/tags/progress-bar/</loc>
+    <lastmod>2024-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/podcast/</loc>
-    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/BlogBytes/blog/20241025-progressbarinpowerapps/</loc>
+    <lastmod>2024-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/</loc>
-    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/BlogBytes/tags/</loc>
+    <lastmod>2024-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/personal-view/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/artificial-intelligence/</loc>
+    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/BlogBytes/blog/20240923-reflectiononai/</loc>
+    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/BlogBytes/tags/podcast/</loc>
+    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/BlogBytes/tags/personal-view/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240910-powerappgallerypersonalview/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240910-powerappgallerypersonalview/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/power-apps/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/power-apps/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/onenote/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/onenote/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/powerautomate/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/powerautomate/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240902-renameonenotepowerautomate/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240902-renameonenotepowerautomate/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/teams/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/teams/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/powershell/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/powershell/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240810-renameonenotesection/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240810-renameonenotesection/</loc>
     <lastmod>2024-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/sharepoint---column-formatting---sharepoint-list---status-column/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/sharepoint---column-formatting---sharepoint-list---status-column/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240807-sharepointcolumnformattingcards/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240807-sharepointcolumnformattingcards/</loc>
     <lastmod>2024-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/automated/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/automated/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240712-automatelowcodeplugindataverse/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240712-automatelowcodeplugindataverse/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/dataverse/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/dataverse/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/plugin/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/plugin/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240707-dataverselowcodeplugin/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240707-dataverselowcodeplugin/</loc>
     <lastmod>2024-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240619-markdownhyperlinktohtml/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240619-markdownhyperlinktohtml/</loc>
     <lastmod>2024-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/hyperlink/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/hyperlink/</loc>
     <lastmod>2024-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/markdown/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/markdown/</loc>
     <lastmod>2024-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/dynamic-forms/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/dynamic-forms/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240605-dynamicformstabular/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240605-dynamicformstabular/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/parsejson/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/parsejson/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/collection/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/collection/</loc>
     <lastmod>2024-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/json-format/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/json-format/</loc>
     <lastmod>2024-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240522-powerfxtransposeexcel/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240522-powerfxtransposeexcel/</loc>
     <lastmod>2024-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/power-automate/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/power-automate/</loc>
     <lastmod>2024-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/power-fx/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/power-fx/</loc>
     <lastmod>2024-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/substitute/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/substitute/</loc>
     <lastmod>2024-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240502-dataverseformuladate/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240502-dataverseformuladate/</loc>
     <lastmod>2024-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/time-zones/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/time-zones/</loc>
     <lastmod>2024-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240405-horizontalheader-part2-scrolling/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240405-horizontalheader-part2-scrolling/</loc>
     <lastmod>2024-04-05T00:00:02+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/freeze-row-and-column/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/freeze-row-and-column/</loc>
     <lastmod>2024-04-05T00:00:02+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/nested-gallery/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/nested-gallery/</loc>
     <lastmod>2024-04-05T00:00:02+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240405-horizontalheader-part1-static/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240405-horizontalheader-part1-static/</loc>
     <lastmod>2024-04-05T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240325-solidfoundationpowerplatform/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240325-solidfoundationpowerplatform/</loc>
     <lastmod>2024-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/center-of-excellence/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/center-of-excellence/</loc>
     <lastmod>2024-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/governance/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/governance/</loc>
     <lastmod>2024-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/power-platform/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/power-platform/</loc>
     <lastmod>2024-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/filter/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/filter/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240306filterrelatedentity/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240306filterrelatedentity/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/related-entities/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/related-entities/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/with-function/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/with-function/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/allocation/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/allocation/</loc>
     <lastmod>2024-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240228allocatebudgetperiodicallypowerfx/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240228allocatebudgetperiodicallypowerfx/</loc>
     <lastmod>2024-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/power-apps-canvas/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/power-apps-canvas/</loc>
     <lastmod>2024-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/powerfx/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/powerfx/</loc>
     <lastmod>2024-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/timer/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/timer/</loc>
     <lastmod>2024-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/announcement/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/announcement/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/chat-message/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/chat-message/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/teams-provisioning/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/teams-provisioning/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240212teamsannouncementmessage/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240212teamsannouncementmessage/</loc>
     <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/javascript/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/javascript/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/jquery/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/jquery/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/power-pages/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/power-pages/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240129-powerpagesrichtextlistview/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240129-powerpagesrichtextlistview/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/rich-text-editor/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/rich-text-editor/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/rte/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/rte/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/sanitize-html/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/sanitize-html/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20240103-progressbarpowerpages/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20240103-progressbarpowerpages/</loc>
     <lastmod>2024-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/fetchxml/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/fetchxml/</loc>
     <lastmod>2024-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/liquid/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/liquid/</loc>
     <lastmod>2024-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/progress-bar/</loc>
-    <lastmod>2024-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/blog/20231201-changefromaddressofemailtosharedmailbox/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20231201-changefromaddressofemailtosharedmailbox/</loc>
     <lastmod>2023-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/email/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/email/</loc>
     <lastmod>2023-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/model-driven-app/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/model-driven-app/</loc>
     <lastmod>2023-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/queue-id/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/queue-id/</loc>
     <lastmod>2023-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/column-formatting/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/column-formatting/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/lookup-column/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/lookup-column/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/sharepoint/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/sharepoint/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20231120-sharepointcolumnformattingspecialcharacters/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20231120-sharepointcolumnformattingspecialcharacters/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/sharepoint-list/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/sharepoint-list/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/page-freshness/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/page-freshness/</loc>
     <lastmod>2023-10-21T00:00:03+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20231021-userengagement-part3/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part3/</loc>
     <lastmod>2023-10-21T00:00:03+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/power-bi/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/power-bi/</loc>
     <lastmod>2023-10-21T00:00:03+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/user-engagement/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/user-engagement/</loc>
     <lastmod>2023-10-21T00:00:03+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/user-interaction/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/user-interaction/</loc>
     <lastmod>2023-10-21T00:00:03+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20231021-userengagement-part2/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part2/</loc>
     <lastmod>2023-10-21T00:00:02+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20231021-userengagement-part1/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part1/</loc>
     <lastmod>2023-10-21T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/chatgpt/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/chatgpt/</loc>
     <lastmod>2023-09-26T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/naming-conventions/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/naming-conventions/</loc>
     <lastmod>2023-09-26T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20230926-powerappsvalidatingnamingconventions/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20230926-powerappsvalidatingnamingconventions/</loc>
     <lastmod>2023-09-26T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/custom-connector/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/custom-connector/</loc>
     <lastmod>2023-08-15T00:00:03+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/dashboard/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/dashboard/</loc>
     <lastmod>2023-08-15T00:00:03+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/msforms-part3-dashboard/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/msforms-part3-dashboard/</loc>
     <lastmod>2023-08-15T00:00:03+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/microsoft-forms/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/microsoft-forms/</loc>
     <lastmod>2023-08-15T00:00:03+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/poll/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/poll/</loc>
     <lastmod>2023-08-15T00:00:03+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/sharepoint-intranet/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/sharepoint-intranet/</loc>
     <lastmod>2023-08-15T00:00:03+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/msforms-part2-questionoftheweek/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/msforms-part2-questionoftheweek/</loc>
     <lastmod>2023-08-15T00:00:02+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/api/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/api/</loc>
     <lastmod>2023-08-15T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/msforms-part1-customconnector/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/msforms-part1-customconnector/</loc>
     <lastmod>2023-08-15T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/approval/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/approval/</loc>
     <lastmod>2023-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20230805powerappiconcolorvariations/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20230805powerappiconcolorvariations/</loc>
     <lastmod>2023-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/page/msformapi/</loc>
+    <loc>http://localhost:1313/BlogBytes/page/msformapi/</loc>
     <lastmod>2023-08-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/page/</loc>
+    <loc>http://localhost:1313/BlogBytes/page/</loc>
     <lastmod>2023-08-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/filtering-gallery/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/filtering-gallery/</loc>
     <lastmod>2023-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20230722-sharepointgetallhubsites/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20230722-sharepointgetallhubsites/</loc>
     <lastmod>2023-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/hubsites/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/hubsites/</loc>
     <lastmod>2023-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/month-year/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/month-year/</loc>
     <lastmod>2023-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20230723-powerappadvancedfiltering/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20230723-powerappadvancedfiltering/</loc>
     <lastmod>2023-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20230721-approvalmdtablerows/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20230721-approvalmdtablerows/</loc>
     <lastmod>2023-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/page/spotlight/</loc>
+    <loc>http://localhost:1313/BlogBytes/page/spotlight/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/communityrocks/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/communityrocks/</loc>
     <lastmod>2023-05-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/conference/</loc>
+    <loc>http://localhost:1313/BlogBytes/tags/conference/</loc>
     <lastmod>2023-05-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20230525-collaborationsummit2023/</loc>
+    <loc>http://localhost:1313/BlogBytes/blog/20230525-collaborationsummit2023/</loc>
     <lastmod>2023-05-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/page/about/</loc>
+    <loc>http://localhost:1313/BlogBytes/page/about/</loc>
   </url><url>
-    <loc>//aseURL:1313/categories/</loc>
+    <loc>http://localhost:1313/BlogBytes/categories/</loc>
   </url>
 </urlset>

@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Power Automate on Burgers &amp; Bytes</title>
-    <link>//aseURL:1313/tags/power-automate/</link>
+    <link>http://localhost:1313/BlogBytes/tags/power-automate/</link>
     <description>Recent content in Power Automate on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 22 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:1313/tags/power-automate/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/BlogBytes/tags/power-automate/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Power Apps: Transpose Excel Data using Power Fx</title>
-      <link>//aseURL:1313/blog/20240522-powerfxtransposeexcel/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20240522-powerfxtransposeexcel/</link>
       <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20240522-powerfxtransposeexcel/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20240522-powerfxtransposeexcel/</guid>
       <description>A lot of business processes are supported by data stored in Excel sheets. Working with Power Apps often eliminates the use of an Excel sheet, but in some cases the data needs to be stored into an Excel sheet.&#xA;In this blog the concept of transposing the data from an Excel table will be described, so you can use this data throughout the app.&#xA;Scenario As an input there is an Excel table in which there are multiple rows and multiple columns.</description>
     </item>
     <item>
       <title>Using Microsoft Graph and Power Automate to post an Announcement Message in Teams channel</title>
-      <link>//aseURL:1313/blog/20240212teamsannouncementmessage/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20240212teamsannouncementmessage/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20240212teamsannouncementmessage/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20240212teamsannouncementmessage/</guid>
       <description>Scenario This blog describes the Flow to create a Team and start with a message of type Announcement. The default &amp;lsquo;Post a message in a chat or channel&amp;rsquo; isn&amp;rsquo;t sufficient, because the message type can&amp;rsquo;t be selected, so it can&amp;rsquo;t be an Announcement.&#xA;The end result should be a clear message in a Teams channel: Flow actions to create Team In order to share the full story the Team needs to be created and Team ID and Channel ID needs to be stored in a variable.</description>
     </item>
     <item>
       <title>Part 3: Enhancing User Engagement Measurement on SharePoint Intranets: Visualize data</title>
-      <link>//aseURL:1313/blog/20231021-userengagement-part3/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part3/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:03 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20231021-userengagement-part3/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part3/</guid>
       <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie&#xD;, you could read how to use the Power Platform to measure user engagement even more deeply using KPI regarding user engagement.</description>
     </item>
     <item>
       <title>Part 2: Enhancing User Engagement Measurement on SharePoint Intranets: Page Freshness</title>
-      <link>//aseURL:1313/blog/20231021-userengagement-part2/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part2/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:02 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20231021-userengagement-part2/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part2/</guid>
       <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie&#xD;, you could read how to use the Power Platform to measure user engagement even more deeply using KPI&amp;rsquo;s regarding user engagement.</description>
     </item>
     <item>
       <title>Part 1: Enhancing User Engagement Measurement on SharePoint Intranets with Power Platform</title>
-      <link>//aseURL:1313/blog/20231021-userengagement-part1/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part1/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:01 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20231021-userengagement-part1/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part1/</guid>
       <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie, we will explore how to use the Power Platform to measure user engagement even more deeply using KPI&amp;rsquo;s regarding user engagement.</description>
     </item>
     <item>
       <title>Make use of the responses: display the survey data of the Forms - part 3</title>
-      <link>//aseURL:1313/blog/msforms-part3-dashboard/</link>
+      <link>http://localhost:1313/BlogBytes/blog/msforms-part3-dashboard/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:03 +0000</pubDate>
-      <guid>//aseURL:1313/blog/msforms-part3-dashboard/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/msforms-part3-dashboard/</guid>
       <description>This blog is part of the blog series for Microsoft Forms automation to create automatic update of you question of the week on your SharePoint intranet. The first blog explains how to create a custom connector using the undocumented Microsoft Forms API&#xD;. The second blog describes how to keep your ‘Question of the week’ based on Microsoft Forms up-to-date&#xD;.&#xA;The result of the first two parts of this blog series is a nice looking SharePoint list which contains all data from the Question of the week.</description>
     </item>
     <item>
       <title>Microsoft Forms automation: update Forms poll on SharePoint intranet - part 2</title>
-      <link>//aseURL:1313/blog/msforms-part2-questionoftheweek/</link>
+      <link>http://localhost:1313/BlogBytes/blog/msforms-part2-questionoftheweek/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:02 +0000</pubDate>
-      <guid>//aseURL:1313/blog/msforms-part2-questionoftheweek/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/msforms-part2-questionoftheweek/</guid>
       <description>Creating a social intranet that fosters collaboration and engagement among employees is essential in today&amp;rsquo;s digital workplace. One effective component of a social intranet is a &amp;ldquo;question of the week&amp;rdquo; or poll functionality. While SharePoint doesn&amp;rsquo;t have a built-in poll feature, you can use a Microsoft Form with one question to achieve the same effect. However, updating the question weekly can be a manual and time-consuming task.&#xA;Unfortunately, Microsoft doesn&amp;rsquo;t provide a standard API for Microsoft Forms that can easily be integrated with Power Automate to automate question creation and management of a Form.</description>
     </item>
     <item>
       <title>Microsoft Forms automation: a custom connector - part 1</title>
-      <link>//aseURL:1313/blog/msforms-part1-customconnector/</link>
+      <link>http://localhost:1313/BlogBytes/blog/msforms-part1-customconnector/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:01 +0000</pubDate>
-      <guid>//aseURL:1313/blog/msforms-part1-customconnector/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/msforms-part1-customconnector/</guid>
       <description>Creating a social intranet that fosters collaboration and engagement among employees is essential in today&amp;rsquo;s digital workplace. One effective component of a social intranet is a &amp;ldquo;question of the week&amp;rdquo; or poll functionality. While SharePoint doesn&amp;rsquo;t have a built-in poll feature, you can use a Microsoft Form with one question to achieve the same effect. However, updating the question weekly can be a manual and time-consuming task.&#xA;Unfortunately, Microsoft doesn&amp;rsquo;t provide a standard API for Microsoft Forms that can easily be integrated with Power Automate to automate question creation and management of a Form.</description>
     </item>
     <item>
       <title>Power Apps Canvas: one icon with eleven color variations</title>
-      <link>//aseURL:1313/blog/20230805powerappiconcolorvariations/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20230805powerappiconcolorvariations/</link>
       <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20230805powerappiconcolorvariations/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20230805powerappiconcolorvariations/</guid>
       <description>Situation In the Netherlands, the energy label of houses is indicated by a letter and a corresponding color. Today, we have 11 different labels, ranging from A&amp;#43;&amp;#43;&amp;#43;&amp;#43; to G&#xD;.&#xA;This label is usually indicated by a pentagonal arrow, containing the letter and corresponding color. An example:&#xA;Source: https://www.homekeur.nl/energielabel-woning-uitleg/&#xD;Scenario In a Canvas Power App, the letter could be selected in the dropdown and icon and its corresponding label should be displayed based on the selected value.</description>
     </item>
     <item>
       <title>How to get all SharePoint sites of a hub site in Power Automate</title>
-      <link>//aseURL:1313/blog/20230722-sharepointgetallhubsites/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20230722-sharepointgetallhubsites/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20230722-sharepointgetallhubsites/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20230722-sharepointgetallhubsites/</guid>
       <description>The Challenge There is a lot of information available on how to retrieve all sites related to a SharePoint hub using Powershell. Another option is to use Microsoft Graph and search for all sites. https://graph.microsoft.com/v1.0/sites?search=&#xD;*&#xA;The challenge was to get all the sites of a hub in Power Automate without using premium actions like the HTTP request. This blog describes how to achieve this!&#xA;Needed HTTP requests Initialized a variable to store the URL of the hubsite.</description>
     </item>
     <item>
       <title>How to create a markdown table with flexible amount of rows in an Approval</title>
-      <link>//aseURL:1313/blog/20230721-approvalmdtablerows/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20230721-approvalmdtablerows/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20230721-approvalmdtablerows/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20230721-approvalmdtablerows/</guid>
       <description>The Approval functionality is really powerful! A lot of situation requires a response like an approval. The approval action in Power Automate does have some parameters which you can enter data in. Next to required details like the ‘Approval type’, ‘Title’ and ‘Assigned to’, you can enter Details. For Details you can use markdown to design the setup.&#xA;The challenge In this blog the challenge that’s got resolved is that the approval request contains a table which as multiple rows, but the amount of rows are flexible and different every flow run.</description>
     </item>
   </channel>

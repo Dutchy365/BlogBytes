@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Power BI on Burgers &amp; Bytes</title>
-    <link>//aseURL:1313/tags/power-bi/</link>
+    <link>http://localhost:1313/BlogBytes/tags/power-bi/</link>
     <description>Recent content in Power BI on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 21 Oct 2023 00:00:03 +0000</lastBuildDate>
-    <atom:link href="//aseURL:1313/tags/power-bi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/BlogBytes/tags/power-bi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Part 3: Enhancing User Engagement Measurement on SharePoint Intranets: Visualize data</title>
-      <link>//aseURL:1313/blog/20231021-userengagement-part3/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part3/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:03 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20231021-userengagement-part3/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part3/</guid>
       <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie&#xD;, you could read how to use the Power Platform to measure user engagement even more deeply using KPI regarding user engagement.</description>
     </item>
     <item>
       <title>Part 2: Enhancing User Engagement Measurement on SharePoint Intranets: Page Freshness</title>
-      <link>//aseURL:1313/blog/20231021-userengagement-part2/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part2/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:02 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20231021-userengagement-part2/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part2/</guid>
       <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie&#xD;, you could read how to use the Power Platform to measure user engagement even more deeply using KPI&amp;rsquo;s regarding user engagement.</description>
     </item>
     <item>
       <title>Part 1: Enhancing User Engagement Measurement on SharePoint Intranets with Power Platform</title>
-      <link>//aseURL:1313/blog/20231021-userengagement-part1/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part1/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:01 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20231021-userengagement-part1/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part1/</guid>
       <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie, we will explore how to use the Power Platform to measure user engagement even more deeply using KPI&amp;rsquo;s regarding user engagement.</description>
     </item>
     <item>
       <title>Make use of the responses: display the survey data of the Forms - part 3</title>
-      <link>//aseURL:1313/blog/msforms-part3-dashboard/</link>
+      <link>http://localhost:1313/BlogBytes/blog/msforms-part3-dashboard/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:03 +0000</pubDate>
-      <guid>//aseURL:1313/blog/msforms-part3-dashboard/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/msforms-part3-dashboard/</guid>
       <description>This blog is part of the blog series for Microsoft Forms automation to create automatic update of you question of the week on your SharePoint intranet. The first blog explains how to create a custom connector using the undocumented Microsoft Forms API&#xD;. The second blog describes how to keep your ‘Question of the week’ based on Microsoft Forms up-to-date&#xD;.&#xA;The result of the first two parts of this blog series is a nice looking SharePoint list which contains all data from the Question of the week.</description>
     </item>
   </channel>

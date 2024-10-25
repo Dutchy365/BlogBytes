@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Queue ID on Burgers &amp; Bytes</title>
-    <link>//aseURL:1313/tags/queue-id/</link>
+    <link>http://localhost:1313/BlogBytes/tags/queue-id/</link>
     <description>Recent content in Queue ID on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 05 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:1313/tags/queue-id/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/BlogBytes/tags/queue-id/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Change Email From Address to Queue using Environment Variable in JavaScript</title>
-      <link>//aseURL:1313/blog/20231201-changefromaddressofemailtosharedmailbox/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20231201-changefromaddressofemailtosharedmailbox/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20231201-changefromaddressofemailtosharedmailbox/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20231201-changefromaddressofemailtosharedmailbox/</guid>
       <description>Special thanks to Kevin Hendricks and Jan-Frederik Kobus for their support in implementing this scenario.&#xA;Scenario The scenario of the blog is related to the email entity of a Model Driven app. The goal is to use a shared mailbox to send emails from instead of the personal address of the current user. The case is to automatically change the From address and be able to have a flexible setup for different queue ids.</description>
     </item>
   </channel>

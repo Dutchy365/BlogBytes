@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Progress Bar on Burgers &amp; Bytes</title>
-    <link>//aseURL:1313/tags/progress-bar/</link>
+    <link>http://localhost:1313/BlogBytes/tags/progress-bar/</link>
     <description>Recent content in Progress Bar on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:1313/tags/progress-bar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/BlogBytes/tags/progress-bar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Progress bar in Power Apps Canvas</title>
+      <link>http://localhost:1313/BlogBytes/blog/20241025-progressbarinpowerapps/</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/BlogBytes/blog/20241025-progressbarinpowerapps/</guid>
+      <description>Having a good user experience is key, especially in app design. A nicely done progress bar in Power Apps can really boost this experience by giving users a clear and easy way to see their progress through various tasks. Whether they&amp;rsquo;re filling out forms, working through workflows, or going through multi-step procedures, a simple progress bar helps users know exactly where they are in the process.&#xA;What’s great about this progress bar is how it adjusts to fit the input table.</description>
+    </item>
     <item>
       <title>Custom progress bar in Power Pages</title>
-      <link>//aseURL:1313/blog/20240103-progressbarpowerpages/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20240103-progressbarpowerpages/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20240103-progressbarpowerpages/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20240103-progressbarpowerpages/</guid>
       <description>A progress bar visually communicates the completion status of a process. In a Model Driven App there is the Business Process Flow, in Power Pages there is no default component to visualize this. It is crucial for the progress bar to be flexibility and use the data stored in Dataverse and ensuring readiness for the addition of any extra status in the process without constraints.&#xA;Challenge accepted 💪!&#xA;Scenario In this scenario, an application Power Pages site is designed for individual contacts, where each contact can have only one associated application.</description>
     </item>
   </channel>

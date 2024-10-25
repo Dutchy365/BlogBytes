@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown on Burgers &amp; Bytes</title>
-    <link>//aseURL:1313/tags/markdown/</link>
+    <link>http://localhost:1313/BlogBytes/tags/markdown/</link>
     <description>Recent content in Markdown on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/BlogBytes/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From Markdown syntax hyperlink to HTML link</title>
-      <link>//aseURL:1313/blog/20240619-markdownhyperlinktohtml/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20240619-markdownhyperlinktohtml/</link>
       <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20240619-markdownhyperlinktohtml/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20240619-markdownhyperlinktohtml/</guid>
       <description>Scenario This blogs scenario is regarding a plain multi line text input in which no rich text was allowed. Requirement was just one exception to have the ability to have clickable hyperlinks.&#xA;In the Dataverse table no html is stored only plain text, so using a markdown syntax notation was the solution.&#xA;Markdown syntax for a hyperlink is square brackets followed by parentheses. The square brackets hold the text, the parentheses hold the link.</description>
     </item>
     <item>
       <title>Power Apps Canvas: one icon with eleven color variations</title>
-      <link>//aseURL:1313/blog/20230805powerappiconcolorvariations/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20230805powerappiconcolorvariations/</link>
       <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20230805powerappiconcolorvariations/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20230805powerappiconcolorvariations/</guid>
       <description>Situation In the Netherlands, the energy label of houses is indicated by a letter and a corresponding color. Today, we have 11 different labels, ranging from A&amp;#43;&amp;#43;&amp;#43;&amp;#43; to G&#xD;.&#xA;This label is usually indicated by a pentagonal arrow, containing the letter and corresponding color. An example:&#xA;Source: https://www.homekeur.nl/energielabel-woning-uitleg/&#xD;Scenario In a Canvas Power App, the letter could be selected in the dropdown and icon and its corresponding label should be displayed based on the selected value.</description>
     </item>
     <item>
       <title>How to create a markdown table with flexible amount of rows in an Approval</title>
-      <link>//aseURL:1313/blog/20230721-approvalmdtablerows/</link>
+      <link>http://localhost:1313/BlogBytes/blog/20230721-approvalmdtablerows/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20230721-approvalmdtablerows/</guid>
+      <guid>http://localhost:1313/BlogBytes/blog/20230721-approvalmdtablerows/</guid>
       <description>The Approval functionality is really powerful! A lot of situation requires a response like an approval. The approval action in Power Automate does have some parameters which you can enter data in. Next to required details like the ‘Approval type’, ‘Title’ and ‘Assigned to’, you can enter Details. For Details you can use markdown to design the setup.&#xA;The challenge In this blog the challenge that’s got resolved is that the approval request contains a table which as multiple rows, but the amount of rows are flexible and different every flow run.</description>
     </item>
   </channel>
