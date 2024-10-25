@@ -167,6 +167,177 @@ The rectangle is visible only below the current item, clearly indicating to the 
 |Width|Parent.TemplateWidth|
 |Height|6
 
+## YAML
+While writing this blog the YAML code view is still in preview and readonly. 
+For future purpose, you can directly use the YAML code to easily copy/paste functionality.
+Therefore already the YAML code for this solution:
+
+``` YAML
+- ProgressBarModern:
+    Control: Component
+    Properties:
+      Color: =RGBA(16,162,194, 1)
+      ProgressItems: |-
+        =Table(
+            {
+                StepName: "Start",
+                StepNo: 0,
+                IsCurrent: true,
+                hasError: 0
+            },
+            {
+                StepName: "1. Self-assessment",
+                StepNo: 1,
+                IsCurrent: false,
+                hasFeedback: 2,
+                hasError: 1
+            },
+            {
+                StepName: "2. Career goals",
+                StepNo: 2,
+                IsCurrent: false,
+                hasFeedback: 3,
+                hasError: 0
+            },
+            {
+                StepName: "3. Learning & development",
+                StepNo: 3,
+                StepScreen: "Steps Screen",
+                IsCurrent: false,
+                hasFeedback: 0,
+                hasError: 2
+            },
+            {
+                StepName: "4. Work-life balance",
+                StepNo: 4,
+                IsCurrent: false,
+                hasFeedback: 1,
+                hasError: 0
+            },
+            {
+                StepName: "Save & Submit",
+                StepNo: 5,
+                IsCurrent: false,
+                hasError: 0
+            }
+        )
+      Height: =100
+      Width: =CountRows(ProgressBarModern.ProgressItems) * 106
+    Children:
+    - galProgressBar:
+        Control: Gallery
+        Variant: BrowseLayout_Horizontal_TwoTextOneImageVariant_ver5.0
+        Properties:
+          OnSelect: |+
+            =Set(varCurrentStep, LookUp(colSteps, IsCurrent = true).StepNo);
+            Set(varStepToNavigate, ThisItem.StepNo); 
+
+
+
+
+          AccessibleLabel: ="Progress"
+          Items: =ProgressBarModern.ProgressItems
+          BorderColor: =
+          BorderStyle: =BorderStyle.None
+          DelayItemLoading: =true
+          FocusedBorderColor: =
+          FocusedBorderThickness: =0.1
+          Height: =Parent.Height
+          TabIndex: =0
+          TemplateSize: =100
+          Width: =Parent.Width
+        Children:
+        - icoError:
+            Control: Classic/Icon
+            Variant: Error
+            Properties:
+              OnSelect: =Select(Parent)
+              Tooltip: =
+              BorderColor: =RGBA(0, 18, 107, 1)
+              Color: =RGBA(255, 0, 0, 1)
+              Height: =24
+              Icon: =Icon.Warning
+              Visible: =If(ThisItem.StepNo = 0 || ThisItem.StepNo = Sum(galProgressBar.AllItemsCount - 1), false, If(ThisItem.hasError > 0, true, false))
+              Width: =24
+              X: =btnCircle.X + Self.Width + 5
+              Y: =btnCircle.Y + Self.Height
+        - badgeFeedback:
+            Control: Badge
+            Properties:
+              AccessibleLabel: ="Review badge"
+              Appearance: ='BadgeCanvas.Appearance'.Filled
+              Content: =ThisItem.hasFeedback
+              ThemeColor: ='BadgeCanvas.ThemeColor'.Danger
+              Height: =24
+              Visible: |-
+                =If(ThisItem.StepNo = 0 || ThisItem.StepNo = Sum(galProgressBar.AllItemsCount - 1), false, true)
+
+                //If(ThisItem.hasFeedback > 0, true,false)
+              Width: =24
+              X: =btnCircle.X + Self.Width + 5
+              Y: =galProgressBar.Y
+        - txtName:
+            Control: Text
+            Properties:
+              Align: ='TextCanvas.Align'.Center
+              Font: =Font.'Segoe UI'
+              FontColor: =If(ThisItem.IsCurrent, RGBA(16,162,194, 1), RGBA(0, 0, 0, 1))
+              Size: =12
+              Text: =ThisItem.StepName
+              Weight: =If(ThisItem.IsCurrent, FontWeight.Bold, FontWeight.Normal)
+              Height: =36
+              Width: =Parent.TemplateWidth
+              X: =(Parent.TemplateWidth - Self.Width)/2
+              Y: =btnCircle.Y+btnCircle.Height
+        - btnCircle:
+            Control: Button
+            Properties:
+              OnSelect: =Select(Parent)
+              BasePaletteColor: =ProgressBarModern.Color
+              BorderRadiusBottomLeft: =Self.Width /2
+              BorderRadiusBottomRight: =Self.Width /2
+              BorderRadiusTopLeft: =Self.Width /2
+              BorderRadiusTopRight: =Self.Width /2
+              BorderStyle: =BorderStyle.None
+              Icon: =If(ThisItem.StepNo =0, "Home", If(ThisItem.StepNo = Sum(galProgressBar.AllItemsCount -1), "Save", ""))
+              Layout: |+
+                =If(
+                    ThisItem.StepNo = 0 || ThisItem.StepNo = galProgressBar.AllItemsCount - 1,
+                    'ButtonCanvas.Layout'.IconOnly,
+                    'ButtonCanvas.Layout'.TextOnly
+                )
+              Text: =ThisItem.StepNo
+              Height: =41
+              Width: =41
+              X: =(Parent.TemplateWidth - Self.Width)/2
+              Y: =10
+        - recBar:
+            Control: Rectangle
+            Properties:
+              OnSelect: =Select(Parent)
+              BorderColor: =RGBA(0, 18, 107, 1)
+              Fill: =ProgressBarModern.Color
+              Height: =6
+              Visible: =ThisItem.IsCurrent
+              Width: =Parent.TemplateWidth
+              Y: =Parent.Height - 16
+    AccessAppScope: true
+    CustomProperties:
+    - ProgressItems:
+        Direction: Input
+        PropertyType: Data
+        DataType: Table
+        IsResettable: true
+        DisplayName: Progress Items
+        Description: The example input for the gallery
+    - Color:
+        Direction: Input
+        PropertyType: Data
+        DataType: Color
+        IsResettable: false
+        DisplayName: Color
+        Description: Color used for the button and rectangle
+```
 
 ## Wrap-up
 As we finish up our dive into making a dynamic progress bar in Power Apps, it’s clear that you can really improve user experience with smart design choices. Adding visual stuff like circular buttons and clear icons helps users smoothly go through their tasks, making everything more intuitive and fun.
