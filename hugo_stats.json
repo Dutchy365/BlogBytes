@@ -270,6 +270,7 @@
       "definition",
       "delegated-or-application-only-permissions",
       "delete-responses",
+      "designing-an-adaptive-card",
       "determine-standards",
       "determine-value-of-current-status",
       "different-process-steps-per-project-type",
@@ -318,6 +319,7 @@
       "item-gallery",
       "iterate-through-all-channels",
       "javascript-jquery-to-the-rescue",
+      "lets-walk-through-an-example",
       "likert",
       "liquid-code",
       "load-data",
@@ -325,6 +327,7 @@
       "load-data-into-collection",
       "magic-in-the-patch-formula",
       "main-screen",
+      "making-elements-conditional",
       "match-column-values",
       "matchall-and-regular-expression",
       "microsoft-forms-api",
@@ -341,6 +344,7 @@
       "permissions-needed",
       "populate-column-in-newly-created-row",
       "power-app",
+      "power-automate---post-an-adaptive-card",
       "power-automate-actions",
       "powerfx",
       "powerfx-1",
@@ -406,9 +410,11 @@
       "use-data-to-populate-other-table",
       "user-input",
       "variable",
+      "visibility",
       "visualize-data",
       "why-naming-conventions",
-      "wrap-up"
+      "wrap-up",
+      "yaml"
     ]
   }
 }

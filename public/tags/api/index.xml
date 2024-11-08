@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>API on Burgers &amp; Bytes</title>
-    <link>http://localhost:1313/BlogBytes/tags/api/</link>
+    <link>//aseURL:1313/tags/api/</link>
     <description>Recent content in API on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 15 Aug 2023 00:00:01 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/BlogBytes/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:1313/tags/api/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Microsoft Forms automation: a custom connector - part 1</title>
-      <link>http://localhost:1313/BlogBytes/blog/msforms-part1-customconnector/</link>
+      <link>//aseURL:1313/blog/msforms-part1-customconnector/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:01 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/msforms-part1-customconnector/</guid>
+      <guid>//aseURL:1313/blog/msforms-part1-customconnector/</guid>
       <description>Creating a social intranet that fosters collaboration and engagement among employees is essential in today&amp;rsquo;s digital workplace. One effective component of a social intranet is a &amp;ldquo;question of the week&amp;rdquo; or poll functionality. While SharePoint doesn&amp;rsquo;t have a built-in poll feature, you can use a Microsoft Form with one question to achieve the same effect. However, updating the question weekly can be a manual and time-consuming task.&#xA;Unfortunately, Microsoft doesn&amp;rsquo;t provide a standard API for Microsoft Forms that can easily be integrated with Power Automate to automate question creation and management of a Form.</description>
     </item>
     <item>
       <title>Microsoft Forms API</title>
-      <link>http://localhost:1313/BlogBytes/page/msformapi/</link>
+      <link>//aseURL:1313/page/msformapi/</link>
       <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/page/msformapi/</guid>
+      <guid>//aseURL:1313/page/msformapi/</guid>
       <description>Every question type has is own setup of the body content.&#xA;Body content The payload of the different question types all have the same parameters:&#xA;questionInfo type title id order isQuiz required { &amp;#34;questionInfo&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;type&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;title&amp;#34;: &amp;#34;Question&amp;#34;, &amp;#34;id&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;order&amp;#34;: 4000500, &amp;#34;isQuiz&amp;#34;: false, &amp;#34;required&amp;#34;: false } Parameter type Question Type Choice Question.Choice Text Question.TextField Rating Question.Rating Date Question.DateTime Ranking Question.Ranking Likert Question.Matrix Upload File Question.FileUpload Net Promoter Score Question.</description>
     </item>
   </channel>

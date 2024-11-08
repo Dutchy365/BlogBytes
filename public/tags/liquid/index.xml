@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Liquid on Burgers &amp; Bytes</title>
-    <link>http://localhost:1313/BlogBytes/tags/liquid/</link>
+    <link>//aseURL:1313/tags/liquid/</link>
     <description>Recent content in Liquid on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/BlogBytes/tags/liquid/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:1313/tags/liquid/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Custom progress bar in Power Pages</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240103-progressbarpowerpages/</link>
+      <link>//aseURL:1313/blog/20240103-progressbarpowerpages/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240103-progressbarpowerpages/</guid>
+      <guid>//aseURL:1313/blog/20240103-progressbarpowerpages/</guid>
       <description>A progress bar visually communicates the completion status of a process. In a Model Driven App there is the Business Process Flow, in Power Pages there is no default component to visualize this. It is crucial for the progress bar to be flexibility and use the data stored in Dataverse and ensuring readiness for the addition of any extra status in the process without constraints.&#xA;Challenge accepted 💪!&#xA;Scenario In this scenario, an application Power Pages site is designed for individual contacts, where each contact can have only one associated application.</description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nested Gallery on Burgers &amp; Bytes</title>
-    <link>http://localhost:1313/BlogBytes/tags/nested-gallery/</link>
+    <link>//aseURL:1313/tags/nested-gallery/</link>
     <description>Recent content in Nested Gallery on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 05 Apr 2024 00:00:02 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/BlogBytes/tags/nested-gallery/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:1313/tags/nested-gallery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dynamic horizontal header part 2: flexible horizontal scrolling</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240405-horizontalheader-part2-scrolling/</link>
+      <link>//aseURL:1313/blog/20240405-horizontalheader-part2-scrolling/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:02 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240405-horizontalheader-part2-scrolling/</guid>
+      <guid>//aseURL:1313/blog/20240405-horizontalheader-part2-scrolling/</guid>
       <description>In Excel we are quite familiar with a the functionality to freeze a row and a column. In Power App Canvas this can be more challenging. In this blog serie of two blogs a solution for Power Apps will be explained.&#xA;The first blog the setup to create a header and nested galleries are explained&#xD;This (second) blog shows how to create a dynamic horizontal scrolling header. Set up See blog part 1&#xD;to have the setup in which the basic of the three galleries are created.</description>
     </item>
     <item>
       <title>Dynamic horizontal header part 1: static header</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240405-horizontalheader-part1-static/</link>
+      <link>//aseURL:1313/blog/20240405-horizontalheader-part1-static/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:01 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240405-horizontalheader-part1-static/</guid>
+      <guid>//aseURL:1313/blog/20240405-horizontalheader-part1-static/</guid>
       <description>In Excel we are quite familiar with a the functionality to freeze a row and a column. In Power App Canvas this can be more challenging. In this blog serie of two blogs a solution for Power Apps will be explained.&#xA;This blog: the setup to create a header and nested galleries The second blog shows how to create a dynamic horizontal scrolling header.&#xD;Context The academic course catalog offers a timeline that illustrates the availability of courses across multiple years, with the main section displaying a horizontal representation of courses available per academic years.</description>
     </item>
   </channel>

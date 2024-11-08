@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage"><head><script src="/BlogBytes/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=BlogBytes/livereload" data-no-instant defer></script>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="http://www.burgersandbytes.nl" rel="canonical" />
@@ -10,14 +10,14 @@
   Progress bar in Power Apps Canvas - Burgers &amp; Bytes
   </title>
   <meta name="description" content="Powerful progress tracking; a flexible progress bar" /><meta name="generator" content="Hugo 0.128.2">
-  <link rel="stylesheet" href="/BlogBytes/css/styles.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
   
   
 
   <meta property="og:title" content="Progress bar in Power Apps Canvas" />
 <meta property="og:description" content="Powerful progress tracking; a flexible progress bar" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/BlogBytes/blog/20241025-progressbarinpowerapps/" /><meta property="og:image" content="http://localhost:1313/00ProgressBarCanvas.png" /><meta property="article:section" content="blog" />
+<meta property="og:url" content="//aseURL:1313/blog/20241025-progressbarinpowerapps/" /><meta property="og:image" content="//aseURL:1313/00ProgressBarCanvas.png" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2024-10-25T00:00:00+00:00" />
 <meta property="article:modified_time" content="2024-10-25T00:00:00+00:00" />
 
@@ -25,7 +25,7 @@
   
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/00ProgressBarCanvas.png">
+  <meta name="twitter:image" content="//aseURL:1313/00ProgressBarCanvas.png">
   <meta name="twitter:title" content="Progress bar in Power Apps Canvas">
   <meta name="twitter:description" content="Powerful progress tracking; a flexible progress bar">
 
@@ -34,8 +34,8 @@
   <meta itemprop="description" content="Powerful progress tracking; a flexible progress bar">
   <meta itemprop="datePublished" content="2024-10-25T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-10-25T00:00:00+00:00">
-  <meta itemprop="wordCount" content="616">
-  <meta itemprop="image" content="http://localhost:1313/00ProgressBarCanvas.png">
+  <meta itemprop="wordCount" content="1051">
+  <meta itemprop="image" content="//aseURL:1313/00ProgressBarCanvas.png">
   <meta itemprop="keywords" content="Progress Bar,Gallery">
 
  
@@ -45,7 +45,7 @@
   
 </head>
 <body class="dark:bg-gray-800 dark:text-white relative flex flex-col min-h-screen"><header class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto relative">
-  <a href="http://localhost:1313/BlogBytes/" class="capitalize font-extrabold text-2xl">
+  <a href="//aseURL:1313/" class="capitalize font-extrabold text-2xl">
     
     <img src="/logo.png" alt="Burgers &amp; Bytes" class="max-w-full" style="height:75px" />
     
@@ -60,11 +60,11 @@
   <ul class="mobile-menu absolute z-10 px-6 pb-6 md:p-0 top-full left-0 w-full md:w-auto md:relative hidden md:flex flex-col md:flex-row items-end md:items-center gap-4 lg:gap-6 bg-white dark:bg-gray-800">
 
     
-    <li><a href="/BlogBytes/">Home</a></li>
+    <li><a href="/">Home</a></li>
     
-    <li><a href="/BlogBytes/blog/">Blog</a></li>
+    <li><a href="/blog/">Blog</a></li>
     
-    <li><a href="/BlogBytes/page/about/">About</a></li>
+    <li><a href="/page/about/">About</a></li>
     
 
     
@@ -128,7 +128,7 @@
         <circle cx="12" cy="12" r="9" />
         <polyline points="12 7 12 12 15 15" />
       </svg>
-      3&nbsp;
+      5&nbsp;
       &nbsp;&bull;
       <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -138,7 +138,7 @@
         <line x1="12" y1="6" x2="12" y2="19" />
         <line x1="21" y1="6" x2="21" y2="19" />
       </svg>
-      616&nbsp;
+      1051&nbsp;
       
         
       
@@ -203,6 +203,11 @@
         </li></ul>
       </li></ul>
       </li><li>
+        <a href="#yaml">YAML</a>
+        
+
+        
+        </li><li>
         <a href="#wrap-up">Wrap-up</a>
         </li></ul>
   </details>
@@ -497,7 +502,175 @@ The properties to make this possible:</p>
 </tr>
 </tbody>
 </table>
-<h2 id="wrap-up">Wrap-up</h2>
+<h2 id="yaml">YAML</h2>
+<p>While writing this blog the YAML code view is still in preview and readonly.
+For future purpose, you can directly use the YAML code to easily copy/paste functionality.
+Therefore already the YAML code for this solution:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-YAML" data-lang="YAML"><span style="display:flex;"><span>- <span style="color:#ff79c6">ProgressBarModern</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">Control</span>: Component
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">Properties</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">Color</span>: =RGBA(16,162,194, 1)
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">ProgressItems</span>: |-<span style="color:#f1fa8c">
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">        =Table(
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            {
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                StepName: &#34;Start&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                StepNo: 0,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                IsCurrent: true,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                hasError: 0
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            },
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            {
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                StepName: &#34;1. Self-assessment&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                StepNo: 1,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                IsCurrent: false,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                hasFeedback: 2,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                hasError: 1
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            },
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            {
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                StepName: &#34;2. Career goals&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                StepNo: 2,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                IsCurrent: false,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                hasFeedback: 3,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                hasError: 0
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            },
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            {
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                StepName: &#34;3. Learning &amp; development&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                StepNo: 3,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                StepScreen: &#34;Steps Screen&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                IsCurrent: false,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                hasFeedback: 0,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                hasError: 2
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            },
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            {
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                StepName: &#34;4. Work-life balance&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                StepNo: 4,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                IsCurrent: false,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                hasFeedback: 1,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                hasError: 0
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            },
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            {
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                StepName: &#34;Save &amp; Submit&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                StepNo: 5,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                IsCurrent: false,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                hasError: 0
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            }
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">        )</span>        
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">Height</span>: =100
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">Width</span>: =CountRows(ProgressBarModern.ProgressItems) * 106
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">Children</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#ff79c6">galProgressBar</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Control</span>: Gallery
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Variant</span>: BrowseLayout_Horizontal_TwoTextOneImageVariant_ver5.0
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Properties</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">OnSelect</span>: |+<span style="color:#f1fa8c">
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            =Set(varCurrentStep, LookUp(colSteps, IsCurrent = true).StepNo);
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            Set(varStepToNavigate, ThisItem.StepNo); </span>            
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">AccessibleLabel</span>: =&#34;Progress&#34;
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Items</span>: =ProgressBarModern.ProgressItems
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">BorderColor</span>: =
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">BorderStyle</span>: =BorderStyle.None
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">DelayItemLoading</span>: =true
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">FocusedBorderColor</span>: =
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">FocusedBorderThickness</span>: =0.1
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Height</span>: =Parent.Height
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">TabIndex</span>: =0
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">TemplateSize</span>: =100
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Width</span>: =Parent.Width
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Children</span>:
+</span></span><span style="display:flex;"><span>        - <span style="color:#ff79c6">icoError</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">Control</span>: Classic/Icon
+</span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">Variant</span>: Error
+</span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">Properties</span>:
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">OnSelect</span>: =Select(Parent)
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Tooltip</span>: =
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">BorderColor</span>: =RGBA(0, 18, 107, 1)
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Color</span>: =RGBA(255, 0, 0, 1)
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Height</span>: =24
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Icon</span>: =Icon.Warning
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Visible</span>: =If(ThisItem.StepNo = 0 || ThisItem.StepNo = Sum(galProgressBar.AllItemsCount - 1), false, If(ThisItem.hasError &gt; 0, true, false))
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Width</span>: =24
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">X</span>: =btnCircle.X + Self.Width + 5
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Y</span>: =btnCircle.Y + Self.Height
+</span></span><span style="display:flex;"><span>        - <span style="color:#ff79c6">badgeFeedback</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">Control</span>: Badge
+</span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">Properties</span>:
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">AccessibleLabel</span>: =&#34;Review badge&#34;
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Appearance</span>: =&#39;BadgeCanvas.Appearance&#39;.Filled
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Content</span>: =ThisItem.hasFeedback
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">ThemeColor</span>: =&#39;BadgeCanvas.ThemeColor&#39;.Danger
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Height</span>: =24
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Visible</span>: |-<span style="color:#f1fa8c">
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                =If(ThisItem.StepNo = 0 || ThisItem.StepNo = Sum(galProgressBar.AllItemsCount - 1), false, true)
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                //If(ThisItem.hasFeedback &gt; 0, true,false)</span>                
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Width</span>: =24
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">X</span>: =btnCircle.X + Self.Width + 5
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Y</span>: =galProgressBar.Y
+</span></span><span style="display:flex;"><span>        - <span style="color:#ff79c6">txtName</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">Control</span>: Text
+</span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">Properties</span>:
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Align</span>: =&#39;TextCanvas.Align&#39;.Center
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Font</span>: =Font.&#39;Segoe UI&#39;
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">FontColor</span>: =If(ThisItem.IsCurrent, RGBA(16,162,194, 1), RGBA(0, 0, 0, 1))
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Size</span>: =12
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Text</span>: =ThisItem.StepName
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Weight</span>: =If(ThisItem.IsCurrent, FontWeight.Bold, FontWeight.Normal)
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Height</span>: =36
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Width</span>: =Parent.TemplateWidth
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">X</span>: =(Parent.TemplateWidth - Self.Width)/2
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Y</span>: =btnCircle.Y+btnCircle.Height
+</span></span><span style="display:flex;"><span>        - <span style="color:#ff79c6">btnCircle</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">Control</span>: Button
+</span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">Properties</span>:
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">OnSelect</span>: =Select(Parent)
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">BasePaletteColor</span>: =ProgressBarModern.Color
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">BorderRadiusBottomLeft</span>: =Self.Width /2
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">BorderRadiusBottomRight</span>: =Self.Width /2
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">BorderRadiusTopLeft</span>: =Self.Width /2
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">BorderRadiusTopRight</span>: =Self.Width /2
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">BorderStyle</span>: =BorderStyle.None
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Icon</span>: =If(ThisItem.StepNo =0, &#34;Home&#34;, If(ThisItem.StepNo = Sum(galProgressBar.AllItemsCount -1), &#34;Save&#34;, &#34;&#34;))
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Layout</span>: |+<span style="color:#f1fa8c">
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                =If(
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                    ThisItem.StepNo = 0 || ThisItem.StepNo = galProgressBar.AllItemsCount - 1,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                    &#39;ButtonCanvas.Layout&#39;.IconOnly,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                    &#39;ButtonCanvas.Layout&#39;.TextOnly
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                )</span>                
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Text</span>: =ThisItem.StepNo
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Height</span>: =41
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Width</span>: =41
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">X</span>: =(Parent.TemplateWidth - Self.Width)/2
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Y</span>: =10
+</span></span><span style="display:flex;"><span>        - <span style="color:#ff79c6">recBar</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">Control</span>: Rectangle
+</span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">Properties</span>:
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">OnSelect</span>: =Select(Parent)
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">BorderColor</span>: =RGBA(0, 18, 107, 1)
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Fill</span>: =ProgressBarModern.Color
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Height</span>: =6
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Visible</span>: =ThisItem.IsCurrent
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Width</span>: =Parent.TemplateWidth
+</span></span><span style="display:flex;"><span>              <span style="color:#ff79c6">Y</span>: =Parent.Height - 16
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">AccessAppScope</span>: <span style="color:#ff79c6">true</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">CustomProperties</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#ff79c6">ProgressItems</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Direction</span>: Input
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">PropertyType</span>: Data
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">DataType</span>: Table
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">IsResettable</span>: <span style="color:#ff79c6">true</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">DisplayName</span>: Progress Items
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Description</span>: The example input for the gallery
+</span></span><span style="display:flex;"><span>    - <span style="color:#ff79c6">Color</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Direction</span>: Input
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">PropertyType</span>: Data
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">DataType</span>: Color
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">IsResettable</span>: <span style="color:#ff79c6">false</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">DisplayName</span>: Color
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Description</span>: Color used for the button and rectangle
+</span></span></code></pre></div><h2 id="wrap-up">Wrap-up</h2>
 <p>As we finish up our dive into making a dynamic progress bar in Power Apps, it’s clear that you can really improve user experience with smart design choices. Adding visual stuff like circular buttons and clear icons helps users smoothly go through their tasks, making everything more intuitive and fun.</p>
 
   </article>
@@ -763,7 +936,7 @@ The properties to make this possible:</p>
 
 
 
-<script src="http://localhost:1313/BlogBytes/js/scripts.min.js"></script>
+<script src="//aseURL:1313/js/scripts.min.js"></script>
 
 
   

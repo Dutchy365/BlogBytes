@@ -2,514 +2,521 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Burgers &amp; Bytes</title>
-    <link>http://localhost:1313/BlogBytes/tags/</link>
+    <link>//aseURL:1313/tags/</link>
     <description>Recent content in Tags on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/BlogBytes/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Gallery</title>
-      <link>http://localhost:1313/BlogBytes/tags/gallery/</link>
-      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/gallery/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Progress Bar</title>
-      <link>http://localhost:1313/BlogBytes/tags/progress-bar/</link>
-      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/progress-bar/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Artificial Intelligence</title>
-      <link>http://localhost:1313/BlogBytes/tags/artificial-intelligence/</link>
-      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/artificial-intelligence/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Podcast</title>
-      <link>http://localhost:1313/BlogBytes/tags/podcast/</link>
-      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/podcast/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Personal View</title>
-      <link>http://localhost:1313/BlogBytes/tags/personal-view/</link>
-      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/personal-view/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Power Apps</title>
-      <link>http://localhost:1313/BlogBytes/tags/power-apps/</link>
-      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/power-apps/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>OneNote</title>
-      <link>http://localhost:1313/BlogBytes/tags/onenote/</link>
-      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/onenote/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PowerAutomate</title>
-      <link>http://localhost:1313/BlogBytes/tags/powerautomate/</link>
-      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/powerautomate/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Teams</title>
-      <link>http://localhost:1313/BlogBytes/tags/teams/</link>
-      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/teams/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Powershell</title>
-      <link>http://localhost:1313/BlogBytes/tags/powershell/</link>
-      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/powershell/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SharePoint - Column Formatting - SharePoint List - Status Column</title>
-      <link>http://localhost:1313/BlogBytes/tags/sharepoint---column-formatting---sharepoint-list---status-column/</link>
-      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/sharepoint---column-formatting---sharepoint-list---status-column/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Automated</title>
-      <link>http://localhost:1313/BlogBytes/tags/automated/</link>
-      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/automated/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dataverse</title>
-      <link>http://localhost:1313/BlogBytes/tags/dataverse/</link>
-      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/dataverse/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Plugin</title>
-      <link>http://localhost:1313/BlogBytes/tags/plugin/</link>
-      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/plugin/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hyperlink</title>
-      <link>http://localhost:1313/BlogBytes/tags/hyperlink/</link>
-      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/hyperlink/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Markdown</title>
-      <link>http://localhost:1313/BlogBytes/tags/markdown/</link>
-      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/markdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dynamic Forms</title>
-      <link>http://localhost:1313/BlogBytes/tags/dynamic-forms/</link>
-      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/dynamic-forms/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ParseJSON</title>
-      <link>http://localhost:1313/BlogBytes/tags/parsejson/</link>
-      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/parsejson/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Collection</title>
-      <link>http://localhost:1313/BlogBytes/tags/collection/</link>
-      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/collection/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>JSON Format</title>
-      <link>http://localhost:1313/BlogBytes/tags/json-format/</link>
-      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/json-format/</guid>
+      <title>Adaptive Cards</title>
+      <link>//aseURL:1313/tags/adaptive-cards/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/adaptive-cards/</guid>
       <description></description>
     </item>
     <item>
       <title>Power Automate</title>
-      <link>http://localhost:1313/BlogBytes/tags/power-automate/</link>
+      <link>//aseURL:1313/tags/power-automate/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/power-automate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teams</title>
+      <link>//aseURL:1313/tags/teams/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/teams/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gallery</title>
+      <link>//aseURL:1313/tags/gallery/</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/gallery/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Progress Bar</title>
+      <link>//aseURL:1313/tags/progress-bar/</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/progress-bar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>//aseURL:1313/tags/artificial-intelligence/</link>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Podcast</title>
+      <link>//aseURL:1313/tags/podcast/</link>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/podcast/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal View</title>
+      <link>//aseURL:1313/tags/personal-view/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/personal-view/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power Apps</title>
+      <link>//aseURL:1313/tags/power-apps/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/power-apps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OneNote</title>
+      <link>//aseURL:1313/tags/onenote/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/onenote/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PowerAutomate</title>
+      <link>//aseURL:1313/tags/powerautomate/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/powerautomate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Powershell</title>
+      <link>//aseURL:1313/tags/powershell/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/powershell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SharePoint - Column Formatting - SharePoint List - Status Column</title>
+      <link>//aseURL:1313/tags/sharepoint---column-formatting---sharepoint-list---status-column/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/sharepoint---column-formatting---sharepoint-list---status-column/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automated</title>
+      <link>//aseURL:1313/tags/automated/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/automated/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dataverse</title>
+      <link>//aseURL:1313/tags/dataverse/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/dataverse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plugin</title>
+      <link>//aseURL:1313/tags/plugin/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/plugin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hyperlink</title>
+      <link>//aseURL:1313/tags/hyperlink/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/hyperlink/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>//aseURL:1313/tags/markdown/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dynamic Forms</title>
+      <link>//aseURL:1313/tags/dynamic-forms/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/dynamic-forms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ParseJSON</title>
+      <link>//aseURL:1313/tags/parsejson/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/parsejson/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Collection</title>
+      <link>//aseURL:1313/tags/collection/</link>
       <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/power-automate/</guid>
+      <guid>//aseURL:1313/tags/collection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JSON Format</title>
+      <link>//aseURL:1313/tags/json-format/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/json-format/</guid>
       <description></description>
     </item>
     <item>
       <title>Power Fx</title>
-      <link>http://localhost:1313/BlogBytes/tags/power-fx/</link>
+      <link>//aseURL:1313/tags/power-fx/</link>
       <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/power-fx/</guid>
+      <guid>//aseURL:1313/tags/power-fx/</guid>
       <description></description>
     </item>
     <item>
       <title>Substitute</title>
-      <link>http://localhost:1313/BlogBytes/tags/substitute/</link>
+      <link>//aseURL:1313/tags/substitute/</link>
       <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/substitute/</guid>
+      <guid>//aseURL:1313/tags/substitute/</guid>
       <description></description>
     </item>
     <item>
       <title>Time Zones</title>
-      <link>http://localhost:1313/BlogBytes/tags/time-zones/</link>
+      <link>//aseURL:1313/tags/time-zones/</link>
       <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/time-zones/</guid>
+      <guid>//aseURL:1313/tags/time-zones/</guid>
       <description></description>
     </item>
     <item>
       <title>Freeze Row and Column</title>
-      <link>http://localhost:1313/BlogBytes/tags/freeze-row-and-column/</link>
+      <link>//aseURL:1313/tags/freeze-row-and-column/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:02 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/freeze-row-and-column/</guid>
+      <guid>//aseURL:1313/tags/freeze-row-and-column/</guid>
       <description></description>
     </item>
     <item>
       <title>Nested Gallery</title>
-      <link>http://localhost:1313/BlogBytes/tags/nested-gallery/</link>
+      <link>//aseURL:1313/tags/nested-gallery/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:02 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/nested-gallery/</guid>
+      <guid>//aseURL:1313/tags/nested-gallery/</guid>
       <description></description>
     </item>
     <item>
       <title>Center of Excellence</title>
-      <link>http://localhost:1313/BlogBytes/tags/center-of-excellence/</link>
+      <link>//aseURL:1313/tags/center-of-excellence/</link>
       <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/center-of-excellence/</guid>
+      <guid>//aseURL:1313/tags/center-of-excellence/</guid>
       <description></description>
     </item>
     <item>
       <title>Governance</title>
-      <link>http://localhost:1313/BlogBytes/tags/governance/</link>
+      <link>//aseURL:1313/tags/governance/</link>
       <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/governance/</guid>
+      <guid>//aseURL:1313/tags/governance/</guid>
       <description></description>
     </item>
     <item>
       <title>Power Platform</title>
-      <link>http://localhost:1313/BlogBytes/tags/power-platform/</link>
+      <link>//aseURL:1313/tags/power-platform/</link>
       <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/power-platform/</guid>
+      <guid>//aseURL:1313/tags/power-platform/</guid>
       <description></description>
     </item>
     <item>
       <title>Filter</title>
-      <link>http://localhost:1313/BlogBytes/tags/filter/</link>
+      <link>//aseURL:1313/tags/filter/</link>
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/filter/</guid>
+      <guid>//aseURL:1313/tags/filter/</guid>
       <description></description>
     </item>
     <item>
       <title>Related Entities</title>
-      <link>http://localhost:1313/BlogBytes/tags/related-entities/</link>
+      <link>//aseURL:1313/tags/related-entities/</link>
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/related-entities/</guid>
+      <guid>//aseURL:1313/tags/related-entities/</guid>
       <description></description>
     </item>
     <item>
       <title>With Function</title>
-      <link>http://localhost:1313/BlogBytes/tags/with-function/</link>
+      <link>//aseURL:1313/tags/with-function/</link>
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/with-function/</guid>
+      <guid>//aseURL:1313/tags/with-function/</guid>
       <description></description>
     </item>
     <item>
       <title>Allocation</title>
-      <link>http://localhost:1313/BlogBytes/tags/allocation/</link>
+      <link>//aseURL:1313/tags/allocation/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/allocation/</guid>
+      <guid>//aseURL:1313/tags/allocation/</guid>
       <description></description>
     </item>
     <item>
       <title>Power Apps Canvas</title>
-      <link>http://localhost:1313/BlogBytes/tags/power-apps-canvas/</link>
+      <link>//aseURL:1313/tags/power-apps-canvas/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/power-apps-canvas/</guid>
+      <guid>//aseURL:1313/tags/power-apps-canvas/</guid>
       <description></description>
     </item>
     <item>
       <title>PowerFx</title>
-      <link>http://localhost:1313/BlogBytes/tags/powerfx/</link>
+      <link>//aseURL:1313/tags/powerfx/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/powerfx/</guid>
+      <guid>//aseURL:1313/tags/powerfx/</guid>
       <description></description>
     </item>
     <item>
       <title>Timer</title>
-      <link>http://localhost:1313/BlogBytes/tags/timer/</link>
+      <link>//aseURL:1313/tags/timer/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/timer/</guid>
+      <guid>//aseURL:1313/tags/timer/</guid>
       <description></description>
     </item>
     <item>
       <title>Announcement</title>
-      <link>http://localhost:1313/BlogBytes/tags/announcement/</link>
+      <link>//aseURL:1313/tags/announcement/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/announcement/</guid>
+      <guid>//aseURL:1313/tags/announcement/</guid>
       <description></description>
     </item>
     <item>
       <title>Chat Message</title>
-      <link>http://localhost:1313/BlogBytes/tags/chat-message/</link>
+      <link>//aseURL:1313/tags/chat-message/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/chat-message/</guid>
+      <guid>//aseURL:1313/tags/chat-message/</guid>
       <description></description>
     </item>
     <item>
       <title>Teams Provisioning</title>
-      <link>http://localhost:1313/BlogBytes/tags/teams-provisioning/</link>
+      <link>//aseURL:1313/tags/teams-provisioning/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/teams-provisioning/</guid>
+      <guid>//aseURL:1313/tags/teams-provisioning/</guid>
       <description></description>
     </item>
     <item>
       <title>JavaScript</title>
-      <link>http://localhost:1313/BlogBytes/tags/javascript/</link>
+      <link>//aseURL:1313/tags/javascript/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/javascript/</guid>
+      <guid>//aseURL:1313/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>JQuery</title>
-      <link>http://localhost:1313/BlogBytes/tags/jquery/</link>
+      <link>//aseURL:1313/tags/jquery/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/jquery/</guid>
+      <guid>//aseURL:1313/tags/jquery/</guid>
       <description></description>
     </item>
     <item>
       <title>Power Pages</title>
-      <link>http://localhost:1313/BlogBytes/tags/power-pages/</link>
+      <link>//aseURL:1313/tags/power-pages/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/power-pages/</guid>
+      <guid>//aseURL:1313/tags/power-pages/</guid>
       <description></description>
     </item>
     <item>
       <title>Rich Text Editor</title>
-      <link>http://localhost:1313/BlogBytes/tags/rich-text-editor/</link>
+      <link>//aseURL:1313/tags/rich-text-editor/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/rich-text-editor/</guid>
+      <guid>//aseURL:1313/tags/rich-text-editor/</guid>
       <description></description>
     </item>
     <item>
       <title>RTE</title>
-      <link>http://localhost:1313/BlogBytes/tags/rte/</link>
+      <link>//aseURL:1313/tags/rte/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/rte/</guid>
+      <guid>//aseURL:1313/tags/rte/</guid>
       <description></description>
     </item>
     <item>
       <title>Sanitize HTML</title>
-      <link>http://localhost:1313/BlogBytes/tags/sanitize-html/</link>
+      <link>//aseURL:1313/tags/sanitize-html/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/sanitize-html/</guid>
+      <guid>//aseURL:1313/tags/sanitize-html/</guid>
       <description></description>
     </item>
     <item>
       <title>FetchXMl</title>
-      <link>http://localhost:1313/BlogBytes/tags/fetchxml/</link>
+      <link>//aseURL:1313/tags/fetchxml/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/fetchxml/</guid>
+      <guid>//aseURL:1313/tags/fetchxml/</guid>
       <description></description>
     </item>
     <item>
       <title>Liquid</title>
-      <link>http://localhost:1313/BlogBytes/tags/liquid/</link>
+      <link>//aseURL:1313/tags/liquid/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/liquid/</guid>
+      <guid>//aseURL:1313/tags/liquid/</guid>
       <description></description>
     </item>
     <item>
       <title>Email</title>
-      <link>http://localhost:1313/BlogBytes/tags/email/</link>
+      <link>//aseURL:1313/tags/email/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/email/</guid>
+      <guid>//aseURL:1313/tags/email/</guid>
       <description></description>
     </item>
     <item>
       <title>Model Driven App</title>
-      <link>http://localhost:1313/BlogBytes/tags/model-driven-app/</link>
+      <link>//aseURL:1313/tags/model-driven-app/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/model-driven-app/</guid>
+      <guid>//aseURL:1313/tags/model-driven-app/</guid>
       <description></description>
     </item>
     <item>
       <title>Queue ID</title>
-      <link>http://localhost:1313/BlogBytes/tags/queue-id/</link>
+      <link>//aseURL:1313/tags/queue-id/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/queue-id/</guid>
+      <guid>//aseURL:1313/tags/queue-id/</guid>
       <description></description>
     </item>
     <item>
       <title>Column Formatting</title>
-      <link>http://localhost:1313/BlogBytes/tags/column-formatting/</link>
+      <link>//aseURL:1313/tags/column-formatting/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/column-formatting/</guid>
+      <guid>//aseURL:1313/tags/column-formatting/</guid>
       <description></description>
     </item>
     <item>
       <title>Lookup Column</title>
-      <link>http://localhost:1313/BlogBytes/tags/lookup-column/</link>
+      <link>//aseURL:1313/tags/lookup-column/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/lookup-column/</guid>
+      <guid>//aseURL:1313/tags/lookup-column/</guid>
       <description></description>
     </item>
     <item>
       <title>SharePoint</title>
-      <link>http://localhost:1313/BlogBytes/tags/sharepoint/</link>
+      <link>//aseURL:1313/tags/sharepoint/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/sharepoint/</guid>
+      <guid>//aseURL:1313/tags/sharepoint/</guid>
       <description></description>
     </item>
     <item>
       <title>SharePoint List</title>
-      <link>http://localhost:1313/BlogBytes/tags/sharepoint-list/</link>
+      <link>//aseURL:1313/tags/sharepoint-list/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/sharepoint-list/</guid>
+      <guid>//aseURL:1313/tags/sharepoint-list/</guid>
       <description></description>
     </item>
     <item>
       <title>Page Freshness</title>
-      <link>http://localhost:1313/BlogBytes/tags/page-freshness/</link>
+      <link>//aseURL:1313/tags/page-freshness/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:03 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/page-freshness/</guid>
+      <guid>//aseURL:1313/tags/page-freshness/</guid>
       <description></description>
     </item>
     <item>
       <title>Power BI</title>
-      <link>http://localhost:1313/BlogBytes/tags/power-bi/</link>
+      <link>//aseURL:1313/tags/power-bi/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:03 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/power-bi/</guid>
+      <guid>//aseURL:1313/tags/power-bi/</guid>
       <description></description>
     </item>
     <item>
       <title>User Engagement</title>
-      <link>http://localhost:1313/BlogBytes/tags/user-engagement/</link>
+      <link>//aseURL:1313/tags/user-engagement/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:03 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/user-engagement/</guid>
+      <guid>//aseURL:1313/tags/user-engagement/</guid>
       <description></description>
     </item>
     <item>
       <title>User Interaction</title>
-      <link>http://localhost:1313/BlogBytes/tags/user-interaction/</link>
+      <link>//aseURL:1313/tags/user-interaction/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:03 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/user-interaction/</guid>
+      <guid>//aseURL:1313/tags/user-interaction/</guid>
       <description></description>
     </item>
     <item>
       <title>ChatGPT</title>
-      <link>http://localhost:1313/BlogBytes/tags/chatgpt/</link>
+      <link>//aseURL:1313/tags/chatgpt/</link>
       <pubDate>Tue, 26 Sep 2023 00:00:01 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/chatgpt/</guid>
+      <guid>//aseURL:1313/tags/chatgpt/</guid>
       <description></description>
     </item>
     <item>
       <title>Naming Conventions</title>
-      <link>http://localhost:1313/BlogBytes/tags/naming-conventions/</link>
+      <link>//aseURL:1313/tags/naming-conventions/</link>
       <pubDate>Tue, 26 Sep 2023 00:00:01 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/naming-conventions/</guid>
+      <guid>//aseURL:1313/tags/naming-conventions/</guid>
       <description></description>
     </item>
     <item>
       <title>Custom Connector</title>
-      <link>http://localhost:1313/BlogBytes/tags/custom-connector/</link>
+      <link>//aseURL:1313/tags/custom-connector/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:03 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/custom-connector/</guid>
+      <guid>//aseURL:1313/tags/custom-connector/</guid>
       <description></description>
     </item>
     <item>
       <title>Dashboard</title>
-      <link>http://localhost:1313/BlogBytes/tags/dashboard/</link>
+      <link>//aseURL:1313/tags/dashboard/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:03 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/dashboard/</guid>
+      <guid>//aseURL:1313/tags/dashboard/</guid>
       <description></description>
     </item>
     <item>
       <title>Microsoft Forms</title>
-      <link>http://localhost:1313/BlogBytes/tags/microsoft-forms/</link>
+      <link>//aseURL:1313/tags/microsoft-forms/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:03 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/microsoft-forms/</guid>
+      <guid>//aseURL:1313/tags/microsoft-forms/</guid>
       <description></description>
     </item>
     <item>
       <title>Poll</title>
-      <link>http://localhost:1313/BlogBytes/tags/poll/</link>
+      <link>//aseURL:1313/tags/poll/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:03 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/poll/</guid>
+      <guid>//aseURL:1313/tags/poll/</guid>
       <description></description>
     </item>
     <item>
       <title>SharePoint Intranet</title>
-      <link>http://localhost:1313/BlogBytes/tags/sharepoint-intranet/</link>
+      <link>//aseURL:1313/tags/sharepoint-intranet/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:03 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/sharepoint-intranet/</guid>
+      <guid>//aseURL:1313/tags/sharepoint-intranet/</guid>
       <description></description>
     </item>
     <item>
       <title>API</title>
-      <link>http://localhost:1313/BlogBytes/tags/api/</link>
+      <link>//aseURL:1313/tags/api/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:01 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/api/</guid>
+      <guid>//aseURL:1313/tags/api/</guid>
       <description></description>
     </item>
     <item>
       <title>Approval</title>
-      <link>http://localhost:1313/BlogBytes/tags/approval/</link>
+      <link>//aseURL:1313/tags/approval/</link>
       <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/approval/</guid>
+      <guid>//aseURL:1313/tags/approval/</guid>
       <description></description>
     </item>
     <item>
       <title>Filtering Gallery</title>
-      <link>http://localhost:1313/BlogBytes/tags/filtering-gallery/</link>
+      <link>//aseURL:1313/tags/filtering-gallery/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/filtering-gallery/</guid>
+      <guid>//aseURL:1313/tags/filtering-gallery/</guid>
       <description></description>
     </item>
     <item>
       <title>Hubsites</title>
-      <link>http://localhost:1313/BlogBytes/tags/hubsites/</link>
+      <link>//aseURL:1313/tags/hubsites/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/hubsites/</guid>
+      <guid>//aseURL:1313/tags/hubsites/</guid>
       <description></description>
     </item>
     <item>
       <title>Month Year</title>
-      <link>http://localhost:1313/BlogBytes/tags/month-year/</link>
+      <link>//aseURL:1313/tags/month-year/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/month-year/</guid>
+      <guid>//aseURL:1313/tags/month-year/</guid>
       <description></description>
     </item>
     <item>
       <title>Communityrocks</title>
-      <link>http://localhost:1313/BlogBytes/tags/communityrocks/</link>
+      <link>//aseURL:1313/tags/communityrocks/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/communityrocks/</guid>
+      <guid>//aseURL:1313/tags/communityrocks/</guid>
       <description></description>
     </item>
     <item>
       <title>Conference</title>
-      <link>http://localhost:1313/BlogBytes/tags/conference/</link>
+      <link>//aseURL:1313/tags/conference/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/tags/conference/</guid>
+      <guid>//aseURL:1313/tags/conference/</guid>
       <description></description>
     </item>
   </channel>

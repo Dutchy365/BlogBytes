@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adaptive Cards on Burgers &amp; Bytes</title>
+    <link>//aseURL:1313/tags/adaptive-cards/</link>
+    <description>Recent content in Adaptive Cards on Burgers &amp; Bytes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/adaptive-cards/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamically show/hide elements in Adaptive Cards</title>
+      <link>//aseURL:1313/blog/20241108-adaptivecarddynamicshowhide/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20241108-adaptivecarddynamicshowhide/</guid>
+      <description>It took me hours to figure this out, so here&amp;rsquo;s to saving you time!&#xA;After spending hours trying to figure this out, I figured it’s time to write it down. Hopefully, this post will save you some time and frustration, so you don’t have to go through the same process I did!&#xA;Designing an Adaptive Card Designing an Adaptive Card using the Adaptive Cards Designer&#xD;is surprisingly easy. You can create interactive cards with just a few clicks!</description>
+    </item>
+  </channel>
+</rss>

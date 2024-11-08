@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>User Interaction on Burgers &amp; Bytes</title>
-    <link>http://localhost:1313/BlogBytes/tags/user-interaction/</link>
+    <link>//aseURL:1313/tags/user-interaction/</link>
     <description>Recent content in User Interaction on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 21 Oct 2023 00:00:03 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/BlogBytes/tags/user-interaction/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:1313/tags/user-interaction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Part 3: Enhancing User Engagement Measurement on SharePoint Intranets: Visualize data</title>
-      <link>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part3/</link>
+      <link>//aseURL:1313/blog/20231021-userengagement-part3/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:03 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part3/</guid>
+      <guid>//aseURL:1313/blog/20231021-userengagement-part3/</guid>
       <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie&#xD;, you could read how to use the Power Platform to measure user engagement even more deeply using KPI regarding user engagement.</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Podcast on Burgers &amp; Bytes</title>
-    <link>http://localhost:1313/BlogBytes/tags/podcast/</link>
+    <link>//aseURL:1313/tags/podcast/</link>
     <description>Recent content in Podcast on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/BlogBytes/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:1313/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Between innovation and ethical dilemma</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240923-reflectiononai/</link>
+      <link>//aseURL:1313/blog/20240923-reflectiononai/</link>
       <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240923-reflectiononai/</guid>
+      <guid>//aseURL:1313/blog/20240923-reflectiononai/</guid>
       <description>Until now, I have avoided writing about the topic of &amp;lsquo;AI&amp;rsquo;. This was a conscious choice, since I feel that everyone is already writing about this and you almost get &amp;lsquo;AI tired&amp;rsquo; by now. Nevertheless, in a short period of time I came across a number of things that inspired me to write down my thoughts on the subject. Think of it as a diary text, nice to read back years later (or in this AI era, after a few months) and then look: &amp;lsquo;wow, that was still old-fashioned, they should have known back then&amp;hellip;&amp;rsquo;.</description>
     </item>
   </channel>

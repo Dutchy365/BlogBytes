@@ -2,269 +2,276 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Burgers &amp; Bytes</title>
-    <link>http://localhost:1313/BlogBytes/</link>
+    <link>//aseURL:1313/</link>
     <description>Recent content on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/BlogBytes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamically show/hide elements in Adaptive Cards</title>
+      <link>//aseURL:1313/blog/20241108-adaptivecarddynamicshowhide/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20241108-adaptivecarddynamicshowhide/</guid>
+      <description>It took me hours to figure this out, so here&amp;rsquo;s to saving you time!&#xA;After spending hours trying to figure this out, I figured it’s time to write it down. Hopefully, this post will save you some time and frustration, so you don’t have to go through the same process I did!&#xA;Designing an Adaptive Card Designing an Adaptive Card using the Adaptive Cards Designer&#xD;is surprisingly easy. You can create interactive cards with just a few clicks!</description>
+    </item>
     <item>
       <title>Progress bar in Power Apps Canvas</title>
-      <link>http://localhost:1313/BlogBytes/blog/20241025-progressbarinpowerapps/</link>
+      <link>//aseURL:1313/blog/20241025-progressbarinpowerapps/</link>
       <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20241025-progressbarinpowerapps/</guid>
+      <guid>//aseURL:1313/blog/20241025-progressbarinpowerapps/</guid>
       <description>Having a good user experience is key, especially in app design. A nicely done progress bar in Power Apps can really boost this experience by giving users a clear and easy way to see their progress through various tasks. Whether they&amp;rsquo;re filling out forms, working through workflows, or going through multi-step procedures, a simple progress bar helps users know exactly where they are in the process.&#xA;What’s great about this progress bar is how it adjusts to fit the input table.</description>
     </item>
     <item>
       <title>Between innovation and ethical dilemma</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240923-reflectiononai/</link>
+      <link>//aseURL:1313/blog/20240923-reflectiononai/</link>
       <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240923-reflectiononai/</guid>
+      <guid>//aseURL:1313/blog/20240923-reflectiononai/</guid>
       <description>Until now, I have avoided writing about the topic of &amp;lsquo;AI&amp;rsquo;. This was a conscious choice, since I feel that everyone is already writing about this and you almost get &amp;lsquo;AI tired&amp;rsquo; by now. Nevertheless, in a short period of time I came across a number of things that inspired me to write down my thoughts on the subject. Think of it as a diary text, nice to read back years later (or in this AI era, after a few months) and then look: &amp;lsquo;wow, that was still old-fashioned, they should have known back then&amp;hellip;&amp;rsquo;.</description>
     </item>
     <item>
       <title>Personal view for a Power Apps gallery</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240910-powerappgallerypersonalview/</link>
+      <link>//aseURL:1313/blog/20240910-powerappgallerypersonalview/</link>
       <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240910-powerappgallerypersonalview/</guid>
+      <guid>//aseURL:1313/blog/20240910-powerappgallerypersonalview/</guid>
       <description>In SharePoint lists, we&amp;rsquo;re familiar to creating both shared views for all users and personal views tailored to individual preferences. As you develop Power Apps, you might frequently ask, &amp;ldquo;Can I create a custom view just for me?&amp;rdquo; Users often need different information displayed in their views. This blog explains how you can accomplish this in Power Apps!&#xA;End result The end result is a gallery including a header for which users can create their own view or use the default view.</description>
     </item>
     <item>
       <title>Rename OneNote Sections using Power Automate</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240902-renameonenotepowerautomate/</link>
+      <link>//aseURL:1313/blog/20240902-renameonenotepowerautomate/</link>
       <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240902-renameonenotepowerautomate/</guid>
+      <guid>//aseURL:1313/blog/20240902-renameonenotepowerautomate/</guid>
       <description>Recently I wrote a blog regarding renaming OneNote sections based on a renamed channelname using PowerShell&#xD;. In this blog same scenario is done using Power Automate.&#xA;The flow iterates iterates through all channels to determine changes.&#xA;Scenario A new Team comes with a OneNote and every new channel gets it&amp;rsquo;s own OneNote section with the display name of the channel. When the name of the channel is modified, the name of the OneNote section isn&amp;rsquo;t updated automatically.</description>
     </item>
     <item>
       <title>Rename OneNote Sections using Powershell</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240810-renameonenotesection/</link>
+      <link>//aseURL:1313/blog/20240810-renameonenotesection/</link>
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240810-renameonenotesection/</guid>
+      <guid>//aseURL:1313/blog/20240810-renameonenotesection/</guid>
       <description>Scenario When a new Team is created, a OneNote is automatically generated, and each new channel receives its own section in OneNote, named after the channel. However, if the channel name is changed, the corresponding OneNote section name does not update automatically.&#xA;This blog explains how to use PowerShell to programmatically synchronize the channel name with the associated OneNote section name.&#xA;Example The Team contains several channels: Every channel has its own Notes tab with an associated OneNote Section.</description>
     </item>
     <item>
       <title>SharePoint column formatting: visualize status cards</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240807-sharepointcolumnformattingcards/</link>
+      <link>//aseURL:1313/blog/20240807-sharepointcolumnformattingcards/</link>
       <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240807-sharepointcolumnformattingcards/</guid>
+      <guid>//aseURL:1313/blog/20240807-sharepointcolumnformattingcards/</guid>
       <description>A visually appealing presentation helps in swiftly and clearly grasping information at a glance. Users can capture a lot of information in SharePoint, where you can stick to just capturing it, but by taking a moment to consider the possibilities of view, row and column formatting, users can realize significant benefits.&#xA;One common data element frequently recorded in a column is the &amp;ldquo;status&amp;rdquo;. By using the standard column formatting nowadays you can easily assign a different color to each status:</description>
     </item>
     <item>
       <title>Automated plugin: different triggers with different actions</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240712-automatelowcodeplugindataverse/</link>
+      <link>//aseURL:1313/blog/20240712-automatelowcodeplugindataverse/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240712-automatelowcodeplugindataverse/</guid>
+      <guid>//aseURL:1313/blog/20240712-automatelowcodeplugindataverse/</guid>
       <description>Side note: As of writing this blog, Dataverse low-code plugins are still in preview.&#xA;In the Dataverse Accelerator app, you have the opportunity to create plugins. This blog focuses on the possibilities of automated plugins.&#xA;After selecting a table, you can choose different types of triggers: when a row is created, updated, or deleted. To get information about existing records, you can&amp;rsquo;t use ThisItem or ThisRecord, and Set behaves differently compared to Power Apps Canvas.</description>
     </item>
     <item>
       <title>Automated Dataverse low-code plugin</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240707-dataverselowcodeplugin/</link>
+      <link>//aseURL:1313/blog/20240707-dataverselowcodeplugin/</link>
       <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240707-dataverselowcodeplugin/</guid>
+      <guid>//aseURL:1313/blog/20240707-dataverselowcodeplugin/</guid>
       <description>Side note: while writing this blog Dataverse low-code plugins are still in preview.&#xA;Scenario This blog explores a real-world business scenario involving multiple meeting rooms where CO₂ levels are monitored throughout the day. These measurements indicate the presence of people in the rooms. By correlating this data with the meeting room reservations, we can infer the room occupancy.&#xA;End result The end result is a Power App in which a calender view is available in which you can see whether a meetingroom was occupied during the meeting or not.</description>
     </item>
     <item>
       <title>From Markdown syntax hyperlink to HTML link</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240619-markdownhyperlinktohtml/</link>
+      <link>//aseURL:1313/blog/20240619-markdownhyperlinktohtml/</link>
       <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240619-markdownhyperlinktohtml/</guid>
+      <guid>//aseURL:1313/blog/20240619-markdownhyperlinktohtml/</guid>
       <description>Scenario This blogs scenario is regarding a plain multi line text input in which no rich text was allowed. Requirement was just one exception to have the ability to have clickable hyperlinks.&#xA;In the Dataverse table no html is stored only plain text, so using a markdown syntax notation was the solution.&#xA;Markdown syntax for a hyperlink is square brackets followed by parentheses. The square brackets hold the text, the parentheses hold the link.</description>
     </item>
     <item>
       <title>Dynamics forms: tabular question type</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240605-dynamicformstabular/</link>
+      <link>//aseURL:1313/blog/20240605-dynamicformstabular/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240605-dynamicformstabular/</guid>
+      <guid>//aseURL:1313/blog/20240605-dynamicformstabular/</guid>
       <description>Dynamics Forms Inspired by Matthey Devaney&#xD;, a fully dynamic form was created in Power Apps, incorporating various question types like toggles, text inputs, and comboboxes. Everything worked smoothly until the need for tabular questions came along.&#xA;For these tabular questions, the requirement was to allow flexible setup of the question and definition of table headers, enabling end users to enter their answers in the rows below. This challenge is now ready to be addressed 💪🏻.</description>
     </item>
     <item>
       <title>Power Apps: Transpose Excel Data using Power Fx</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240522-powerfxtransposeexcel/</link>
+      <link>//aseURL:1313/blog/20240522-powerfxtransposeexcel/</link>
       <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240522-powerfxtransposeexcel/</guid>
+      <guid>//aseURL:1313/blog/20240522-powerfxtransposeexcel/</guid>
       <description>A lot of business processes are supported by data stored in Excel sheets. Working with Power Apps often eliminates the use of an Excel sheet, but in some cases the data needs to be stored into an Excel sheet.&#xA;In this blog the concept of transposing the data from an Excel table will be described, so you can use this data throughout the app.&#xA;Scenario As an input there is an Excel table in which there are multiple rows and multiple columns.</description>
     </item>
     <item>
       <title>PowerFx: Overcome time zone conversion error in Dataverse Formula column</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240502-dataverseformuladate/</link>
+      <link>//aseURL:1313/blog/20240502-dataverseformuladate/</link>
       <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240502-dataverseformuladate/</guid>
+      <guid>//aseURL:1313/blog/20240502-dataverseformuladate/</guid>
       <description>Scenario In a Dataverse table you have a date column of which you want to extract the Year, Month, Day or Weekday using a Formula column. While doing this the following error appears: &amp;ldquo;cannot be performed on this input without a time zone conversion, which is not supported in formula columns.&amp;rdquo;&#xA;Solution Go to the created Date column and check the &amp;lsquo;Time zone adjustment&amp;rsquo;. It&amp;rsquo;s probably set to &amp;lsquo;User local&amp;rsquo;. Switch the Time zone adjustment (Advanced options) to &amp;lsquo;Time zone independent&amp;rsquo; or &amp;lsquo;Date only&amp;rsquo;.</description>
     </item>
     <item>
       <title>Dynamic horizontal header part 2: flexible horizontal scrolling</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240405-horizontalheader-part2-scrolling/</link>
+      <link>//aseURL:1313/blog/20240405-horizontalheader-part2-scrolling/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:02 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240405-horizontalheader-part2-scrolling/</guid>
+      <guid>//aseURL:1313/blog/20240405-horizontalheader-part2-scrolling/</guid>
       <description>In Excel we are quite familiar with a the functionality to freeze a row and a column. In Power App Canvas this can be more challenging. In this blog serie of two blogs a solution for Power Apps will be explained.&#xA;The first blog the setup to create a header and nested galleries are explained&#xD;This (second) blog shows how to create a dynamic horizontal scrolling header. Set up See blog part 1&#xD;to have the setup in which the basic of the three galleries are created.</description>
     </item>
     <item>
       <title>Dynamic horizontal header part 1: static header</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240405-horizontalheader-part1-static/</link>
+      <link>//aseURL:1313/blog/20240405-horizontalheader-part1-static/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:01 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240405-horizontalheader-part1-static/</guid>
+      <guid>//aseURL:1313/blog/20240405-horizontalheader-part1-static/</guid>
       <description>In Excel we are quite familiar with a the functionality to freeze a row and a column. In Power App Canvas this can be more challenging. In this blog serie of two blogs a solution for Power Apps will be explained.&#xA;This blog: the setup to create a header and nested galleries The second blog shows how to create a dynamic horizontal scrolling header.&#xD;Context The academic course catalog offers a timeline that illustrates the availability of courses across multiple years, with the main section displaying a horizontal representation of courses available per academic years.</description>
     </item>
     <item>
       <title>A solid foundation of the Power Platform</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240325-solidfoundationpowerplatform/</link>
+      <link>//aseURL:1313/blog/20240325-solidfoundationpowerplatform/</link>
       <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240325-solidfoundationpowerplatform/</guid>
+      <guid>//aseURL:1313/blog/20240325-solidfoundationpowerplatform/</guid>
       <description>In today&amp;rsquo;s rapidly evolving digital landscape, organizations often find themselves relying on outdated Excel-based processes, which pose significant risks. However, with the emergence of the Power Platform, a revolutionary low-code development platform, there is a transformative solution at hand. This blog explores the potential of the Power Platform in streamlining operations, mitigating risks, and empowering employees to become citizen developers.&#xA;Source https://dilbert.com/strip/2007-08-08&#xD;Excel as business critical When people ask what exactly you can do with Power Platform, we often make comparisons with what people used to make in Excel.</description>
     </item>
     <item>
       <title>Power Apps Canvas: filter data of related entity</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240306filterrelatedentity/</link>
+      <link>//aseURL:1313/blog/20240306filterrelatedentity/</link>
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240306filterrelatedentity/</guid>
+      <guid>//aseURL:1313/blog/20240306filterrelatedentity/</guid>
       <description>Scenario In the following scenario there is reservation system of different type of housing. For all housings there is an apartment type registered, which are stored in a different table. In the overview of the reservation you want to be able to filter on apartment type and related capacity.&#xA;This blog describes how to filter a gallery based on values from related entities.&#xA;Database model To get a proper insight of the data structure, the database architecture looks like this:</description>
     </item>
     <item>
       <title>Dynamically allocate budget to different timeunits using PowerFx</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240228allocatebudgetperiodicallypowerfx/</link>
+      <link>//aseURL:1313/blog/20240228allocatebudgetperiodicallypowerfx/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240228allocatebudgetperiodicallypowerfx/</guid>
+      <guid>//aseURL:1313/blog/20240228allocatebudgetperiodicallypowerfx/</guid>
       <description>In this blog a budget allocation formula is introduced to deal with amounts of data of different time periods. Budgets could be daily, monthly or quarterly while registering it once. This creates a mismatch while creating a report.&#xA;The budget allocation calculation discussed in this blog allows you to solve this mismatch and it also enables you to easily switch between different time contexts.&#xA;End result The final outcome comprises a form where users can input details and perform calculations for various time units.</description>
     </item>
     <item>
       <title>Using Microsoft Graph and Power Automate to post an Announcement Message in Teams channel</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240212teamsannouncementmessage/</link>
+      <link>//aseURL:1313/blog/20240212teamsannouncementmessage/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240212teamsannouncementmessage/</guid>
+      <guid>//aseURL:1313/blog/20240212teamsannouncementmessage/</guid>
       <description>Scenario This blog describes the Flow to create a Team and start with a message of type Announcement. The default &amp;lsquo;Post a message in a chat or channel&amp;rsquo; isn&amp;rsquo;t sufficient, because the message type can&amp;rsquo;t be selected, so it can&amp;rsquo;t be an Announcement.&#xA;The end result should be a clear message in a Teams channel: Flow actions to create Team In order to share the full story the Team needs to be created and Team ID and Channel ID needs to be stored in a variable.</description>
     </item>
     <item>
       <title>Rich text columns and Power Pages list view: HTML sanitization</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240129-powerpagesrichtextlistview/</link>
+      <link>//aseURL:1313/blog/20240129-powerpagesrichtextlistview/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240129-powerpagesrichtextlistview/</guid>
+      <guid>//aseURL:1313/blog/20240129-powerpagesrichtextlistview/</guid>
       <description>Working with a Rich Text column can be tricky. In a Model Driven App, handling Rich Text columns is easy. In a view the text is shown as plain text; simple and readable. In the Power Pages list view, it&amp;rsquo;s not great. It ends up showing messy raw HTML instead of the neat content.&#xA;The view of the list in Model Driven App: The description column is a rich text column in which formatting is applied.</description>
     </item>
     <item>
       <title>Custom progress bar in Power Pages</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240103-progressbarpowerpages/</link>
+      <link>//aseURL:1313/blog/20240103-progressbarpowerpages/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240103-progressbarpowerpages/</guid>
+      <guid>//aseURL:1313/blog/20240103-progressbarpowerpages/</guid>
       <description>A progress bar visually communicates the completion status of a process. In a Model Driven App there is the Business Process Flow, in Power Pages there is no default component to visualize this. It is crucial for the progress bar to be flexibility and use the data stored in Dataverse and ensuring readiness for the addition of any extra status in the process without constraints.&#xA;Challenge accepted 💪!&#xA;Scenario In this scenario, an application Power Pages site is designed for individual contacts, where each contact can have only one associated application.</description>
     </item>
     <item>
       <title>Change Email From Address to Queue using Environment Variable in JavaScript</title>
-      <link>http://localhost:1313/BlogBytes/blog/20231201-changefromaddressofemailtosharedmailbox/</link>
+      <link>//aseURL:1313/blog/20231201-changefromaddressofemailtosharedmailbox/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20231201-changefromaddressofemailtosharedmailbox/</guid>
+      <guid>//aseURL:1313/blog/20231201-changefromaddressofemailtosharedmailbox/</guid>
       <description>Special thanks to Kevin Hendricks and Jan-Frederik Kobus for their support in implementing this scenario.&#xA;Scenario The scenario of the blog is related to the email entity of a Model Driven app. The goal is to use a shared mailbox to send emails from instead of the personal address of the current user. The case is to automatically change the From address and be able to have a flexible setup for different queue ids.</description>
     </item>
     <item>
       <title>SharePoint column formatting: lookup column and special characters (% and #)</title>
-      <link>http://localhost:1313/BlogBytes/blog/20231120-sharepointcolumnformattingspecialcharacters/</link>
+      <link>//aseURL:1313/blog/20231120-sharepointcolumnformattingspecialcharacters/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20231120-sharepointcolumnformattingspecialcharacters/</guid>
+      <guid>//aseURL:1313/blog/20231120-sharepointcolumnformattingspecialcharacters/</guid>
       <description>The capabilities of SharePoint regarding column and view formatting can enhance the usability of both SharePoint libraries and list. In this blog the explanation using a lookup column and the challenging part regarding the use of special characters.&#xA;Scenario The SharePoint list has a lookup column to a document library, so a link between the list item and associated document can be made. At first glance, this looked fine:&#xA;However when you clicked on the file link, the file didn’t open, but navigated to the display form of the library item instead.</description>
     </item>
     <item>
       <title>Part 3: Enhancing User Engagement Measurement on SharePoint Intranets: Visualize data</title>
-      <link>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part3/</link>
+      <link>//aseURL:1313/blog/20231021-userengagement-part3/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:03 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part3/</guid>
+      <guid>//aseURL:1313/blog/20231021-userengagement-part3/</guid>
       <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie&#xD;, you could read how to use the Power Platform to measure user engagement even more deeply using KPI regarding user engagement.</description>
     </item>
     <item>
       <title>Part 2: Enhancing User Engagement Measurement on SharePoint Intranets: Page Freshness</title>
-      <link>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part2/</link>
+      <link>//aseURL:1313/blog/20231021-userengagement-part2/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:02 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part2/</guid>
+      <guid>//aseURL:1313/blog/20231021-userengagement-part2/</guid>
       <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie&#xD;, you could read how to use the Power Platform to measure user engagement even more deeply using KPI&amp;rsquo;s regarding user engagement.</description>
     </item>
     <item>
       <title>Part 1: Enhancing User Engagement Measurement on SharePoint Intranets with Power Platform</title>
-      <link>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part1/</link>
+      <link>//aseURL:1313/blog/20231021-userengagement-part1/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:01 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20231021-userengagement-part1/</guid>
+      <guid>//aseURL:1313/blog/20231021-userengagement-part1/</guid>
       <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie, we will explore how to use the Power Platform to measure user engagement even more deeply using KPI&amp;rsquo;s regarding user engagement.</description>
     </item>
     <item>
       <title>Validating Naming Conventions in Power Apps</title>
-      <link>http://localhost:1313/BlogBytes/blog/20230926-powerappsvalidatingnamingconventions/</link>
+      <link>//aseURL:1313/blog/20230926-powerappsvalidatingnamingconventions/</link>
       <pubDate>Tue, 26 Sep 2023 00:00:01 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20230926-powerappsvalidatingnamingconventions/</guid>
+      <guid>//aseURL:1313/blog/20230926-powerappsvalidatingnamingconventions/</guid>
       <description>Why naming conventions One of the main advices while creating Power Apps canvas apps is to use proper naming conventions for all the components you&amp;rsquo;re using. Not only to support readability for your own usage, also for supportability. Probably it&amp;rsquo;s not too difficult to convince someone of its importance, while in the hustle and bustle of everyday life, you don&amp;rsquo;t give it priority always.&#xA;Some advantages:&#xA;Consistency; so you can better focus on the solution Maintainability; everyone has the same language and can therefore navigate through a solution more easily Interchangeability; copying, changing and maintaining solutions can be done by multiple people ​ This blog gives and explains a Powershell script which you can use to validate naming convention in your Power App.</description>
     </item>
     <item>
       <title>Make use of the responses: display the survey data of the Forms - part 3</title>
-      <link>http://localhost:1313/BlogBytes/blog/msforms-part3-dashboard/</link>
+      <link>//aseURL:1313/blog/msforms-part3-dashboard/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:03 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/msforms-part3-dashboard/</guid>
+      <guid>//aseURL:1313/blog/msforms-part3-dashboard/</guid>
       <description>This blog is part of the blog series for Microsoft Forms automation to create automatic update of you question of the week on your SharePoint intranet. The first blog explains how to create a custom connector using the undocumented Microsoft Forms API&#xD;. The second blog describes how to keep your ‘Question of the week’ based on Microsoft Forms up-to-date&#xD;.&#xA;The result of the first two parts of this blog series is a nice looking SharePoint list which contains all data from the Question of the week.</description>
     </item>
     <item>
       <title>Microsoft Forms automation: update Forms poll on SharePoint intranet - part 2</title>
-      <link>http://localhost:1313/BlogBytes/blog/msforms-part2-questionoftheweek/</link>
+      <link>//aseURL:1313/blog/msforms-part2-questionoftheweek/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:02 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/msforms-part2-questionoftheweek/</guid>
+      <guid>//aseURL:1313/blog/msforms-part2-questionoftheweek/</guid>
       <description>Creating a social intranet that fosters collaboration and engagement among employees is essential in today&amp;rsquo;s digital workplace. One effective component of a social intranet is a &amp;ldquo;question of the week&amp;rdquo; or poll functionality. While SharePoint doesn&amp;rsquo;t have a built-in poll feature, you can use a Microsoft Form with one question to achieve the same effect. However, updating the question weekly can be a manual and time-consuming task.&#xA;Unfortunately, Microsoft doesn&amp;rsquo;t provide a standard API for Microsoft Forms that can easily be integrated with Power Automate to automate question creation and management of a Form.</description>
     </item>
     <item>
       <title>Microsoft Forms automation: a custom connector - part 1</title>
-      <link>http://localhost:1313/BlogBytes/blog/msforms-part1-customconnector/</link>
+      <link>//aseURL:1313/blog/msforms-part1-customconnector/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:01 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/msforms-part1-customconnector/</guid>
+      <guid>//aseURL:1313/blog/msforms-part1-customconnector/</guid>
       <description>Creating a social intranet that fosters collaboration and engagement among employees is essential in today&amp;rsquo;s digital workplace. One effective component of a social intranet is a &amp;ldquo;question of the week&amp;rdquo; or poll functionality. While SharePoint doesn&amp;rsquo;t have a built-in poll feature, you can use a Microsoft Form with one question to achieve the same effect. However, updating the question weekly can be a manual and time-consuming task.&#xA;Unfortunately, Microsoft doesn&amp;rsquo;t provide a standard API for Microsoft Forms that can easily be integrated with Power Automate to automate question creation and management of a Form.</description>
     </item>
     <item>
       <title>Power Apps Canvas: one icon with eleven color variations</title>
-      <link>http://localhost:1313/BlogBytes/blog/20230805powerappiconcolorvariations/</link>
+      <link>//aseURL:1313/blog/20230805powerappiconcolorvariations/</link>
       <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20230805powerappiconcolorvariations/</guid>
+      <guid>//aseURL:1313/blog/20230805powerappiconcolorvariations/</guid>
       <description>Situation In the Netherlands, the energy label of houses is indicated by a letter and a corresponding color. Today, we have 11 different labels, ranging from A&amp;#43;&amp;#43;&amp;#43;&amp;#43; to G&#xD;.&#xA;This label is usually indicated by a pentagonal arrow, containing the letter and corresponding color. An example:&#xA;Source: https://www.homekeur.nl/energielabel-woning-uitleg/&#xD;Scenario In a Canvas Power App, the letter could be selected in the dropdown and icon and its corresponding label should be displayed based on the selected value.</description>
     </item>
     <item>
       <title>Microsoft Forms API</title>
-      <link>http://localhost:1313/BlogBytes/page/msformapi/</link>
+      <link>//aseURL:1313/page/msformapi/</link>
       <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/page/msformapi/</guid>
+      <guid>//aseURL:1313/page/msformapi/</guid>
       <description>Every question type has is own setup of the body content.&#xA;Body content The payload of the different question types all have the same parameters:&#xA;questionInfo type title id order isQuiz required { &amp;#34;questionInfo&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;type&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;title&amp;#34;: &amp;#34;Question&amp;#34;, &amp;#34;id&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;order&amp;#34;: 4000500, &amp;#34;isQuiz&amp;#34;: false, &amp;#34;required&amp;#34;: false } Parameter type Question Type Choice Question.Choice Text Question.TextField Rating Question.Rating Date Question.DateTime Ranking Question.Ranking Likert Question.Matrix Upload File Question.FileUpload Net Promoter Score Question.</description>
     </item>
     <item>
       <title>How to get all SharePoint sites of a hub site in Power Automate</title>
-      <link>http://localhost:1313/BlogBytes/blog/20230722-sharepointgetallhubsites/</link>
+      <link>//aseURL:1313/blog/20230722-sharepointgetallhubsites/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20230722-sharepointgetallhubsites/</guid>
+      <guid>//aseURL:1313/blog/20230722-sharepointgetallhubsites/</guid>
       <description>The Challenge There is a lot of information available on how to retrieve all sites related to a SharePoint hub using Powershell. Another option is to use Microsoft Graph and search for all sites. https://graph.microsoft.com/v1.0/sites?search=&#xD;*&#xA;The challenge was to get all the sites of a hub in Power Automate without using premium actions like the HTTP request. This blog describes how to achieve this!&#xA;Needed HTTP requests Initialized a variable to store the URL of the hubsite.</description>
     </item>
     <item>
       <title>Power Apps: Advanced filtering on a period of time with only Month and Year value</title>
-      <link>http://localhost:1313/BlogBytes/blog/20230723-powerappadvancedfiltering/</link>
+      <link>//aseURL:1313/blog/20230723-powerappadvancedfiltering/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20230723-powerappadvancedfiltering/</guid>
+      <guid>//aseURL:1313/blog/20230723-powerappadvancedfiltering/</guid>
       <description>Scenario Todays scenario is regarding filter options based on Month and Year values in Power Apps. In a Dataverse table named ‘Products’ the information of a Name, Month and Year are stored. The challenging part is the Month column only contains the text value of the short form of the month.&#xA;The data in the table looks like:&#xA;Now it needs to be possible to filter the gallery based on a Month Year range filter.</description>
     </item>
     <item>
       <title>How to create a markdown table with flexible amount of rows in an Approval</title>
-      <link>http://localhost:1313/BlogBytes/blog/20230721-approvalmdtablerows/</link>
+      <link>//aseURL:1313/blog/20230721-approvalmdtablerows/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20230721-approvalmdtablerows/</guid>
+      <guid>//aseURL:1313/blog/20230721-approvalmdtablerows/</guid>
       <description>The Approval functionality is really powerful! A lot of situation requires a response like an approval. The approval action in Power Automate does have some parameters which you can enter data in. Next to required details like the ‘Approval type’, ‘Title’ and ‘Assigned to’, you can enter Details. For Details you can use markdown to design the setup.&#xA;The challenge In this blog the challenge that’s got resolved is that the approval request contains a table which as multiple rows, but the amount of rows are flexible and different every flow run.</description>
     </item>
     <item>
       <title>Spotlight</title>
-      <link>http://localhost:1313/BlogBytes/page/spotlight/</link>
+      <link>//aseURL:1313/page/spotlight/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/page/spotlight/</guid>
+      <guid>//aseURL:1313/page/spotlight/</guid>
       <description>Below a list of my recent and upcoming events:&#xA;2024-12-05 - ESPC24 Stockholm - Validation of Naming Conventions in Power Apps (together with Albert-Jan Schot) A session regarding automation of naming convention validation for Canvas Power Apps with PowerShell &amp;amp; Power Platform CLI, enhancing collaboration &amp;amp; error prevention in Azure DevOps pipelines.&#xA;2024-10-19 - CollabDays Belgium - Building a dynamic data review system using Power Platform capabilities An inspiring session in which attendees will get solid understanding of how to make it possible to create a flexible data review system using only out-of-the-box functionalities within the Power Platform.</description>
     </item>
     <item>
       <title>European Collaboration Summit 2023; My top 3 and some more...</title>
-      <link>http://localhost:1313/BlogBytes/blog/20230525-collaborationsummit2023/</link>
+      <link>//aseURL:1313/blog/20230525-collaborationsummit2023/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20230525-collaborationsummit2023/</guid>
+      <guid>//aseURL:1313/blog/20230525-collaborationsummit2023/</guid>
       <description>My report from the European Collaboration Summit 2023&#xA;It had been in my calendar since last October, on 22 May it was finally there: the European Collaboration Summit! In this blog, I am happy to share my personal top 3. Plenty to choose from, so in addition to a nice top 3, I also added an unmissable encore.&#xA;Within Power Platform projects, it is necessary to think carefully about the architecture.</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/BlogBytes/page/about/</link>
+      <link>//aseURL:1313/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/page/about/</guid>
+      <guid>//aseURL:1313/page/about/</guid>
       <description>My name is Elianne and I am a Power Platform Consultant at Blis Digital&#xD;in Barendrecht, The Netherlands. Since 2016 I obtained several Microsoft certifications: full transcript can be found on my Microsoft Learn profile.&#xD;I love to gain more knowledge and expertise by going to different user groups and conferences myself, but I also like to share knowledge in different ways: by writing blogs, giving presentations, guest lectures at an university of applied science and app-in-a-day workshops.</description>
     </item>
   </channel>

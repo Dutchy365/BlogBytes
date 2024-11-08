@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Automated on Burgers &amp; Bytes</title>
-    <link>http://localhost:1313/BlogBytes/tags/automated/</link>
+    <link>//aseURL:1313/tags/automated/</link>
     <description>Recent content in Automated on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/BlogBytes/tags/automated/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:1313/tags/automated/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automated plugin: different triggers with different actions</title>
-      <link>http://localhost:1313/BlogBytes/blog/20240712-automatelowcodeplugindataverse/</link>
+      <link>//aseURL:1313/blog/20240712-automatelowcodeplugindataverse/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/BlogBytes/blog/20240712-automatelowcodeplugindataverse/</guid>
+      <guid>//aseURL:1313/blog/20240712-automatelowcodeplugindataverse/</guid>
       <description>Side note: As of writing this blog, Dataverse low-code plugins are still in preview.&#xA;In the Dataverse Accelerator app, you have the opportunity to create plugins. This blog focuses on the possibilities of automated plugins.&#xA;After selecting a table, you can choose different types of triggers: when a row is created, updated, or deleted. To get information about existing records, you can&amp;rsquo;t use ThisItem or ThisRecord, and Set behaves differently compared to Power Apps Canvas.</description>
     </item>
   </channel>
