@@ -6,8 +6,15 @@
     <description>Recent content in Liquid on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/tags/liquid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Power Pages: visual message indicator</title>
+      <link>//aseURL:1313/blog/20241124-powerpagesmessageindicator/</link>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20241124-powerpagesmessageindicator/</guid>
+      <description>End result The end result is an envelop icon in which a counter displays the number of messages for the current logged in contact.&#xA;Datamodel Simplified view of the datamodel, just to support the understanding of the technical setup.&#xA;Content snippet To accomplish this, start by creating an HTML content snippet. This snippet will serve as the foundation for counting the number of messages and displaying the envelop icon.&#xA;In this scenario the name of the snippet is: Message Counter.</description>
+    </item>
     <item>
       <title>Custom progress bar in Power Pages</title>
       <link>//aseURL:1313/blog/20240103-progressbarpowerpages/</link>

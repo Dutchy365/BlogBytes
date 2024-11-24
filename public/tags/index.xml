@@ -6,8 +6,36 @@
     <description>Recent content in Tags on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FetchXML</title>
+      <link>//aseURL:1313/tags/fetchxml/</link>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/fetchxml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Liquid</title>
+      <link>//aseURL:1313/tags/liquid/</link>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/liquid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power Pages</title>
+      <link>//aseURL:1313/tags/power-pages/</link>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/power-pages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Svg</title>
+      <link>//aseURL:1313/tags/svg/</link>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/svg/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Adaptive Cards</title>
       <link>//aseURL:1313/tags/adaptive-cards/</link>
@@ -303,13 +331,6 @@
       <description></description>
     </item>
     <item>
-      <title>Power Pages</title>
-      <link>//aseURL:1313/tags/power-pages/</link>
-      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/tags/power-pages/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Rich Text Editor</title>
       <link>//aseURL:1313/tags/rich-text-editor/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
@@ -328,20 +349,6 @@
       <link>//aseURL:1313/tags/sanitize-html/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/tags/sanitize-html/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>FetchXMl</title>
-      <link>//aseURL:1313/tags/fetchxml/</link>
-      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/tags/fetchxml/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Liquid</title>
-      <link>//aseURL:1313/tags/liquid/</link>
-      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/tags/liquid/</guid>
       <description></description>
     </item>
     <item>
