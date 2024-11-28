@@ -10,6 +10,12 @@ hideMeta: true
 
 
 Below a list of my recent and upcoming events:
+* **2025-05-26  <span style="color: #92400e;">- BizApps Summit Düsseldorf - Me, Myself and AI (together with Albert-Jan Schot)**</span></br>
+A hands-on session regarding AI experiments with the Power Platform! 
+
+* **2024-12-18  <span style="color: #92400e;">- Power Platform Community call - Personal views for Power Apps**</span></br>
+A demo about creating personal views in Canvas Power Apps. 
+
 * **2024-12-05  <span style="color: #92400e;">- ESPC24 Stockholm - Validation of Naming Conventions in Power Apps (together with Albert-Jan Schot)**</span></br>
 A session regarding automation of naming convention validation for Canvas Power Apps with PowerShell & Power Platform CLI, enhancing collaboration & error prevention in Azure DevOps pipelines.
 
