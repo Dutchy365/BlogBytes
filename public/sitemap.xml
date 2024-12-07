@@ -3,10 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//aseURL:1313/blog/</loc>
-    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/</loc>
-    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/html/</loc>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/power-apps/</loc>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/blog/20241207-powerappswordcloud/</loc>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/</loc>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/word-cloud/</loc>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/fetchxml/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
@@ -21,9 +36,6 @@
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/svg/</loc>
-    <lastmod>2024-11-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/adaptive-cards/</loc>
@@ -60,9 +72,6 @@
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/blog/20240910-powerappgallerypersonalview/</loc>
-    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/power-apps/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/onenote/</loc>

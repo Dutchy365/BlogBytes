@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML on Burgers &amp; Bytes</title>
+    <link>//aseURL:1313/tags/html/</link>
+    <description>Recent content in HTML on Burgers &amp; Bytes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Power Apps: word cloud</title>
+      <link>//aseURL:1313/blog/20241207-powerappswordcloud/</link>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20241207-powerappswordcloud/</guid>
+      <description>Out-of-the-box there is no word cloud possibility in Power Apps. This blog describes how to create your own flexible word cloud without importing third parties tools or use of external code. It’s easier than you might think!&#xA;☁️What Is a Word Cloud? A word cloud is a visual representation of text data, where the size of each word indicates its frequency or importance. These types of visualizations are perfect for displaying topics, themes, or even feedback in a way that’s easy to digest.</description>
+    </item>
+  </channel>
+</rss>
