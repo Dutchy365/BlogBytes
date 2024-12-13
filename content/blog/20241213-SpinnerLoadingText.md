@@ -68,6 +68,77 @@ A button to trigger the start of the timers, named btnStart:
 |---|---|
 |OnSelect |UpdateContext({varShowSpinner: true});|
 
+## YAML
+To be able to reuse this easily in other apps, hereby the YAML of this part. At the moment of writing the pasting YAML code isn't supported, so therefore the elements are set in a container:
+
+```YAML
+- conSpinner:
+    Control: GroupContainer
+    Variant: manualLayoutContainer
+    Properties:
+      Height: =Parent.Height
+      Width: =Parent.Width
+    Children:
+    - btnStart:
+        Control: Button
+        Properties:
+          OnSelect: |-
+            =UpdateContext({varShowSpinner: true});
+          BasePaletteColor: =Color.LightSalmon
+          Text: ="Start"
+          X: =635
+          Y: =490
+    - tmrShowSpinner:
+        Control: Timer
+        Properties:
+          OnTimerEnd: |-
+            =UpdateContext({varShowSpinner: false})
+          AutoPause: =false
+          Duration: =10000
+          Start: =varShowSpinner
+          Visible: =false
+          X: =80
+          Y: =201
+    - tmrProgressMessage:
+        Control: Timer
+        Properties:
+          OnTimerEnd: |+
+            =UpdateContext({ProgressMessage: 
+               Switch(
+                  RandBetween(1, 6), 
+                  1, "⌛Loading data, please wait...", 
+                  2, "Processing your request...", 
+                  3, "⏳Almost there...", 
+                  4, "Fetching results...", 
+                  5, "Finalizing...",
+                  6, "☕Drinking coffee"
+               )})
+          AutoPause: =false
+          Duration: =2000
+          Repeat: =varShowSpinner
+          Start: =varShowSpinner
+          Visible: =false
+          X: =80
+          Y: =80
+    - spnLoadingData:
+        Control: Spinner
+        Properties:
+          BasePaletteColor: =Color.LightSalmon
+          Font: =Font.'Segoe UI'
+          FontColor: =RGBA(0, 0, 0, 1)
+          FontSize: =22
+          FontWeight: =FontWeight.Normal
+          Label: =ProgressMessage
+          LabelPosition: ='Spinner.LabelPosition'.Below
+          SpinnerColor: =RGBA(240, 98, 15, 1)
+          SpinnerSize: ='Spinner.SpinnerSize'.Huge
+          TrackColor: =RGBA(253, 207, 180, 1)
+          Height: =Parent.Height
+          Visible: =varShowSpinner
+          Width: =Parent.Width
+
+```
+
 
 ## Conclusion
 Adding dynamic text to your app’s loading spinner is a simple yet effective way to enhance the user experience. By providing users with engaging and varied messages during load times, you can make waiting feel less and more interactive. 
