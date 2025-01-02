@@ -34,7 +34,7 @@
   <meta itemprop="description" content="Creative loading: adding random text to the spinner">
   <meta itemprop="datePublished" content="2024-12-12T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-12-12T00:00:00+00:00">
-  <meta itemprop="wordCount" content="299">
+  <meta itemprop="wordCount" content="473">
   <meta itemprop="image" content="//aseURL:1313/00SpinnerText.png">
   <meta itemprop="keywords" content="Power Apps,Spinner,HTML">
 
@@ -128,7 +128,7 @@
         <circle cx="12" cy="12" r="9" />
         <polyline points="12 7 12 12 15 15" />
       </svg>
-      2&nbsp;
+      3&nbsp;
       &nbsp;&bull;
       <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -138,7 +138,7 @@
         <line x1="12" y1="6" x2="12" y2="19" />
         <line x1="21" y1="6" x2="21" y2="19" />
       </svg>
-      299&nbsp;
+      473&nbsp;
       
         
       
@@ -203,6 +203,11 @@
         </li></ul>
       </li></ul>
       </li><li>
+        <a href="#yaml">YAML</a>
+        
+
+        
+        </li><li>
         <a href="#conclusion">Conclusion</a>
         </li></ul>
   </details>
@@ -306,7 +311,73 @@ One way to improve the experience is by adding dynamic text during loading scree
 </tr>
 </tbody>
 </table>
-<h2 id="conclusion">Conclusion</h2>
+<h2 id="yaml">YAML</h2>
+<p>To be able to reuse this easily in other apps, hereby the YAML of this part. At the moment of writing the pasting YAML code isn&rsquo;t supported, so therefore the elements are set in a container:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-YAML" data-lang="YAML"><span style="display:flex;"><span>- <span style="color:#ff79c6">conSpinner</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">Control</span>: GroupContainer
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">Variant</span>: manualLayoutContainer
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">Properties</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">Height</span>: =Parent.Height
+</span></span><span style="display:flex;"><span>      <span style="color:#ff79c6">Width</span>: =Parent.Width
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">Children</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#ff79c6">btnStart</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Control</span>: Button
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Properties</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">OnSelect</span>: |-<span style="color:#f1fa8c">
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            =UpdateContext({varShowSpinner: true});</span>            
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">BasePaletteColor</span>: =Color.LightSalmon
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Text</span>: =&#34;Start&#34;
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">X</span>: =635
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Y</span>: =490
+</span></span><span style="display:flex;"><span>    - <span style="color:#ff79c6">tmrShowSpinner</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Control</span>: Timer
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Properties</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">OnTimerEnd</span>: |-<span style="color:#f1fa8c">
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            =UpdateContext({varShowSpinner: false})</span>            
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">AutoPause</span>: =false
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Duration</span>: =10000
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Start</span>: =varShowSpinner
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Visible</span>: =false
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">X</span>: =80
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Y</span>: =201
+</span></span><span style="display:flex;"><span>    - <span style="color:#ff79c6">tmrProgressMessage</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Control</span>: Timer
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Properties</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">OnTimerEnd</span>: |+<span style="color:#f1fa8c">
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            =UpdateContext({ProgressMessage: 
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">               Switch(
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                  RandBetween(1, 6), 
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                  1, &#34;⌛Loading data, please wait...&#34;, 
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                  2, &#34;Processing your request...&#34;, 
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                  3, &#34;⏳Almost there...&#34;, 
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                  4, &#34;Fetching results...&#34;, 
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                  5, &#34;Finalizing...&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                  6, &#34;☕Drinking coffee&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">               )})</span>            
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">AutoPause</span>: =false
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Duration</span>: =2000
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Repeat</span>: =varShowSpinner
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Start</span>: =varShowSpinner
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Visible</span>: =false
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">X</span>: =80
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Y</span>: =80
+</span></span><span style="display:flex;"><span>    - <span style="color:#ff79c6">spnLoadingData</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Control</span>: Spinner
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Properties</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">BasePaletteColor</span>: =Color.LightSalmon
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Font</span>: =Font.&#39;Segoe UI&#39;
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">FontColor</span>: =RGBA(0, 0, 0, 1)
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">FontSize</span>: =22
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">FontWeight</span>: =FontWeight.Normal
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Label</span>: =ProgressMessage
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">LabelPosition</span>: =&#39;Spinner.LabelPosition&#39;.Below
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">SpinnerColor</span>: =RGBA(240, 98, 15, 1)
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">SpinnerSize</span>: =&#39;Spinner.SpinnerSize&#39;.Huge
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">TrackColor</span>: =RGBA(253, 207, 180, 1)
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Height</span>: =Parent.Height
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Visible</span>: =varShowSpinner
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Width</span>: =Parent.Width
+</span></span></code></pre></div><h2 id="conclusion">Conclusion</h2>
 <p>Adding dynamic text to your app’s loading spinner is a simple yet effective way to enhance the user experience. By providing users with engaging and varied messages during load times, you can make waiting feel less and more interactive.</p>
 <p>Just add some extra&rsquo;s to your app by adding a personal touch with creative text ideas. If you have suggestions, feel free to share them in the comments!</p>
 

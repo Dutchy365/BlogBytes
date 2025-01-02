@@ -9,6 +9,27 @@
     <lastBuildDate>Thu, 12 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Combobox</title>
+      <link>//aseURL:1313/tags/combobox/</link>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/combobox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Filtering</title>
+      <link>//aseURL:1313/tags/filtering/</link>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/filtering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gallery</title>
+      <link>//aseURL:1313/tags/gallery/</link>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/gallery/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>HTML</title>
       <link>//aseURL:1313/tags/html/</link>
       <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
@@ -20,6 +41,13 @@
       <link>//aseURL:1313/tags/power-apps/</link>
       <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/tags/power-apps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>//aseURL:1313/tags/search/</link>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/search/</guid>
       <description></description>
     </item>
     <item>
@@ -83,13 +111,6 @@
       <link>//aseURL:1313/tags/teams/</link>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/tags/teams/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gallery</title>
-      <link>//aseURL:1313/tags/gallery/</link>
-      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/tags/gallery/</guid>
       <description></description>
     </item>
     <item>
