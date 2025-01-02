@@ -1,8 +1,8 @@
 ---
 author: ""
-title: "Filtering and search in a gallery"
+title: "Filter and search data in a gallery"
 date: 2025-01-02
-description: "Creative loading: adding random text to the spinner"
+description: "Multiple filters and search options explained"
 tags:
   - Power Apps
   - Gallery
