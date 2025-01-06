@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PowerAutomate on Burgers &amp; Bytes</title>
-    <link>//aseURL:1313/tags/powerautomate/</link>
+    <link>//aseURL:65249/tags/powerautomate/</link>
     <description>Recent content in PowerAutomate on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 02 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:1313/tags/powerautomate/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:65249/tags/powerautomate/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rename OneNote Sections using Power Automate</title>
-      <link>//aseURL:1313/blog/20240902-renameonenotepowerautomate/</link>
+      <link>//aseURL:65249/blog/20240902-renameonenotepowerautomate/</link>
       <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20240902-renameonenotepowerautomate/</guid>
+      <guid>//aseURL:65249/blog/20240902-renameonenotepowerautomate/</guid>
       <description>Recently I wrote a blog regarding renaming OneNote sections based on a renamed channelname using PowerShell&#xD;. In this blog same scenario is done using Power Automate.&#xA;The flow iterates iterates through all channels to determine changes.&#xA;Scenario A new Team comes with a OneNote and every new channel gets it&amp;rsquo;s own OneNote section with the display name of the channel. When the name of the channel is modified, the name of the OneNote section isn&amp;rsquo;t updated automatically.</description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Power Platform on Burgers &amp; Bytes</title>
-    <link>//aseURL:1313/tags/power-platform/</link>
+    <link>//aseURL:65249/tags/power-platform/</link>
     <description>Recent content in Power Platform on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 25 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:1313/tags/power-platform/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:65249/tags/power-platform/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A solid foundation of the Power Platform</title>
-      <link>//aseURL:1313/blog/20240325-solidfoundationpowerplatform/</link>
+      <link>//aseURL:65249/blog/20240325-solidfoundationpowerplatform/</link>
       <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20240325-solidfoundationpowerplatform/</guid>
+      <guid>//aseURL:65249/blog/20240325-solidfoundationpowerplatform/</guid>
       <description>In today&amp;rsquo;s rapidly evolving digital landscape, organizations often find themselves relying on outdated Excel-based processes, which pose significant risks. However, with the emergence of the Power Platform, a revolutionary low-code development platform, there is a transformative solution at hand. This blog explores the potential of the Power Platform in streamlining operations, mitigating risks, and empowering employees to become citizen developers.&#xA;Source https://dilbert.com/strip/2007-08-08&#xD;Excel as business critical When people ask what exactly you can do with Power Platform, we often make comparisons with what people used to make in Excel.</description>
     </item>
     <item>
       <title>European Collaboration Summit 2023; My top 3 and some more...</title>
-      <link>//aseURL:1313/blog/20230525-collaborationsummit2023/</link>
+      <link>//aseURL:65249/blog/20230525-collaborationsummit2023/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20230525-collaborationsummit2023/</guid>
+      <guid>//aseURL:65249/blog/20230525-collaborationsummit2023/</guid>
       <description>My report from the European Collaboration Summit 2023&#xA;It had been in my calendar since last October, on 22 May it was finally there: the European Collaboration Summit! In this blog, I am happy to share my personal top 3. Plenty to choose from, so in addition to a nice top 3, I also added an unmissable encore.&#xA;Within Power Platform projects, it is necessary to think carefully about the architecture.</description>
     </item>
   </channel>

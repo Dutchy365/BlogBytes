@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Custom Connector on Burgers &amp; Bytes</title>
-    <link>//aseURL:1313/tags/custom-connector/</link>
+    <link>//aseURL:65249/tags/custom-connector/</link>
     <description>Recent content in Custom Connector on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 15 Aug 2023 00:00:03 +0000</lastBuildDate>
-    <atom:link href="//aseURL:1313/tags/custom-connector/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:65249/tags/custom-connector/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Make use of the responses: display the survey data of the Forms - part 3</title>
-      <link>//aseURL:1313/blog/msforms-part3-dashboard/</link>
+      <link>//aseURL:65249/blog/msforms-part3-dashboard/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:03 +0000</pubDate>
-      <guid>//aseURL:1313/blog/msforms-part3-dashboard/</guid>
+      <guid>//aseURL:65249/blog/msforms-part3-dashboard/</guid>
       <description>This blog is part of the blog series for Microsoft Forms automation to create automatic update of you question of the week on your SharePoint intranet. The first blog explains how to create a custom connector using the undocumented Microsoft Forms API&#xD;. The second blog describes how to keep your ‘Question of the week’ based on Microsoft Forms up-to-date&#xD;.&#xA;The result of the first two parts of this blog series is a nice looking SharePoint list which contains all data from the Question of the week.</description>
     </item>
     <item>
       <title>Microsoft Forms automation: update Forms poll on SharePoint intranet - part 2</title>
-      <link>//aseURL:1313/blog/msforms-part2-questionoftheweek/</link>
+      <link>//aseURL:65249/blog/msforms-part2-questionoftheweek/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:02 +0000</pubDate>
-      <guid>//aseURL:1313/blog/msforms-part2-questionoftheweek/</guid>
+      <guid>//aseURL:65249/blog/msforms-part2-questionoftheweek/</guid>
       <description>Creating a social intranet that fosters collaboration and engagement among employees is essential in today&amp;rsquo;s digital workplace. One effective component of a social intranet is a &amp;ldquo;question of the week&amp;rdquo; or poll functionality. While SharePoint doesn&amp;rsquo;t have a built-in poll feature, you can use a Microsoft Form with one question to achieve the same effect. However, updating the question weekly can be a manual and time-consuming task.&#xA;Unfortunately, Microsoft doesn&amp;rsquo;t provide a standard API for Microsoft Forms that can easily be integrated with Power Automate to automate question creation and management of a Form.</description>
     </item>
     <item>
       <title>Microsoft Forms automation: a custom connector - part 1</title>
-      <link>//aseURL:1313/blog/msforms-part1-customconnector/</link>
+      <link>//aseURL:65249/blog/msforms-part1-customconnector/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:01 +0000</pubDate>
-      <guid>//aseURL:1313/blog/msforms-part1-customconnector/</guid>
+      <guid>//aseURL:65249/blog/msforms-part1-customconnector/</guid>
       <description>Creating a social intranet that fosters collaboration and engagement among employees is essential in today&amp;rsquo;s digital workplace. One effective component of a social intranet is a &amp;ldquo;question of the week&amp;rdquo; or poll functionality. While SharePoint doesn&amp;rsquo;t have a built-in poll feature, you can use a Microsoft Form with one question to achieve the same effect. However, updating the question weekly can be a manual and time-consuming task.&#xA;Unfortunately, Microsoft doesn&amp;rsquo;t provide a standard API for Microsoft Forms that can easily be integrated with Power Automate to automate question creation and management of a Form.</description>
     </item>
   </channel>

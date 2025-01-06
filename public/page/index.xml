@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Burgers &amp; Bytes</title>
-    <link>//aseURL:1313/page/</link>
+    <link>//aseURL:65249/page/</link>
     <description>Recent content in Pages on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 02 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:1313/page/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:65249/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Microsoft Forms API</title>
-      <link>//aseURL:1313/page/msformapi/</link>
+      <link>//aseURL:65249/page/msformapi/</link>
       <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/page/msformapi/</guid>
+      <guid>//aseURL:65249/page/msformapi/</guid>
       <description>Every question type has is own setup of the body content.&#xA;Body content The payload of the different question types all have the same parameters:&#xA;questionInfo type title id order isQuiz required { &amp;#34;questionInfo&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;type&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;title&amp;#34;: &amp;#34;Question&amp;#34;, &amp;#34;id&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;order&amp;#34;: 4000500, &amp;#34;isQuiz&amp;#34;: false, &amp;#34;required&amp;#34;: false } Parameter type Question Type Choice Question.Choice Text Question.TextField Rating Question.Rating Date Question.DateTime Ranking Question.Ranking Likert Question.Matrix Upload File Question.FileUpload Net Promoter Score Question.</description>
     </item>
     <item>
       <title>Spotlight</title>
-      <link>//aseURL:1313/page/spotlight/</link>
+      <link>//aseURL:65249/page/spotlight/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/page/spotlight/</guid>
+      <guid>//aseURL:65249/page/spotlight/</guid>
       <description>Below a list of my recent and upcoming events:&#xA;2025-05-26 - BizApps Summit Düsseldorf - Me, Myself and AI (together with Albert-Jan Schot) A hands-on session regarding AI experiments with the Power Platform!&#xA;2024-12-18 - Power Platform Community call - Personal views for Power Apps A demo about creating personal views in Canvas Power Apps.&#xA;2024-12-05 - ESPC24 Stockholm - Validation of Naming Conventions in Power Apps (together with Albert-Jan Schot) A session regarding automation of naming convention validation for Canvas Power Apps with PowerShell &amp;amp; Power Platform CLI, enhancing collaboration &amp;amp; error prevention in Azure DevOps pipelines.</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>//aseURL:1313/page/about/</link>
+      <link>//aseURL:65249/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/page/about/</guid>
+      <guid>//aseURL:65249/page/about/</guid>
       <description>My name is Elianne and I am a Power Platform Consultant at Blis Digital&#xD;in Barendrecht, The Netherlands. Since 2016 I obtained several Microsoft certifications: full transcript can be found on my Microsoft Learn profile.&#xD;I love to gain more knowledge and expertise by going to different user groups and conferences myself, but I also like to share knowledge in different ways: by writing blogs, giving presentations, guest lectures at an university of applied science and app-in-a-day workshops.</description>
     </item>
   </channel>

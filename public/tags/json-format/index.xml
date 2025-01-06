@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JSON Format on Burgers &amp; Bytes</title>
-    <link>//aseURL:1313/tags/json-format/</link>
+    <link>//aseURL:65249/tags/json-format/</link>
     <description>Recent content in JSON Format on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 22 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:1313/tags/json-format/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:65249/tags/json-format/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Power Apps: Transpose Excel Data using Power Fx</title>
-      <link>//aseURL:1313/blog/20240522-powerfxtransposeexcel/</link>
+      <link>//aseURL:65249/blog/20240522-powerfxtransposeexcel/</link>
       <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20240522-powerfxtransposeexcel/</guid>
+      <guid>//aseURL:65249/blog/20240522-powerfxtransposeexcel/</guid>
       <description>A lot of business processes are supported by data stored in Excel sheets. Working with Power Apps often eliminates the use of an Excel sheet, but in some cases the data needs to be stored into an Excel sheet.&#xA;In this blog the concept of transposing the data from an Excel table will be described, so you can use this data throughout the app.&#xA;Scenario As an input there is an Excel table in which there are multiple rows and multiple columns.</description>
     </item>
   </channel>

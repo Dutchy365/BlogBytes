@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JavaScript on Burgers &amp; Bytes</title>
-    <link>//aseURL:1313/tags/javascript/</link>
+    <link>//aseURL:65249/tags/javascript/</link>
     <description>Recent content in JavaScript on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:65249/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rich text columns and Power Pages list view: HTML sanitization</title>
-      <link>//aseURL:1313/blog/20240129-powerpagesrichtextlistview/</link>
+      <link>//aseURL:65249/blog/20240129-powerpagesrichtextlistview/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20240129-powerpagesrichtextlistview/</guid>
+      <guid>//aseURL:65249/blog/20240129-powerpagesrichtextlistview/</guid>
       <description>Working with a Rich Text column can be tricky. In a Model Driven App, handling Rich Text columns is easy. In a view the text is shown as plain text; simple and readable. In the Power Pages list view, it&amp;rsquo;s not great. It ends up showing messy raw HTML instead of the neat content.&#xA;The view of the list in Model Driven App: The description column is a rich text column in which formatting is applied.</description>
     </item>
     <item>
       <title>Change Email From Address to Queue using Environment Variable in JavaScript</title>
-      <link>//aseURL:1313/blog/20231201-changefromaddressofemailtosharedmailbox/</link>
+      <link>//aseURL:65249/blog/20231201-changefromaddressofemailtosharedmailbox/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20231201-changefromaddressofemailtosharedmailbox/</guid>
+      <guid>//aseURL:65249/blog/20231201-changefromaddressofemailtosharedmailbox/</guid>
       <description>Special thanks to Kevin Hendricks and Jan-Frederik Kobus for their support in implementing this scenario.&#xA;Scenario The scenario of the blog is related to the email entity of a Model Driven app. The goal is to use a shared mailbox to send emails from instead of the personal address of the current user. The case is to automatically change the From address and be able to have a flexible setup for different queue ids.</description>
     </item>
   </channel>

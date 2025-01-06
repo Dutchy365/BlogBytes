@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dataverse on Burgers &amp; Bytes</title>
-    <link>//aseURL:1313/tags/dataverse/</link>
+    <link>//aseURL:65249/tags/dataverse/</link>
     <description>Recent content in Dataverse on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:1313/tags/dataverse/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:65249/tags/dataverse/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automated plugin: different triggers with different actions</title>
-      <link>//aseURL:1313/blog/20240712-automatelowcodeplugindataverse/</link>
+      <link>//aseURL:65249/blog/20240712-automatelowcodeplugindataverse/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20240712-automatelowcodeplugindataverse/</guid>
+      <guid>//aseURL:65249/blog/20240712-automatelowcodeplugindataverse/</guid>
       <description>Side note: As of writing this blog, Dataverse low-code plugins are still in preview.&#xA;In the Dataverse Accelerator app, you have the opportunity to create plugins. This blog focuses on the possibilities of automated plugins.&#xA;After selecting a table, you can choose different types of triggers: when a row is created, updated, or deleted. To get information about existing records, you can&amp;rsquo;t use ThisItem or ThisRecord, and Set behaves differently compared to Power Apps Canvas.</description>
     </item>
     <item>
       <title>Automated Dataverse low-code plugin</title>
-      <link>//aseURL:1313/blog/20240707-dataverselowcodeplugin/</link>
+      <link>//aseURL:65249/blog/20240707-dataverselowcodeplugin/</link>
       <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20240707-dataverselowcodeplugin/</guid>
+      <guid>//aseURL:65249/blog/20240707-dataverselowcodeplugin/</guid>
       <description>Side note: while writing this blog Dataverse low-code plugins are still in preview.&#xA;Scenario This blog explores a real-world business scenario involving multiple meeting rooms where CO₂ levels are monitored throughout the day. These measurements indicate the presence of people in the rooms. By correlating this data with the meeting room reservations, we can infer the room occupancy.&#xA;End result The end result is a Power App in which a calender view is available in which you can see whether a meetingroom was occupied during the meeting or not.</description>
     </item>
     <item>
       <title>PowerFx: Overcome time zone conversion error in Dataverse Formula column</title>
-      <link>//aseURL:1313/blog/20240502-dataverseformuladate/</link>
+      <link>//aseURL:65249/blog/20240502-dataverseformuladate/</link>
       <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20240502-dataverseformuladate/</guid>
+      <guid>//aseURL:65249/blog/20240502-dataverseformuladate/</guid>
       <description>Scenario In a Dataverse table you have a date column of which you want to extract the Year, Month, Day or Weekday using a Formula column. While doing this the following error appears: &amp;ldquo;cannot be performed on this input without a time zone conversion, which is not supported in formula columns.&amp;rdquo;&#xA;Solution Go to the created Date column and check the &amp;lsquo;Time zone adjustment&amp;rsquo;. It&amp;rsquo;s probably set to &amp;lsquo;User local&amp;rsquo;. Switch the Time zone adjustment (Advanced options) to &amp;lsquo;Time zone independent&amp;rsquo; or &amp;lsquo;Date only&amp;rsquo;.</description>
     </item>
     <item>
       <title>Custom progress bar in Power Pages</title>
-      <link>//aseURL:1313/blog/20240103-progressbarpowerpages/</link>
+      <link>//aseURL:65249/blog/20240103-progressbarpowerpages/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/20240103-progressbarpowerpages/</guid>
+      <guid>//aseURL:65249/blog/20240103-progressbarpowerpages/</guid>
       <description>A progress bar visually communicates the completion status of a process. In a Model Driven App there is the Business Process Flow, in Power Pages there is no default component to visualize this. It is crucial for the progress bar to be flexibility and use the data stored in Dataverse and ensuring readiness for the addition of any extra status in the process without constraints.&#xA;Challenge accepted 💪!&#xA;Scenario In this scenario, an application Power Pages site is designed for individual contacts, where each contact can have only one associated application.</description>
     </item>
   </channel>
