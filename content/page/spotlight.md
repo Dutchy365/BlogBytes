@@ -19,6 +19,9 @@ A session regarding automation of naming convention validation for Canvas Power 
 * **2025-02-22  <span style="color: #92400e;">- Global Power Platform Bootcamp Belgium -  Provision Perfect Pipelines (together with Albert-Jan Schot)**</span></br>
 A session regarding Power Platform Pipelines and Azure DevOps pipelines to demonstrate how to pre-provision robust pipelines.
 
+* **2025-02-21  <span style="color: #92400e;">- CollabDays Bremen -  Automated testing in the Power Platform: matching governance, upholding quality, compliance and efficiency (together with Arjan Rijsdijk)**</span></br>
+A session regarding how testing and governance go hand-in-hand and share practical tips for testing Power Apps Canvas and Power Automate.
+
 * **2024-12-18  <span style="color: #92400e;">- Power Platform Community call - Personal views for Power Apps**</span></br>
 A demo about creating personal views in Canvas Power Apps. 
 
