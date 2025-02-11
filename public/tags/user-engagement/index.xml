@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>User Engagement on Burgers &amp; Bytes</title>
-    <link>//aseURL:65249/tags/user-engagement/</link>
+    <link>//aseURL:1313/tags/user-engagement/</link>
     <description>Recent content in User Engagement on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 21 Oct 2023 00:00:03 +0000</lastBuildDate>
-    <atom:link href="//aseURL:65249/tags/user-engagement/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:1313/tags/user-engagement/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Part 3: Enhancing User Engagement Measurement on SharePoint Intranets: Visualize data</title>
-      <link>//aseURL:65249/blog/20231021-userengagement-part3/</link>
+      <link>//aseURL:1313/blog/20231021-userengagement-part3/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:03 +0000</pubDate>
-      <guid>//aseURL:65249/blog/20231021-userengagement-part3/</guid>
+      <guid>//aseURL:1313/blog/20231021-userengagement-part3/</guid>
       <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie&#xD;, you could read how to use the Power Platform to measure user engagement even more deeply using KPI regarding user engagement.</description>
     </item>
     <item>
       <title>Part 2: Enhancing User Engagement Measurement on SharePoint Intranets: Page Freshness</title>
-      <link>//aseURL:65249/blog/20231021-userengagement-part2/</link>
+      <link>//aseURL:1313/blog/20231021-userengagement-part2/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:02 +0000</pubDate>
-      <guid>//aseURL:65249/blog/20231021-userengagement-part2/</guid>
+      <guid>//aseURL:1313/blog/20231021-userengagement-part2/</guid>
       <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie&#xD;, you could read how to use the Power Platform to measure user engagement even more deeply using KPI&amp;rsquo;s regarding user engagement.</description>
     </item>
     <item>
       <title>Part 1: Enhancing User Engagement Measurement on SharePoint Intranets with Power Platform</title>
-      <link>//aseURL:65249/blog/20231021-userengagement-part1/</link>
+      <link>//aseURL:1313/blog/20231021-userengagement-part1/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:01 +0000</pubDate>
-      <guid>//aseURL:65249/blog/20231021-userengagement-part1/</guid>
+      <guid>//aseURL:1313/blog/20231021-userengagement-part1/</guid>
       <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie, we will explore how to use the Power Platform to measure user engagement even more deeply using KPI&amp;rsquo;s regarding user engagement.</description>
     </item>
   </channel>

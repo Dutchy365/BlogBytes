@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Power Pages on Burgers &amp; Bytes</title>
-    <link>//aseURL:65249/tags/power-pages/</link>
+    <link>//aseURL:1313/tags/power-pages/</link>
     <description>Recent content in Power Pages on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:65249/tags/power-pages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:1313/tags/power-pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Power Pages: visual message indicator</title>
-      <link>//aseURL:65249/blog/20241124-powerpagesmessageindicator/</link>
+      <link>//aseURL:1313/blog/20241124-powerpagesmessageindicator/</link>
       <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:65249/blog/20241124-powerpagesmessageindicator/</guid>
+      <guid>//aseURL:1313/blog/20241124-powerpagesmessageindicator/</guid>
       <description>End result The end result is an envelop icon in which a counter displays the number of messages for the current logged in contact.&#xA;Datamodel Simplified view of the datamodel, just to support the understanding of the technical setup.&#xA;Content snippet To accomplish this, start by creating an HTML content snippet. This snippet will serve as the foundation for counting the number of messages and displaying the envelop icon.&#xA;In this scenario the name of the snippet is: Message Counter.</description>
     </item>
     <item>
       <title>Rich text columns and Power Pages list view: HTML sanitization</title>
-      <link>//aseURL:65249/blog/20240129-powerpagesrichtextlistview/</link>
+      <link>//aseURL:1313/blog/20240129-powerpagesrichtextlistview/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:65249/blog/20240129-powerpagesrichtextlistview/</guid>
+      <guid>//aseURL:1313/blog/20240129-powerpagesrichtextlistview/</guid>
       <description>Working with a Rich Text column can be tricky. In a Model Driven App, handling Rich Text columns is easy. In a view the text is shown as plain text; simple and readable. In the Power Pages list view, it&amp;rsquo;s not great. It ends up showing messy raw HTML instead of the neat content.&#xA;The view of the list in Model Driven App: The description column is a rich text column in which formatting is applied.</description>
     </item>
     <item>
       <title>Custom progress bar in Power Pages</title>
-      <link>//aseURL:65249/blog/20240103-progressbarpowerpages/</link>
+      <link>//aseURL:1313/blog/20240103-progressbarpowerpages/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:65249/blog/20240103-progressbarpowerpages/</guid>
+      <guid>//aseURL:1313/blog/20240103-progressbarpowerpages/</guid>
       <description>A progress bar visually communicates the completion status of a process. In a Model Driven App there is the Business Process Flow, in Power Pages there is no default component to visualize this. It is crucial for the progress bar to be flexibility and use the data stored in Dataverse and ensuring readiness for the addition of any extra status in the process without constraints.&#xA;Challenge accepted 💪!&#xA;Scenario In this scenario, an application Power Pages site is designed for individual contacts, where each contact can have only one associated application.</description>
     </item>
   </channel>

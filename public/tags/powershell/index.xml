@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Powershell on Burgers &amp; Bytes</title>
-    <link>//aseURL:65249/tags/powershell/</link>
+    <link>//aseURL:1313/tags/powershell/</link>
     <description>Recent content in Powershell on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 10 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:65249/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:1313/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rename OneNote Sections using Powershell</title>
-      <link>//aseURL:65249/blog/20240810-renameonenotesection/</link>
+      <link>//aseURL:1313/blog/20240810-renameonenotesection/</link>
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:65249/blog/20240810-renameonenotesection/</guid>
+      <guid>//aseURL:1313/blog/20240810-renameonenotesection/</guid>
       <description>Scenario When a new Team is created, a OneNote is automatically generated, and each new channel receives its own section in OneNote, named after the channel. However, if the channel name is changed, the corresponding OneNote section name does not update automatically.&#xA;This blog explains how to use PowerShell to programmatically synchronize the channel name with the associated OneNote section name.&#xA;Example The Team contains several channels: Every channel has its own Notes tab with an associated OneNote Section.</description>
     </item>
     <item>
       <title>Validating Naming Conventions in Power Apps</title>
-      <link>//aseURL:65249/blog/20230926-powerappsvalidatingnamingconventions/</link>
+      <link>//aseURL:1313/blog/20230926-powerappsvalidatingnamingconventions/</link>
       <pubDate>Tue, 26 Sep 2023 00:00:01 +0000</pubDate>
-      <guid>//aseURL:65249/blog/20230926-powerappsvalidatingnamingconventions/</guid>
+      <guid>//aseURL:1313/blog/20230926-powerappsvalidatingnamingconventions/</guid>
       <description>Why naming conventions One of the main advices while creating Power Apps canvas apps is to use proper naming conventions for all the components you&amp;rsquo;re using. Not only to support readability for your own usage, also for supportability. Probably it&amp;rsquo;s not too difficult to convince someone of its importance, while in the hustle and bustle of everyday life, you don&amp;rsquo;t give it priority always.&#xA;Some advantages:&#xA;Consistency; so you can better focus on the solution Maintainability; everyone has the same language and can therefore navigate through a solution more easily Interchangeability; copying, changing and maintaining solutions can be done by multiple people ​ This blog gives and explains a Powershell script which you can use to validate naming convention in your Power App.</description>
     </item>
   </channel>

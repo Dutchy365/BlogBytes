@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apdex on Burgers &amp; Bytes</title>
+    <link>//aseURL:1313/tags/apdex/</link>
+    <description>Recent content in Apdex on Burgers &amp; Bytes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/apdex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improving performance insights using Apdex</title>
+      <link>//aseURL:1313/blog/20250211-powerautomateapdexscore/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20250211-powerautomateapdexscore/</guid>
+      <description>Scenario Ever heard users complain about the sluggishness of your Power Automate flow? But how do we know if that complaint is based on actual performance or just a feeling?&#xA;In this blog, we’ll explore how to move from subjective complaints to objective insights by using Apdex scores to evaluate Power Automate flow performance.&#xA;What is Apdex and how does it help in measuring flow performance? Apdex Overview Apdex (Application Performance Index)&#xD;is a standardized way of measuring user satisfaction with application performance.</description>
+    </item>
+  </channel>
+</rss>

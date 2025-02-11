@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Combobox on Burgers &amp; Bytes</title>
-    <link>//aseURL:65249/tags/combobox/</link>
+    <link>//aseURL:1313/tags/combobox/</link>
     <description>Recent content in Combobox on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 02 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:65249/tags/combobox/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:1313/tags/combobox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Filter and search data in a gallery</title>
-      <link>//aseURL:65249/blog/20250102-filteringandsearchinggallery/</link>
+      <link>//aseURL:1313/blog/20250102-filteringandsearchinggallery/</link>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>//aseURL:65249/blog/20250102-filteringandsearchinggallery/</guid>
+      <guid>//aseURL:1313/blog/20250102-filteringandsearchinggallery/</guid>
       <description>Scenario One of the features often used in Power Apps is the gallery, which typically requires filtering and search functionality. Initially, you might set up a gallery with just two filters and a search box. However, as you continue developing, end-users often request additional filtering options. Time and time again, I found it challenging to easily implement these extra filters. That&amp;rsquo;s when I realized it was time to document my approach; hopefully, you can benefit from it too.</description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Governance on Burgers &amp; Bytes</title>
-    <link>//aseURL:65249/tags/governance/</link>
+    <link>//aseURL:1313/tags/governance/</link>
     <description>Recent content in Governance on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 25 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:65249/tags/governance/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:1313/tags/governance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A solid foundation of the Power Platform</title>
-      <link>//aseURL:65249/blog/20240325-solidfoundationpowerplatform/</link>
+      <link>//aseURL:1313/blog/20240325-solidfoundationpowerplatform/</link>
       <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:65249/blog/20240325-solidfoundationpowerplatform/</guid>
+      <guid>//aseURL:1313/blog/20240325-solidfoundationpowerplatform/</guid>
       <description>In today&amp;rsquo;s rapidly evolving digital landscape, organizations often find themselves relying on outdated Excel-based processes, which pose significant risks. However, with the emergence of the Power Platform, a revolutionary low-code development platform, there is a transformative solution at hand. This blog explores the potential of the Power Platform in streamlining operations, mitigating risks, and empowering employees to become citizen developers.&#xA;Source https://dilbert.com/strip/2007-08-08&#xD;Excel as business critical When people ask what exactly you can do with Power Platform, we often make comparisons with what people used to make in Excel.</description>
     </item>
     <item>
       <title>Validating Naming Conventions in Power Apps</title>
-      <link>//aseURL:65249/blog/20230926-powerappsvalidatingnamingconventions/</link>
+      <link>//aseURL:1313/blog/20230926-powerappsvalidatingnamingconventions/</link>
       <pubDate>Tue, 26 Sep 2023 00:00:01 +0000</pubDate>
-      <guid>//aseURL:65249/blog/20230926-powerappsvalidatingnamingconventions/</guid>
+      <guid>//aseURL:1313/blog/20230926-powerappsvalidatingnamingconventions/</guid>
       <description>Why naming conventions One of the main advices while creating Power Apps canvas apps is to use proper naming conventions for all the components you&amp;rsquo;re using. Not only to support readability for your own usage, also for supportability. Probably it&amp;rsquo;s not too difficult to convince someone of its importance, while in the hustle and bustle of everyday life, you don&amp;rsquo;t give it priority always.&#xA;Some advantages:&#xA;Consistency; so you can better focus on the solution Maintainability; everyone has the same language and can therefore navigate through a solution more easily Interchangeability; copying, changing and maintaining solutions can be done by multiple people ​ This blog gives and explains a Powershell script which you can use to validate naming convention in your Power App.</description>
     </item>
   </channel>

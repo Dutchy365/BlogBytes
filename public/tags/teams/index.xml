@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teams on Burgers &amp; Bytes</title>
-    <link>//aseURL:65249/tags/teams/</link>
+    <link>//aseURL:1313/tags/teams/</link>
     <description>Recent content in Teams on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:65249/tags/teams/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:1313/tags/teams/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dynamically show/hide elements in Adaptive Cards</title>
-      <link>//aseURL:65249/blog/20241108-adaptivecarddynamicshowhide/</link>
+      <link>//aseURL:1313/blog/20241108-adaptivecarddynamicshowhide/</link>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:65249/blog/20241108-adaptivecarddynamicshowhide/</guid>
+      <guid>//aseURL:1313/blog/20241108-adaptivecarddynamicshowhide/</guid>
       <description>It took me hours to figure this out, so here&amp;rsquo;s to saving you time!&#xA;After spending hours trying to figure this out, I figured it’s time to write it down. Hopefully, this post will save you some time and frustration, so you don’t have to go through the same process I did!&#xA;Designing an Adaptive Card Designing an Adaptive Card using the Adaptive Cards Designer&#xD;is surprisingly easy. You can create interactive cards with just a few clicks!</description>
     </item>
     <item>
       <title>Rename OneNote Sections using Power Automate</title>
-      <link>//aseURL:65249/blog/20240902-renameonenotepowerautomate/</link>
+      <link>//aseURL:1313/blog/20240902-renameonenotepowerautomate/</link>
       <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:65249/blog/20240902-renameonenotepowerautomate/</guid>
+      <guid>//aseURL:1313/blog/20240902-renameonenotepowerautomate/</guid>
       <description>Recently I wrote a blog regarding renaming OneNote sections based on a renamed channelname using PowerShell&#xD;. In this blog same scenario is done using Power Automate.&#xA;The flow iterates iterates through all channels to determine changes.&#xA;Scenario A new Team comes with a OneNote and every new channel gets it&amp;rsquo;s own OneNote section with the display name of the channel. When the name of the channel is modified, the name of the OneNote section isn&amp;rsquo;t updated automatically.</description>
     </item>
   </channel>

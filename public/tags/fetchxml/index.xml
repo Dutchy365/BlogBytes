@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FetchXML on Burgers &amp; Bytes</title>
-    <link>//aseURL:65249/tags/fetchxml/</link>
+    <link>//aseURL:1313/tags/fetchxml/</link>
     <description>Recent content in FetchXML on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//aseURL:65249/tags/fetchxml/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//aseURL:1313/tags/fetchxml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Power Pages: visual message indicator</title>
-      <link>//aseURL:65249/blog/20241124-powerpagesmessageindicator/</link>
+      <link>//aseURL:1313/blog/20241124-powerpagesmessageindicator/</link>
       <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:65249/blog/20241124-powerpagesmessageindicator/</guid>
+      <guid>//aseURL:1313/blog/20241124-powerpagesmessageindicator/</guid>
       <description>End result The end result is an envelop icon in which a counter displays the number of messages for the current logged in contact.&#xA;Datamodel Simplified view of the datamodel, just to support the understanding of the technical setup.&#xA;Content snippet To accomplish this, start by creating an HTML content snippet. This snippet will serve as the foundation for counting the number of messages and displaying the envelop icon.&#xA;In this scenario the name of the snippet is: Message Counter.</description>
     </item>
     <item>
       <title>Custom progress bar in Power Pages</title>
-      <link>//aseURL:65249/blog/20240103-progressbarpowerpages/</link>
+      <link>//aseURL:1313/blog/20240103-progressbarpowerpages/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:65249/blog/20240103-progressbarpowerpages/</guid>
+      <guid>//aseURL:1313/blog/20240103-progressbarpowerpages/</guid>
       <description>A progress bar visually communicates the completion status of a process. In a Model Driven App there is the Business Process Flow, in Power Pages there is no default component to visualize this. It is crucial for the progress bar to be flexibility and use the data stored in Dataverse and ensuring readiness for the addition of any extra status in the process without constraints.&#xA;Challenge accepted 💪!&#xA;Scenario In this scenario, an application Power Pages site is designed for individual contacts, where each contact can have only one associated application.</description>
     </item>
   </channel>
