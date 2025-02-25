@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SharePoint Agents on Burgers &amp; Bytes</title>
+    <link>//aseURL:1313/tags/sharepoint-agents/</link>
+    <description>Recent content in SharePoint Agents on Burgers &amp; Bytes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/sharepoint-agents/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Provision SharePoint Agent using Power Automate</title>
+      <link>//aseURL:1313/blog/provisionsharepointagent/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/provisionsharepointagent/</guid>
+      <description>Scenario On a SharePoint front page or document library you can create a SharePoint Agent. Totally fine for just creating a couple, but what if the scenario requires the same SharePoint Agent setup on a lot of sites. In that case you would automatically want to provision those agents. This way you can immediately impact the behavior, change the default of the welcome message, starter prompts and instructions for the agent.</description>
+    </item>
+  </channel>
+</rss>

@@ -16,6 +16,13 @@
       <description>Scenario Ever heard users complain about the sluggishness of your Power Automate flow? But how do we know if that complaint is based on actual performance or just a feeling?&#xA;In this blog, we’ll explore how to move from subjective complaints to objective insights by using Apdex scores to evaluate Power Automate flow performance.&#xA;What is Apdex and how does it help in measuring flow performance? Apdex Overview Apdex (Application Performance Index)&#xD;is a standardized way of measuring user satisfaction with application performance.</description>
     </item>
     <item>
+      <title>Provision SharePoint Agent using Power Automate</title>
+      <link>//aseURL:1313/blog/provisionsharepointagent/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/provisionsharepointagent/</guid>
+      <description>Scenario On a SharePoint front page or document library you can create a SharePoint Agent. Totally fine for just creating a couple, but what if the scenario requires the same SharePoint Agent setup on a lot of sites. In that case you would automatically want to provision those agents. This way you can immediately impact the behavior, change the default of the welcome message, starter prompts and instructions for the agent.</description>
+    </item>
+    <item>
       <title>Dynamically show/hide elements in Adaptive Cards</title>
       <link>//aseURL:1313/blog/20241108-adaptivecarddynamicshowhide/</link>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
