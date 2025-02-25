@@ -159,7 +159,7 @@ With(
 This approach allows you to deploy a pipeline that aligns with your organization's governance and compliance regulations, eliminating the need for manual configuration.
 
 ### Tips
-* Errors during execution: check the pac cli language: [For more info read click on this link](https://dianabirkelbach.wordpress.com/2023/10/30/setup-the-language-for-pac-power-fx-in-vscode-terminal/)
+* Errors during execution: check the pac cli language: [For more info click on this link](https://dianabirkelbach.wordpress.com/2023/10/30/setup-the-language-for-pac-power-fx-in-vscode-terminal/)
     * type “set-culture -cultureinfo en-US”, in Terminal
     * restart VSCode
     * type “get-culture” in terminal, to confirm the change
