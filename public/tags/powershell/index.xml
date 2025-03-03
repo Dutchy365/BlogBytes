@@ -6,14 +6,14 @@
     <description>Recent content in PowerShell on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Provision Perfect Pipeline</title>
-      <link>//aseURL:1313/blog/provisionperfectpipeline/</link>
-      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/provisionperfectpipeline/</guid>
-      <description># Authenticate with Power Platform pac auth create # Define variables $projectName = &amp;#34;Projecthub&amp;#34; $devEnvName = &amp;#34;$projectName-Dev&amp;#34; $testEnvName = &amp;#34;$projectName-QA&amp;#34; $prodEnvName = &amp;#34;$projectName-Prod&amp;#34; # Define the template file and output file $templateFile = &amp;#34;C:\Temp\pfx-provisionpipeline-template.txt&amp;#34; $outputFile = &amp;#34;C:\Temp\pfx-provisionpipeline-uptated.txt&amp;#34; # Using regular expression to extract Environment ID for development environment $devEnvId = (pac org list --filter $devEnvName | Select-String -Pattern &amp;#34;\s+([0-9a-fA-F-]+)\s+https&amp;#34;).Matches.Groups[1].Value Write-Host &amp;#34;Environment ID for dev: $devEnvId&amp;#34; # Using regular expression to extract Environment ID for test environment $testEnvId = (pac org list --filter $testEnvName | Select-String -Pattern &amp;#34;\s+([0-9a-fA-F-]+)\s+https&amp;#34;).</description>
+      <link>//aseURL:1313/blog/20250225-provisionperfectpipeline/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20250225-provisionperfectpipeline/</guid>
+      <description>During the Global Power Platform Bootcamp Belgium together with Albert-Jan Schot I presented a session titled &amp;lsquo;Provision Perfect Pipelines&amp;rsquo;. A part of the session was the demo of a script to automatically provision a pipeline setup using the in product Deployment Pipeline Configuration.&#xA;Scenario We have a project called Projecthub which uses three different environments:&#xA;Projecthub-Dev Projecthub-QA Projecthub-Prod For this project we want to have pipeline to be able to move solutions from Dev to QA and from QA to Prod.</description>
     </item>
     <item>
       <title>Rename OneNote Sections using Powershell</title>

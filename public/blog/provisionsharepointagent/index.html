@@ -7,34 +7,34 @@
   <link rel="icon" href="favicon.png">
 
   <title>
-  Provision SharePoint Agent using Power Automate - Burgers &amp; Bytes
+  Provision SharePoint agent using Power Automate - Burgers &amp; Bytes
   </title>
-  <meta name="description" content="How to provision a SharePoint Agent using a Power Automate flow" /><meta name="generator" content="Hugo 0.128.2">
+  <meta name="description" content="How to provision a SharePoint agent using a Power Automate flow" /><meta name="generator" content="Hugo 0.128.2">
   <link rel="stylesheet" href="/css/styles.css" />
   
   
 
-  <meta property="og:title" content="Provision SharePoint Agent using Power Automate" />
-<meta property="og:description" content="How to provision a SharePoint Agent using a Power Automate flow" />
+  <meta property="og:title" content="Provision SharePoint agent using Power Automate" />
+<meta property="og:description" content="How to provision a SharePoint agent using a Power Automate flow" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="//aseURL:1313/blog/provisionsharepointagent/" /><meta property="og:image" content="//aseURL:1313/00Agentprovisioning.png" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2025-02-11T00:00:00+00:00" />
-<meta property="article:modified_time" content="2025-02-11T00:00:00+00:00" />
+<meta property="article:published_time" content="2025-03-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-03-03T00:00:00+00:00" />
 
 
   
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="//aseURL:1313/00Agentprovisioning.png">
-  <meta name="twitter:title" content="Provision SharePoint Agent using Power Automate">
-  <meta name="twitter:description" content="How to provision a SharePoint Agent using a Power Automate flow">
+  <meta name="twitter:title" content="Provision SharePoint agent using Power Automate">
+  <meta name="twitter:description" content="How to provision a SharePoint agent using a Power Automate flow">
 
   
-  <meta itemprop="name" content="Provision SharePoint Agent using Power Automate">
-  <meta itemprop="description" content="How to provision a SharePoint Agent using a Power Automate flow">
-  <meta itemprop="datePublished" content="2025-02-11T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-02-11T00:00:00+00:00">
-  <meta itemprop="wordCount" content="693">
+  <meta itemprop="name" content="Provision SharePoint agent using Power Automate">
+  <meta itemprop="description" content="How to provision a SharePoint agent using a Power Automate flow">
+  <meta itemprop="datePublished" content="2025-03-03T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-03-03T00:00:00+00:00">
+  <meta itemprop="wordCount" content="670">
   <meta itemprop="image" content="//aseURL:1313/00Agentprovisioning.png">
   <meta itemprop="keywords" content="Power Automate,SharePoint Agents">
 
@@ -92,12 +92,12 @@
   
   
     <div class="relative max-w-xl mx-auto px-4">
-    <img src="/images/20250220SharePointAgentProvisioning/00Agentprovisioning.png" class="rounded-lg shadow-sm w-full object-contain" />
+    <img src="/images/20250303SharePointAgentProvisioning/00Agentprovisioning.png" class="rounded-lg shadow-sm w-full object-contain" />
     
     <div class="absolute top-4 right-8 rounded shadow bg-white text-gray-900 dark:bg-gray-900 dark:text-white px-2 py-0.5">
       
   
-    February 11, 2025
+    March 3, 2025
   
 
 
@@ -108,7 +108,7 @@
 
   <article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
 
-    <h1 class="text-2xl font-bold mb-2">Provision SharePoint Agent using Power Automate</h1>
+    <h1 class="text-2xl font-bold mb-2">Provision SharePoint agent using Power Automate</h1>
     
     <h5 class="text-sm flex items-center flex-wrap">
       <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -119,7 +119,7 @@
         <line x1="4" y1="11" x2="20" y2="11" />
         <rect x="8" y="15" width="2" height="2" />
       </svg>
-      Feb 11, 2025 
+      Mar 3, 2025 
       
         &nbsp;&bull;&nbsp;
       
@@ -138,7 +138,7 @@
         <line x1="12" y1="6" x2="12" y2="19" />
         <line x1="21" y1="6" x2="21" y2="19" />
       </svg>
-      693&nbsp;
+      670&nbsp;
       
         
       
@@ -194,39 +194,43 @@
         
 
         
-        </li><li>
-        <a href="#6-approve-agent">6. Approve agent</a>
-        
-
-        
         </li></ul>
       </li><li>
         <a href="#quick-link-to-the-agent">Quick link to the agent</a>
+        
+
+        
+        </li><li>
+        <a href="#conclusion">Conclusion</a>
         </li></ul>
   </details>
 
     <h2 id="scenario">Scenario</h2>
-<p>On a SharePoint front page or document library you can create a SharePoint Agent. Totally fine for just creating a couple, but what if the scenario requires the same SharePoint Agent setup on a lot of sites.
+<p>On a SharePoint front page or document library you can create a SharePoint agent. Totally fine for just creating a couple, but what if the scenario requires the same SharePoint agent setup on a lot of sites.
 In that case you would automatically want to provision those agents. This way you can immediately impact the behavior, change the default of the welcome message, starter prompts and instructions for the agent. This blog describes how this can be achieved using Power Automate Flow.</p>
 <h2 id="step-by-step">Step by step</h2>
 <p>The steps on high level that needs to be done to provision a SharePoint agent:</p>
 <ol>
-<li>Get site ID</li>
-<li>Get site title</li>
-<li>Check Site Asset Library</li>
-<li>Create folder for Copilot</li>
-<li>Create agent</li>
-<li>Approve Agent</li>
+<li><a href="#1-get-site-id">Get site ID</a>
+</li>
+<li><a href="#2-get-site-title">Get site title</a>
+</li>
+<li><a href="#3-check-site-asset-library">Check Site Asset Library</a>
+</li>
+<li><a href="#4-create-folder-for-copilot">Create folder for Copilot</a>
+</li>
+<li><a href="#5-create-agent">Create agent</a>
+</li>
 </ol>
 <p>All this can be done using the action &lsquo;Send an HTTP request to SharePoint&rsquo;, no premium license needed.</p>
 <h3 id="1-get-site-id">1. Get site ID</h3>
 <p>Retrieve the site id of the site for which you want to create an agent. This value is needed in the last step.</p>
-<p><img src="/images/20250220SharePointAgentProvisioning/1-siteid.png" alt="Site ID"></p>
+<p><img src="/images/20250303SharePointAgentProvisioning/1-siteid.png" alt="Site ID"></p>
 <h3 id="2-get-site-title">2. Get site title</h3>
 <p>Retrieve the site title of the site for which you want to create an agent. This value is needed in the last step.</p>
-<p><img src="/images/20250220SharePointAgentProvisioning/2-webname.png" alt="Site title"></p>
+<p><img src="/images/20250303SharePointAgentProvisioning/2-webname.png" alt="Site title"></p>
 <h3 id="3-check-site-asset-library">3. Check Site Asset Library</h3>
-<p><img src="/images/20250220SharePointAgentProvisioning/3-EnsureSiteAsset.png" alt="Ensure Site Asset"></p>
+<p><img src="/images/20250303SharePointAgentProvisioning/3-EnsureSiteAsset.png" alt="Ensure Site Asset"></p>
 <table>
 <thead>
 <tr>
@@ -250,8 +254,8 @@ In that case you would automatically want to provision those agents. This way yo
 </tbody>
 </table>
 <h3 id="4-create-folder-for-copilot">4. Create folder for Copilot</h3>
-<p>By default the folder is SiteAssets%2FCopilots, off course you can decide to create your own.</p>
-<p><img src="/images/20250220SharePointAgentProvisioning/4-folder.png" alt="Folder"></p>
+<p>By default the folder is <code>SiteAssets%2FCopilots</code>.</p>
+<p><img src="/images/20250303SharePointAgentProvisioning/4-folder.png" alt="Folder"></p>
 <table>
 <thead>
 <tr>
@@ -275,7 +279,7 @@ In that case you would automatically want to provision those agents. This way yo
 </tbody>
 </table>
 <h3 id="5-create-agent">5. Create agent</h3>
-<p><img src="/images/20250220SharePointAgentProvisioning/5-agent.png" alt="Create agent"></p>
+<p><img src="/images/20250303SharePointAgentProvisioning/5-agent.png" alt="Create agent"></p>
 <table>
 <thead>
 <tr>
@@ -398,39 +402,12 @@ You can get the list id by using api call: <code>GET https://{site_url}/_api/web
 </span></span><span style="display:flex;"><span>	}
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div></details>
-<h3 id="6-approve-agent">6. Approve agent</h3>
-<p>You can approve agents. Approved agents are always available from the agent picker for site visitors and can be differentiated from the agents recommended for a user.</p>
-<p><img src="/images/20250220SharePointAgentProvisioning/6-approvepopup.png" alt="Create agent"></p>
-<table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>URL</td>
-<td>&laquo;the site url&raquo;</td>
-</tr>
-<tr>
-<td>TYPE:</td>
-<td>GET</td>
-</tr>
-<tr>
-<td>URI:</td>
-<td></td>
-</tr>
-<tr>
-<td>/_api/web/GetFileByServerRelativeUrl(@a1)/ListItemAllFields/effectiveBasePermissions?@a1=@{substring(variables(&lsquo;SiteURL&rsquo;), indexOf(variables(&lsquo;SiteURL&rsquo;), &lsquo;/sites&rsquo;))}%2FSiteAssets%2FCopilots%2FApproved%2F@{variables(&lsquo;Title&rsquo;)}%2Eagent%27</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 <h2 id="quick-link-to-the-agent">Quick link to the agent</h2>
 <p>The provisioned agent exists in de Site Asset Library and can be accessed over there.
 You can create a quick link to the agent with the following setup:
 https://&laquo;tenantname&raquo;.sharepoint.com/sites/&laquo;sitename&raquo;/SiteAssets/Forms/AllItems.aspx?id=/sites/&laquo;sitename&raquo;/SiteAssets/Copilots/&laquo;agentname&raquo;.agent&amp;parent=/sites/&laquo;sitename&raquo;/SiteAssets/Copilots</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>In this blog, I used a few variables to technically enable the provisioning of the SharePoint agent. Please consider personalizing the welcome message, conversation starter questions, and agent instructions.</p>
 
   </article>
 
