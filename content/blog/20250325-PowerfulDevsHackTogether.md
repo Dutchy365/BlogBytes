@@ -1,7 +1,7 @@
 ---
 author: ""
 title: "Price winning solution: AI-Driven archiving of SharePoint Sites"
-date: 2025-03-24
+date: 2025-03-25
 description: "One of the winners of the Powerful Dev Hack Together 2025 from Microsoft"
 tags:
   - Power Automate
