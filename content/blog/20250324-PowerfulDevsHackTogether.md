@@ -25,7 +25,9 @@ There were different categories to participate in and all projects were evaluate
 * 40% Alignment with chosen hackathon category
 
 
-🎉**After three weeks of waiting, we received the exciting news that our submission is one of the winners! We won in the 'Best in Integrations' category.**🎉
+🎉
+**We received the exciting news that our submission is one of the winners! We won in the 'Best in Integrations' category.**
+🎉
 
 This blog outlines our submission, and even better, there’s a public GitHub repository with the solution, allowing everyone to take advantage of it!
 
