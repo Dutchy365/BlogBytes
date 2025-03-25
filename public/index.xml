@@ -6,13 +6,20 @@
     <description>Recent content on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Price winning solution: AI-Driven archiving of SharePoint Sites</title>
+      <link>//aseURL:1313/blog/powerfuldevshacktogether/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/powerfuldevshacktogether/</guid>
+      <description>A very special blog this time! Together with my teammembers from Blis Digital we participated in the Powerful Devs Hack 2025. This hackathon was organized by Microsoft and could shortly described by:&#xA;&amp;ldquo;It&amp;rsquo;s time to start developing secure solutions at enterprise scale using the power of AI and the Power Platform! 🤖 + 📚 = 🔥&amp;rdquo;&#xA;There were different categories to participate in and all projects were evaluated by a panel of judges against technologies and languages, using the following aspects:</description>
+    </item>
+    <item>
       <title>Provision SharePoint agents using Power Automate</title>
-      <link>//aseURL:1313/blog/provisionsharepointagent/</link>
+      <link>//aseURL:1313/blog/20250303-provisionsharepointagent/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/provisionsharepointagent/</guid>
+      <guid>//aseURL:1313/blog/20250303-provisionsharepointagent/</guid>
       <description>Scenario On a SharePoint front page or document library you can create a SharePoint agent. Totally fine for just creating a couple, but what if the scenario requires the same SharePoint agent setup on a lot of sites. In that case you would automatically want to provision those agents. This way you can immediately impact the behavior, change the default of the welcome message, starter prompts and instructions for the agent.</description>
     </item>
     <item>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Excel on Burgers &amp; Bytes</title>
+    <link>//aseURL:1313/tags/excel/</link>
+    <description>Recent content in Excel on Burgers &amp; Bytes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Export to Excel</title>
+      <link>//aseURL:1313/blog/exporttoexcel/</link>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/exporttoexcel/</guid>
+      <description>Introduction A year ago I already wrote stated something we jokingly say: “What is the most frequently used functionality of an ERP system?”, with the answer: “…the export to Excel”.&#xA;about we jokingly say:&#xA;In the first part of this blog series&#xD;</description>
+    </item>
+  </channel>
+</rss>

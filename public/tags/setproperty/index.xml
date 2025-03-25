@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SetProperty on Burgers &amp; Bytes</title>
+    <link>//aseURL:1313/tags/setproperty/</link>
+    <description>Recent content in SetProperty on Burgers &amp; Bytes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/setproperty/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manipulate JSON objects or arrays: using setProperty/addProperty</title>
+      <link>//aseURL:1313/blog/jsonmanipulationpowerautomate/</link>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/jsonmanipulationpowerautomate/</guid>
+      <description>Introduction In the realm of Power Automate, JSON objects and arrays are the building blocks of data manipulation. With setProperty and addProperty expressions, you gain the ability to dynamically update these structures, adding layers of functionality to your flows.&#xA;Let&amp;rsquo;s break it down:&#xA;setProperty: This expression allows you to set or update properties within a JSON object. Whether you&amp;rsquo;re modifying existing properties or adding new ones, setProperty gives you the flexibility to tailor your data structure to suit your needs.</description>
+    </item>
+  </channel>
+</rss>
