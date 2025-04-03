@@ -6,8 +6,15 @@
     <description>Recent content in SharePoint Agents on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/tags/sharepoint-agents/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Price winning solution: AI-Driven archiving of SharePoint Sites</title>
+      <link>//aseURL:1313/blog/20250325-powerfuldevshacktogether/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20250325-powerfuldevshacktogether/</guid>
+      <description>A very special blog this time! Together with my teammembers from Blis Digital we participated in the Powerful Devs Hack 2025. This hackathon was organized by Microsoft and could shortly described by:&#xA;&amp;ldquo;It&amp;rsquo;s time to start developing secure solutions at enterprise scale using the power of AI and the Power Platform! 🤖 + 📚 = 🔥&amp;rdquo;&#xA;There were different categories to participate in and all projects were evaluated by a panel of judges against technologies and languages, using the following aspects:</description>
+    </item>
     <item>
       <title>Provision SharePoint agents using Power Automate</title>
       <link>//aseURL:1313/blog/20250303-provisionsharepointagent/</link>

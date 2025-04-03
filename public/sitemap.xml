@@ -3,33 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//aseURL:1313/blog/</loc>
-    <lastmod>2025-03-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/</loc>
-    <lastmod>2025-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/addproperty/</loc>
-    <lastmod>2025-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/json/</loc>
-    <lastmod>2025-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/blog/jsonmanipulationpowerautomate/</loc>
-    <lastmod>2025-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/power-automate/</loc>
-    <lastmod>2025-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/setproperty/</loc>
-    <lastmod>2025-03-07T00:00:00+00:00</lastmod>
+    <loc>//aseURL:1313/blog/20250325-powerfuldevshacktogether/</loc>
+    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/sharepoint-agents/</loc>
+    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/</loc>
-    <lastmod>2025-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/blog/20250403-dataverseversionhistory/</loc>
+    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/power-apps/</loc>
+    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/blog/20250303-provisionsharepointagent/</loc>
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/sharepoint-agents/</loc>
+    <loc>//aseURL:1313/tags/sharepoint/</loc>
+    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/version-history/</loc>
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/pipeline/</loc>
@@ -57,9 +60,6 @@
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/blog/20250106-importerrordependency/</loc>
-    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/power-apps/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/combobox/</loc>
@@ -309,9 +309,6 @@
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/lookup-column/</loc>
-    <lastmod>2023-11-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/sharepoint/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/blog/20231120-sharepointcolumnformattingspecialcharacters/</loc>
