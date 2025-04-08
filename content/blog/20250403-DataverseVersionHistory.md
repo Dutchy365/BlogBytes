@@ -35,7 +35,7 @@ On table level activate the audit changed to its data:
 ## Power Automate
 The button needs to trigger a flow to retrieve the versions of the record.
 
-![Flow](/images/20250403DataverseVersionHistory/flow.png)
+![Flow](/images/20250403DataverseVersionHistory/Flow.png)
 
 The HTTP request to get the audit details per record:
 replace the organization url and table name matching with your own scenario. The tablename needs to be the logical name.
