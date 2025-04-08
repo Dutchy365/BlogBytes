@@ -20,22 +20,22 @@ In a Model Driven app the audit history is visible as related table on the form,
 ## Endresult
 The endresult on which a user can select an item and the flow will retrieve the version history data. 
 
-![endresult](/images/20250319DataverseVersionHistory/endresult.gif)
+![endresult](/images/20250403DataverseVersionHistory/endresult.gif)
 
 
 ## Activating audit
 Activating Dataverse auditing it's possible to activate on an environment.
 
-![audit setting](/images/20250319DataverseVersionHistory/adminsetting.png)
+![audit setting](/images/20250403DataverseVersionHistory/adminsetting.png)
 
 On table level activate the audit changed to its data:
-![table setting](/images/20250319DataverseVersionHistory/tablesetting.png)
+![table setting](/images/20250403DataverseVersionHistory/tablesetting.png)
 
 
 ## Power Automate
 The button needs to trigger a flow to retrieve the versions of the record.
 
-![Flow](/images/20250319DataverseVersionHistory/flow.png)
+![Flow](/images/20250403DataverseVersionHistory/flow.png)
 
 The HTTP request to get the audit details per record:
 replace the organization url and table name matching with your own scenario. The tablename needs to be the logical name.
@@ -229,4 +229,4 @@ The yaml code for the Version History popup:
 
 ## Summarize
 This way you can have the same version history layout and look-and-feel in a Power App based on Dataverse data like there is by default in SharePoint.
-![Versions](/images/20250319DataverseVersionHistory/versions.png)
+![Versions](/images/20250403DataverseVersionHistory/versions.png)
