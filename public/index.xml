@@ -6,8 +6,22 @@
     <description>Recent content on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When chatbots feel human</title>
+      <link>//aseURL:1313/blog/20250416-reflectiononaipart2/</link>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20250416-reflectiononaipart2/</guid>
+      <description>A couple of months ago I wrote my first blog&#xD;as a reflection on AI. This second piece continues that exploration, this time focusing on the part that fascinates (and unsettles) me most: the feeling that chatbots are becoming human.&#xA;AI at work vs. daily life In my work, I encounter AI on a daily basis—not just in the tools and technologies we use, but also in the enthusiasm of people who work with it.</description>
+    </item>
+    <item>
+      <title>Display the version history of Dataverse records in Power Apps</title>
+      <link>//aseURL:1313/blog/20250403-dataverseversionhistory/</link>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20250403-dataverseversionhistory/</guid>
+      <description>In SharePoint users are used to see version history of files and items. In Dataverse this isn&amp;rsquo;t there by default. In a Model Driven app the audit history is visible as related table on the form, this blog describes how to make it possible to make this available in a Canvas App just like we are used in SharePoint.&#xA;Endresult The endresult on which a user can select an item and the flow will retrieve the version history data.</description>
+    </item>
     <item>
       <title>Price winning solution: AI-Driven archiving of SharePoint Sites</title>
       <link>//aseURL:1313/blog/20250325-powerfuldevshacktogether/</link>
@@ -321,7 +335,7 @@
       <link>//aseURL:1313/page/spotlight/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/page/spotlight/</guid>
-      <description>Below a list of my recent and upcoming events:&#xA;2025-06-18 - European Power Platform Conference (EPPC25) Vienna - Unlocking Dataverse Functions: code less, do more! This session explores Dataverse Functions and triggers (formerly low-code plugins), a powerful tool for building logic in apps and workflows with minimal code. It covers real-world use cases, integration into Power Apps and Power Automate.&#xA;2025-05-26 - BizApps Summit Düsseldorf - Me, Myself and AI (together with Albert-Jan Schot) A hands-on session regarding AI experiments with the Power Platform!</description>
+      <description>Below a list of my recent and upcoming events:&#xA;2025-06-18 - European Power Platform Conference (EPPC25) Vienna - Unlocking Dataverse Functions: code less, do more! This session explores Dataverse Functions and triggers (formerly low-code plugins), a powerful tool for building logic in apps and workflows with minimal code. It covers real-world use cases, integration into Power Apps and Power Automate.&#xA;2025-06-03 - Experts Live Netherlands - Personal views for Power Apps A demo about creating personal views in Canvas Power Apps.</description>
     </item>
     <item>
       <title>European Collaboration Summit 2023; My top 3 and some more...</title>

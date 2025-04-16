@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ELIZA on Burgers &amp; Bytes</title>
+    <link>//aseURL:1313/tags/eliza/</link>
+    <description>Recent content in ELIZA on Burgers &amp; Bytes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/eliza/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When chatbots feel human</title>
+      <link>//aseURL:1313/blog/20250428reflectiononaipart2/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20250428reflectiononaipart2/</guid>
+      <description>A couple of months ago I wrote my first blog&#xD;as a reflection on AI. This second piece continues that exploration, this time focusing on the part that fascinates (and unsettles) me most: the feeling that chatbots are becoming human.&#xA;In my work, I encounter AI on a daily basis—not just in the tools and technologies we use, but also in the enthusiasm of people who work with it. At the same time, I see a stark contrast in my personal life.</description>
+    </item>
+  </channel>
+</rss>

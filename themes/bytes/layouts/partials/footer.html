@@ -3,7 +3,7 @@
     {{ if (isset .Site.Params "copyright") }}
     {{ .Site.Params.copyright | safeHTML }}
     {{ else }}
-    {{ dateFormat "2006" now }} © {{ .Site.Title }}
+      {{ dateFormat "2006" now }} © {{ .Site.Title }}  <!-- Is in hugo.toml-->
     {{ end }}
   </span>
   <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">

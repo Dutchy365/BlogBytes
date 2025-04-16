@@ -18,8 +18,8 @@
 <meta property="og:description" content="How to provision a SharePoint agent using a Power Automate flow" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="//aseURL:1313/blog/20250403-dataverseversionhistory/" /><meta property="og:image" content="//aseURL:1313/00DataverseHistory.png" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2025-03-03T00:00:00+00:00" />
-<meta property="article:modified_time" content="2025-03-03T00:00:00+00:00" />
+<meta property="article:published_time" content="2025-04-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-04-03T00:00:00+00:00" />
 
 
   
@@ -32,8 +32,8 @@
   
   <meta itemprop="name" content="Display the version history of Dataverse records in Power Apps">
   <meta itemprop="description" content="How to provision a SharePoint agent using a Power Automate flow">
-  <meta itemprop="datePublished" content="2025-03-03T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-03-03T00:00:00+00:00">
+  <meta itemprop="datePublished" content="2025-04-03T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-04-03T00:00:00+00:00">
   <meta itemprop="wordCount" content="624">
   <meta itemprop="image" content="//aseURL:1313/00DataverseHistory.png">
   <meta itemprop="keywords" content="Power Apps,SharePoint,Version History">
@@ -97,7 +97,7 @@
     <div class="absolute top-4 right-8 rounded shadow bg-white text-gray-900 dark:bg-gray-900 dark:text-white px-2 py-0.5">
       
   
-    March 3, 2025
+    April 3, 2025
   
 
 
@@ -119,7 +119,7 @@
         <line x1="4" y1="11" x2="20" y2="11" />
         <rect x="8" y="15" width="2" height="2" />
       </svg>
-      Mar 3, 2025 
+      Apr 3, 2025 
       
         &nbsp;&bull;&nbsp;
       
@@ -187,15 +187,15 @@
 In a Model Driven app the audit history is visible as related table on the form, this blog describes how to make it possible to make this available in a Canvas App just like we are used in SharePoint.</p>
 <h2 id="endresult">Endresult</h2>
 <p>The endresult on which a user can select an item and the flow will retrieve the version history data.</p>
-<p><img src="/images/20250319DataverseVersionHistory/endresult.gif" alt="endresult"></p>
+<p><img src="/images/20250403DataverseVersionHistory/endresult.gif" alt="endresult"></p>
 <h2 id="activating-audit">Activating audit</h2>
 <p>Activating Dataverse auditing it&rsquo;s possible to activate on an environment.</p>
-<p><img src="/images/20250319DataverseVersionHistory/adminsetting.png" alt="audit setting"></p>
+<p><img src="/images/20250403DataverseVersionHistory/adminsetting.png" alt="audit setting"></p>
 <p>On table level activate the audit changed to its data:
-<img src="/images/20250319DataverseVersionHistory/tablesetting.png" alt="table setting"></p>
+<img src="/images/20250403DataverseVersionHistory/tablesetting.png" alt="table setting"></p>
 <h2 id="power-automate">Power Automate</h2>
 <p>The button needs to trigger a flow to retrieve the versions of the record.</p>
-<p><img src="/images/20250319DataverseVersionHistory/flow.png" alt="Flow"></p>
+<p><img src="/images/20250403DataverseVersionHistory/Flow.png" alt="Flow"></p>
 <p>The HTTP request to get the audit details per record:
 replace the organization url and table name matching with your own scenario. The tablename needs to be the logical name.</p>
 <pre tabindex="0"><code>https://&lt;&lt;organisation&gt;&gt;.crm4.dynamics.com/api/data/v9.2/audits?$select=_objectid_value,objecttypecode,changedata,createdon,_userid_value&amp;$filter=objecttypecode eq &#39;&lt;&lt;tablename&gt;&gt;&#39; and _objectid_value eq &#39;@{triggerBody()[&#39;text&#39;]}&#39;
@@ -372,7 +372,7 @@ UpdateContext({varshowSpinner: false});
 </span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">Y</span>: =10
 </span></span></code></pre></div><h2 id="summarize">Summarize</h2>
 <p>This way you can have the same version history layout and look-and-feel in a Power App based on Dataverse data like there is by default in SharePoint.
-<img src="/images/20250319DataverseVersionHistory/versions.png" alt="Versions"></p>
+<img src="/images/20250403DataverseVersionHistory/versions.png" alt="Versions"></p>
 
   </article>
 
@@ -591,7 +591,7 @@ UpdateContext({varshowSpinner: false});
     </main><footer class="container p-6 mx-auto flex justify-between items-center">
   <span class="text-sm font-light">
     
-    Copyright © 2024 - Elianne Burgers · All rights reserved
+    Copyright © 2025 - Elianne Burgers · All rights reserved
     
   </span>
   <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">

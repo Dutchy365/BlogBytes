@@ -13,6 +13,9 @@ Below a list of my recent and upcoming events:
 * **2025-06-18  <span style="color: #92400e;">- European Power Platform Conference (EPPC25) Vienna - Unlocking Dataverse Functions: code less, do more!**</span></br>
 This session explores Dataverse Functions and triggers (formerly low-code plugins), a powerful tool for building logic in apps and workflows with minimal code. It covers real-world use cases, integration into Power Apps and Power Automate. 
 
+* **2025-06-03  <span style="color: #92400e;">- Experts Live Netherlands - Personal views for Power Apps**</span></br>
+A demo about creating personal views in Canvas Power Apps. 
+
 * **2025-05-26  <span style="color: #92400e;">- BizApps Summit Düsseldorf - Me, Myself and AI (together with Albert-Jan Schot)**</span></br>
 A hands-on session regarding AI experiments with the Power Platform! 
 
