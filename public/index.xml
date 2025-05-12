@@ -6,8 +6,22 @@
     <description>Recent content on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>💡From business case to business value with the Power Platform</title>
+      <link>//aseURL:1313/blog/20250512-businesscasebusinessvalue/</link>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20250512-businesscasebusinessvalue/</guid>
+      <description>Power Platform adoption doesn’t start with a full-fledged governance strategy—it starts when people begin experimenting. Even before you’ve set up a Landing Zone or Center of Excellence, there’s often already momentum. That’s a great thing.&#xA;But inspiration alone isn’t enough. What many organizations miss is giving employees a path from idea to implementation. That means making it easy to propose, shape, and justify a solution. And that’s where a simple business case one-pager comes in.</description>
+    </item>
+    <item>
+      <title>💥From idea to impact: kickstarting Power Platform adoption</title>
+      <link>//aseURL:1313/blog/20250512-adoptionbusinessvalue/</link>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20250512-adoptionbusinessvalue/</guid>
+      <description>Power Platform adoption starts with building the business case There are plenty of opportunities to add value with the Power Platform. And interestingly, user adoption often begins even before anything is officially in place.&#xA;As an introduction to the Power Platform, organizations can offer anything from “App in a Day” workshops and lunch-and-learn sessions to learning pages on the intranet—anything that inspires employees. Fantastic! But what’s often overlooked is that concepts and ideas gets lost.</description>
+    </item>
     <item>
       <title>When chatbots feel human</title>
       <link>//aseURL:1313/blog/20250416-reflectiononaipart2/</link>
@@ -335,7 +349,7 @@
       <link>//aseURL:1313/page/spotlight/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/page/spotlight/</guid>
-      <description>Below a list of my recent and upcoming events:&#xA;2025-06-18 - European Power Platform Conference (EPPC25) Vienna - Unlocking Dataverse Functions: code less, do more! This session explores Dataverse Functions and triggers (formerly low-code plugins), a powerful tool for building logic in apps and workflows with minimal code. It covers real-world use cases, integration into Power Apps and Power Automate.&#xA;2025-06-03 - Experts Live Netherlands - Personal views for Power Apps A demo about creating personal views in Canvas Power Apps.</description>
+      <description>Below a list of my recent and upcoming events:&#xA;2025-06-21 - CollabDays Netherlands - Unlocking Dataverse Functions: code less, do more! This session explores Dataverse Functions and triggers (formerly low-code plugins), a powerful tool for building logic in apps and workflows with minimal code. It covers real-world use cases, integration into Power Apps and Power Automate.&#xA;2025-06-18 - European Power Platform Conference (EPPC25) Vienna - Unlocking Dataverse Functions: code less, do more!</description>
     </item>
     <item>
       <title>European Collaboration Summit 2023; My top 3 and some more...</title>

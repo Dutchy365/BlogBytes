@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Business Case on Burgers &amp; Bytes</title>
+    <link>//aseURL:1313/tags/business-case/</link>
+    <description>Recent content in Business Case on Burgers &amp; Bytes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/business-case/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>💡From business case to business value with the Power Platform</title>
+      <link>//aseURL:1313/blog/20250501-businesscasebusinessvalue/</link>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20250501-businesscasebusinessvalue/</guid>
+      <description>Power Platform adoption doesn’t start with a full-fledged governance strategy—it starts when people begin experimenting. Even before you’ve set up a Landing Zone or Center of Excellence, there’s often already momentum. That’s a great thing.&#xA;But inspiration alone isn’t enough. What many organizations miss is giving employees a path from idea to implementation. That means making it easy to propose, shape, and justify a solution. And that’s where a simple business case one-pager comes in.</description>
+    </item>
+    <item>
+      <title>💥From idea to impact: kickstarting Power Platform adoption</title>
+      <link>//aseURL:1313/blog/20250501-adoptionbusinessvalue/</link>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20250501-adoptionbusinessvalue/</guid>
+      <description>Power Platform adoption starts with building the business case There are plenty of opportunities to add value with the Power Platform. And interestingly, user adoption often begins even before anything is officially in place.&#xA;As an introduction to the Power Platform, organizations can offer anything from “App in a Day” workshops and lunch-and-learn sessions to learning pages on the intranet—anything that inspires employees. Fantastic! But what’s often overlooked is that concepts and ideas gets lost.</description>
+    </item>
+  </channel>
+</rss>

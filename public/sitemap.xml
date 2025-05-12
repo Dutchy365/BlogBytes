@@ -2,11 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//aseURL:1313/blog/20250501-businesscasebusinessvalue/</loc>
+    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/blog/20250501-adoptionbusinessvalue/</loc>
+    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/adoption/</loc>
+    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/artificial-intelligence/</loc>
+    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//aseURL:1313/blog/</loc>
-    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/</loc>
-    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/business-case/</loc>
+    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/business-value/</loc>
+    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/chatbot/</loc>
+    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/eliza/</loc>
+    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/governance/</loc>
+    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/power-platform/</loc>
+    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/</loc>
+    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/blog/20250416-reflectiononaipart2/</loc>
+    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/blog/20250403-dataverseversionhistory/</loc>
     <lastmod>2025-04-03T00:00:00+00:00</lastmod>
@@ -15,9 +51,6 @@
     <lastmod>2025-04-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/sharepoint/</loc>
-    <lastmod>2025-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/</loc>
     <lastmod>2025-04-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/version-history/</loc>
@@ -122,9 +155,6 @@
     <loc>//aseURL:1313/blog/20241025-progressbarinpowerapps/</loc>
     <lastmod>2024-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/artificial-intelligence/</loc>
-    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//aseURL:1313/blog/20240923-reflectiononai/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
   </url><url>
@@ -225,12 +255,6 @@
     <lastmod>2024-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/center-of-excellence/</loc>
-    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/governance/</loc>
-    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/power-platform/</loc>
     <lastmod>2024-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/filter/</loc>
