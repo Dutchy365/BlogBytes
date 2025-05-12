@@ -10,6 +10,9 @@ hideMeta: true
 
 
 Below a list of my recent and upcoming events:
+* **2025-12-03  <span style="color: #92400e;">- ESPC25 Dublin -  Automated testing in the Power Platform: matching governance, upholding quality, compliance and efficiency (together with Arjan Rijsdijk)**</span></br>
+A session regarding how testing and governance go hand-in-hand and share practical tips for testing Power Apps Canvas and Power Automate.
+
 * **2025-06-21  <span style="color: #92400e;">- CollabDays Netherlands - Unlocking Dataverse Functions: code less, do more!**</span></br>
 This session explores Dataverse Functions and triggers (formerly low-code plugins), a powerful tool for building logic in apps and workflows with minimal code. It covers real-world use cases, integration into Power Apps and Power Automate. 
 
