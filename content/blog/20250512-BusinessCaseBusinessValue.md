@@ -1,7 +1,7 @@
 ---
 author: ""
 title: "💡From business case to business value with the Power Platform"
-date: 2025-05-12
+date: 2025-05-12T00:00:02Z
 description: Power Platform adoption begins as early as the business case 
 tags:
 - adoption
@@ -23,7 +23,7 @@ But inspiration alone isn’t enough. What many organizations miss is giving emp
 
 By providing a lightweight format for submitting ideas, you keep the door open for innovation—without overwhelming governance from day one. 
 
-As written in [part 1 of this blog](/blog/20250512-AdoptionBusinessValue/), it's good to give employees the opportunity to share ideas by filling out a predefined one-pager.
+As written in [part 1 of this blog](/blog/20250512-adoptionbusinessvalue/), it's good to give employees the opportunity to share ideas by filling out a predefined one-pager.
 
 Using a one-pager forces employees to think about their idea in a structured way. Let them create mutual enthusiasm, but also awareness that new developments have consequences.
 

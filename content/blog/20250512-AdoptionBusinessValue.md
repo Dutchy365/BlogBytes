@@ -1,7 +1,7 @@
 ---
 author: ""
 title: "💥From idea to impact: kickstarting Power Platform adoption"
-date: 2025-05-12
+date: 2025-05-12T00:00:01Z
 description: Power Platform adoption begins as early as the business case 
 tags:
 - adoption
