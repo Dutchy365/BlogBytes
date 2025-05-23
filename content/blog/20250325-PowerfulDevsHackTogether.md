@@ -31,6 +31,11 @@ There were different categories to participate in and all projects were evaluate
 
 This blog outlines our submission, and even better, there’s a public GitHub repository with the solution, allowing everyone to take advantage of it!
 
+## Submission video
+The video as part of the submission:
+<video src="https://github.com/Dutchy365/AI-Driven-Archiving/raw/refs/heads/main/assets/AIDrivenArchiving-HackTogether2025.mp4"></video>
+
+
 ## Project AI driven archiving of SharePoint Sites
 This project addresses the challenges faced by SharePoint administrators and archivists in managing the complete lifecycle of SharePoint sites. In many organizations, SharePoint sites often exist without clear ownership, leaving archivists to evaluate whether they should be archived and under what retention policies. This process can be time-consuming, particularly when managing a large number of sites.
 
