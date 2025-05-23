@@ -33,7 +33,7 @@ This blog outlines our submission, and even better, there’s a public GitHub re
 
 ## Submission video
 The video as part of the submission:
-<video src="https://github.com/Dutchy365/AI-Driven-Archiving/raw/refs/heads/main/assets/AIDrivenArchiving-HackTogether2025.mp4"></video>
+<video width="640" height="360" controls src="https://github.com/Dutchy365/AI-Driven-Archiving/raw/refs/heads/main/assets/AIDrivenArchiving-HackTogether2025.mp4"></video>
 
 
 ## Project AI driven archiving of SharePoint Sites

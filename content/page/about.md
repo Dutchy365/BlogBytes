@@ -8,7 +8,7 @@ thumbnail: /images/aboutme.png
 hideMeta: true
 ---
 
-My name is Elianne and I am a Power Platform Consultant at [Blis Digital](https://blisdigital.com) in Barendrecht, The Netherlands. Since 2016 I obtained several Microsoft certifications: full transcript can be found on [my Microsoft Learn profile.](https://learn.microsoft.com/en-us/users/elianneburgers/transcript/7xrgyc5rq0mynjj?source=docs&tab=credentials-tab)
+My name is Elianne and I am a Power Platform Consultant at [Blis Digital](https://blisdigital.com) in Barendrecht, The Netherlands. Since 2016 I obtained several Microsoft certifications: full transcript can be found on [my Microsoft Learn profile.](https://learn.microsoft.com/en-us/users/elianneburgers/transcript/7xrgyc5rq0mynjj?source=docs&tab=credentials-tab) and [Credly profile](https://www.credly.com/users/elianne-burgers)
 
 I love to gain more knowledge and expertise by going to different user groups and conferences myself, but I also like to share knowledge in different ways: by writing blogs, giving presentations, guest lectures at an university of applied science and app-in-a-day workshops.
 
