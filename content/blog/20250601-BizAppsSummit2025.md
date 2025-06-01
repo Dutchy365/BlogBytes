@@ -1,6 +1,6 @@
 ---
 author: ""
-title: "European BizApps Summit;l My top 3 and some more..."
+title: "European BizApps Summit; My top 3 and some more..."
 date: 2025-06-01
 description: Sharing my personal top 3 of the latest European BizApps Summit 
 tags:
@@ -42,7 +42,9 @@ Let that sink in. The pace of innovation isn’t just rapid — it’s accelerat
 ---
 
 ## And one last thing...
-![bingotweet](/images/20250601BizAppsSummit2025/bingotweet.jpg)
+<img src="/images/20250601BizAppsSummit2025/bingotweet.jpg" width="186" height="300">
+
+
 
 Two years ago, I tweeted a buzzword bingo card — mostly as a joke. You know the usual suspects: “AI”, “Copilot”... 
 
