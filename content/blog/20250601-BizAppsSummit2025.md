@@ -37,20 +37,16 @@ One quote really stuck with me:
 
 > **“Today is the slowest day of technology change for the rest of your life.” – Jim Carroll**
 
-Let that sink in. The pace of innovation isn’t just rapid — it’s accelerating. .
+Let that sink in. The pace of innovation isn’t just rapid — it’s accelerating.
 
 ---
 
 ## And one last thing...
+Two years ago, I tweeted a buzzword bingo card — mostly as a joke. You know the usual suspects: “AI”, “Copilot”... 
 <img src="/images/20250601BizAppsSummit2025/bingotweet.jpg" width="186" height="300">
 
-
-
-Two years ago, I tweeted a buzzword bingo card — mostly as a joke. You know the usual suspects: “AI”, “Copilot”... 
-
-
+Fast forward to today, and I was *on stage* talking about AI. Even funnier: after preparing our talk, I realized we had unintentionally created our *own* AI Buzzword Bingo card. It came full circle.
 ![bingocard](/images/20250601BizAppsSummit2025/buzzwordbingo.png)
 
-Fast forward to today, and I was *on stage* talking about AI. Even funnier: after preparing our talk, I realized we had unintentionally created our *own* AI Buzzword Bingo card. It came full circle.
 
 Huge thanks to everyone who attended our session and smiled when our demo didn’t crash. Until next time — and don’t forget your bingo cards. You never know what the next buzzword will be.
