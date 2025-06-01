@@ -46,6 +46,6 @@ Two years ago, I tweeted a buzzword bingo card — mostly as a joke. You know th
 <img src="/images/20250601BizAppsSummit2025/bingotweet.jpg" width="186" height="300">
 
 Fast forward to today, and I was *on stage* talking about AI. Even funnier: after preparing our talk, I realized we had unintentionally created our *own* AI Buzzword Bingo card. It came full circle.
-<img src="/images/20250601BizAppsSummit2025/buzzwordbingo.png" width="300" height="249">
+<img src="/images/20250601BizAppsSummit2025/aibuzzwordbingo.png" width="300" height="249">
 
 Huge thanks to everyone who attended our session and smiled when our demo didn’t crash. Until next time — and don’t forget your bingo cards. You never know what the next buzzword will be.
