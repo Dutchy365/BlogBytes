@@ -2,28 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//aseURL:1313/blog/20250501-businesscasebusinessvalue/</loc>
-    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/blog/20250501-adoptionbusinessvalue/</loc>
-    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/adoption/</loc>
-    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/artificial-intelligence/</loc>
-    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//aseURL:1313/blog/</loc>
-    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/</loc>
-    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/dataverse/</loc>
+    <lastmod>2025-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/permissions/</loc>
+    <lastmod>2025-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/power-apps/</loc>
+    <lastmod>2025-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/blog/20250626-powerappsteamspermissionscollection/</loc>
+    <lastmod>2025-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/</loc>
+    <lastmod>2025-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/teammember/</loc>
+    <lastmod>2025-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/communityrocks/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/conference/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/blog/20250601-bizappssummit2025/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/power-platform/</loc>
+    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/blog/20250512-businesscasebusinessvalue/</loc>
+    <lastmod>2025-05-12T00:00:02+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/adoption/</loc>
+    <lastmod>2025-05-12T00:00:02+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/business-case/</loc>
-    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-12T00:00:02+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/business-value/</loc>
+    <lastmod>2025-05-12T00:00:02+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/governance/</loc>
+    <lastmod>2025-05-12T00:00:02+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/blog/20250512-adoptionbusinessvalue/</loc>
+    <lastmod>2025-05-12T00:00:01+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/artificial-intelligence/</loc>
     <lastmod>2025-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/chatbot/</loc>
@@ -32,22 +65,10 @@
     <loc>//aseURL:1313/tags/eliza/</loc>
     <lastmod>2025-04-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/governance/</loc>
-    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/power-platform/</loc>
-    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/</loc>
-    <lastmod>2025-04-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//aseURL:1313/blog/20250416-reflectiononaipart2/</loc>
     <lastmod>2025-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/blog/20250403-dataverseversionhistory/</loc>
-    <lastmod>2025-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/power-apps/</loc>
     <lastmod>2025-04-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/sharepoint/</loc>
@@ -189,9 +210,6 @@
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/blog/20240712-automatelowcodeplugindataverse/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/dataverse/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/plugin/</loc>
@@ -430,12 +448,6 @@
   </url><url>
     <loc>//aseURL:1313/page/spotlight/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/communityrocks/</loc>
-    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/conference/</loc>
-    <lastmod>2023-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/blog/20230525-collaborationsummit2023/</loc>
     <lastmod>2023-05-25T00:00:00+00:00</lastmod>

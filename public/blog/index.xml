@@ -6,8 +6,22 @@
     <description>Recent content in Blog on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 May 2025 00:00:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Power Apps: Flexible security setup based on Power Platform Teams</title>
+      <link>//aseURL:1313/blog/20250626-powerappsteamspermissionscollection/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20250626-powerappsteamspermissionscollection/</guid>
+      <description>Scenario The Power App stores information about multiple products that a company sells. Product managers are responsible for their own product, so that product they need to be able to edit and only view other products.&#xA;As data source Dataverse is used, so of course row level security can be applied on the table level, but in the app the user feedback needs to be clear that they are not able to edit product information that they are not allowed of.</description>
+    </item>
+    <item>
+      <title>European BizApps Summit; My top 3 and some more...</title>
+      <link>//aseURL:1313/blog/20250601-bizappssummit2025/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20250601-bizappssummit2025/</guid>
+      <description>Two years ago where it all started at the European Collaboration Summit 2023 I started my first blog&#xD;.&#xA;Next to I added something to my bucket list: presenting on the event myself, just as a personal challenge.&#xA;Fast forward to now: this blog is the result of both goals in action. Last week, I got to speak at European BizApps Summit 2025 together with Albert-Jan Schot.&#xA;Keynote and sessions Marco Casalaina kicked things off during keynote with cool demos.</description>
+    </item>
     <item>
       <title>💡From business case to business value with the Power Platform</title>
       <link>//aseURL:1313/blog/20250512-businesscasebusinessvalue/</link>

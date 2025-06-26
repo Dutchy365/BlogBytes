@@ -6,41 +6,83 @@
     <description>Recent content in Tags on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dataverse</title>
+      <link>//aseURL:1313/tags/dataverse/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/dataverse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Permissions</title>
+      <link>//aseURL:1313/tags/permissions/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/permissions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power Apps</title>
+      <link>//aseURL:1313/tags/power-apps/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/power-apps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teammember</title>
+      <link>//aseURL:1313/tags/teammember/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/teammember/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Communityrocks</title>
+      <link>//aseURL:1313/tags/communityrocks/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/communityrocks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conference</title>
+      <link>//aseURL:1313/tags/conference/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/conference/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power Platform</title>
+      <link>//aseURL:1313/tags/power-platform/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/tags/power-platform/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Adoption</title>
       <link>//aseURL:1313/tags/adoption/</link>
-      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 May 2025 00:00:02 +0000</pubDate>
       <guid>//aseURL:1313/tags/adoption/</guid>
       <description></description>
     </item>
     <item>
       <title>Business Case</title>
       <link>//aseURL:1313/tags/business-case/</link>
-      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 May 2025 00:00:02 +0000</pubDate>
       <guid>//aseURL:1313/tags/business-case/</guid>
       <description></description>
     </item>
     <item>
       <title>Business Value</title>
       <link>//aseURL:1313/tags/business-value/</link>
-      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 May 2025 00:00:02 +0000</pubDate>
       <guid>//aseURL:1313/tags/business-value/</guid>
       <description></description>
     </item>
     <item>
       <title>Governance</title>
       <link>//aseURL:1313/tags/governance/</link>
-      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 May 2025 00:00:02 +0000</pubDate>
       <guid>//aseURL:1313/tags/governance/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Power Platform</title>
-      <link>//aseURL:1313/tags/power-platform/</link>
-      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/tags/power-platform/</guid>
       <description></description>
     </item>
     <item>
@@ -62,13 +104,6 @@
       <link>//aseURL:1313/tags/eliza/</link>
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/tags/eliza/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Power Apps</title>
-      <link>//aseURL:1313/tags/power-apps/</link>
-      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/tags/power-apps/</guid>
       <description></description>
     </item>
     <item>
@@ -279,13 +314,6 @@
       <link>//aseURL:1313/tags/automated/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/tags/automated/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dataverse</title>
-      <link>//aseURL:1313/tags/dataverse/</link>
-      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/tags/dataverse/</guid>
       <description></description>
     </item>
     <item>
@@ -636,20 +664,6 @@
       <link>//aseURL:1313/tags/month-year/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/tags/month-year/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Communityrocks</title>
-      <link>//aseURL:1313/tags/communityrocks/</link>
-      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/tags/communityrocks/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Conference</title>
-      <link>//aseURL:1313/tags/conference/</link>
-      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/tags/conference/</guid>
       <description></description>
     </item>
   </channel>
