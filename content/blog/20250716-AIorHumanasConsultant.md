@@ -8,6 +8,8 @@ tags:
   - Consultant
 thumbnail: /images/20250716AIConsultancy/00AIConsultancy.png
 preview: /00AIConsultancy.png
+images: 
+- /00AIConsultancy.png
 keywords:
   - AI
   - Consultancy
