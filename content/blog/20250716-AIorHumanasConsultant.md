@@ -1,15 +1,15 @@
 ---
 author: null
-title: "AI is not the consultant. You are."
+title: AI is not the consultant. You are.
 date: 2025-07-15
 description: Why persuasive power, real-time communication, and human ownership are more important than ever in the AI era.
 tags:
-  - AI 
+  - AI
   - Consultant
 thumbnail: /images/20250716AIConsultancy/00AIConsultancy.png
 preview: /00AIConsultancy.png
-images: 
-- /00AIConsultancy.png
+images:
+  - /00AIConsultancy.png
 keywords:
   - AI
   - Consultancy
