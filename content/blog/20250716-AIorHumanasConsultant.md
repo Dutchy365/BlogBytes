@@ -83,7 +83,7 @@ Because that’s your ultimate test.
 ## AI can write, you must persuade.  
 🎓 _Time for a quick Aristotle throwback_
 
-![Ethos Logos Pathos](/images/20250716AIConsultancy/ethoslogospathos.png)
+<img src="/images/20250716AIConsultancy/ethoslogospathos.png" width="300" height="200">
 
 
 When we talk about persuasion, we have to mention a timeless classic: **Ethos, Pathos, Logos**.
@@ -135,7 +135,7 @@ Someone who understands:
 And no algorithm can replicate that.
 
 
-## 🎯 Try this mini-exercise:
+## 🎯 Try this mini-exercise
 
 > Take a recent email or slide you wrote with AI support.  
 > Read it out loud.  
