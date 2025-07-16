@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dataverse Functions on Burgers &amp; Bytes</title>
+    <link>//aseURL:1313/tags/dataverse-functions/</link>
+    <description>Recent content in Dataverse Functions on Burgers &amp; Bytes</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 26 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//aseURL:1313/tags/dataverse-functions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dataverse Functions an introduction</title>
+      <link>//aseURL:1313/blog/dataversefunctionscopilot/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/dataversefunctionscopilot/</guid>
+      <description>Recently I had the opportunity to be on stage of European Power Platform Conference 2025 (EPPC25) in Vienna talking about Dataverse Functions (fka low-code instant plugins). With the subtitle; code less, do more!&#xA;What are Dataverse Functions In the Power Platform you have different options to automate business logic, think off: business rules, workflows, actions, Power Automate, formulas, calculated columns and plugins. The plugins can be divided in to two different types: full-code and low-code plugins.</description>
+    </item>
+  </channel>
+</rss>

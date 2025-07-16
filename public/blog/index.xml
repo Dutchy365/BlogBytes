@@ -6,14 +6,21 @@
     <description>Recent content in Blog on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI is not the consultant. You are.</title>
+      <link>//aseURL:1313/blog/20250716-aiorhumanasconsultant/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20250716-aiorhumanasconsultant/</guid>
+      <description>Why persuasive power, real-time communication, and human ownership are more important than ever in the AI era.&#xA;The power of the conversation You know the drill: you&amp;rsquo;re sitting with a client, or leading a workshop. The report is solid, the numbers check out. But it’s not until you explain it; in your own words, your own framing, your own nuance, that the message actually lands.&#xA;Consulting isn’t Wikipedia with a tie.</description>
+    </item>
     <item>
       <title>Power Apps: Flexible security setup based on Power Platform Teams</title>
       <link>//aseURL:1313/blog/20250626-powerappsteamspermissionscollection/</link>
       <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20250626-powerappsteamspermissionscollection/</guid>
-      <description>Scenario The Power App stores information about multiple products that a company sells. Product managers are responsible for their own product, so that product they need to be able to edit and only view other products.&#xA;As data source Dataverse is used, so of course row level security can be applied on the table level, but in the app the user feedback needs to be clear that they are not able to edit product information that they are not allowed of.</description>
+      <description>Scenario The Power App Canvas stores information about multiple products that a company sells. Product managers are responsible for their own product, so that product they need to be able to edit and only view other products.&#xA;As data source Dataverse is used, so of course row level security can be applied on the table level, but in the app the user feedback needs to be clear that they are not able to edit product information that they are not allowed of.</description>
     </item>
     <item>
       <title>European BizApps Summit; My top 3 and some more...</title>

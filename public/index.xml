@@ -6,8 +6,15 @@
     <description>Recent content on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI is not the consultant. You are.</title>
+      <link>//aseURL:1313/blog/20250716-aiorhumanasconsultant/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20250716-aiorhumanasconsultant/</guid>
+      <description>Why persuasive power, real-time communication, and human ownership are more important than ever in the AI era.&#xA;The power of the conversation You know the drill: you&amp;rsquo;re sitting with a client, or leading a workshop. The report is solid, the numbers check out. But it’s not until you explain it; in your own words, your own framing, your own nuance, that the message actually lands.&#xA;Consulting isn’t Wikipedia with a tie.</description>
+    </item>
     <item>
       <title>Power Apps: Flexible security setup based on Power Platform Teams</title>
       <link>//aseURL:1313/blog/20250626-powerappsteamspermissionscollection/</link>
@@ -363,7 +370,7 @@
       <link>//aseURL:1313/page/spotlight/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/page/spotlight/</guid>
-      <description>Below a list of my recent and upcoming events:&#xA;2025-12-03 - ESPC25 Dublin - Automated testing in the Power Platform: matching governance, upholding quality, compliance and efficiency (together with Arjan Rijsdijk) A session regarding how testing and governance go hand-in-hand and share practical tips for testing Power Apps Canvas and Power Automate.&#xA;2025-06-21 - CollabDays Netherlands - Unlocking Dataverse Functions: code less, do more! This session explores Dataverse Functions and triggers (formerly low-code plugins), a powerful tool for building logic in apps and workflows with minimal code.</description>
+      <description>Below a list of my recent and upcoming events:&#xA;2025-12-03 - ESPC25 Dublin - Automated testing in the Power Platform: matching governance, upholding quality, compliance and efficiency (together with Arjan Rijsdijk) A session regarding how testing and governance go hand-in-hand and share practical tips for testing Power Apps Canvas and Power Automate.&#xA;2025-08-26 - Microsoft 365 platform community call - AI Driven archiving A demo about AI Driven archiving of SharePoint sites.</description>
     </item>
     <item>
       <title>European Collaboration Summit 2023; My top 3 and some more...</title>
