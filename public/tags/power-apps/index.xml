@@ -16,6 +16,13 @@
       <description>Scenario The Power App Canvas stores information about multiple products that a company sells. Product managers are responsible for their own product, so that product they need to be able to edit and only view other products.&#xA;As data source Dataverse is used, so of course row level security can be applied on the table level, but in the app the user feedback needs to be clear that they are not able to edit product information that they are not allowed of.</description>
     </item>
     <item>
+      <title>FastTrack Recognized Solution Architect 2025</title>
+      <link>//aseURL:1313/blog/20250727-fasttrackrecognizedsolutionarchitect/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20250727-fasttrackrecognizedsolutionarchitect/</guid>
+      <description>A very special blog to me personal this time!&#xA;Something pretty cool: I became a FastTrack Recognized Solution Architect (FTRSA) for Power Apps accepted by Microsoft. 🎉 It’s one of those titles that sounds great on LinkedIn, but behind it is actually a lot of work, learning, and collaboration. In this blog, I’ll explain what the program is about, how I got there, and why it’s more than just a badge of honor.</description>
+    </item>
+    <item>
       <title>Display the version history of Dataverse records in Power Apps</title>
       <link>//aseURL:1313/blog/20250403-dataverseversionhistory/</link>
       <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
