@@ -30,6 +30,13 @@
       <description>Scenario The Power App Canvas stores information about multiple products that a company sells. Product managers are responsible for their own product, so that product they need to be able to edit and only view other products.&#xA;As data source Dataverse is used, so of course row level security can be applied on the table level, but in the app the user feedback needs to be clear that they are not able to edit product information that they are not allowed of.</description>
     </item>
     <item>
+      <title>What Mario Kart teaches us about user experience</title>
+      <link>//aseURL:1313/blog/0000mariouxinspiration/</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/0000mariouxinspiration/</guid>
+      <description>Picture this: you open a Power App. It works? Sure. But you’re not sure where to click, the colors are clashing, and you feel… a bit lost. Sound familiar? This is exactly why UX in low-code apps is not just a “nice to have,” but crucial for adoption.&#xA;🎮 Mario Kart as a UX teacher Take Mario Kart. Yes, that cheerful racing game. Without realizing it, it teaches you a UX lesson: visuals guide behavior.</description>
+    </item>
+    <item>
       <title>European BizApps Summit; My top 3 and some more...</title>
       <link>//aseURL:1313/blog/20250601-bizappssummit2025/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>

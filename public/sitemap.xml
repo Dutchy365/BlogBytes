@@ -2,31 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//aseURL:1313/blog/</loc>
+    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/</loc>
+    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/fasttrack-recognized-solution-architect/</loc>
+    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/blog/20250727-fasttrackrecognizedsolutionarchitect/</loc>
+    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/ftrsa/</loc>
+    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/power-apps/</loc>
+    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/</loc>
+    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//aseURL:1313/tags/ai/</loc>
     <lastmod>2025-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/blog/20250716-aiorhumanasconsultant/</loc>
     <lastmod>2025-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/</loc>
-    <lastmod>2025-07-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/</loc>
-    <lastmod>2025-07-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//aseURL:1313/tags/consultant/</loc>
     <lastmod>2025-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/</loc>
-    <lastmod>2025-07-15T00:00:00+00:00</lastmod>
+    <loc>//aseURL:1313/blog/0000businesscasematrix/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/business-case/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/business-value/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/governance/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/power-platform/</loc>
+    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/dataverse/</loc>
     <lastmod>2025-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/permissions/</loc>
-    <lastmod>2025-06-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/power-apps/</loc>
     <lastmod>2025-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/blog/20250626-powerappsteamspermissionscollection/</loc>
@@ -35,14 +59,11 @@
     <loc>//aseURL:1313/tags/teammember/</loc>
     <lastmod>2025-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/fasttrack-recognized-solution-architect/</loc>
-    <lastmod>2025-06-25T00:00:00+00:00</lastmod>
+    <loc>//aseURL:1313/tags/ux-design/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/blog/20250727-fasttrackrecognizedsolutionarchitect/</loc>
-    <lastmod>2025-06-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/ftrsa/</loc>
-    <lastmod>2025-06-25T00:00:00+00:00</lastmod>
+    <loc>//aseURL:1313/blog/0000mariouxinspiration/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/communityrocks/</loc>
     <lastmod>2025-06-01T00:00:00+00:00</lastmod>
@@ -53,22 +74,10 @@
     <loc>//aseURL:1313/blog/20250601-bizappssummit2025/</loc>
     <lastmod>2025-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/power-platform/</loc>
-    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//aseURL:1313/blog/20250512-businesscasebusinessvalue/</loc>
     <lastmod>2025-05-12T00:00:02+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/adoption/</loc>
-    <lastmod>2025-05-12T00:00:02+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/business-case/</loc>
-    <lastmod>2025-05-12T00:00:02+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/business-value/</loc>
-    <lastmod>2025-05-12T00:00:02+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/governance/</loc>
     <lastmod>2025-05-12T00:00:02+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/blog/20250512-adoptionbusinessvalue/</loc>
