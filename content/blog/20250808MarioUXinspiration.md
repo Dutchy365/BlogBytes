@@ -6,7 +6,7 @@ description: Design importance for Power Apps
 tags:
 - UX design
 - Power Apps
-thumbnail: /images/0000MarioUXins20250808MarioUXinspirationpiration/00mariouxinspiration.png
+thumbnail: /images/20250808MarioUXinspiration/00mariouxinspiration.png
 preview: /00mariouxinspiration.png
 images: 
 - /00mariouxinspiration.png
