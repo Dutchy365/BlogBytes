@@ -21,7 +21,7 @@ Take Mario Kart. Yes, that cheerful racing game. Without realizing it, it teache
 
 After a race, you see arrows and colors indicating the ranking. 
 
-![ranking](/images/20250808MarioUXinspiration/marioscorescreen.png)
+![ranking](/images/20250808MarioUXinspiration/MarioScoreScreen.png)
 
 [Image used from Tweakers.net](https://tweakers.net/reviews/5393/multipage/3/mario-kart-8-deluxe-socialer-en-veelzijdiger-maar-niet-nieuw-de-redactie-aan-het-woord.html)
 
@@ -48,7 +48,7 @@ If you ask me, I would use:
 
 **Before**
 
-![Before Budget](/images/0000MarioU20250808MarioUXinspirationXinspiration/BeforeBudget.jpg)
+![Before Budget](/images/20250808MarioUXinspiration/BeforeBudget.jpg)
 
 **After**
 
