@@ -27,11 +27,9 @@ Before diving into the syntax, let’s answer the bigger question: *why bother m
 - **Dynamic Data**: APIs, forms, and connectors typically return JSON. Mastering it means fewer conversion headaches.  
 - **Reduced Complexity**: One JSON object can replace dozens of separate variables.  
 - **Flexibility**: Modify or extend data structures without reworking the entire flow.  
-- **Performance**: Each variable initialization is an API call. Consolidating data into JSON cuts down the calls, improving speed and efficiency.  
 - **API Call Optimization**: Fewer variable initialization actions mean fewer API calls and better performance.  
 
 💡 For example: if you start a flow with multiple input parameters and create a separate variable for each one, every initialization counts as an API call. Instead, you can group them all into a single object add a Parse JSON to define schema and manage them with `setProperty()` or `addProperty()`. 
-
 
 
 ## Understanding setProperty() and addProperty()
