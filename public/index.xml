@@ -10,9 +10,9 @@
     <atom:link href="//aseURL:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Manipulate JSON objects or arrays: using setProperty/addProperty</title>
-      <link>//aseURL:1313/blog/jsonmanipulationpowerautomate/</link>
+      <link>//aseURL:1313/blog/20250823-jsonmanipulationpowerautomate/</link>
       <pubDate>Sat, 23 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/jsonmanipulationpowerautomate/</guid>
+      <guid>//aseURL:1313/blog/20250823-jsonmanipulationpowerautomate/</guid>
       <description>In Power Automate, working with JSON objects and arrays is essential for building advanced, scalable, and maintainable flows. JSON acts as the backbone of data exchange, allowing you to represent structured information flexibly.&#xA;Two powerful expressions—setProperty() and addProperty()—unlock the ability to dynamically update, expand, and manipulate JSON objects.&#xA;This article explores what these functions do, why they matter, and how you can apply them in real-world automation scenarios.&#xA;Why Manipulate JSON in Power Automate?</description>
     </item>
     <item>
