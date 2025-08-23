@@ -16,6 +16,13 @@
       <description>A very special blog this time! Together with my teammembers from Blis Digital we participated in the Powerful Devs Hack 2025. This hackathon was organized by Microsoft and could shortly described by:&#xA;&amp;ldquo;It&amp;rsquo;s time to start developing secure solutions at enterprise scale using the power of AI and the Power Platform! 🤖 + 📚 = 🔥&amp;rdquo;&#xA;There were different categories to participate in and all projects were evaluated by a panel of judges against technologies and languages, using the following aspects:</description>
     </item>
     <item>
+      <title>Manipulate JSON objects or arrays: using setProperty/addProperty</title>
+      <link>//aseURL:1313/blog/jsonmanipulationpowerautomate/</link>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/jsonmanipulationpowerautomate/</guid>
+      <description>Introduction In the realm of Power Automate, JSON objects and arrays are the building blocks of data manipulation. With setProperty and addProperty expressions, you gain the ability to dynamically update these structures, adding layers of functionality to your flows.&#xA;Let&amp;rsquo;s break it down:&#xA;setProperty: This expression allows you to set or update properties within a JSON object. Whether you&amp;rsquo;re modifying existing properties or adding new ones, setProperty gives you the flexibility to tailor your data structure to suit your needs.</description>
+    </item>
+    <item>
       <title>Provision SharePoint agents using Power Automate</title>
       <link>//aseURL:1313/blog/20250303-provisionsharepointagent/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
