@@ -6,8 +6,15 @@
     <description>Recent content in Canvas on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/tags/canvas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Color = context. Work smarter, avoid mistakes</title>
+      <link>//aseURL:1313/blog/20251003-environmentswitchcolor/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20251003-environmentswitchcolor/</guid>
+      <description>Ever clicked in your app and wondered: Am I in DEV or PRD now?&#xA;Mistakes happen. Mis-clicks happen. And worst case: you update data in the wrong environment.&#xA;In this blog: a simple pattern to make your app visually aware — based on environment.&#xA;🎯 The idea in short Create an environment variable (e.g. CurrentEnvironment) with possible values DEV, ACC, PRD In your app, use logic to pick a color based on that value Result: the UI itself signals which environment you’re in Color = Context.</description>
+    </item>
     <item>
       <title>Export Dataverse data to Excel triggered from Canvas app</title>
       <link>//aseURL:1313/blog/20250912-exporttoexcel/</link>
