@@ -6,14 +6,28 @@
     <description>Recent content in Dataverse Functions on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/tags/dataverse-functions/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Dataverse Functions an introduction</title>
+      <title>Advanced Dataverse Functions</title>
+      <link>//aseURL:1313/blog/20251105-dataversefunctionsnotifications/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20251105-dataversefunctionsnotifications/</guid>
+      <description>In my previous blog&#xD;, I introduced Dataverse Functions and covered the basics: what they are, how to create them, and why they matter for low-code developers.&#xA;Today, we&amp;rsquo;re taking things to the next level.&#xA;We&amp;rsquo;re going to build a sophisticated notification system that sends real-time, in-app notifications from a Canvas App to a Model-Driven App.&#xA;👉 Imagine this: a user submits an expense in a Canvas App, and immediately, an admin sees a notification in their Model-Driven App with a direct link to review it.</description>
+    </item>
+    <item>
+      <title>Integrating Dataverse Functions with Copilot</title>
       <link>//aseURL:1313/blog/dataversefunctionscopilot/</link>
-      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/dataversefunctionscopilot/</guid>
-      <description>Recently I had the opportunity to be on stage of European Power Platform Conference 2025 (EPPC25) in Vienna talking about Dataverse Functions (fka low-code instant plugins). With the subtitle; code less, do more!&#xA;What are Dataverse Functions In the Power Platform you have different options to automate business logic, think off: business rules, workflows, actions, Power Automate, formulas, calculated columns and plugins. The plugins can be divided in to two different types: full-code and low-code plugins.</description>
+      <description>If you&amp;rsquo;ve been following along, you&amp;rsquo;ve learned how to create Dataverse Functions&#xD;and build sophisticated in-app notification systems&#xD;. Today, we&amp;rsquo;re taking the final step into the future: integrating your functions with Copilot agents.&#xA;👉 Imagine this: You have an HR chatbot where employees ask, “How many vacation days do I need to request from June 10 to June 25?” The Copilot agent automatically calculates workdays (excluding weekends), checks available leave balance, and responds, all powered by a Dataverse Function you built.</description>
+    </item>
+    <item>
+      <title>Unlocking Dataverse Functions</title>
+      <link>//aseURL:1313/blog/20251022-dataversefunctionsintroductions/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20251022-dataversefunctionsintroductions/</guid>
+      <description>We low-code developers share a common goal: we want to code less but achieve more. For years, extending business logic in the Power Platform meant either diving into full C# plugins or creating complex JavaScript web resources—both requiring pro-code skills that many makers don&amp;rsquo;t have (or want to develop).&#xA;Enter Dataverse Functions. These powerful low-code capabilities let you extend your business logic without writing a single line of C# code. Instead, you use familiar Power Fx expressions to create reusable, performant, and maintainable logic that works across your entire Power Platform ecosystem.</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,15 @@
     <description>Recent content in Blog on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlocking Dataverse Functions</title>
+      <link>//aseURL:1313/blog/20251022-dataversefunctionsintroductions/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20251022-dataversefunctionsintroductions/</guid>
+      <description>We low-code developers share a common goal: we want to code less but achieve more. For years, extending business logic in the Power Platform meant either diving into full C# plugins or creating complex JavaScript web resources—both requiring pro-code skills that many makers don&amp;rsquo;t have (or want to develop).&#xA;Enter Dataverse Functions. These powerful low-code capabilities let you extend your business logic without writing a single line of C# code. Instead, you use familiar Power Fx expressions to create reusable, performant, and maintainable logic that works across your entire Power Platform ecosystem.</description>
+    </item>
     <item>
       <title>Color = context. Work smarter, avoid mistakes</title>
       <link>//aseURL:1313/blog/20251003-environmentswitchcolor/</link>
