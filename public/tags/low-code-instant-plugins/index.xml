@@ -6,12 +6,12 @@
     <description>Recent content in Low-Code Instant Plugins on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/tags/low-code-instant-plugins/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Advanced Dataverse Functions</title>
       <link>//aseURL:1313/blog/20251104-dataversefunctionsnotifications/</link>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20251104-dataversefunctionsnotifications/</guid>
       <description>In my previous blog&#xD;, I introduced Dataverse Functions and covered the basics: what they are, how to create them, and why they matter for low-code developers.&#xA;Today, we&amp;rsquo;re taking things to the next level.&#xA;We&amp;rsquo;re going to build a sophisticated notification system that sends real-time, in-app notifications from a Canvas App to a Model-Driven App.&#xA;👉 Imagine this: a user submits an expense in a Canvas App, and immediately, an admin sees a notification in their Model-Driven App with a direct link to review it.</description>
     </item>

@@ -6,14 +6,14 @@
     <description>Recent content in Demo on Burgers &amp; Bytes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//aseURL:1313/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to give a demo</title>
-      <link>//aseURL:1313/blog/0000howtogiveademo/</link>
-      <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>//aseURL:1313/blog/0000howtogiveademo/</guid>
-      <description>outline of the blog&#xA;link to a video called &amp;rsquo;the mother of all demos&amp;rsquo;: &amp;ldquo;The Mother of All Demos is a name given retrospectively to Douglas Engelbart&amp;rsquo;s December 9, 1968, demonstration of experimental computer technologies that are now commonplace. The live demonstration featured the introduction of the computer mouse, video conferencing, teleconferencing, hypertext, word processing, hypermedia, object addressing and dynamic file linking, bootstrapping, and a collaborative real-time editor.&amp;rdquo; crucial knowledge: concept What is it?</description>
+      <title>The demo shift: from FAB to BAF</title>
+      <link>//aseURL:1313/blog/20251109howtogiveademo/</link>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//aseURL:1313/blog/20251109howtogiveademo/</guid>
+      <description>Let’s be honest. You can prepare your demo perfectly.&#xA;You’ve tested the feature ten times. You’ve got a backup video, screenshots, even a second laptop ready, just in case the Wi-Fi doesn&amp;rsquo;t work.&#xA;But here’s the thing: Even if everything works flawlessly, your demo can still fall flat.&#xA;Because a smooth technical demo isn’t a story. And without a story, your audience won’t remember what you showed or why it mattered.</description>
     </item>
   </channel>
 </rss>

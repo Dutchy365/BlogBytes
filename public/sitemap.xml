@@ -2,23 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//aseURL:1313/blog/20251104-dataversefunctionsnotifications/</loc>
-    <lastmod>2025-10-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//aseURL:1313/blog/</loc>
-    <lastmod>2025-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/</loc>
-    <lastmod>2025-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//aseURL:1313/tags/dataverse-functions/</loc>
-    <lastmod>2025-10-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//aseURL:1313/tags/low-code-instant-plugins/</loc>
-    <lastmod>2025-10-21T00:00:00+00:00</lastmod>
+    <loc>//aseURL:1313/tags/demo/</loc>
+    <lastmod>2025-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/tags/</loc>
-    <lastmod>2025-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/blog/20251109howtogiveademo/</loc>
+    <lastmod>2025-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/blog/20251104-dataversefunctionsnotifications/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/dataverse-functions/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//aseURL:1313/tags/low-code-instant-plugins/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//aseURL:1313/blog/20251022-dataversefunctionsintroductions/</loc>
     <lastmod>2025-10-21T00:00:00+00:00</lastmod>
