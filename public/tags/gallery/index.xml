@@ -13,14 +13,14 @@
       <link>//aseURL:1313/blog/20250102-filteringandsearchinggallery/</link>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20250102-filteringandsearchinggallery/</guid>
-      <description>Scenario One of the features often used in Power Apps is the gallery, which typically requires filtering and search functionality. Initially, you might set up a gallery with just two filters and a search box. However, as you continue developing, end-users often request additional filtering options. Time and time again, I found it challenging to easily implement these extra filters. That&amp;rsquo;s when I realized it was time to document my approach; hopefully, you can benefit from it too.</description>
+      <description>&lt;h2 id=&#34;scenario&#34;&gt;Scenario&lt;/h2&gt;&#xA;&lt;p&gt;One of the features often used in Power Apps is the gallery, which typically requires filtering and search functionality. Initially, you might set up a gallery with just two filters and a search box. However, as you continue developing, end-users often request additional filtering options. Time and time again, I found it challenging to easily implement these extra filters. That&amp;rsquo;s when I realized it was time to document my approach; hopefully, you can benefit from it too.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Progress bar in Power Apps Canvas</title>
       <link>//aseURL:1313/blog/20241025-progressbarinpowerapps/</link>
       <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20241025-progressbarinpowerapps/</guid>
-      <description>Having a good user experience is key, especially in app design. A nicely done progress bar in Power Apps can really boost this experience by giving users a clear and easy way to see their progress through various tasks. Whether they&amp;rsquo;re filling out forms, working through workflows, or going through multi-step procedures, a simple progress bar helps users know exactly where they are in the process.&#xA;What’s great about this progress bar is how it adjusts to fit the input table.</description>
+      <description>&lt;p&gt;Having a good user experience is key, especially in app design. A nicely done progress bar in Power Apps can really boost this experience by giving users a clear and easy way to see their progress through various tasks. Whether they&amp;rsquo;re filling out forms, working through workflows, or going through multi-step procedures, a simple progress bar helps users know exactly where they are in the process.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//aseURL:1313/images/20241025ProgressbarCanvas/progressbar.png&#34; alt=&#34;Progress bar&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;What’s great about this progress bar is how it adjusts to fit the input table. This means you can customize the number of steps based on what the user needs and the data they’re working with, making sure the progress bar stays useful and relevant. Starting with a home icon at the beginning and ending with a save icon at the last step.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

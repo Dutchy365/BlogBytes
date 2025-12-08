@@ -13,7 +13,7 @@
       <link>//aseURL:1313/blog/20241213-spinnerloadingtext/</link>
       <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20241213-spinnerloadingtext/</guid>
-      <description>Scenario As a user you want to work an app as fast as possible. While developing an app you&amp;rsquo;re always working on performance. Next to the actual performance you can improve the user experience. One way to improve the experience is by adding dynamic text during loading screens. This blog will guide you through the process of adding random text to a loading spinner.&#xA;End results The end result is a spinner of which the text of the label randomly changes.</description>
+      <description>&lt;h2 id=&#34;scenario&#34;&gt;Scenario&lt;/h2&gt;&#xA;&lt;p&gt;As a user you want to work an app as fast as possible. While developing an app you&amp;rsquo;re always working on performance. Next to the actual performance you can improve the user experience.&#xA;One way to improve the experience is by adding dynamic text during loading screens. This blog will guide you through the process of adding random text to a loading spinner.&lt;/p&gt;&#xA;&lt;h2 id=&#34;end-results&#34;&gt;End results&lt;/h2&gt;&#xA;&lt;p&gt;The end result is a spinner of which the text of the label randomly changes.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

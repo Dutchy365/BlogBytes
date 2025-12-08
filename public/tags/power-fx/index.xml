@@ -13,14 +13,14 @@
       <link>//aseURL:1313/blog/20240522-powerfxtransposeexcel/</link>
       <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20240522-powerfxtransposeexcel/</guid>
-      <description>A lot of business processes are supported by data stored in Excel sheets. Working with Power Apps often eliminates the use of an Excel sheet, but in some cases the data needs to be stored into an Excel sheet.&#xA;In this blog the concept of transposing the data from an Excel table will be described, so you can use this data throughout the app.&#xA;Scenario As an input there is an Excel table in which there are multiple rows and multiple columns.</description>
+      <description>&lt;p&gt;A lot of business processes are supported by data stored in Excel sheets.&#xA;Working with Power Apps often eliminates the use of an Excel sheet, but in some cases the data needs to be stored into an Excel sheet.&lt;/p&gt;&#xA;&lt;p&gt;In this blog the concept of transposing the data from an Excel table will be described, so you can use this data throughout the app.&lt;/p&gt;&#xA;&lt;h1 id=&#34;scenario&#34;&gt;Scenario&lt;/h1&gt;&#xA;&lt;p&gt;As an input there is an Excel table in which there are multiple rows and multiple columns. The first column has the Country value in it and the other columns describes the products of that Country.&lt;/p&gt;</description>
     </item>
     <item>
       <title>PowerFx: Overcome time zone conversion error in Dataverse Formula column</title>
       <link>//aseURL:1313/blog/20240502-dataverseformuladate/</link>
       <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20240502-dataverseformuladate/</guid>
-      <description>Scenario In a Dataverse table you have a date column of which you want to extract the Year, Month, Day or Weekday using a Formula column. While doing this the following error appears: &amp;ldquo;cannot be performed on this input without a time zone conversion, which is not supported in formula columns.&amp;rdquo;&#xA;Solution Go to the created Date column and check the &amp;lsquo;Time zone adjustment&amp;rsquo;. It&amp;rsquo;s probably set to &amp;lsquo;User local&amp;rsquo;. Switch the Time zone adjustment (Advanced options) to &amp;lsquo;Time zone independent&amp;rsquo; or &amp;lsquo;Date only&amp;rsquo;.</description>
+      <description>&lt;h2 id=&#34;scenario&#34;&gt;Scenario&lt;/h2&gt;&#xA;&lt;p&gt;In a Dataverse table you have a date column of which you want to extract the Year, Month, Day or Weekday using a Formula column. While doing this the following error appears:&#xA;&amp;ldquo;&lt;em&gt;cannot be performed on this input without a time zone conversion, which is not supported in formula columns.&lt;/em&gt;&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//aseURL:1313/images/20240502DataverseFormulaDate/01-errormessage.png&#34; alt=&#34;Error message&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;&#xA;&lt;p&gt;Go to the created Date column and check the &amp;lsquo;Time zone adjustment&amp;rsquo;. It&amp;rsquo;s probably set to &amp;lsquo;User local&amp;rsquo;.&#xA;Switch the Time zone adjustment (Advanced options) to &amp;lsquo;Time zone independent&amp;rsquo; or &amp;lsquo;Date only&amp;rsquo;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

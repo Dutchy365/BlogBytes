@@ -11,7 +11,7 @@
   </title>
   <meta name="description" content="Creating an custom connector for undocumented Microsoft Forms API" />
   <meta name="keywords" content="Power Automate,custom connector,Microsoft Forms" />
-  <meta name="generator" content="Hugo 0.128.2">
+  <meta name="generator" content="Hugo 0.152.2">
   <link rel="stylesheet" href="/css/styles.css" />
   
   
@@ -24,7 +24,6 @@
 <meta property="article:modified_time" content="2023-08-15T00:00:01+00:00" />
 
 
-  
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="//aseURL:1313/cover00FormsCustomConnector.png">
@@ -253,47 +252,47 @@ Set Identity Provider to ‘Azure Active Directory’ and set the Client ID and 
 <p>In the Definition part all the actions need to be defined.
 The details of the actions created to perform required tasks in this scenario.</p>
 <table>
-<thead>
-<tr>
-<th>General</th>
-<th>Verb</th>
-<th>Request</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>GetQuestions</td>
-<td>GET</td>
-<td><div style="width:220px; word-wrap:break-word;"><code>https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/questions</code> </div></td>
-<td>Get an overview of the questions that are available on a Form</td>
-</tr>
-<tr>
-<td>PostQuestions</td>
-<td>POST</td>
-<td><div style="width:220px; word-wrap:break-word;"><code>https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/questions</code> <br/> <br/> body: <code>{&quot;questionInfo&quot;:&quot;&quot;,&quot;type&quot;:&quot;Question.Choice&quot;,&quot;title&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;order&quot;:,&quot;isQuiz&quot;:false,&quot;required&quot;:false}</code> </div></td>
-<td>Post a Question <br/><br/>Different question types require different body. <br/> <a href="https://www.burgersandbytes.nl/page/msformapi" target="_blank" rel="noopener">For more details read the information on this page.</a>
+  <thead>
+      <tr>
+          <th>General</th>
+          <th>Verb</th>
+          <th>Request</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>GetQuestions</td>
+          <td>GET</td>
+          <td><div style="width:220px; word-wrap:break-word;"><code>https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/questions</code> </div></td>
+          <td>Get an overview of the questions that are available on a Form</td>
+      </tr>
+      <tr>
+          <td>PostQuestions</td>
+          <td>POST</td>
+          <td><div style="width:220px; word-wrap:break-word;"><code>https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/questions</code> <br/> <br/> body: <code>{&quot;questionInfo&quot;:&quot;&quot;,&quot;type&quot;:&quot;Question.Choice&quot;,&quot;title&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;order&quot;:,&quot;isQuiz&quot;:false,&quot;required&quot;:false}</code> </div></td>
+          <td>Post a Question <br/><br/>Different question types require different body. <br/> <a href="https://www.burgersandbytes.nl/page/msformapi" target="_blank" rel="noopener">For more details read the information on this page.</a>
 </td>
-</tr>
-<tr>
-<td>DeleteQuestion</td>
-<td>DELETE</td>
-<td><div style="width:220px; word-wrap:break-word;"> <code>https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/questions('{QuestionID}')</code> </div></td>
-<td>Delete a question using the questionid</td>
-</tr>
-<tr>
-<td>DeleteResponses</td>
-<td>DELETE</td>
-<td><div style="width:220px; word-wrap:break-word;"> <code>https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/responses</code> </div></td>
-<td>Delete responses from a Form</td>
-</tr>
-<tr>
-<td><div style="width:115px; word-wrap:break-word;">GetAggregateSurveyData</div></td>
-<td>GET</td>
-<td><div style="width:220px; word-wrap:break-word;"><code>https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/GetAggregateSurveyData</code></div></td>
-<td>Get response details of a Form</td>
-</tr>
-</tbody>
+      </tr>
+      <tr>
+          <td>DeleteQuestion</td>
+          <td>DELETE</td>
+          <td><div style="width:220px; word-wrap:break-word;"> <code>https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/questions('{QuestionID}')</code> </div></td>
+          <td>Delete a question using the questionid</td>
+      </tr>
+      <tr>
+          <td>DeleteResponses</td>
+          <td>DELETE</td>
+          <td><div style="width:220px; word-wrap:break-word;"> <code>https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/responses</code> </div></td>
+          <td>Delete responses from a Form</td>
+      </tr>
+      <tr>
+          <td><div style="width:115px; word-wrap:break-word;">GetAggregateSurveyData</div></td>
+          <td>GET</td>
+          <td><div style="width:220px; word-wrap:break-word;"><code>https://forms.office.com/formapi/api/{TenantID}/users/{UserID}/forms('{FormID}')/GetAggregateSurveyData</code></div></td>
+          <td>Get response details of a Form</td>
+      </tr>
+  </tbody>
 </table>
 <p><img src="/images/MSForms/Part1-CustomConnector/11-Request.png" alt="Request"></p>
 <h3 id="response">Response</h3>
@@ -338,7 +337,6 @@ In this scenario the API calls can be done using &lsquo;Send an HTTP request to 
 
 
 
-  
   
 </div>
 
@@ -576,9 +574,6 @@ In this scenario the API calls can be done using &lsquo;Send an HTTP request to 
 
 
 <script src="//aseURL:1313/js/scripts.min.js"></script>
-
-
-  
 
 
 

@@ -13,7 +13,7 @@
       <link>//aseURL:1313/blog/20231120-sharepointcolumnformattingspecialcharacters/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20231120-sharepointcolumnformattingspecialcharacters/</guid>
-      <description>The capabilities of SharePoint regarding column and view formatting can enhance the usability of both SharePoint libraries and list. In this blog the explanation using a lookup column and the challenging part regarding the use of special characters.&#xA;Scenario The SharePoint list has a lookup column to a document library, so a link between the list item and associated document can be made. At first glance, this looked fine:&#xA;However when you clicked on the file link, the file didn’t open, but navigated to the display form of the library item instead.</description>
+      <description>&lt;p&gt;The capabilities of SharePoint regarding column and view formatting can enhance the usability of both SharePoint libraries and list.&#xA;In this blog the explanation using a lookup column and the challenging part regarding the use of special characters.&lt;/p&gt;&#xA;&lt;h2 id=&#34;scenario&#34;&gt;Scenario&lt;/h2&gt;&#xA;&lt;p&gt;The SharePoint list has a lookup column to a document library, so a link between the list item and associated document can be made. At first glance, this looked fine:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//aseURL:1313/images/20231120SharePointColumnFormSpecialChar/1-firstglance.png&#34; alt=&#34;First glance&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

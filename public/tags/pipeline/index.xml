@@ -13,7 +13,7 @@
       <link>//aseURL:1313/blog/20250225-provisionperfectpipeline/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20250225-provisionperfectpipeline/</guid>
-      <description>During the Global Power Platform Bootcamp Belgium together with Albert-Jan Schot I presented a session titled &amp;lsquo;Provision Perfect Pipelines&amp;rsquo;. A part of the session was the demo of a script to automatically provision a pipeline setup using the in product Deployment Pipeline Configuration.&#xA;Scenario We have a project called Projecthub which uses three different environments:&#xA;Projecthub-Dev Projecthub-QA Projecthub-Prod For this project we want to have pipeline to be able to move solutions from Dev to QA and from QA to Prod.</description>
+      <description>&lt;p&gt;During the Global Power Platform Bootcamp Belgium together with Albert-Jan Schot I presented a session titled &amp;lsquo;Provision Perfect Pipelines&amp;rsquo;.&#xA;A part of the session was the demo of a script to automatically provision a pipeline setup using the in product Deployment Pipeline Configuration.&lt;/p&gt;&#xA;&lt;h2 id=&#34;scenario&#34;&gt;Scenario&lt;/h2&gt;&#xA;&lt;p&gt;We have a project called Projecthub which uses three different environments:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Projecthub-Dev&lt;/li&gt;&#xA;&lt;li&gt;Projecthub-QA&lt;/li&gt;&#xA;&lt;li&gt;Projecthub-Prod&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;For this project we want to have pipeline to be able to move solutions from Dev to QA and from QA to Prod.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

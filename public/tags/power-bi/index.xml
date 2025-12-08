@@ -13,28 +13,28 @@
       <link>//aseURL:1313/blog/20231021-userengagement-part3/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:03 +0000</pubDate>
       <guid>//aseURL:1313/blog/20231021-userengagement-part3/</guid>
-      <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie&#xD;, you could read how to use the Power Platform to measure user engagement even more deeply using KPI regarding user engagement.</description>
+      <description>&lt;p&gt;Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;//aseURL:1313/blog/20231021-userengagement-part1&#34;&gt;In the first part of this blog serie&lt;/a&gt;&#xD;&#xA;, you could read how to use the Power Platform to measure user engagement even more deeply using KPI regarding user engagement.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Part 2: Enhancing User Engagement Measurement on SharePoint Intranets: Page Freshness</title>
       <link>//aseURL:1313/blog/20231021-userengagement-part2/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:02 +0000</pubDate>
       <guid>//aseURL:1313/blog/20231021-userengagement-part2/</guid>
-      <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie&#xD;, you could read how to use the Power Platform to measure user engagement even more deeply using KPI&amp;rsquo;s regarding user engagement.</description>
+      <description>&lt;p&gt;Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;//aseURL:1313/BlogBytes/blog/20231021-userengagement-part1&#34;&gt;In the first part of this blog serie&lt;/a&gt;&#xD;&#xA;, you could read how to use the Power Platform to measure user engagement even more deeply using KPI&amp;rsquo;s regarding user engagement.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Part 1: Enhancing User Engagement Measurement on SharePoint Intranets with Power Platform</title>
       <link>//aseURL:1313/blog/20231021-userengagement-part1/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:01 +0000</pubDate>
       <guid>//aseURL:1313/blog/20231021-userengagement-part1/</guid>
-      <description>Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&#xA;In the first part of this blog serie, we will explore how to use the Power Platform to measure user engagement even more deeply using KPI&amp;rsquo;s regarding user engagement.</description>
+      <description>&lt;p&gt;Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. You can already benefit from Viva Connections and Viva Insights to enhance the user engagement measurement capabilities.&lt;/p&gt;&#xA;&lt;p&gt;In the first part of this blog serie, we will explore how to use the Power Platform to measure user engagement even more deeply using KPI&amp;rsquo;s regarding user engagement.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Make use of the responses: display the survey data of the Forms - part 3</title>
       <link>//aseURL:1313/blog/msforms-part3-dashboard/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:03 +0000</pubDate>
       <guid>//aseURL:1313/blog/msforms-part3-dashboard/</guid>
-      <description>This blog is part of the blog series for Microsoft Forms automation to create automatic update of you question of the week on your SharePoint intranet. The first blog explains how to create a custom connector using the undocumented Microsoft Forms API&#xD;. The second blog describes how to keep your ‘Question of the week’ based on Microsoft Forms up-to-date&#xD;.&#xA;The result of the first two parts of this blog series is a nice looking SharePoint list which contains all data from the Question of the week.</description>
+      <description>&lt;p&gt;This blog is part of the blog series for Microsoft Forms automation to create automatic update of you question of the week on your SharePoint intranet.&#xA;The first blog explains &lt;a href=&#34;//aseURL:1313/blog/msforms-part1-customconnector/&#34;&gt;how to create a custom connector using the undocumented Microsoft Forms API&lt;/a&gt;&#xD;&#xA;.&#xA;The second blog describes how to &lt;a href=&#34;//aseURL:1313/blog/msforms-part2-questionoftheweek/&#34;&gt;keep your ‘Question of the week’ based on Microsoft Forms up-to-date&lt;/a&gt;&#xD;&#xA;.&lt;/p&gt;&#xA;&lt;p&gt;The result of the first two parts of this blog series is a nice looking SharePoint list which contains all data from the Question of the week.&#xA;Not only the answer options that could be given, but the results of those questions as well.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

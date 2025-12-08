@@ -13,7 +13,7 @@
       <link>//aseURL:1313/blog/20240902-renameonenotepowerautomate/</link>
       <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20240902-renameonenotepowerautomate/</guid>
-      <description>Recently I wrote a blog regarding renaming OneNote sections based on a renamed channelname using PowerShell&#xD;. In this blog same scenario is done using Power Automate.&#xA;The flow iterates iterates through all channels to determine changes.&#xA;Scenario A new Team comes with a OneNote and every new channel gets it&amp;rsquo;s own OneNote section with the display name of the channel. When the name of the channel is modified, the name of the OneNote section isn&amp;rsquo;t updated automatically.</description>
+      <description>&lt;p&gt;Recently I wrote a &lt;a href=&#34;//aseURL:1313/blog/20240810-renameoneNotesection/&#34;&gt;blog regarding renaming OneNote sections based on a renamed channelname using PowerShell&lt;/a&gt;&#xD;&#xA;.&#xA;In this blog same scenario is done using Power Automate.&lt;/p&gt;&#xA;&lt;p&gt;The flow iterates iterates through all channels to determine changes.&lt;/p&gt;&#xA;&lt;h1 id=&#34;scenario&#34;&gt;Scenario&lt;/h1&gt;&#xA;&lt;p&gt;A new Team comes with a OneNote and every new channel gets it&amp;rsquo;s own OneNote section with the display name of the channel.&#xA;When the name of the channel is modified, the name of the OneNote section isn&amp;rsquo;t updated automatically.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

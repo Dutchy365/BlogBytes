@@ -9,7 +9,7 @@
   <title>
   Spinner loading text - Burgers &amp; Bytes
   </title>
-  <meta name="description" content="Creative loading: adding random text to the spinner" /><meta name="generator" content="Hugo 0.128.2">
+  <meta name="description" content="Creative loading: adding random text to the spinner" /><meta name="generator" content="Hugo 0.152.2">
   <link rel="stylesheet" href="/css/styles.css" />
   
   
@@ -22,7 +22,6 @@
 <meta property="article:modified_time" content="2024-12-12T00:00:00+00:00" />
 
 
-  
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="//aseURL:1313/00SpinnerText.png">
@@ -225,91 +224,91 @@ One way to improve the experience is by adding dynamic text during loading scree
 <h3 id="settings-of-the-elements">Settings of the elements</h3>
 <p>The settings for the spinner, named spnLoadingData:</p>
 <table>
-<thead>
-<tr>
-<th>Property</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Label</td>
-<td>ProgressMessage</td>
-</tr>
-<tr>
-<td>Visible</td>
-<td>varShowSpinner</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Property</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Label</td>
+          <td>ProgressMessage</td>
+      </tr>
+      <tr>
+          <td>Visible</td>
+          <td>varShowSpinner</td>
+      </tr>
+  </tbody>
 </table>
 <h4 id="timer-1---tmrshowspinner">Timer 1 - tmrShowSpinner</h4>
 <p>The first timer in this scenario is to set the start and end of the display of the spinner.</p>
 <p>The timer to start the display of the spinner, named tmrShowSpinner:</p>
 <table>
-<thead>
-<tr>
-<th>Property</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>OnTimerStart</td>
-<td>UpdateContext({varShowSpinner: true});</td>
-</tr>
-<tr>
-<td>OnTimerEnd</td>
-<td>UpdateContext({varShowSpinner: false});</td>
-</tr>
-<tr>
-<td>Duration</td>
-<td>10000</td>
-</tr>
-<tr>
-<td>Start</td>
-<td>varShowSpinner</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Property</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>OnTimerStart</td>
+          <td>UpdateContext({varShowSpinner: true});</td>
+      </tr>
+      <tr>
+          <td>OnTimerEnd</td>
+          <td>UpdateContext({varShowSpinner: false});</td>
+      </tr>
+      <tr>
+          <td>Duration</td>
+          <td>10000</td>
+      </tr>
+      <tr>
+          <td>Start</td>
+          <td>varShowSpinner</td>
+      </tr>
+  </tbody>
 </table>
 <h4 id="timer-2---tmrprogressmessage">Timer 2 - tmrProgressMessage</h4>
 <p>The timer which will switch the content of the message, named tmrProgressMessage:</p>
 <table>
-<thead>
-<tr>
-<th>Property</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>OnTimerEnd</td>
-<td><code>UpdateContext({ProgressMessage: Switch(RandBetween(1, 6), 1, &quot;⌛Loading data, please wait...&quot;, 2, &quot;Processing your request...&quot;, 3, &quot;⌛Almost there...&quot;, 4, &quot;Fetching results...&quot;, 5, &quot;Finalizing...&quot;, 6, &quot;☕Drinking coffee...&quot;)})</code></td>
-</tr>
-<tr>
-<td>Duration</td>
-<td>2000</td>
-</tr>
-<tr>
-<td>Repeat</td>
-<td>varShowSpinner</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Property</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>OnTimerEnd</td>
+          <td><code>UpdateContext({ProgressMessage: Switch(RandBetween(1, 6), 1, &quot;⌛Loading data, please wait...&quot;, 2, &quot;Processing your request...&quot;, 3, &quot;⌛Almost there...&quot;, 4, &quot;Fetching results...&quot;, 5, &quot;Finalizing...&quot;, 6, &quot;☕Drinking coffee...&quot;)})</code></td>
+      </tr>
+      <tr>
+          <td>Duration</td>
+          <td>2000</td>
+      </tr>
+      <tr>
+          <td>Repeat</td>
+          <td>varShowSpinner</td>
+      </tr>
+  </tbody>
 </table>
 <h4 id="button">Button</h4>
 <p>A button to trigger the start of the timers, named btnStart:</p>
 <table>
-<thead>
-<tr>
-<th>Property</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>OnSelect</td>
-<td>UpdateContext({varShowSpinner: true});</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Property</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>OnSelect</td>
+          <td>UpdateContext({varShowSpinner: true});</td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="yaml">YAML</h2>
 <p>To be able to reuse this easily in other apps, hereby the YAML of this part. At the moment of writing the pasting YAML code isn&rsquo;t supported, so therefore the elements are set in a container:</p>
@@ -324,7 +323,7 @@ One way to improve the experience is by adding dynamic text during loading scree
 </span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Control</span>: Button
 </span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Properties</span>:
 </span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">OnSelect</span>: |-<span style="color:#f1fa8c">
-</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            =UpdateContext({varShowSpinner: true});</span>            
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            =UpdateContext({varShowSpinner: true});</span>
 </span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">BasePaletteColor</span>: =Color.LightSalmon
 </span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Text</span>: =&#34;Start&#34;
 </span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">X</span>: =635
@@ -333,7 +332,7 @@ One way to improve the experience is by adding dynamic text during loading scree
 </span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Control</span>: Timer
 </span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">Properties</span>:
 </span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">OnTimerEnd</span>: |-<span style="color:#f1fa8c">
-</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            =UpdateContext({varShowSpinner: false})</span>            
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">            =UpdateContext({varShowSpinner: false})</span>
 </span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">AutoPause</span>: =false
 </span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Duration</span>: =10000
 </span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Start</span>: =varShowSpinner
@@ -353,7 +352,7 @@ One way to improve the experience is by adding dynamic text during loading scree
 </span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                  4, &#34;Fetching results...&#34;, 
 </span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                  5, &#34;Finalizing...&#34;,
 </span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">                  6, &#34;☕Drinking coffee&#34;
-</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">               )})</span>            
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">               )})</span>
 </span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">AutoPause</span>: =false
 </span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Duration</span>: =2000
 </span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">Repeat</span>: =varShowSpinner
@@ -407,7 +406,6 @@ One way to improve the experience is by adding dynamic text during loading scree
 
 
 
-  
   
 </div>
 
@@ -645,9 +643,6 @@ One way to improve the experience is by adding dynamic text during loading scree
 
 
 <script src="//aseURL:1313/js/scripts.min.js"></script>
-
-
-  
 
 
 

@@ -13,7 +13,7 @@
       <link>//aseURL:1313/blog/20250102-filteringandsearchinggallery/</link>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20250102-filteringandsearchinggallery/</guid>
-      <description>Scenario One of the features often used in Power Apps is the gallery, which typically requires filtering and search functionality. Initially, you might set up a gallery with just two filters and a search box. However, as you continue developing, end-users often request additional filtering options. Time and time again, I found it challenging to easily implement these extra filters. That&amp;rsquo;s when I realized it was time to document my approach; hopefully, you can benefit from it too.</description>
+      <description>&lt;h2 id=&#34;scenario&#34;&gt;Scenario&lt;/h2&gt;&#xA;&lt;p&gt;One of the features often used in Power Apps is the gallery, which typically requires filtering and search functionality. Initially, you might set up a gallery with just two filters and a search box. However, as you continue developing, end-users often request additional filtering options. Time and time again, I found it challenging to easily implement these extra filters. That&amp;rsquo;s when I realized it was time to document my approach; hopefully, you can benefit from it too.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

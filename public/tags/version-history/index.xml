@@ -13,7 +13,7 @@
       <link>//aseURL:1313/blog/20250403-dataverseversionhistory/</link>
       <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20250403-dataverseversionhistory/</guid>
-      <description>In SharePoint users are used to see version history of files and items. In Dataverse this isn&amp;rsquo;t there by default. In a Model Driven app the audit history is visible as related table on the form, this blog describes how to make it possible to make this available in a Canvas App just like we are used in SharePoint.&#xA;Endresult The endresult on which a user can select an item and the flow will retrieve the version history data.</description>
+      <description>&lt;p&gt;In SharePoint users are used to see version history of files and items. In Dataverse this isn&amp;rsquo;t there by default.&#xA;In a Model Driven app the audit history is visible as related table on the form, this blog describes how to make it possible to make this available in a Canvas App just like we are used in SharePoint.&lt;/p&gt;&#xA;&lt;h2 id=&#34;endresult&#34;&gt;Endresult&lt;/h2&gt;&#xA;&lt;p&gt;The endresult on which a user can select an item and the flow will retrieve the version history data.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -13,7 +13,7 @@
       <link>//aseURL:1313/blog/20240212teamsannouncementmessage/</link>
       <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20240212teamsannouncementmessage/</guid>
-      <description>Scenario This blog describes the Flow to create a Team and start with a message of type Announcement. The default &amp;lsquo;Post a message in a chat or channel&amp;rsquo; isn&amp;rsquo;t sufficient, because the message type can&amp;rsquo;t be selected, so it can&amp;rsquo;t be an Announcement.&#xA;The end result should be a clear message in a Teams channel: Flow actions to create Team In order to share the full story the Team needs to be created and Team ID and Channel ID needs to be stored in a variable.</description>
+      <description>&lt;h2 id=&#34;scenario&#34;&gt;Scenario&lt;/h2&gt;&#xA;&lt;p&gt;This blog describes the Flow to create a Team and start with a message of type Announcement.&#xA;The default &amp;lsquo;Post a message in a chat or channel&amp;rsquo; isn&amp;rsquo;t sufficient, because the message type can&amp;rsquo;t be selected, so it can&amp;rsquo;t be an Announcement.&lt;/p&gt;&#xA;&lt;p&gt;The end result should be a clear message in a Teams channel:&#xA;&lt;img src=&#34;//aseURL:1313/images/20240212TeamsAnnouncementMessage/1-Announcementbanner.png&#34; alt=&#34;Announcement&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;flow-actions-to-create-team&#34;&gt;Flow actions to create Team&lt;/h2&gt;&#xA;&lt;p&gt;In order to share the full story the Team needs to be created and Team ID and Channel ID needs to be stored in a variable.&#xA;To read the details collapse these steps below:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

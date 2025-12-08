@@ -9,7 +9,7 @@
   <title>
   Rename OneNote Sections using Powershell - Burgers &amp; Bytes
   </title>
-  <meta name="description" content="Update OneNote section displayname based on a renamed Microsoft Teams Channel" /><meta name="generator" content="Hugo 0.128.2">
+  <meta name="description" content="Update OneNote section displayname based on a renamed Microsoft Teams Channel" /><meta name="generator" content="Hugo 0.152.2">
   <link rel="stylesheet" href="/css/styles.css" />
   
   
@@ -22,7 +22,6 @@
 <meta property="article:modified_time" content="2024-08-10T00:00:00+00:00" />
 
 
-  
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="//aseURL:1313/00RenameOneNoteSection.png">
@@ -241,7 +240,7 @@ To be able to match the OneNote section associated to the channel, the details o
 </span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$tenantName</span> = <span style="color:#f1fa8c">&#34;&lt;replace by your own tenantname&gt;.onmicrosoft.com&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$resource</span> = <span style="color:#f1fa8c">&#34;https://graph.microsoft.com/&#34;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$ReqTokenBody</span> = @{
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$ReqTokenBody</span> = <span style="color:#8be9fd;font-style:italic">@</span>{
 </span></span><span style="display:flex;"><span>    Grant_Type    = <span style="color:#f1fa8c">&#34;client_credentials&#34;</span>
 </span></span><span style="display:flex;"><span>    Scope         = <span style="color:#f1fa8c">&#34;https://graph.microsoft.com/.default&#34;</span>
 </span></span><span style="display:flex;"><span>    client_Id     = <span style="color:#8be9fd;font-style:italic">$clientID</span>
@@ -250,15 +249,15 @@ To be able to match the OneNote section associated to the channel, the details o
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$TokenResponse</span> = <span style="color:#8be9fd;font-style:italic">Invoke-RestMethod</span> -Uri <span style="color:#f1fa8c">&#34;https://login.microsoftonline.com/</span><span style="color:#8be9fd;font-style:italic">$TenantName</span><span style="color:#f1fa8c">/oauth2/v2.0/token&#34;</span> -Method POST -Body <span style="color:#8be9fd;font-style:italic">$ReqTokenBody</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$headers</span> = @{
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$headers</span> = <span style="color:#8be9fd;font-style:italic">@</span>{
 </span></span><span style="display:flex;"><span><span style="color:#f1fa8c">&#39;Content-Type&#39;</span>  = <span style="color:#f1fa8c">&#39;application/json&#39;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f1fa8c">&#39;Authorization&#39;</span> = <span style="color:#f1fa8c">&#39;Bearer &#39;</span> + $(<span style="color:#8be9fd;font-style:italic">$TokenResponse</span>.access_token)
+</span></span><span style="display:flex;"><span><span style="color:#f1fa8c">&#39;Authorization&#39;</span> = <span style="color:#f1fa8c">&#39;Bearer &#39;</span> + <span style="color:#8be9fd;font-style:italic">$</span>(<span style="color:#8be9fd;font-style:italic">$TokenResponse</span>.access_token)
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#6272a4">### GROUPS ###</span>
 </span></span><span style="display:flex;"><span><span style="color:#6272a4">## Get All Groups with a team</span>
 </span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$apiUrl</span> = <span style="color:#f1fa8c">&#39;https://graph.microsoft.com/v1.0/Groups/&#39;</span>
-</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$Data</span> = <span style="color:#8be9fd;font-style:italic">Invoke-RestMethod</span> -Headers @{Authorization = <span style="color:#f1fa8c">&#34;Bearer </span>$(<span style="color:#8be9fd;font-style:italic">$Tokenresponse</span>.access_token)<span style="color:#f1fa8c">&#34;</span>} -Uri <span style="color:#8be9fd;font-style:italic">$apiUrl</span> -Method Get
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$Data</span> = <span style="color:#8be9fd;font-style:italic">Invoke-RestMethod</span> -Headers <span style="color:#8be9fd;font-style:italic">@</span>{Authorization = <span style="color:#f1fa8c">&#34;Bearer </span>$(<span style="color:#8be9fd;font-style:italic">$Tokenresponse</span>.access_token)<span style="color:#f1fa8c">&#34;</span>} -Uri <span style="color:#8be9fd;font-style:italic">$apiUrl</span> -Method Get
 </span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$groups</span> = (<span style="color:#8be9fd;font-style:italic">$Data</span> | <span style="color:#8be9fd;font-style:italic">select-object</span> Value).Value | <span style="color:#8be9fd;font-style:italic">Where-Object</span> { <span style="color:#8be9fd;font-style:italic">$_</span>.resourceProvisioningOptions <span style="color:#ff79c6">-eq</span> <span style="color:#f1fa8c">&#34;Team&#34;</span> }
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#6272a4"># Loop through each group to get channels</span>
@@ -321,7 +320,7 @@ To be able to match the OneNote section associated to the channel, the details o
 </span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">Write-Output</span> <span style="color:#f1fa8c">&#34;Channel display name &#39;</span>$(<span style="color:#8be9fd;font-style:italic">$channel</span>.displayName)<span style="color:#f1fa8c">&#39; and OneNote Section name &#39;</span>$(<span style="color:#8be9fd;font-style:italic">$sectionName</span>)<span style="color:#f1fa8c">&#39; are not equal.&#34;</span>              
 </span></span><span style="display:flex;"><span>                  
 </span></span><span style="display:flex;"><span>                    <span style="color:#6272a4"># Define the body for renaming the OneNote section</span>
-</span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">$body</span> = @{
+</span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">$body</span> = <span style="color:#8be9fd;font-style:italic">@</span>{
 </span></span><span style="display:flex;"><span>                        displayName = <span style="color:#8be9fd;font-style:italic">$channel</span>.displayName
 </span></span><span style="display:flex;"><span>                    } | <span style="color:#8be9fd;font-style:italic">ConvertTo-Json</span>
 </span></span><span style="display:flex;"><span>
@@ -372,7 +371,6 @@ To be able to match the OneNote section associated to the channel, the details o
 
 
 
-  
   
 </div>
 
@@ -610,9 +608,6 @@ To be able to match the OneNote section associated to the channel, the details o
 
 
 <script src="//aseURL:1313/js/scripts.min.js"></script>
-
-
-  
 
 
 

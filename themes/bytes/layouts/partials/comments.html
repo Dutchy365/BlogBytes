@@ -3,7 +3,6 @@
   {{ if eq .Site.Params.comments.system "disqus" }}
   {{ partial "disqus.html" . }}
 
-  <!--{{ template "_internal/disqus.html" . }}-->
   {{ else if eq .Site.Params.comments.system "giscus" }}
   <script src="https://giscus.app/client.js"
     data-repo="{{ .Site.Params.comments.repo }}"

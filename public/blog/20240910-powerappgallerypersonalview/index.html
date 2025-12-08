@@ -9,7 +9,7 @@
   <title>
   Personal view for a Power Apps gallery - Burgers &amp; Bytes
   </title>
-  <meta name="description" content="How to create the possibility for users to create there own personal view for gallery in Power Apps" /><meta name="generator" content="Hugo 0.128.2">
+  <meta name="description" content="How to create the possibility for users to create there own personal view for gallery in Power Apps" /><meta name="generator" content="Hugo 0.152.2">
   <link rel="stylesheet" href="/css/styles.css" />
   
   
@@ -22,7 +22,6 @@
 <meta property="article:modified_time" content="2024-09-10T00:00:00+00:00" />
 
 
-  
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="//aseURL:1313/00PersonalView.png">
@@ -223,30 +222,30 @@ Two lists are available:</p>
 <h2 id="basic-info">Basic info</h2>
 <p>The app uses different collection, to understand the solution hereby the names and purpose per collection.</p>
 <table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Purpose</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>colDefaultView</td>
-<td>This collection is needed to store the information for the default view. When the users doesn&rsquo;t have a personal view, this view is used</td>
-</tr>
-<tr>
-<td>colPersonalView</td>
-<td>This collection is needed to store the information of the personal view, this data is stored in SharePoint column in JSON format</td>
-</tr>
-<tr>
-<td>colDisplayView</td>
-<td>This collection is needed to store the information which is used to display. Filled with information of the default view or the personal view.</td>
-</tr>
-<tr>
-<td>colEditView</td>
-<td>This collection is needed to store the information while editing the personal view. This collection is used so the user can also cancel the editing and go back to the previous saved view.</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Name</th>
+          <th>Purpose</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>colDefaultView</td>
+          <td>This collection is needed to store the information for the default view. When the users doesn&rsquo;t have a personal view, this view is used</td>
+      </tr>
+      <tr>
+          <td>colPersonalView</td>
+          <td>This collection is needed to store the information of the personal view, this data is stored in SharePoint column in JSON format</td>
+      </tr>
+      <tr>
+          <td>colDisplayView</td>
+          <td>This collection is needed to store the information which is used to display. Filled with information of the default view or the personal view.</td>
+      </tr>
+      <tr>
+          <td>colEditView</td>
+          <td>This collection is needed to store the information while editing the personal view. This collection is used so the user can also cancel the editing and go back to the previous saved view.</td>
+      </tr>
+  </tbody>
 </table>
 <p>On the Loading screen a timer is set in which:</p>
 <ul>
@@ -319,121 +318,121 @@ Two lists are available:</p>
 <img src="/images/20240910PersonalView/headergallery.png" alt="Header gallery"></p>
 <p>The properties set on Gallery level:</p>
 <table>
-<thead>
-<tr>
-<th>Property</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Items</td>
-<td>First(colDisplayView)</td>
-</tr>
-<tr>
-<td>LayoutMinWidth</td>
-<td>Sum(Filter(colDisplayView, Visible = true), Width)</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Property</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Items</td>
+          <td>First(colDisplayView)</td>
+      </tr>
+      <tr>
+          <td>LayoutMinWidth</td>
+          <td>Sum(Filter(colDisplayView, Visible = true), Width)</td>
+      </tr>
+  </tbody>
 </table>
 <p>The properties for the text elements:</p>
 <table>
-<thead>
-<tr>
-<th>Property</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Text</td>
-<td>LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Name</td>
-</tr>
-<tr>
-<td>Visible</td>
-<td>LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Visible</td>
-</tr>
-<tr>
-<td>Width</td>
-<td>LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Width</td>
-</tr>
-<tr>
-<td>X</td>
-<td>Sum(Filter(colDisplayView, Order &lt; LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Order), Width)</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Property</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Text</td>
+          <td>LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Name</td>
+      </tr>
+      <tr>
+          <td>Visible</td>
+          <td>LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Visible</td>
+      </tr>
+      <tr>
+          <td>Width</td>
+          <td>LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Width</td>
+      </tr>
+      <tr>
+          <td>X</td>
+          <td>Sum(Filter(colDisplayView, Order &lt; LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Order), Width)</td>
+      </tr>
+  </tbody>
 </table>
 <p>The properties for the button for sorting:</p>
 <table>
-<thead>
-<tr>
-<th>Property</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Visible</td>
-<td>If(LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Visible, LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Sortable)</td>
-</tr>
-<tr>
-<td>X</td>
-<td>txtHeaderJobID.X + txtHeaderJobID.Width - Self.Width</td>
-</tr>
-<tr>
-<td>OnSelect</td>
-<td>UpdateContext({SortColumn: LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).ColumnName}); UpdateContext({CustomSortOrder: !CustomSortOrder});</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Property</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Visible</td>
+          <td>If(LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Visible, LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Sortable)</td>
+      </tr>
+      <tr>
+          <td>X</td>
+          <td>txtHeaderJobID.X + txtHeaderJobID.Width - Self.Width</td>
+      </tr>
+      <tr>
+          <td>OnSelect</td>
+          <td>UpdateContext({SortColumn: LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).ColumnName}); UpdateContext({CustomSortOrder: !CustomSortOrder});</td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="item-gallery">Item Gallery</h3>
 <p>The gallery for the items for every column there is text element.</p>
 <p><img src="/images/20240910PersonalView/itemsgallery.png" alt="Items gallery"></p>
 <p>The properties set on Gallery level:</p>
 <table>
-<thead>
-<tr>
-<th>Property</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Items</td>
-<td>SortByColumns(colJobApplicationTracker,SortColumn, If(CustomSortOrder, SortOrder.Ascending, SortOrder.Descending))</td>
-</tr>
-<tr>
-<td>Width</td>
-<td>Sum(Filter(colDisplayView, Visible = true), Width)</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Property</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Items</td>
+          <td>SortByColumns(colJobApplicationTracker,SortColumn, If(CustomSortOrder, SortOrder.Ascending, SortOrder.Descending))</td>
+      </tr>
+      <tr>
+          <td>Width</td>
+          <td>Sum(Filter(colDisplayView, Visible = true), Width)</td>
+      </tr>
+  </tbody>
 </table>
 <p>The properties for the text elements:</p>
 <table>
-<thead>
-<tr>
-<th>Property</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Text</td>
-<td>ThisItem.JobID</td>
-</tr>
-<tr>
-<td>Visible</td>
-<td>LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Visible</td>
-</tr>
-<tr>
-<td>Width</td>
-<td>LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Width</td>
-</tr>
-<tr>
-<td>X</td>
-<td>Sum(Filter(colDisplayView, Order &lt; LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Order), Width)</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Property</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Text</td>
+          <td>ThisItem.JobID</td>
+      </tr>
+      <tr>
+          <td>Visible</td>
+          <td>LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Visible</td>
+      </tr>
+      <tr>
+          <td>Width</td>
+          <td>LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Width</td>
+      </tr>
+      <tr>
+          <td>X</td>
+          <td>Sum(Filter(colDisplayView, Order &lt; LookUp(colDisplayView, Name = &ldquo;Job ID&rdquo;).Order), Width)</td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="edit-view">Edit View</h3>
 <p>The OnSelect of the button View sets the visibility of the container for editing purposes and the collection for the personal view is stored into a collection, if already available for the current user.
@@ -547,7 +546,6 @@ UpdateContext({varvisibleEditView: false });
 
 
 
-  
   
 </div>
 
@@ -785,9 +783,6 @@ UpdateContext({varvisibleEditView: false });
 
 
 <script src="//aseURL:1313/js/scripts.min.js"></script>
-
-
-  
 
 
 

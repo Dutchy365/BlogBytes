@@ -13,7 +13,7 @@
       <link>//aseURL:1313/blog/20240910-powerappgallerypersonalview/</link>
       <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20240910-powerappgallerypersonalview/</guid>
-      <description>In SharePoint lists, we&amp;rsquo;re familiar to creating both shared views for all users and personal views tailored to individual preferences. As you develop Power Apps, you might frequently ask, &amp;ldquo;Can I create a custom view just for me?&amp;rdquo; Users often need different information displayed in their views. This blog explains how you can accomplish this in Power Apps!&#xA;End result The end result is a gallery including a header for which users can create their own view or use the default view.</description>
+      <description>&lt;p&gt;In SharePoint lists, we&amp;rsquo;re familiar to creating both shared views for all users and personal views tailored to individual preferences. As you develop Power Apps, you might frequently ask, &amp;ldquo;Can I create a custom view just for me?&amp;rdquo; Users often need different information displayed in their views. This blog explains how you can accomplish this in Power Apps!&lt;/p&gt;&#xA;&lt;h2 id=&#34;end-result&#34;&gt;End result&lt;/h2&gt;&#xA;&lt;p&gt;The end result is a gallery including a header for which users can create their own view or use the default view.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

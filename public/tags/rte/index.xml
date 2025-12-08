@@ -13,7 +13,7 @@
       <link>//aseURL:1313/blog/20240129-powerpagesrichtextlistview/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20240129-powerpagesrichtextlistview/</guid>
-      <description>Working with a Rich Text column can be tricky. In a Model Driven App, handling Rich Text columns is easy. In a view the text is shown as plain text; simple and readable. In the Power Pages list view, it&amp;rsquo;s not great. It ends up showing messy raw HTML instead of the neat content.&#xA;The view of the list in Model Driven App: The description column is a rich text column in which formatting is applied.</description>
+      <description>&lt;p&gt;Working with a Rich Text column can be tricky. In a Model Driven App, handling Rich Text columns is easy. In a view the text is shown as plain text; simple and readable. In the Power Pages list view, it&amp;rsquo;s not great. It ends up showing messy raw HTML instead of the neat content.&lt;/p&gt;&#xA;&lt;h4 id=&#34;the-view-of-the-list-in-model-driven-app&#34;&gt;The view of the list in Model Driven App:&lt;/h4&gt;&#xA;&lt;p&gt;The description column is a rich text column in which formatting is applied. In the list view of the Model Driven App it shows plain text.&#xA;&lt;img src=&#34;//aseURL:1313/images/20240129PowerPagesRichTextListView/MDAview.png&#34; alt=&#34;View in MDA&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

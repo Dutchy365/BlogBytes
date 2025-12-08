@@ -13,7 +13,7 @@
       <link>//aseURL:1313/blog/20241124-powerpagesmessageindicator/</link>
       <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20241124-powerpagesmessageindicator/</guid>
-      <description>End result The end result is an envelop icon in which a counter displays the number of messages for the current logged in contact.&#xA;Datamodel Simplified view of the datamodel, just to support the understanding of the technical setup.&#xA;Content snippet To accomplish this, start by creating an HTML content snippet. This snippet will serve as the foundation for counting the number of messages and displaying the envelop icon.&#xA;In this scenario the name of the snippet is: Message Counter.</description>
+      <description>&lt;h2 id=&#34;end-result&#34;&gt;End result&lt;/h2&gt;&#xA;&lt;p&gt;The end result is an envelop icon in which a counter displays the number of messages for the current logged in contact.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//aseURL:1313/images/20241124PowerPagesMessageIndicator/01-endresult.png&#34; alt=&#34;content snippet&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;datamodel&#34;&gt;Datamodel&lt;/h3&gt;&#xA;&lt;p&gt;Simplified view of the datamodel, just to support the understanding of the technical setup.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//aseURL:1313/images/20241124PowerPagesMessageIndicator/02-datamodel.png&#34; alt=&#34;content snippet&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;content-snippet&#34;&gt;Content snippet&lt;/h2&gt;&#xA;&lt;p&gt;To accomplish this, start by creating an HTML content snippet. This snippet will serve as the foundation for counting the number of messages and displaying the envelop icon.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

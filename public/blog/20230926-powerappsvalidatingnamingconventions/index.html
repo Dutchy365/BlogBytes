@@ -11,7 +11,7 @@
   </title>
   <meta name="description" content="A Powershell script to validate naming conventions of controls in Power Apps canvas" />
   <meta name="keywords" content="Power Apps,Governance,ChatGPT,Naming conventions" />
-  <meta name="generator" content="Hugo 0.128.2">
+  <meta name="generator" content="Hugo 0.152.2">
   <link rel="stylesheet" href="/css/styles.css" />
   
   
@@ -24,7 +24,6 @@
 <meta property="article:modified_time" content="2023-09-26T00:00:01+00:00" />
 
 
-  
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="//aseURL:1313/cover00NamingConventions.png">
@@ -280,7 +279,7 @@ You can download a full version of the script:
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$dateTime</span> = <span style="color:#8be9fd;font-style:italic">Get-Date</span> -Format <span style="color:#f1fa8c">&#34;yyyy-MM-dd-HHmm&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$destinationFolder</span> = <span style="color:#f1fa8c">&#34;C:\temp\</span>$(<span style="color:#8be9fd;font-style:italic">$dateTime</span>)<span style="color:#f1fa8c">-</span>$(<span style="color:#8be9fd;font-style:italic">$solutionName</span>)<span style="color:#f1fa8c">&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$reportErrorLevel</span> = $true <span style="color:#6272a4">#If false: all logging will be stored in the output CSV</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$reportErrorLevel</span> = <span style="color:#8be9fd;font-style:italic">$true</span> <span style="color:#6272a4">#If false: all logging will be stored in the output CSV</span>
 </span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$namingConventionsPath</span> = <span style="color:#f1fa8c">&#34;C:\temp\NamingConventionsJsonObject.json&#34;</span> <span style="color:#6272a4">## Location of JSON file which contains naming conventions</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#6272a4">#namingconventions</span>
@@ -306,15 +305,15 @@ The mentioning of the controls is always in the structure &lsquo;&laquo;name of 
 <h3 id="4-read-the-files">4. Read the files</h3>
 <p>Back to the Powershell script in which all available controls inside all the Yaml files needs to be retrieved.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$canvasApps</span> = <span style="color:#8be9fd;font-style:italic">Get-ChildItem</span> -Path <span style="color:#f1fa8c">&#34;</span>$(<span style="color:#8be9fd;font-style:italic">$destinationFolder</span>)<span style="color:#f1fa8c">\.&#34;</span> -Filter *.msapp -Recurse <span style="color:#ff79c6">-File</span> -Name
-</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$summary</span> = @()
-</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$outputCSV</span> = @()
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$summary</span> = <span style="color:#8be9fd;font-style:italic">@</span>()
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">$outputCSV</span> = <span style="color:#8be9fd;font-style:italic">@</span>()
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#ff79c6">foreach</span> (<span style="color:#8be9fd;font-style:italic">$canvasApp</span> <span style="color:#ff79c6">in</span> <span style="color:#8be9fd;font-style:italic">$canvasApps</span>) {
 </span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">$internalAppName</span> = <span style="color:#8be9fd;font-style:italic">$canvasApp</span>.Split(<span style="color:#f1fa8c">&#39;\&#39;</span>)[<span style="color:#bd93f9">-1</span>].replace(<span style="color:#f1fa8c">&#39;_DocumentUri.msapp&#39;</span>, <span style="color:#f1fa8c">&#39;&#39;</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">$displayName</span> = (<span style="color:#8be9fd;font-style:italic">Get-Content</span> -Path <span style="color:#f1fa8c">&#34;</span>$(<span style="color:#8be9fd;font-style:italic">$destinationFolder</span>)<span style="color:#f1fa8c">\CanvasApps\</span>$(<span style="color:#8be9fd;font-style:italic">$internalAppName</span>)<span style="color:#f1fa8c">.meta.xml&#34;</span> -Raw) | <span style="color:#8be9fd;font-style:italic">Select-Xml</span> -XPath <span style="color:#f1fa8c">&#34;/CanvasApp/DisplayName&#34;</span> | <span style="color:#8be9fd;font-style:italic">Select-Object</span> -ExpandProperty Node | <span style="color:#8be9fd;font-style:italic">Select-Object</span> -ExpandProperty <span style="color:#f1fa8c">&#34;#text&#34;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">$sourceFiles</span> = <span style="color:#8be9fd;font-style:italic">Get-ChildItem</span> -Path <span style="color:#f1fa8c">&#34;</span>$(<span style="color:#8be9fd;font-style:italic">$destinationFolder</span>)<span style="color:#f1fa8c">\CanvasApps\Src\</span>$(<span style="color:#8be9fd;font-style:italic">$internalAppName</span>)<span style="color:#f1fa8c">\Src&#34;</span> -Filter *.yaml -Recurse <span style="color:#ff79c6">-File</span> -Name
-</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">$output</span> = @()
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">$output</span> = <span style="color:#8be9fd;font-style:italic">@</span>()
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># Get all Yaml files of the app and get all the controls with there name and type</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">foreach</span> (<span style="color:#8be9fd;font-style:italic">$sourceFile</span> <span style="color:#ff79c6">in</span> <span style="color:#8be9fd;font-style:italic">$sourceFiles</span>) { 
@@ -323,19 +322,19 @@ The mentioning of the controls is always in the structure &lsquo;&laquo;name of 
 </span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">$jsonObject</span> = <span style="color:#8be9fd;font-style:italic">ConvertFrom-Yaml</span> -Yaml <span style="color:#8be9fd;font-style:italic">$fileContent</span> 
 </span></span><span style="display:flex;"><span>       
 </span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">function</span> <span style="color:#8be9fd;font-style:italic">LoopJson($jsonObject</span>, <span style="color:#8be9fd;font-style:italic">$screen</span>, <span style="color:#8be9fd;font-style:italic">$path</span>, <span style="color:#8be9fd;font-style:italic">$loginPath</span>) {
-</span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">$item</span> = @()
+</span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">$item</span> = <span style="color:#8be9fd;font-style:italic">@</span>()
 </span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">foreach</span> (<span style="color:#8be9fd;font-style:italic">$key</span> <span style="color:#ff79c6">in</span> <span style="color:#8be9fd;font-style:italic">$jsonObject</span>.Keys) {
 </span></span><span style="display:flex;"><span>                <span style="color:#ff79c6">if</span> (<span style="color:#8be9fd;font-style:italic">$key</span>.Contains(<span style="color:#f1fa8c">&#34;As&#34;</span>)) {                   
 </span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">$name</span> = <span style="color:#8be9fd;font-style:italic">$key</span>.Split(<span style="color:#f1fa8c">&#39; As &#39;</span>)[<span style="color:#bd93f9">0</span>]
 </span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">$type</span> = <span style="color:#8be9fd;font-style:italic">$key</span>.Split(<span style="color:#f1fa8c">&#39; As &#39;</span>)[<span style="color:#bd93f9">1</span>]                  
 </span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">Write-Host</span> <span style="color:#f1fa8c">&#34;</span>$(<span style="color:#8be9fd;font-style:italic">$name</span>)<span style="color:#f1fa8c">&#34;</span>
-</span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">$item</span> += @{
+</span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">$item</span> += <span style="color:#8be9fd;font-style:italic">@</span>{
 </span></span><span style="display:flex;"><span>                        Name   = <span style="color:#8be9fd;font-style:italic">$name</span>
 </span></span><span style="display:flex;"><span>                        <span style="color:#8be9fd;font-style:italic">Type </span>  = <span style="color:#8be9fd;font-style:italic">$type</span>.split(<span style="color:#f1fa8c">&#39;.&#39;</span>)[<span style="color:#bd93f9">0</span>]
 </span></span><span style="display:flex;"><span>                        Screen = <span style="color:#8be9fd;font-style:italic">$screen</span>
 </span></span><span style="display:flex;"><span>                        Path   = <span style="color:#8be9fd;font-style:italic">$path</span>
 </span></span><span style="display:flex;"><span>                    }          
-</span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">$item</span> += (LoopJson <span style="color:#8be9fd;font-style:italic">$jsonObject</span>.<span style="color:#8be9fd;font-style:italic">$key</span> <span style="color:#8be9fd;font-style:italic">$screen</span> $(<span style="color:#ff79c6">if</span> (!<span style="color:#8be9fd;font-style:italic">$loginPath</span>) { <span style="color:#8be9fd;font-style:italic">$path</span> } <span style="color:#ff79c6">elseif</span> (<span style="color:#8be9fd;font-style:italic">$path</span> <span style="color:#ff79c6">-eq</span> <span style="color:#f1fa8c">&#34;&#34;</span>) { <span style="color:#f1fa8c">&#34;</span><span style="color:#8be9fd;font-style:italic">$name</span><span style="color:#f1fa8c">&#34;</span> } <span style="color:#ff79c6">else</span> { <span style="color:#f1fa8c">&#34;</span><span style="color:#8be9fd;font-style:italic">$path</span><span style="color:#f1fa8c">/</span><span style="color:#8be9fd;font-style:italic">$name</span><span style="color:#f1fa8c">&#34;</span> }) $true)
+</span></span><span style="display:flex;"><span>                    <span style="color:#8be9fd;font-style:italic">$item</span> += (LoopJson <span style="color:#8be9fd;font-style:italic">$jsonObject</span>.<span style="color:#8be9fd;font-style:italic">$key</span> <span style="color:#8be9fd;font-style:italic">$screen</span> <span style="color:#8be9fd;font-style:italic">$</span>(<span style="color:#ff79c6">if</span> (!<span style="color:#8be9fd;font-style:italic">$loginPath</span>) { <span style="color:#8be9fd;font-style:italic">$path</span> } <span style="color:#ff79c6">elseif</span> (<span style="color:#8be9fd;font-style:italic">$path</span> <span style="color:#ff79c6">-eq</span> <span style="color:#f1fa8c">&#34;&#34;</span>) { <span style="color:#f1fa8c">&#34;</span><span style="color:#8be9fd;font-style:italic">$name</span><span style="color:#f1fa8c">&#34;</span> } <span style="color:#ff79c6">else</span> { <span style="color:#f1fa8c">&#34;</span><span style="color:#8be9fd;font-style:italic">$path</span><span style="color:#f1fa8c">/</span><span style="color:#8be9fd;font-style:italic">$name</span><span style="color:#f1fa8c">&#34;</span> }) <span style="color:#8be9fd;font-style:italic">$true</span>)
 </span></span><span style="display:flex;"><span>                }
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">return</span> <span style="color:#8be9fd;font-style:italic">$item</span>   
@@ -390,7 +389,7 @@ For all controls the naming convention will be looked up inside the naming conve
 </span></span><span style="display:flex;"><span>            <span style="color:#8be9fd;font-style:italic">$wrong</span>++           
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">$outputCSV</span> += [ordered] @{
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">$outputCSV</span> += [ordered] <span style="color:#8be9fd;font-style:italic">@</span>{
 </span></span><span style="display:flex;"><span>            Environment = <span style="color:#8be9fd;font-style:italic">$environment</span>
 </span></span><span style="display:flex;"><span>            Solution    = <span style="color:#8be9fd;font-style:italic">$solutionName</span>
 </span></span><span style="display:flex;"><span>            App         = <span style="color:#8be9fd;font-style:italic">$displayName</span>
@@ -403,7 +402,7 @@ For all controls the naming convention will be looked up inside the naming conve
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">$calc</span> = <span style="color:#bd93f9">100</span> - (($(<span style="color:#8be9fd;font-style:italic">$wrong</span>) / $(<span style="color:#8be9fd;font-style:italic">$output</span>.Count)) * <span style="color:#bd93f9">100</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">$calc</span> = <span style="color:#bd93f9">100</span> - ((<span style="color:#8be9fd;font-style:italic">$</span>(<span style="color:#8be9fd;font-style:italic">$wrong</span>) / <span style="color:#8be9fd;font-style:italic">$</span>(<span style="color:#8be9fd;font-style:italic">$output</span>.Count)) * <span style="color:#bd93f9">100</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#8be9fd;font-style:italic">$score</span> = [math]::Round(<span style="color:#8be9fd;font-style:italic">$calc</span>, <span style="color:#bd93f9">1</span>)
 </span></span></code></pre></div><p>The conclusion of the validation is written into the terminal.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>    <span style="color:#6272a4"># Write conclusion to terminal </span>
@@ -472,7 +471,6 @@ Based on the variable ($reportErrorLevel) set in the beginning all output is exp
 
 
 
-  
   
 </div>
 
@@ -710,9 +708,6 @@ Based on the variable ($reportErrorLevel) set in the beginning all output is exp
 
 
 <script src="//aseURL:1313/js/scripts.min.js"></script>
-
-
-  
 
 
 

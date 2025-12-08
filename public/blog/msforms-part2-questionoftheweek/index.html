@@ -11,7 +11,7 @@
   </title>
   <meta name="description" content="Keep your ‘Question of the week’ based on Microsoft up-to-date" />
   <meta name="keywords" content="Power Automate,custom connector,Microsoft Forms,SharePoint intranet,Poll" />
-  <meta name="generator" content="Hugo 0.128.2">
+  <meta name="generator" content="Hugo 0.152.2">
   <link rel="stylesheet" href="/css/styles.css" />
   
   
@@ -24,7 +24,6 @@
 <meta property="article:modified_time" content="2023-08-15T00:00:02+00:00" />
 
 
-  
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="//aseURL:1313/00FormsQuestion.png">
@@ -219,34 +218,34 @@ Currently, Power Automate only has an action available that receives responses f
 <h2 id="set-up-sharepoint-list">Set up SharePoint list</h2>
 <p>Create a SharePoint list adding the following columns:</p>
 <table>
-<thead>
-<tr>
-<th>Columnname</th>
-<th>Column type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Question</td>
-<td>Single line of text (you can use/rename the title column)</td>
-</tr>
-<tr>
-<td>AnswerOptions</td>
-<td>Multiple line of text (description: enter answer options separated by &lsquo;|&rsquo;)</td>
-</tr>
-<tr>
-<td>StartDate</td>
-<td>Date (to be sure no two items are created with same starting date, set this column to contain unique values)</td>
-</tr>
-<tr>
-<td>QuestionID</td>
-<td>Single line of text</td>
-</tr>
-<tr>
-<td>Results</td>
-<td>Multiline of text</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Columnname</th>
+          <th>Column type</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Question</td>
+          <td>Single line of text (you can use/rename the title column)</td>
+      </tr>
+      <tr>
+          <td>AnswerOptions</td>
+          <td>Multiple line of text (description: enter answer options separated by &lsquo;|&rsquo;)</td>
+      </tr>
+      <tr>
+          <td>StartDate</td>
+          <td>Date (to be sure no two items are created with same starting date, set this column to contain unique values)</td>
+      </tr>
+      <tr>
+          <td>QuestionID</td>
+          <td>Single line of text</td>
+      </tr>
+      <tr>
+          <td>Results</td>
+          <td>Multiline of text</td>
+      </tr>
+  </tbody>
 </table>
 <p>The SharePoint list looks like this:</p>
 <p><img src="/images/MSForms/Part2-QuestionoftheWeek/2-SPlist.png" alt="SharePoint list"></p>
@@ -316,7 +315,6 @@ In this scenario the API calls can be done using &lsquo;Send an HTTP request to 
 
 
 
-  
   
 </div>
 
@@ -554,9 +552,6 @@ In this scenario the API calls can be done using &lsquo;Send an HTTP request to 
 
 
 <script src="//aseURL:1313/js/scripts.min.js"></script>
-
-
-  
 
 
 

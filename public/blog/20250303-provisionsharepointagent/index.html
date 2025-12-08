@@ -9,7 +9,7 @@
   <title>
   Provision SharePoint agents using Power Automate - Burgers &amp; Bytes
   </title>
-  <meta name="description" content="How to provision a SharePoint agent using a Power Automate flow" /><meta name="generator" content="Hugo 0.128.2">
+  <meta name="description" content="How to provision a SharePoint agent using a Power Automate flow" /><meta name="generator" content="Hugo 0.152.2">
   <link rel="stylesheet" href="/css/styles.css" />
   
   
@@ -22,7 +22,6 @@
 <meta property="article:modified_time" content="2025-03-03T00:00:00+00:00" />
 
 
-  
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="//aseURL:1313/00Agentprovisioning.png">
@@ -232,75 +231,75 @@ In that case you would automatically want to provision those agents. This way yo
 <h3 id="3-check-site-asset-library">3. Check Site Asset Library</h3>
 <p><img src="/images/20250303SharePointAgentProvisioning/3-EnsureSiteAsset.png" alt="Ensure Site Asset"></p>
 <table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>URL</td>
-<td>&laquo;the site url&raquo;</td>
-</tr>
-<tr>
-<td>TYPE:</td>
-<td>POST</td>
-</tr>
-<tr>
-<td>URI:</td>
-<td>_api/web/lists/EnsureSiteAssetsLibrary()</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>URL</td>
+          <td>&laquo;the site url&raquo;</td>
+      </tr>
+      <tr>
+          <td>TYPE:</td>
+          <td>POST</td>
+      </tr>
+      <tr>
+          <td>URI:</td>
+          <td>_api/web/lists/EnsureSiteAssetsLibrary()</td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="4-create-folder-for-copilot">4. Create folder for Copilot</h3>
 <p>By default the folder is <code>SiteAssets%2FCopilots</code>.</p>
 <p><img src="/images/20250303SharePointAgentProvisioning/4-folder.png" alt="Folder"></p>
 <table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>URL</td>
-<td>&laquo;the site url&raquo;</td>
-</tr>
-<tr>
-<td>TYPE:</td>
-<td>POST</td>
-</tr>
-<tr>
-<td>URI:</td>
-<td>/_api/web/folders/Add(@a1)?@a1=&lsquo;SiteAssets%2FCopilots&rsquo;</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>URL</td>
+          <td>&laquo;the site url&raquo;</td>
+      </tr>
+      <tr>
+          <td>TYPE:</td>
+          <td>POST</td>
+      </tr>
+      <tr>
+          <td>URI:</td>
+          <td>/_api/web/folders/Add(@a1)?@a1=&lsquo;SiteAssets%2FCopilots&rsquo;</td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="5-create-agent">5. Create agent</h3>
 <p><img src="/images/20250303SharePointAgentProvisioning/5-agent.png" alt="Create agent"></p>
 <table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>URL</td>
-<td>&laquo;the site url&raquo;</td>
-</tr>
-<tr>
-<td>TYPE:</td>
-<td>POST</td>
-</tr>
-<tr>
-<td>URI:</td>
-<td>/_api/web/GetFolderByServerRelativePath(DecodedUrl=&rsquo;@{substring(variables(&lsquo;SiteURL&rsquo;), indexOf(variables(&lsquo;SiteURL&rsquo;), &lsquo;/sites&rsquo;))}&rsquo;)/Files/AddUsingPath(DecodedUrl=&lsquo;Name.agent&rsquo;,EnsureUniqueFileName=true,AutoCheckoutOnInvalidData=true)?&amp;$Select=ServerRelativeUrl,UniqueId,Name,VroomItemID,VroomDriveID,ServerRedirectedUrl&amp;$Expand=ListItemAllFields</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>URL</td>
+          <td>&laquo;the site url&raquo;</td>
+      </tr>
+      <tr>
+          <td>TYPE:</td>
+          <td>POST</td>
+      </tr>
+      <tr>
+          <td>URI:</td>
+          <td>/_api/web/GetFolderByServerRelativePath(DecodedUrl=&rsquo;@{substring(variables(&lsquo;SiteURL&rsquo;), indexOf(variables(&lsquo;SiteURL&rsquo;), &lsquo;/sites&rsquo;))}&rsquo;)/Files/AddUsingPath(DecodedUrl=&lsquo;Name.agent&rsquo;,EnsureUniqueFileName=true,AutoCheckoutOnInvalidData=true)?&amp;$Select=ServerRelativeUrl,UniqueId,Name,VroomItemID,VroomDriveID,ServerRedirectedUrl&amp;$Expand=ListItemAllFields</td>
+      </tr>
+  </tbody>
 </table>
 <p>The body is in JSON format which contains the configuration of the SharePoint agent.
 You can change the defaults conversation starters, define the welcome message and define the description and behavior of the agent.</p>
@@ -435,7 +434,6 @@ https://&laquo;tenantname&raquo;.sharepoint.com/sites/&laquo;sitename&raquo;/Sit
 
 
 
-  
   
 </div>
 
@@ -673,9 +671,6 @@ https://&laquo;tenantname&raquo;.sharepoint.com/sites/&laquo;sitename&raquo;/Sit
 
 
 <script src="//aseURL:1313/js/scripts.min.js"></script>
-
-
-  
 
 
 

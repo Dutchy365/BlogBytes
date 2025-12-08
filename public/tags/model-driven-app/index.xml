@@ -13,7 +13,7 @@
       <link>//aseURL:1313/blog/20231201-changefromaddressofemailtosharedmailbox/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20231201-changefromaddressofemailtosharedmailbox/</guid>
-      <description>Special thanks to Kevin Hendricks and Jan-Frederik Kobus for their support in implementing this scenario.&#xA;Scenario The scenario of the blog is related to the email entity of a Model Driven app. The goal is to use a shared mailbox to send emails from instead of the personal address of the current user. The case is to automatically change the From address and be able to have a flexible setup for different queue ids.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Special thanks to Kevin Hendricks and Jan-Frederik Kobus for their support in implementing this scenario.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;scenario&#34;&gt;Scenario&lt;/h2&gt;&#xA;&lt;p&gt;The scenario of the blog is related to the email entity of a Model Driven app.&#xA;The goal is to use a shared mailbox to send emails from instead of the personal address of the current user. The case is to automatically change the From address and be able to have a flexible setup for different queue ids.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

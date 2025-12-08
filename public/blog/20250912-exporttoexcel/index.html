@@ -9,7 +9,7 @@
   <title>
   Export Dataverse data to Excel triggered from Canvas app - Burgers &amp; Bytes
   </title>
-  <meta name="description" content="Export data from Canvas using Power Automate" /><meta name="generator" content="Hugo 0.128.2">
+  <meta name="description" content="Export data from Canvas using Power Automate" /><meta name="generator" content="Hugo 0.152.2">
   <link rel="stylesheet" href="/css/styles.css" />
   
   
@@ -22,7 +22,6 @@
 <meta property="article:modified_time" content="2025-09-12T00:00:00+00:00" />
 
 
-  
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="//aseURL:1313/00ExportExcel.png">
@@ -220,30 +219,30 @@ You can find that in the session details:
 <img src="/images/20250912ExporttoExcel/orgurl.png" alt="Organisation url"></p>
 <p>The API request details:</p>
 <table>
-<thead>
-<tr>
-<th>Field</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Method</td>
-<td>POST</td>
-</tr>
-<tr>
-<td>URL</td>
-<td><code>&lt;orgurl&gt;/api/data/v9.0/ExportToExcel</code></td>
-</tr>
-<tr>
-<td>Headers</td>
-<td><code>{ &quot;Accept&quot;: &quot;application/json&quot;, &quot;Content-Type&quot;: &quot;application/json&quot;}</code></td>
-</tr>
-<tr>
-<td>Body</td>
-<td><code>json{    &quot;View&quot;: {        &quot;@odata.type&quot;: &quot;Microsoft.Dynamics.CRM.savedquery&quot;,        &quot;savedqueryid&quot;: &quot;5287b9ea-9947-45a6-b59f-8a32228db4a5&quot;    },    &quot;FetchXml&quot;: &quot;@{replace(outputs('Compose_FetchXML'), '\&quot;', '\\\&quot;')}&quot;,    &quot;LayoutXml&quot;: &quot;@{replace(outputs('Compose_LayoutXML'), '\&quot;', '\\\&quot;')}&quot;,    &quot;QueryApi&quot;: &quot;&quot;,    &quot;QueryParameters&quot;: {        &quot;Arguments&quot;: {            &quot;Count&quot;: 0,            &quot;IsReadOnly&quot;: true,            &quot;Keys&quot;: [],            &quot;Values&quot;: []        }    }}</code></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Field</th>
+          <th>Value</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Method</td>
+          <td>POST</td>
+      </tr>
+      <tr>
+          <td>URL</td>
+          <td><code>&lt;orgurl&gt;/api/data/v9.0/ExportToExcel</code></td>
+      </tr>
+      <tr>
+          <td>Headers</td>
+          <td><code>{ &quot;Accept&quot;: &quot;application/json&quot;, &quot;Content-Type&quot;: &quot;application/json&quot;}</code></td>
+      </tr>
+      <tr>
+          <td>Body</td>
+          <td><code>json{    &quot;View&quot;: {        &quot;@odata.type&quot;: &quot;Microsoft.Dynamics.CRM.savedquery&quot;,        &quot;savedqueryid&quot;: &quot;5287b9ea-9947-45a6-b59f-8a32228db4a5&quot;    },    &quot;FetchXml&quot;: &quot;@{replace(outputs('Compose_FetchXML'), '\&quot;', '\\\&quot;')}&quot;,    &quot;LayoutXml&quot;: &quot;@{replace(outputs('Compose_LayoutXML'), '\&quot;', '\\\&quot;')}&quot;,    &quot;QueryApi&quot;: &quot;&quot;,    &quot;QueryParameters&quot;: {        &quot;Arguments&quot;: {            &quot;Count&quot;: 0,            &quot;IsReadOnly&quot;: true,            &quot;Keys&quot;: [],            &quot;Values&quot;: []        }    }}</code></td>
+      </tr>
+  </tbody>
 </table>
 <p><img src="/images/20250912ExporttoExcel/apicall.png" alt="API call"></p>
 <h3 id="save-the-file">Save the file</h3>
@@ -279,7 +278,6 @@ You can use the Create file action to create a file in SharePoint:
 
 
 
-  
   
 </div>
 
@@ -517,9 +515,6 @@ You can use the Create file action to create a file in SharePoint:
 
 
 <script src="//aseURL:1313/js/scripts.min.js"></script>
-
-
-  
 
 
 

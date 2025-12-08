@@ -13,7 +13,7 @@
       <link>//aseURL:1313/blog/20240619-markdownhyperlinktohtml/</link>
       <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20240619-markdownhyperlinktohtml/</guid>
-      <description>Scenario This blogs scenario is regarding a plain multi line text input in which no rich text was allowed. Requirement was just one exception to have the ability to have clickable hyperlinks.&#xA;In the Dataverse table no html is stored only plain text, so using a markdown syntax notation was the solution.&#xA;Markdown syntax for a hyperlink is square brackets followed by parentheses. The square brackets hold the text, the parentheses hold the link.</description>
+      <description>&lt;h1 id=&#34;scenario&#34;&gt;Scenario&lt;/h1&gt;&#xA;&lt;p&gt;This blogs scenario is regarding a plain multi line text input in which no rich text was allowed. Requirement was just one exception to have the ability to have clickable hyperlinks.&lt;/p&gt;&#xA;&lt;p&gt;In the Dataverse table no html is stored only plain text, so using a markdown syntax notation was the solution.&lt;/p&gt;&#xA;&lt;p&gt;Markdown syntax for a hyperlink is square brackets followed by parentheses. The square brackets hold the text, the parentheses hold the link.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

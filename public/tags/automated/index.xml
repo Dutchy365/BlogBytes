@@ -13,7 +13,7 @@
       <link>//aseURL:1313/blog/20240712-automatelowcodeplugindataverse/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20240712-automatelowcodeplugindataverse/</guid>
-      <description>Side note: As of writing this blog, Dataverse low-code plugins are still in preview.&#xA;In the Dataverse Accelerator app, you have the opportunity to create plugins. This blog focuses on the possibilities of automated plugins.&#xA;After selecting a table, you can choose different types of triggers: when a row is created, updated, or deleted. To get information about existing records, you can&amp;rsquo;t use ThisItem or ThisRecord, and Set behaves differently compared to Power Apps Canvas.</description>
+      <description>&lt;p&gt;&lt;em&gt;Side note: As of writing this blog, Dataverse low-code plugins are still in preview.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the Dataverse Accelerator app, you have the opportunity to create plugins. This blog focuses on the possibilities of automated plugins.&lt;/p&gt;&#xA;&lt;p&gt;After selecting a table, you can choose different types of triggers: when a row is created, updated, or deleted. To get information about existing records, you can&amp;rsquo;t use &lt;code&gt;ThisItem&lt;/code&gt; or &lt;code&gt;ThisRecord&lt;/code&gt;, and &lt;code&gt;Set&lt;/code&gt; behaves differently compared to Power Apps Canvas.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

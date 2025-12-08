@@ -13,7 +13,7 @@
       <link>//aseURL:1313/blog/20250912-exporttoexcel/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
       <guid>//aseURL:1313/blog/20250912-exporttoexcel/</guid>
-      <description>Introduction Over a year ago I already wrote&#xD;stated something we jokingly say: “What is the most frequently used functionality of an ERP system?”, with as the answer: “…the export to Excel”.&#xA;It is still an often request, which is there by default while creating a Model Driven app, while end-users often would like to export data in a Canvas app as well. This blog describes how to create a Power Automate flow which you can trigger via Canvas app to export the data from Dataverse into Excel.</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;//aseURL:1313/blog/20240325-solidfoundationpowerplatform/&#34;&gt;Over a year ago I already wrote&lt;/a&gt;&#xD;&#xA; stated something we jokingly say: “What is the most frequently used functionality of an ERP system?”, with as the answer: “…the export to Excel”.&lt;/p&gt;&#xA;&lt;p&gt;It is still an often request, which is there by default while creating a Model Driven app, while end-users often would like to export data in a Canvas app as well. This blog describes how to create a Power Automate flow which you can trigger via Canvas app to export the data from Dataverse into Excel.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
