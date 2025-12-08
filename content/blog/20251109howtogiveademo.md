@@ -114,7 +114,7 @@ Even if you’re not selling, you want your audience to *get* why your work matt
 
 
 The next time you create a pitch, blog post, or demo, don’t ask yourself: *“What can our product do?”*  
-Ask: *“What can my customer finally do now?”*  
+Ask: *“What can my customer finally do now?”*
 
 
 # Closing
