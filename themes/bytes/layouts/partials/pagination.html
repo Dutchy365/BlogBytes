@@ -1,3 +1,83 @@
 <div class="grid place-items-center mb-8">
-  {{ template "_internal/pagination.html" . }}
+
+<ul class="pagination pagination-default">
+
+  {{/* FIRST PAGE */}}
+  {{ if .HasPrev }}
+    <li class="page-item">
+      <a href="{{ .First.URL }}" aria-label="First" class="page-link" role="button">
+        <span aria-hidden="true">««</span>
+      </a>
+    </li>
+  {{ else }}
+    <li class="page-item disabled">
+      <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1">
+        <span aria-hidden="true">««</span>
+      </a>
+    </li>
+  {{ end }}
+
+  {{/* PREV PAGE */}}
+  {{ if .HasPrev }}
+    <li class="page-item">
+      <a href="{{ .Prev.URL }}" aria-label="Previous" class="page-link" role="button">
+        <span aria-hidden="true">«</span>
+      </a>
+    </li>
+  {{ else }}
+    <li class="page-item disabled">
+      <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1">
+        <span aria-hidden="true">«</span>
+      </a>
+    </li>
+  {{ end }}
+
+  {{/* PAGE NUMBERS */}}
+  {{ range .Pagers }}
+    <li class="page-item {{ if eq $.PageNumber .PageNumber }}active{{ end }}">
+      {{ if eq $.PageNumber .PageNumber }}
+        <a class="page-link" aria-current="page" aria-label="Page {{ .PageNumber }}" role="button">
+          {{ .PageNumber }}
+        </a>
+      {{ else }}
+        <a href="{{ .URL }}" class="page-link" aria-label="Page {{ .PageNumber }}" role="button">
+          {{ .PageNumber }}
+        </a>
+      {{ end }}
+    </li>
+  {{ end }}
+
+  {{/* NEXT PAGE */}}
+  {{ if .HasNext }}
+    <li class="page-item">
+      <a href="{{ .Next.URL }}" aria-label="Next" class="page-link" role="button">
+        <span aria-hidden="true">»</span>
+      </a>
+    </li>
+  {{ else }}
+    <li class="page-item disabled">
+      <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1">
+        <span aria-hidden="true">»</span>
+      </a>
+    </li>
+  {{ end }}
+
+  {{/* LAST PAGE */}}
+  {{ if .HasNext }}
+    <li class="page-item">
+      <a href="{{ .Last.URL }}" aria-label="Last" class="page-link" role="button">
+        <span aria-hidden="true">»»</span>
+      </a>
+    </li>
+  {{ else }}
+    <li class="page-item disabled">
+      <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1">
+        <span aria-hidden="true">»»</span>
+      </a>
+    </li>
+  {{ end }}
+
+</ul>
+
+
 </div>
