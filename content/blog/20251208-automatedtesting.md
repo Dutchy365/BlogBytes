@@ -179,6 +179,11 @@ Choosing the right testing tool
 
 ## 🎯 Final message: Testing isn’t a final phase, it’s a mindset
 
+For those who attended the session at ESPC25 in Dublin regarding this topic, will recognize this:
+
+![automated testing](/images/20251208automatedtesting/automatedtesting.png)
+ 
+
 If you test only at the end, you're already late.  
 If you see testing as bureaucracy, you slow yourself down.  
 But when you embed testing into every step?
