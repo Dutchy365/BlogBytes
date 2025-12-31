@@ -58,7 +58,7 @@ The scenario is a situation in which the input are line of text with multiple de
 
 If you work in finance, retail, or operations: you’ve seen data like this a lot.
 
-## The challenge
+### The challenge
 
 From each line, we needed to extract two clean values:
 
@@ -66,7 +66,7 @@ From each line, we needed to extract two clean values:
 * to_date
 
 
-## The desired outcome
+### The desired outcome
 The result examples for each lines should be like displayed in the table below.
 
 | Input                                                                 | Output: from date | Output: to date |
@@ -106,7 +106,7 @@ The idea was simple:
 > Let the AI interpret the text like a human would and return structured dates.
 
 
-## The prompt
+### The prompt
 The key was being very explicit about:
 * What the input looks like
 * How the AI should reason
@@ -167,7 +167,7 @@ Output Requirements
 ```
 
 
-## Using it in Power Automate
+### Using it in Power Automate
 The flow itself is very simple:
 1. Run a prompt (AI Builder)
 2. Pass the description text
