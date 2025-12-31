@@ -177,15 +177,15 @@ The flow itself is very simple:
 
 Because the prompt is forced to return valid JSON, parsing is trivial and reliable.
 
-![flow actions](/images/20251230aibuilderprompt/flowactions.png)
+![flowactions](/images/20251230aibuilderprompt/flowactions.png)
 
 Output for run a prompt:
 
-![output prompt](/images/20251230aibuilderprompt/runaprompt.png)
+![outputprompt](/images/20251230aibuilderprompt/runaprompt.png)
 
 Output for ParseJSON:
 
-![output ParseJSON](/images/20251230aibuilderprompt/jsonoutput.png)
+![outputParseJSON](/images/20251230aibuilderprompt/jsonoutput.png)
 
 
 
