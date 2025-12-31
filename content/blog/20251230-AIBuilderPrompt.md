@@ -29,7 +29,7 @@ And that’s exactly why I’m sharing it.
 At the company I work for, we have an “AI-first” strategy.
 Sounds great (and it is) but if I’m honest, my first instinct is often:
 
-> “Can I solve this with the Power Platform techniques I already know?”
+> Can I solve this with the Power Platform techniques I already know?
 
 Expressions. Conditions. Switch cases. Maybe a bit of regex if I’m feeling brave.
 
@@ -177,15 +177,15 @@ The flow itself is very simple:
 
 Because the prompt is forced to return valid JSON, parsing is trivial and reliable.
 
-![flowactions](/images/20251230aibuilderprompt/flowactions.png)
+![flowactions](/images/20251230AIBuilderPrompt/actionsflow.png)
 
 Output for run a prompt:
 
-![outputprompt](/images/20251230aibuilderprompt/runaprompt.png)
+![prompt](/images/20251230AIBuilderPrompt/promptaction.png)
 
 Output for ParseJSON:
 
-![outputParseJSON](/images/20251230aibuilderprompt/jsonoutput.png)
+![output](/images/20251230AIBuilderPrompt/output.png)
 
 
 
