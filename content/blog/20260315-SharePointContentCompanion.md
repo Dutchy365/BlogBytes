@@ -80,6 +80,9 @@ The video as part of the submission:
   <source src="/images/20260315SharePointContentCompanion/SPHackathon2026.mp4" type="video/mp4">
 </video>
 
+<video width="640" height="360" controls>
+  <source src="/SPHackathon2026.mp4" type="video/mp4">
+</video>
 
 
 ## Architecture
