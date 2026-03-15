@@ -70,7 +70,7 @@ This means the organization can track content quality over time. Teams can revie
 
 ## Submission video
 The video as part of the submission:
-<video width="640" height="360" controls src="https://github.com/Dutchy365/BlogBytes/tree/master/content/images/20260315SharePointContentCompanion/SharePoint-Hackathon-2026.mp4"></video>
+<video width="640" height="360" controls src="https://github.com/Dutchy365/BlogBytes/tree/master/content/images/20260315SharePointContentCompanion/SPHackathon2026.mp4"></video>
 
 
 ## Architecture
