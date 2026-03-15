@@ -73,7 +73,7 @@ The video as part of the submission:
 <video width="640" height="360" controls src="https://github.com/Dutchy365/BlogBytes/blob/master/content/images/20260315SharePointContentCompanion/SPHackathon2026.mp4"></video>
 
 <video width="640" height="360" controls>
-  <source src="https://raw.githubusercontent.com/Dutchy365/BlogBytes/master/content/images/20260315SharePointContentCompanion/SPHackathon2026.mp4" type="video/mp4">
+  <source src="https://github.com/Dutchy365/BlogBytes/blob/master/static/SPHackathon2026.mp4" type="video/mp4">
 </video>
 
 <video width="640" height="360" controls>
@@ -84,6 +84,8 @@ The video as part of the submission:
   <source src="/SPHackathon2026.mp4" type="video/mp4">
 </video>
 
+
+{{< video src="/SPHackathon2026.mp4" >}}
 
 ## Architecture
 
