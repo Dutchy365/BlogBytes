@@ -10,6 +10,15 @@ hideMeta: true
 
 
 Below a list of my recent and upcoming events:
+* **2026-06-30  <span style="color: #92400e;">- EPPC26 Copenhagen -  Adaptive Cards & Copilot: from notification to action**</span></br>
+A session regarding on how to use adaptive cards to improve the way to interact in Copilot.
+
+* **2026-06-13 <span style="color: #92400e;">- CollabDays Netherlands -  Bringing SharePoint features to Power Apps Canvas: personalized views, version history and more **</span></br>
+A hands-on session to show how to recreate SharePoint features to Canvas Apps.
+
+* **2026-04-16  <span style="color: #92400e;">- DIWUG -  Enhancing user engagement on SharePoint intranets with Power Platform and Copilot**</span></br>
+Measuring user engagement is crucial for any SharePoint-based intranet to ensure that the platform is meeting its intended purpose and delivering value to the users. This session is about improving insights and on how to support your content creators to have continious improvements.
+
 * **2025-12-03  <span style="color: #92400e;">- ESPC25 Dublin -  Automated testing in the Power Platform: matching governance, upholding quality, compliance and efficiency (together with Arjan Rijsdijk)**</span></br>
 A session regarding how testing and governance go hand-in-hand and share practical tips for testing Power Apps Canvas and Power Automate.
 
