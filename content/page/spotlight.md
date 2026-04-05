@@ -13,7 +13,7 @@ Below a list of my recent and upcoming events:
 * **2026-06-30  <span style="color: #92400e;">- EPPC26 Copenhagen -  Adaptive Cards & Copilot: from notification to action**</span></br>
 A session regarding on how to use adaptive cards to improve the way to interact in Copilot.
 
-* **2026-06-13 <span style="color: #92400e;">- CollabDays Netherlands -  Bringing SharePoint features to Power Apps Canvas: personalized views, version history and more **</span></br>
+* **2026-06-13 <span style="color: #92400e;">- CollabDays Netherlands -  Bringing SharePoint features to Power Apps Canvas: personalized views, version history and more** </span></br>
 A hands-on session to show how to recreate SharePoint features to Canvas Apps.
 
 * **2026-04-16  <span style="color: #92400e;">- DIWUG -  Enhancing user engagement on SharePoint intranets with Power Platform and Copilot**</span></br>
