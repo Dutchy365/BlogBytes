@@ -2,7 +2,7 @@
 author: ""
 title: "When AI stopped feeling like a tool"
 date: 2026-07-03
-description: Reflection on AI – Part 3
+description: Reflection on AI 
 tags:
 - AI
 - Reflection
