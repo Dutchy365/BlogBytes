@@ -10,6 +10,9 @@ hideMeta: true
 
 
 Below a list of my recent and upcoming events:
+* **2026-09-23  <span style="color: #92400e;">- Collabdays Bletchley Park -  Adaptive Cards & Copilot: from notification to action**</span></br>
+A session regarding on how to use adaptive cards to improve the way to interact in Copilot.
+
 * **2026-06-30  <span style="color: #92400e;">- EPPC26 Copenhagen -  Adaptive Cards & Copilot: from notification to action**</span></br>
 A session regarding on how to use adaptive cards to improve the way to interact in Copilot.
 
