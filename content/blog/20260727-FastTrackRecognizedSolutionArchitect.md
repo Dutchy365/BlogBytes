@@ -41,8 +41,8 @@ Architecture doesn't happen in isolation. Every customer project teaches somethi
 
 According to Microsoft's current list:
 
-- 🌍 Around **170+** architects worldwide have earned the FastTrack Recognized Solution Architect designation across Dynamics 365 and Power Platform. 
-- 🤝 They represent roughly **84 partner organizations** globally. 
+- 🌍 Around **155+** architects worldwide have earned the FastTrack Recognized Solution Architect designation across Dynamics 365 and Power Platform. 
+- 🤝 They represent roughly **78 partner organizations** globally. 
 - 🇳🇱 Only **three** architects are recognized for the **Power Platform** track in **the Netherlands**. 
 - 🟠 All three are part of the same company: **Blis Digital**. 
 
