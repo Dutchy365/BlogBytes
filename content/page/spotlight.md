@@ -13,7 +13,7 @@ Below a list of my recent and upcoming events:
 * **2026-12-09  <span style="color: #92400e;">- Power Platform French Summit - Beyond the Canvas: Let AI do the heavy lifting in Power Automate (together with Ruben Baars)**</span></br>
 A session regarding how to use AI as a co-builder for Power Automate lifecycle.
 
-* **2025-10-31  <span style="color: #92400e;">- M365-NN Community Day Groningen - Choose your driver: (Power) Apps vs AI Agents(together with Arjan Rijsdijk)**</span></br>
+* **2026-10-31  <span style="color: #92400e;">- M365-NN Community Day Groningen - Choose your driver: (Power) Apps vs AI Agents(together with Arjan Rijsdijk)**</span></br>
 A friendly rivalry with live demos comparing Power Apps and AI Agents across real-world scenarios, with practical guidance on picking the right driver for the right track.
 
 * **2026-09-23  <span style="color: #92400e;">- Collabdays Bletchley Park - Adaptive Cards & Copilot: from notification to action**</span></br>
