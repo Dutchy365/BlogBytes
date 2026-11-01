@@ -1,7 +1,7 @@
 ---
 author: ""
 title: "Choose your driver: (Power) Apps vs AI Agents"
-date: 2026-10-16
+date: 2026-11-01
 description: "Who wins the race"
 tags:
   - Power Platform
@@ -33,19 +33,19 @@ The two aren't strictly separate: apps can use AI, and agents can trigger determ
 
 **Let AI interpret what needs to happen, while deterministic components control how critical actions are executed.**
 
-## Track 1: Employee onboarding — Hybrid wins 🏁
+## Track 1: Employee onboarding: Hybrid wins 🏁
 
 A Power App handles the structured part: checklists, approvals and progress tracking. An agent answers the endless stream of questions from new hires, provided it uses current policies, keeps a focused scope and has a human fallback.
 
 **The app keeps the record of the process; the agent takes the conversation around it.**
 
-## Track 2: Field inspections — Power Apps wins 🏆
+## Track 2: Field inspections: Power Apps wins 🏆
 
 Inspectors need checklists, photos, mandatory fields and audit-proof reports, often without internet. A Canvas app with a (manually configured) offline profile does the job. An agent could help draft reports, but it shouldn't become a dependency that blocks the inspection when the connection drops.
 
 We built this app with AI as well: a Google Stitch design, handed to Claude Code in VS Code. Promising, but not fully automatic: the camera component and offline profile still needed manual work.
 
-## Track 3: Service desk — AI Agents win 🤖
+## Track 3: Service desk: AI Agents win 🤖
 
 Most IT questions are variations of problems already documented in the knowledge base. People don't want to open a ticketing app; they want an answer. An agent handles the intake, answers recurring questions and creates a ticket when needed.
 
